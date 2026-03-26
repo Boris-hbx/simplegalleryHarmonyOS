@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Simple Galeria"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galeria"
+    },
+    {
+      "name": "edit",
+      "value": "Editar"
+    },
+    {
+      "name": "open_camera",
+      "value": "Abrir câmera"
+    },
+    {
+      "name": "hidden",
+      "value": "(oculto)"
+    },
+    {
+      "name": "excluded",
+      "value": "(excluído)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Fixar pasta"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Desafixar pasta"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Fixar no topo"
+    },
+    {
+      "name": "show_all",
+      "value": "Exibir conteúdo de todas as pastas"
+    },
+    {
+      "name": "all_folders",
+      "value": "Todas as pastas"
+    },
+    {
+      "name": "folder_view",
+      "value": "Alternar para a visualização de pastas"
+    },
+    {
+      "name": "other_folder",
+      "value": "Outra pasta"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Exibir no mapa"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Localização desconhecida"
+    },
+    {
+      "name": "volume",
+      "value": "Volume"
+    },
+    {
+      "name": "brightness",
+      "value": "Brilho"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Travar orientação"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Destravar orientação"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Alterar orientação"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Forçar modo retrato"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Forçar modo paisagem"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Usar orientação padrão"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Corrigir data da foto"
+    },
+    {
+      "name": "fixing",
+      "value": "Corrigindo…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Datas corrigidas com sucesso"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Nenhum valor de data foi encontrado"
+    },
+    {
+      "name": "share_resized",
+      "value": "Compartilhar uma versão redimensionada"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Alternar para a pesquisa de arquivos em todas as pastas visíveis"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Definir como pasta padrão"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Indefinir como pasta padrão"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Reordenar as pastas ao arrastar"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Reordenar as pastas ao arrastar (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Restaurando para '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Filtrar mídia"
+    },
+    {
+      "name": "images",
+      "value": "Imagens"
+    },
+    {
+      "name": "videos",
+      "value": "Vídeos"
+    },
+    {
+      "name": "gifs",
+      "value": "Gifs"
+    },
+    {
+      "name": "raw_images",
+      "value": "Imagens RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVGs"
+    },
+    {
+      "name": "portraits",
+      "value": "Retratos"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Nenhum arquivo de mídia encontrado a partir dos filtros selecionados."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Alterar filtros"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Esta opção oculta a pasta ao adicionar um arquivo \\\".nomedia\\\" dentro dela, o que também ocultará todas as suas subpastas. Você poderá voltar a exibir estas pastas com a opção \\\"Exibir pastas ocultas\\\". Continuar\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Esta ação deixará de exibir as pastas selecionadas apenas dentro deste aplicativo. Você pode gerenciar as pastas ignoradas nas configurações do aplicativo."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Ignorar a pasta raiz ao invés desta\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Ignorar uma pasta apenas deixa de exibi-la nesta galeria. Ela continuará visível para outros aplicativos.\r\n\\n\r\n\\nSe você quiser ocultar a pasta para todos os aplicativos, utilize a função Ocultar."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Pastas ocultas"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Gerenciar pastas ocultas"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Parece que você não tem nenhuma pasta oculta por um arquivo \\\".nomedia\\\"."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Você deve dar para o aplicativo a permissão de acesso à todos os arquivos para acessar arquivos encondidos, do contrário não pode funcionar."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Se uma pasta ou uma de suas pastas pai tiver um ponto antes de seu nome, ela estará oculta e não poderá ser exibida dessa maneira. Você deve remover o ponto renomeando-a."
+    },
+    {
+      "name": "include_folders",
+      "value": "Pastas inclusas"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Gerenciar pastas inclusas"
+    },
+    {
+      "name": "add_folder",
+      "value": "Adicionar pasta"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Se você possuir pastas contendo mídia, mas que não foram reconhecidas pelo aplicativo, você pode adicioná-las manualmente aqui.\r\n\\n\r\n\\nA adição de alguns itens aqui não vai excluir nenhuma outra pasta."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Nenhum arquivo de mídia foi encontrado. Você pode resolver isso incluindo manualmente as pastas com arquivos de mídia."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Redimensionar seleção e salvar"
+    },
+    {
+      "name": "width",
+      "value": "Largura"
+    },
+    {
+      "name": "height",
+      "value": "Altura"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Manter proporção"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Digite uma resolução válida"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Redimensionar várias imagens"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Fator de redimensionamento"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Redimensiona as imagens para a porcentagem fornecida; o valor deve estar entre 10 e 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Digite um número entre 10 e 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Imagens redimensionadas com sucesso"
+    },
+    {
+      "name": "editor",
+      "value": "Editor"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Editor básico"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Editor avançado"
+    },
+    {
+      "name": "rotate",
+      "value": "Girar"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Caminho de imagem inválido"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Caminho de vídeo inválido"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Falha na edição da imagem"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Falha na edição de vídeo"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Edição de imagem cancelada"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Edição de vídeo cancelada"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Arquivo editado com sucesso"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Imagem editada com sucesso"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Vídeo editado com sucesso"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Editar imagem com:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Editar vídeo com:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Nenhum editor de imagem encontrado"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Nenhum editor de vídeo encontrado"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Localização de arquivo desconhecida"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Não foi possível substituir o arquivo original"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Girar para a esquerda"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Girar para a direita"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Girar 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Transformar"
+    },
+    {
+      "name": "crop",
+      "value": "Cultivos"
+    },
+    {
+      "name": "draw",
+      "value": "Desenhar"
+    },
+    {
+      "name": "flip",
+      "value": "Inverter"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Horizontalmente"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Verticalmente"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Livre"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Outro"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Papel de Parede Simples"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Definir como papel de parede"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Falha ao definir como papel de parede"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Definir papel de parede com:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Definindo como papel de parede…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Papel de parede definido com sucesso"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Retrato"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Paisagem"
+    },
+    {
+      "name": "home_screen",
+      "value": "Tela inicial"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Tela de bloqueio"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Tela inicial e de bloqueio"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Permitir a mudança das proporções"
+    },
+    {
+      "name": "slideshow",
+      "value": "Apresentação"
+    },
+    {
+      "name": "interval",
+      "value": "Intervalo"
+    },
+    {
+      "name": "include_photos",
+      "value": "Incluir fotos"
+    },
+    {
+      "name": "include_videos",
+      "value": "Incluir vídeos"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Incluir GIFs"
+    },
+    {
+      "name": "random_order",
+      "value": "Ordem aleatória"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Ordem inversa"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Apresentação em ciclo"
+    },
+    {
+      "name": "animation",
+      "value": "Animação"
+    },
+    {
+      "name": "no_animation",
+      "value": "Nenhuma"
+    },
+    {
+      "name": "fade",
+      "value": "Esmaecer"
+    },
+    {
+      "name": "slide",
+      "value": "Deslizar"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Fim da apresentação"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Nenhuma mídia encontrada para a apresentação"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Agrupar subpastas diretas"
+    },
+    {
+      "name": "group_by",
+      "value": "Agrupar por"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Não agrupar arquivos"
+    },
+    {
+      "name": "by_folder",
+      "value": "Pasta"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Última modificação"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Última modificação (por dia)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Última modificação (por mês)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Data da foto"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Data da foto (por dia)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Data da foto (por mês)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Tipo de arquivo"
+    },
+    {
+      "name": "by_extension",
+      "value": "Extensão"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Mostra a contagem de arquivos nos cabeçalhos das seções"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Por favor, lembre-se que o agrupamento e classificação são configurados por dois campos independentes"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Pasta exibida no widget:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Exibir nome da pasta"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Reproduzir vídeos automaticamente"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Lembrar posição da última reprodução de vídeo"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Reproduzir vídeos em ciclo"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animar GIFs nas miniaturas"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Maximizar o brilho ao visualizar mídia em tela cheia"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Recortar miniaturas em quadrados"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Exibir duração dos vídeos"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Critério para rotação de tela"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Padrão do sistema"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Sensor do aparelho"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Proporção da mídia"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Fundo preto quando mídia estiver em tela cheia"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Rolar miniaturas horizontalmente"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Esconder interface do sistema quando em tela cheia"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Apagar pastas vazias após excluir o seu conteúdo"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Habilitar controle do brilho com gestos na vertical"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Habilitar controle de volume e brilho com gestos na vertical"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Exibir a quantidade de arquivos em cada pasta na tela inicial"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Exibir detalhes adicionais quando em tela cheia"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Gerenciar detalhes adicionais"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Habilitar zoom com um dedo em exibição de tela cheia"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Habilitar a troca de mídia tocando nas laterais da tela"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Habilitar zoom aprofundado para imagens"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Ocultar detalhes adicionais quando a barra de status estiver escondida"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Exibir alguns botões de ação na parte inferior da tela"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Exibir a Lixeira na tela inicial"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Zoom aprofundado para imagens"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Exibir imagens na maior qualidade possível"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Exibir a Lixeira como o último item na tela inicial"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Habilitar fechar a exibição em tela cheia com um gesto para baixo"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Habilitar zoom 1:1 com dois toques duplos"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Sempre abrir vídeos em uma tela separada com novos gestos horizontais"
+    },
+    {
+      "name": "show_notch",
+      "value": "Exibir o notch, se existente"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Habilitar rotação de imagens com gestos"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Prioridade de carregamento de arquivos"
+    },
+    {
+      "name": "speed",
+      "value": "Velocidade"
+    },
+    {
+      "name": "compromise",
+      "value": "Meio termo"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Evitar a exibição de arquivos inválidos"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Exibir tipos de arquivo de imagem"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Permitir zoom de vídeos com um toque duplo neles"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Estilo da miniatura de pasta"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Estilo da miniatura de arquivo"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Marque itens favoritos"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Espaçamento da miniatura"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Exibir a quantidade de arquivos em uma linha separada"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Exibir a quantidade de arquivos entre parênteses"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Não exibir a quantidade de arquivos"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Limitar nomes longos em uma linha"
+    },
+    {
+      "name": "square",
+      "value": "Quadrado"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Cantos arredondados"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Exportar caminho dos favoritos"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Importar favoritos"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Caminhos importados com sucesso"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Para você se certificar que todas as operações de arquivos funcionam corretamente, por favor, permita o gerenciamento de mídias nas configurações do seu dispositivo."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Proteger com senha a visibilidade da pasta excluída"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Algo deu errado! Por favor, acesse Configurações - Apps - Acesso especial ao aplicativo - Aplicativos de gerenciamento de mídia e permitir que este aplicativo gerencie mídia."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Se o redirecionamento não funcionar, acesse Configurações - Apps - Acesso especial ao aplicativo - Aplicativos de gerenciamento de mídia e permitir que este aplicativo gerencie mídia."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Se você não quer fazer isso, você também pode acessar em seu dispositivo Configurações - Apps - Acesso especial ao aplicativ - Aplicativos de gerenciamento de mídia e permitir que este aplicativo gerencie mídia."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternativamente, você pode permitir o acesso somente a arquivos de mídia. Porém, nesse caso você não terá a possibilidade de trabalhar com arquivos ocultos."
+    },
+    {
+      "name": "media_only",
+      "value": "Somente multimídia"
+    },
+    {
+      "name": "all_files",
+      "value": "Todos os arquivos"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Procurar todos os arquivos ao invés de somente as pastas na tela principal"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Mostrar um botão no menu para rapidamente ligar e desligar a opção de mostrar o conteúdo de todas as pastas"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Miniaturas"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Mídia em tela cheia"
+    },
+    {
+      "name": "extended_details",
+      "value": "Detalhes adicionais"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Barra inferior"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Gerenciar botões visíveis"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Habilitar favoritos"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Exibir/ocultar arquivo"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Personalizar"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Redefinir"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Quadrado"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Modificar"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filtro"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Nenhum"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Ajustar"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Sombras"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Exposição"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Luz"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Brilho"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Contraste"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Saturação"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Claridade"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Preto"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Branco"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Temperatura"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Nitidez"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Redefinir"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Foco"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Nenhum"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radial"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Linear"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Espelhado"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussiano"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Adicionar texto"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Texto"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Opções de texto"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Cor do texto"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Fonte"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Adicionar"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Editar"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Endireitar"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Fonte"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Cor"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Cor do plano de fundo"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Alinhamento"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Para frente"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Excluir"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Seu texto"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Pincel"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Cor"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Tamanho"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Dureza"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Para frente"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Deletar"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Cor do pincel"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Fechar Editor\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Você realmente deseja descartar as alterações\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Sim"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Não"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Cancelar"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Aceitar"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Salvar"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Exportando…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Exportando %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Adesivo"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Cor do adesivo"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Opções do adesivo"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Adicionar"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Cor"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Excluir"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Trazer para frente"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Endireitar"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Substituir"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opacidade"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Contraste"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Saturação"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Brilho"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Envio"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Sobreposição"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Escurecer"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Tela"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Sobreposição"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Iluminar"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Multiplicar"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Exposição de Cor"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Luz Suave"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Luz Intensa"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Nenhum"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Dourado"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Vazamento de luz 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaico"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Papel"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Chuva"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Giro H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Giro V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Desfazer"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Refazer"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Seletor de cores"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Transparente"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Branco"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Cinza"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Preto"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Azul claro"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Azul"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Roxo"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orquídea"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Rosa"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Vermelho"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Laranja"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Dourado"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Amarelo"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Oliva"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Verde"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Azul marinho"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Cor pipetável"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Cortar"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Como posso fazer do Simple Galeria a galeria padrão do dispositivo\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Primeiro, você deve encontrar o aplicativo padrão atual nas configurações do seu dispositivo, procurar um botão que diga algo como Abrir por padrão, clicar nele e selecionar \\\"Limpar padrão\\\" Na próxima vez que você abrir uma imagem ou vídeo, você deverá ver um seletor do aplicativo, no qual você terá a oportunidade de selecionar a Simple Galeria como o app padrão."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Eu protegi o app com senha, mas a esqueci. O que posso fazer\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Você pode resolver isto de duas formas. Você pode reinstalar o aplicativo ou ir nas configurações do seu dispositivo e selecionar a opção Limpar armazenamento. Isto irá redefinir todas as suas configurações, não removerá nenhum arquivo de mídia."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "O que posso fazer para que uma pasta sempre apareça no topo da lista\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Faça um toque longo na pasta em questão, e depois toque no ícone de alfinete na parte superior da tela, isto irá fixá-la no topo. Você também pode fixar várias pastas; os itens fixados serão classificados pelo método de ordenação padrão."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Como faço para avançar rapidamente um vídeo (fast forward)\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Você pode fazer isso tocando duas vezes na lateral da tela ou tocando nos textos atuais ou de duração máxima próximos à barra de busca. Se você ativar a abertura de vídeos em uma tela separada nas configurações do aplicativo, também poderá usar gestos horizontais."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Qual é a diferença entre ocultar e ignorar uma pasta\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Ignorar deixa de exibir a pasta apenas no Simple Galeria, enquanto Ocultar afeta todo o sistema e pode ocultar pastas de outras galerias também. A função ocultar funciona adicionando um arquivo vazio chamado \\\".nomedia\\\" na pasta em questão, arquivo este você também pode excluir com um gerenciador de arquivos, se quiser. Note que alguns dispositivos não permitem esconder algumas pastas como Camera, Screenshots e Downloads."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Porque pastas com capas de CD de música ou figurinhas aparecem na lista\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Pode acontecer de que algumas pastas incomuns apareçam. Você pode utilizar a opção Ignorar nestas pastas, adicionando-as a lista de pastas ignoradas. Uma maneira de fazer isso é realizar um toque longo em uma destas pastas, selecionar a opção Ignorar e, em seguida, selecionar a pasta pai."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Uma das minhas pastas não aparece, ou nem todos os seus itens são exibidos. O que posso fazer\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Isso pode ocorrer por diversos motivos, mas resolver o problema é fácil. Entre em Configurações --> Gerenciar pastas incluídas, toque no botão \\\"+\\\", e selecione a pasta em questão."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Como posso fazer para exibir apenas certas pastas\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Adicionar uma pasta à lista de Pastas Incluídas não remove outras pastas da exibição. O que você pode fazer é ir em Configurações -> Gerenciar pastas ignoradas, excluir a pasta raiz \\\"/\\\", e finalmente incluir somente as pastas desejadas através de Configurações -> Gerenciar pastas incluídas. Isso tornará apenas as pastas selecionadas visíveis, já que ignorar e incluir são funções recursivas e, se uma pasta for ignorada e incluída ao mesmo tempo, ela será exibida."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Posso recortar imagens usando este app\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Sim, você pode recortar imagens no editor, arrastando os cantos da imagem. Você pode entrar no editor fazendo um toque longo na imagem e selecionando Editar, ou selecionando Editar a partir da visualização de tela cheia."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "É possível exibir os meus arquivos de mídia em subgrupos ao invés de em uma única grande lista\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Você pode usar a opção \\\"Agrupar por\\\" para agrupar os seus arquivos de mídia por data, formato ou outros critérios. Se a opção \\\"Exibir conteúdo de todas as pastas\\\" estiver ativada, você também poderá agrupar por subpasta."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "A ordenação por Data da Foto não funciona corretamente. O que posso fazer\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Isto pode ter ocorrer caso as suas fotos tenham sido copiadas de outro local. Para resolver o problema, você pode selecionar a função \\\"Corrigir data da foto\\\" no menu deste aplicativo."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Algumas imagens exibem artefatos de exibição, como bandas de cor. Como posso melhorar a qualidade da exibição\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "O nosso método atual para a exibição de imagens funciona bem na grande maioria dos casos, mas caso você queira uma qualidade ainda melhor, ative a opção \\\"Exibir imagens na maior qualidade possível\\\" na seção \\\"Zoom aprofundado para imagens\\\" das configurações deste aplicativo."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Eu ocultei um arquivo/pasta. Como posso desfazer isso\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Você pode pressionar o item de menu \\\"Exibir ocultos temporariamente\\\" na tela principal, ou ativar \\\"Exibir itens ocultos\\\" nas configurações do aplicativo para ver o item oculto. Se você quiser reexibir-lo, basta pressionar e selecionar \\\"Exibir\\\". As pastas são ocultas adicionando um arquivo oculto \\\".nomedia\\\" dentro delas, arquivo este que você também pode excluir com um gerenciador de arquivos, se quiser. Note que esconder funciona recursivamente, então se você esconder uma pasta, todas as subpastas ficaram escondidas também. Então, para re exibir as subpastas, você precisa re exibir a pasta principal."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Porque este app ocupa tanto espaço\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "O cache deste app, que garante que as imagens sejam carregadas mais rapidamente, pode ocupar até 250MB. Se o app estiver ocupando mais espaço que isso, pode ser por que você tem muitos arquivos na sua Lixeira. Arquivos na Lixeira são removidos permanentemente após 30 dias, mas se mesmo assim sua Lixeira estiver ocupando muito espaço, você pode esvaziá-la manualmente. Para fazer isso, você pode abrir a Lixeira e excluir os arquivos dentro dela, ou você pode fazer o mesmo na tela de Configurações deste app."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "O que aconteceu com o arquivo e a pasta escondidos e por que não posso mais ver arquivos escondidos\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "A partir do Android 11, você não pode mais ocultar ou exibir arquivos ou pastas, também não pode ver os ocultos nos aplicativos da galeria devido a restrições do sistema. Você terá que usar algum gerenciador de arquivos para isso."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Ou você também pode dar à essa galeria acesso a todos os arquivos por meio das configurações do dispositivo, isso irá possibilitar que aplicativo o mostre itens ocultos e execute operações com arquivos de forma mais confiável no geral."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Por que não posso incluir pastas ausentes\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Isso parou de funcionar devido a mudanças de sistema do Android 11, pois o aplicativo não pode mais gerenciar pastas verdadeiras, precisa utilizar algo chamado MediaStore para obter os dados."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Por que estou vendo anúncios durante o playback do vídeo\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Nossos aplicativos não mostram anúncios, nunca. Se você encontrar algum durante um playback de vídeo, deve estar utilizando o reprodutor de vídeo de outro aplicativo. Tente encontrar o seu reprodutor de vídeo padrão nas configurações de dispositivo e clique em \\\"Limpar padrões\\\". Na próxima vez que tentar assistir a um vídeo, poderá escolhar o reprodutor que desejar."
+    }
+  ]
+}

@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Enostavna galerija"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galerija"
+    },
+    {
+      "name": "edit",
+      "value": "Uredi"
+    },
+    {
+      "name": "open_camera",
+      "value": "Zaženi fotoaparat"
+    },
+    {
+      "name": "hidden",
+      "value": "(skrito)"
+    },
+    {
+      "name": "excluded",
+      "value": "(izključeno)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Pripni mapo"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Odpni mapo"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Pripni na vrh"
+    },
+    {
+      "name": "show_all",
+      "value": "Prikaži vso vsebino mape"
+    },
+    {
+      "name": "all_folders",
+      "value": "Vse mape"
+    },
+    {
+      "name": "folder_view",
+      "value": "Preklopi na pogled map"
+    },
+    {
+      "name": "other_folder",
+      "value": "Druga mapa"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Prikaži na zemljevidu"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Neznana lokacija"
+    },
+    {
+      "name": "volume",
+      "value": "Glasnost"
+    },
+    {
+      "name": "brightness",
+      "value": "Svetlost"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Zakleni usmerjenost"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Odkleni usmerjenost"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Spremeni usmerjenost"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Vsili pokončen format"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Vsili ležeč format"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Uporabi privzeto usmerjenost"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Popravi datum posnetka"
+    },
+    {
+      "name": "fixing",
+      "value": "Popravljam…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Datumi uspešno popravljeni"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Datum posnetka ni bil najden"
+    },
+    {
+      "name": "share_resized",
+      "value": "Deli pomanjšano verzijo"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Preklop na iskanje datotek v vseh vidnih mapah"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Nastavite kot privzeto mapo"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Odpravljena nastavitev privzete mape"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Razporedi mape z vlečenjem"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Razporedi mape z vlečenjem (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Obnovitev v '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Filtriranje datotek"
+    },
+    {
+      "name": "images",
+      "value": "Slike"
+    },
+    {
+      "name": "videos",
+      "value": "Video"
+    },
+    {
+      "name": "gifs",
+      "value": "GIFi"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW slike"
+    },
+    {
+      "name": "svgs",
+      "value": "SVGji"
+    },
+    {
+      "name": "portraits",
+      "value": "Portreti"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Na podlagi izbranih filtrov ne najdem nobenih medijskih datotek."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Spremeni filtre"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Ta funkcija skrije mapo tako, da vanjo doda '.nomedia' datoteko, kar skrije tudi vse podmape. Ponovno jih lahko prikažete z uporabo možnosti 'Prikaži skrite elemente' v Nastavitvah. Nadaljujem\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Izbira bo skupaj s podmapami izključena zgolj iz te Galerije. Izključene mape lahko urejate v Nastavitvah."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Namesto tega izključim nadrejeno mapo\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Izključevanje map jih bo skupaj s podmapami skrilo zgolj v tej Galeriji, v ostalih aplikacijah bodo normalno vidne.\r\n\\n\r\n\\nČe jih želite skriti tudi v drugih aplikacijah, uporabite funkcijo Skrij."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Skrite mape"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Urejaj skrite mape"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Kot kaže, ne obstajajo skrite mape z \\\".nomedia\\\" datoteko."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Dovoliti morate dostop do vseh datotek, da so vidne skrite datoteke, sicer ne bo delovalo."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "Vključene mape"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Urejaj vključene mape"
+    },
+    {
+      "name": "add_folder",
+      "value": "Dodaj mapo"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Če imate mape, ki vsebujejo medijske datoteke, ki jih aplikacija ni prepoznala, jih lahko ročno dodate tukaj.\r\n\\n\r\n\\nDodajanje novih elementov ne bo izključilo drugih."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Medijske datoteke niso bile najdene. To rešite, da mape z medijskimi datotekami dodate ročno."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Spremeni velikost izbora in shrani"
+    },
+    {
+      "name": "width",
+      "value": "Širina"
+    },
+    {
+      "name": "height",
+      "value": "Višina"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Obdrži razmerje stranic"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Vnesite veljavno ločljivost"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Resize multiple images"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Resize factor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resize images to the given percentage, value must be within 10 and 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Enter a number between 10 and 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Images resized successfully"
+    },
+    {
+      "name": "editor",
+      "value": "Urejevalnik"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Osnovni urejevalnik"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Napredni urejevalnik"
+    },
+    {
+      "name": "rotate",
+      "value": "Zavrti"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Neveljavna pot slike"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Neveljavna pot videa"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Urejanje slike ni uspelo"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Urejanje videa ni uspelo"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Urejanje slik preklicano"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Urejanje videa preklicano"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Datoteka uspešno urejena"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Slika uspešno urejena"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Video uspešno urejen"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Uredi sliko z:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Uredi video z:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Ne najdem urejevalnika slik"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Ni najden noben video urejevalnik"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Neznana lokacija datoteke"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Ne morem prepisati izvorne datoteke"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Zavrti levo"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Zavrti desno"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Zavrti za 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Preoblikuj"
+    },
+    {
+      "name": "crop",
+      "value": "Obreži"
+    },
+    {
+      "name": "draw",
+      "value": "Riši"
+    },
+    {
+      "name": "flip",
+      "value": "Zrcaljenje"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Zrcali horizontalno"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Zrcali vertikalno"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Prosto"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Drugo"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Simple ozadje"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Nastavi kot ozadje"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Nastavljanje ozadja ni uspelo"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Nastavi kot ozadje z:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Nastavljam ozadje…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Ozadje uspešno nastavljeno"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Pokončno razmerje stranic"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Ležeče razmerje stranic"
+    },
+    {
+      "name": "home_screen",
+      "value": "Domači zaslon"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Zaklenjen zaslon"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Domač in zaklenjen zaslon"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Omogočite spreminjanje razmerja stranic"
+    },
+    {
+      "name": "slideshow",
+      "value": "Diaprojekcija"
+    },
+    {
+      "name": "interval",
+      "value": "Razdalja"
+    },
+    {
+      "name": "include_photos",
+      "value": "Vključi fotografije"
+    },
+    {
+      "name": "include_videos",
+      "value": "Vključi videoposnetke"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Vključi GIFe"
+    },
+    {
+      "name": "random_order",
+      "value": "Naključni vrstni red"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Premik nazaj"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Ponavljaj diaprojekcijo"
+    },
+    {
+      "name": "animation",
+      "value": "Animacija"
+    },
+    {
+      "name": "no_animation",
+      "value": "None"
+    },
+    {
+      "name": "fade",
+      "value": "Zbledi"
+    },
+    {
+      "name": "slide",
+      "value": "Slide"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Diaprojekcija se je zaključila"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Ne najdem datotek za diaprojekcijo"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Združi neposredne podmape"
+    },
+    {
+      "name": "group_by",
+      "value": "Združi po"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Ne združuj datotek"
+    },
+    {
+      "name": "by_folder",
+      "value": "Mapa"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Nazadnje spremenjeno"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Nazadnje spremenjeno (dnevno)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Nazadnje spremenjeno (mesečno)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Datum posnetka"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Datum posnetka (dnevno)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Datum posnetka (mesečno)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Tip datoteke"
+    },
+    {
+      "name": "by_extension",
+      "value": "Končnica"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Prikažite število datotek v glavi razdelka"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Združevanje in sortiranje sta dve neodvisni polji"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Mapa uporabljena na pripomočku:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Prikaži ime mape"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Avtomatično predvajaj videoposnetke"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Zapomni si zadnji položaj predvajanja"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Ponavljaj videoposnetke"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animiraj GIFe v predogledu"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Najvišja svetlost pri celozaslonskem predvajanju"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Obreži predoglede slik v kvadrate"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Prikaži trajanje posnetkov"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Zavrti celozaslonski medij za"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Sistemska nastavitev"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Obračanje naprave"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Razmerje stranic"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Črno ozadje in statusna vrstica pri celozaslonskem mediju"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Horizontalno pomikanje sličic"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Avtomatično skrij sistemski UI v celozaslonskem načinu"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Izbriši prazne mape po brisanju njihove vsebine"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Dovoli nadzor svetlosti fotografije z vertikalnimi gestami"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Dovoli nadzor glasnosti in svetlosti videoposnetka z vertikalnimi gestami"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Pokaži število elementov v glavnem pogledu"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Prikaži razširjene podrobnosti nad celozaslonskim prikazom"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Urejaj razširjene podrobnosti"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Dovoli enoprstno povečavo v celozaslonskem načinu"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Dovoli takojšnje spremembe medija s klikanjem na robove zaslona"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Dovoli globoko povečavo slik"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Skrij razširjene podrobnosti, ko je statusna vrstica skrita"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Prikaži določene akcijske gumbe na dnu zaslona"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Prikaži Koš na zaslonu z mapami"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Globoko povečljive slike"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Prikaži slike v največji možni kvaliteti"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Prikaži Koš kot zadnji element na glavnem zaslonu"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Dovoli zapiranje celozaslonskega načina z gesto navzdol"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Dovoli 1:1 povečavo z dvojnim pritiskom"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Vedno odpri videoposnetke na ločenem zaslonu z novimi horizontalnimi gestami"
+    },
+    {
+      "name": "show_notch",
+      "value": "Prikaži notch, če je na voljo"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Dovoli obračanje slik z gestami"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Prioriteta pri nalaganju datotek"
+    },
+    {
+      "name": "speed",
+      "value": "Hitrost"
+    },
+    {
+      "name": "compromise",
+      "value": "Kompromis"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Izogni se prikazovanju napačnih datotek"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Prikaži tipe datotek za slike"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Dovoli povečavo videov z dvakratnim pritiskom nanj"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Slog sličice mape"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Slog sličice datoteke"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Označi priljubljene predmete"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Razmik sličic"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Prikaži število datotek v svoji vrstici"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Prikaži število datotek v oklepaju"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Ne prikaži števila datotek"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Omeji dolga imena map na eno vrstico"
+    },
+    {
+      "name": "square",
+      "value": "Kvadrat"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Zaobljeni vogali"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Izvozi priljubljene"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Uvozi priljubljene"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Uspešno uvoženo"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Da zagotovite zanesljivo operiranje z datotekam, prosimo nastavite to aplikacijo za upravljanje medijev v nastavitvah vaše naprave."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Zaščita vidnosti izključenih map z geslom"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Nekaj je šlo narone. Prosimo, da odprete Nastavitve - Aplikacije - Posebni dostopi za aplikacije - Aplikacije za upravljanje medijev in dovolite tej aplikaciji upravljanje medijev."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Če preusmeritev ni delovala, prosimo odprite Nastavitve - Aplikacije - Posebni dostopi za aplikacije - Aplikacije za upravljanje medijev in dovolite tej aplikaciji upravljanje medijev."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Če tega ne želite narediti, lahko tudi odprete Nastavitve - Aplikacije - Posebni dostopi za aplikacije - Aplikacije za upravljanje medijev in dovolite tej aplikaciji upravljanje medijev."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternativno lahko dovolite dostop le do medijskih datotek. V tem primeru ne boste mogli delati s skritimi datotekami."
+    },
+    {
+      "name": "media_only",
+      "value": "Samo multimedija"
+    },
+    {
+      "name": "all_files",
+      "value": "Vse datoteke"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Preišči vse datoteke namesto map na glavnem zaslonu"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Prikaži menijski gumb za hitri vklop prikaza vsebine map"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Sličice"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Celozaslonski prikaz"
+    },
+    {
+      "name": "extended_details",
+      "value": "Razširjene podrobnosti"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Akcije na dnu"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Urejaj vidne akcije na dnu"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Preklopi priljubljene"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Preklopi vidljivost datotek"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Prirejeno"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Reset"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Kvadrat"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Preobrazi"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filter"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Nič"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Prilagodi"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Sence"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Izpostavljenost"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Poudarki"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Svetlost"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Kontrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Nasičenost"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Jasnost"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Črnine"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Beline"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Temperatura"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Ostrina"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Reset"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Fokus"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Brez"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radialno"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Linearno"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Zrcalno"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussian"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Dodaj besedilo"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Besedilo"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Možnosti besedila"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Barva besedila"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Pisava"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Dodaj"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Uredi"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Ravnost"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Pisava"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Barva"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Barva ozadja"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Poravnava"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "V ospredje"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Briši"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Vaše besedilo"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Čopič"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Barva"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Velikost"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Trdota"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "V ospredje"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Briši"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Barva čopiča"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Zapri urejevalnik\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Ali res želite zavrniti spremembe\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Ja"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Ne"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Prekliči"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Sprejmi"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Shrani"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Izvažanje…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Izvažanje %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Nalepka"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Barva nalepke"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Možnosti nalepke"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Dodaj"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Barva"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Izbriši"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "V ospredje"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Izravnaj"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Zamenjaj"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Prosojnost"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Kontrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Nasičenost"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Svetlost"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Naloženo"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Prekrivanje"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Potemnitev"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Screen"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Prekrivanje"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Posvetlitev"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Pomnoži"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Sežig barv"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Mehka svetloba"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Močna svetloba"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Nič"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Zlato"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Uhajanje svetlobe 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mozaik"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Papir"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Dež"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Obrni H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Obrni V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Razveljavi"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Uveljavi"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Izbira barve"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Prosojno"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Belo"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Sivo"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Črno"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Svetlo modro"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Modro"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Vijolično"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orhideja"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Roza"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Rdeče"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Oranžno"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Zlato"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Rumeno"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Olivno"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Zeleno"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Mornarsko modro"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Pipetiraj barvo"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Obreži"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Kako naredim Simple galerijo za privzeto aplikacijo na napravi\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Najprej morate najti trenutno privzeto aplikacijo za prikaz slik med aplikacijami v nastavitvah naprave, kjer poiščete gumb v smislu \\\"Odpri kot privzeto\\\", kliknite nanj in izberite \\\"Izbriši privzeto\\\". Ko boste naslednjič želeli odpreti fotografijo ali videoposnetek, bi se moral pokazati izbirnik, v katerem lahko izberete Simple galerijo in jo določite kot privzeto aplikacijo."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Aplikacijo sem zaklenil z geslom, ki se ga ne spomnim več. Kaj lahko naredimo\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "To lahko rešite na 2 načina. Lahko ali ponovno namestite aplikacijo ali pa jo poiščete v nastavitvah in kliknete \\\"Počisti podatke\\\". To bo ponastavilo vaše nastavitve, ne bo pa izbrisalo nobenih datotek."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Kako nastaviti, da se določen album vedno prikaže na vrhu\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Z dolgim pritiskom na album se vam prikaže meni, v katerem je na voljo bucika, s katero pripnete album na željeno mesto. Na ta način lahko pripnete več albumov, ki bodo razvrščeni v skladu s privzetim načinom razvrščanja."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Ali lahko hitro predvajam videoposnetke\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "To lahko storite tako, da dvakrat pritisnete stranski del zaslona ali pritisnete besedilo o trenutnem ali največjem trajanju v bližini iskalne vrstice. Če v nastavitvah aplikacije omogočite odpiranje videoposnetkov na ločenem zaslonu, lahko uporabite tudi vodoravne geste."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Kakšna je razlika med skrivanjem in izključevanjem mape\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Izključevanje mape jo skrije le v Simple galeriji, medtem ko jo skrivanje skrije tudi v ostalih aplikacijah oz. galerijah. Deluje tako, da kreira prazno \\\".nomedia\\\" datoteko v izbrani mapi, katero lahko odstranite tudi s katerimkoli urejevalnikom datotek. Note that some devices do not allow hiding folders like Camera, Screenshots and Downloads."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Zakaj se v galeriji prikažejo datoteke z naslovnicami glasbenih map ali nalepk\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Lahko se zgodi, da se vam prikažejo nepoznani albumi, ki vsebujejo tovrstne datoteke. Lahko jih preprosto skrijete tako, da z dolgim pritiskom na album prikličete meni in tam izberete Izključi. V naslednjem oknu lahko izberete tudi nadrejeno mapo, obstaja pa verjetnost, da bo to preprečilo tudi prikazovanje ostalih povezanih albumov."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Mapa s slikami se ne prikaže. Kaj naj naredim\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Razlogi so lahko različni, rešitev je vseeno preprosta. Pojdite v Nastavitve in izberite Urejaj vključene mape, izberite plus in poiščite željeno mapo."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Kaj, če želim prikazati le nekaj izbranih map\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Dodajanje mape med vključene mape avtomatično ne izključi ničesar. Lahko pa naredite sledeče: v Nastavitvah -> Urejaj izključene mape izključite korensko mapo \\\"/\\\", željene mape pa dodajte v Nastavitvah -> Urejaj vključene mape. To bo naredilo vidne le vključene mape, saj sta tako vključevanje kot tudi izključevanje rekurzivna, kar pomeni, da je mapa, ki je istočasno izključena in vključena, vidna."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Ali lahko obrezujem slike s to aplikacijo\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Da, slike lahko obrezujete z vlečenjem kotov slike. Do urejevalnika lahko pridete z dolgim pritiskom na sličico fotografije in izborom opcije Uredi ali izborom funkcije Uredi iz celozaslonskega načina prikaza."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Ali lahko združujem sličice medijskih datotek\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Seveda, uporabite \\\"Združi po\\\" opcijo v meniju, ki je na voljo v pregledu sličic. Datoteke lahko združujete po različnih kriterijih, vključujoč po datumu posnetka. Če uporabite funkcijo \\\"Prikaži vso vsebino map\\\" jih lahko združujete tudi po mapah."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Kot kaže razvrščanje po datumu posnetka ne deluje pravilno. Kako lahko to popravim\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "To se najverjetneje zgodi po kopiranju datotek iz nekje drugje. To lahko popravite tako, da izberete sličice in uporabite funkcijo \\\"Popravi datum posnetka\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Opaziti je slabo barvno povezovanje na slikah. Kako lahko izboljšam kvaliteto\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Trenutna rešitev prikazovanja slik deluje dobro v veliki večini primerov, če pa vseeno želite višjo kvaliteto, lahko uporabite funkcijo \\\"Prikaži slike v najvišji možni kvaliteti\\\" v Nastavitvah v razdelku \\\"Globoko povečljive slike\\\"."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Skril sem mapo/datoteko. Kako jo lahko zopet prikažem\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Lahko uporabite funkcijo \\\"Začasno prikaži skrito\\\", ki se nahaja v meniju na glavnem zaslonu ali preklopite \\\"Prikaži skrite elemente\\\" v nastavitvah aplikacije. Če želite element označiti kot viden, z dolgim pritiskom nanj prikličite meni in izberite \\\"Prikaži\\\". Skrivanje map deluje tako, da se kreira prazna \\\".nomedia\\\" datoteka v izbrani mapi, ki jo tudi lahko odstranite s katerimkoli urejevalnikom datotek. Upoštevajte, da skrivanje deluje rekurzivno. Ko skrijete mapo, bodo skrite tudi vse podmape. Torej, če želite odkriti podmape, morate odkriti nadrejeno mapo."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Zakaj aplikacija zaseda toliko prostora\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Predpomnilnik aplikacije lahko zasede do 250MB, zagotavlja pa hitrejše nalaganje fotografij. Če aplikacija zaseda še več prostora, je to najverjetneje zaradi velikega števila elementov v košu. Tudi te datoteke se štejejo v velikost aplikacije. Ročno odstranite datoteke iz koša. Vsaka datoteka v košu je sicer avtomatično izbrisana po 30 dneh."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Kaj se je zgodi s skrivanjem datotek in map ter zakaj ne morem več videti skritih elementov\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Od sistema Android 11 naprej ne morete več skriti ali odkriti datotek ali map, zaradi sistemskih omejitev pa tudi ne morete videti skritih datotek ali map v aplikacijah galerije. Za to boste morali uporabiti kakšnega upravitelja datotek."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "V nastavitvah naprave lahko tej galeriji omogočite tudi dostop do vseh datotek, kar bo omogočilo prikazovanje skritih elementov in na splošno zanesljivejše delovanje z datotekami."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Zakaj ne morem več vključiti manjkajočih map\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "To je prenehalo delovati zaradi sistemskih sprememb, ki jih je tudi prinesel Android 11. Aplikacija ne more več brskati po pravih mapah, temveč se pri pridobivanju podatkov zanaša na tako imenovano MediaStore."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Zakaj vidim reklame med predvajanjem videa\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Naše aplikacije so brez reklam! Če jih vidite med predvajanjem videa, potem sigurno uporabljate nek drug video predvajalnik. Poskusite poiskati privzeti video predvajalnik v nastavitvah naprave. Nato v njenih opcijah pritisnite \\\"Počisti privzete nastavitve\\\". Ko boste naslednjič nameravali odpreti video, se bo prikazal poziv za izbiro aplikacije, kjer izberete željeno."
+    }
+  ]
+}

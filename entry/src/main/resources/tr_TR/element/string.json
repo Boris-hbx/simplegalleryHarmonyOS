@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Basit Galeri"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galeri"
+    },
+    {
+      "name": "edit",
+      "value": "Düzenle"
+    },
+    {
+      "name": "open_camera",
+      "value": "Kamerayı aç"
+    },
+    {
+      "name": "hidden",
+      "value": "(gizli)"
+    },
+    {
+      "name": "excluded",
+      "value": "(hariç)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Klasörü sabitle"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Klasörü ayır"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Üste sabitle"
+    },
+    {
+      "name": "show_all",
+      "value": "Tüm klasör içeriğini göster"
+    },
+    {
+      "name": "all_folders",
+      "value": "Tüm klasörler"
+    },
+    {
+      "name": "folder_view",
+      "value": "Klasör görünümüne geç"
+    },
+    {
+      "name": "other_folder",
+      "value": "Diğer klasör"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Haritada göster"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Bilinmeyen konum"
+    },
+    {
+      "name": "volume",
+      "value": "Ses seviyesi"
+    },
+    {
+      "name": "brightness",
+      "value": "Parlaklık"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Yönü kilitle"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Yönün kilidini aç"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Yönü değiştir"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Dikeye zorla"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Yataya zorla"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Öntanımlı yönü kullan"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Çekilen tarih değerini düzelt"
+    },
+    {
+      "name": "fixing",
+      "value": "Düzeltiliyor…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Tarihler başarıyla düzeltildi"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Çekilen Tarih bulunamadı"
+    },
+    {
+      "name": "share_resized",
+      "value": "Yeniden boyutlandırılmış sürümü paylaş"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Tüm görünür klasörler arasında dosya aramaya geç"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Öntanımlı klasör olarak ayarla"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Öntanımlı klasör ayarını kaldır"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Sürükleyerek klasörleri yeniden sırala"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Sürükleyerek klasörleri yeniden sırala (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "'%s' konumuna geri yükle"
+    },
+    {
+      "name": "filter_media",
+      "value": "Medyayı filtrele"
+    },
+    {
+      "name": "images",
+      "value": "Resimler"
+    },
+    {
+      "name": "videos",
+      "value": "Videolar"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF'ler"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW resimler"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG'ler"
+    },
+    {
+      "name": "portraits",
+      "value": "Portreler"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Seçilen filtrelerle hiçbir medya dosyası bulunamadı."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Filtreleri değiştir"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Bu işlev, klasöre bir '.nomedia' dosyası ekleyerek gizler, tüm alt klasörleri de gizler. Ayarlar'dan 'Gizli ögeleri göster' seçeneğini değiştirerek onları görebilirsiniz. Devam edilsin mi\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Bu, alt klasörleriyle birlikte seçimi yalnızca Basit Galeriden hariç tutacaktır. Hariç tutulan klasörleri Ayarlar'dan yönetebilirsiniz."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Bunun yerine bir üst dizin hariç tutulsun mu\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Klasörleri hariç tutmak, onları yalnızca Basit Galeri'de gizlenen alt klasörleriyle bir araya getirecek, diğer uygulamalarda görünmeye devam edecektir.\r\n\\n\r\n\\nBunları diğer uygulamalardan gizlemek istiyorsanız, Gizle işlevini kullanın."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Gizli klasörler"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Gizli klasörleri yönet"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "\\\".nomedia\\\" dosyasıyla gizlenmiş herhangi bir klasörünüz yok gibi görünüyor."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Gizli dosyaları görmek için uygulamaya Tüm Dosyalar erişimi vermeniz gerekir, aksi takdirde çalışamaz."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Bir klasörün veya üst klasörlerinden birinin adından önce bir nokta varsa, bu klasör gizlidir ve bu şekilde gizliliği kaldırılamaz. Yeniden adlandırarak noktayı kaldırmanız gerekir."
+    },
+    {
+      "name": "include_folders",
+      "value": "Dahil edilen klasörler"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Dahil edilen klasörleri yönet"
+    },
+    {
+      "name": "add_folder",
+      "value": "Klasör ekle"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Medya içeren, ancak uygulama tarafından tanınmayan bazı klasörleriniz varsa, bunları elle ekleyebilirsiniz.\r\n\\n\r\n\\nBuraya bazı ögeler eklemek başka bir klasörü hariç tutmaz."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Hiçbir medya dosyası bulunamadı. Medya dosyalarını içeren klasörleri elle ekleyerek çözebilirsiniz."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Seçimi yeniden boyutlandır ve kaydet"
+    },
+    {
+      "name": "width",
+      "value": "Genişlik"
+    },
+    {
+      "name": "height",
+      "value": "Yükseklik"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "En-boy oranını koru"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Lütfen geçerli bir çözünürlük girin"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Birden fazla resmi yeniden boyutlandır"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Yeniden boyutlandırma çarpanı"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resimleri verilen yüzdeye göre yeniden boyutlandırın, değer 10 ile 90 arasında olmalıdır."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "10 ile 90 arasında bir sayı girin"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Resimler yeniden boyutlandırıldı"
+    },
+    {
+      "name": "editor",
+      "value": "Düzenleyici"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Temel Düzenleyici"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Gelişmiş Düzenleyici"
+    },
+    {
+      "name": "rotate",
+      "value": "Döndür"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Geçersiz resim yolu"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Geçersiz video yolu"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Resim düzenleme başarısız"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Video düzenleme başarısız"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Resim düzenleme iptal edildi"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Video düzenleme iptal edildi"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Dosya başarıyla düzenlendi"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Resim başarıyla düzenlendi"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Video başarıyla düzenlendi"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Resmi şununla düzenle:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Videoyu şununla düzenle:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Resim düzenleyici bulunamadı"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Video düzenleyici bulunamadı"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Bilinmeyen dosya konumu"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Kaynak dosyanın üzerine yazılamadı"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Sola döndür"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Sağa döndür"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "180º döndür"
+    },
+    {
+      "name": "transform",
+      "value": "Dönüştür"
+    },
+    {
+      "name": "crop",
+      "value": "Kırp"
+    },
+    {
+      "name": "draw",
+      "value": "Çiz"
+    },
+    {
+      "name": "flip",
+      "value": "Çevir"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Yatay olarak çevir"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Dikey olarak çevir"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Serbest"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Diğer"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Basit Duvar Kağıdı"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Duvar kağıdı olarak ayarla"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Duvar kağıdı olarak ayarlanmadı"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Şununla duvar kağıdı olarak ayarla:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Duvar kağıdı ayarlanıyor…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Duvar kağıdı başarıyla ayarlandı"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Dikey en boy oranı"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Yatay en boy oranı"
+    },
+    {
+      "name": "home_screen",
+      "value": "Ana ekran"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Kilit ekranı"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Ana ve kilit ekranı"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "En boy oranını değiştirmeye izin ver"
+    },
+    {
+      "name": "slideshow",
+      "value": "Slayt gösterisi"
+    },
+    {
+      "name": "interval",
+      "value": "Süre"
+    },
+    {
+      "name": "include_photos",
+      "value": "Fotoğrafları dahil et"
+    },
+    {
+      "name": "include_videos",
+      "value": "Videoları dahil et"
+    },
+    {
+      "name": "include_gifs",
+      "value": "GIF'leri dahil et"
+    },
+    {
+      "name": "random_order",
+      "value": "Rastgele sırala"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Geriye doğru git"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Slayt gösterisini tekrarla"
+    },
+    {
+      "name": "animation",
+      "value": "Animasyon"
+    },
+    {
+      "name": "no_animation",
+      "value": "Hiçbiri"
+    },
+    {
+      "name": "fade",
+      "value": "Karart"
+    },
+    {
+      "name": "slide",
+      "value": "Kaydır"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Slayt gösterisi sona erdi"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Slayt gösterisi için medya bulunamadı"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Doğrudan alt klasörleri gruplandır"
+    },
+    {
+      "name": "group_by",
+      "value": "Gruplandırma"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Dosyaları gruplandırma"
+    },
+    {
+      "name": "by_folder",
+      "value": "Klasör"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Son değiştirilme"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Son değiştirilme (günlük)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Son değiştirilme (aylık)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Çekildiği tarih"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Çekildiği tarih (günlük)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Çekildiği tarih (aylık)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Dosya türü"
+    },
+    {
+      "name": "by_extension",
+      "value": "Uzantı"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Bölüm başlıklarında dosya sayısını göster"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Lütfen gruplandırmanın ve sıralamanın 2 bağımsız alan olduğunu unutmayın"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Widget'ta gösterilen klasör:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Klasör adını göster"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Videoları otomatik oynat"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Son video oynatma konumunu hatırla"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Videoları tekrarla"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Küçük resimlerdeki GIF'leri hareketlendir"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Tam ekran medya görüntülerken maksimum parlaklık"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Küçük resimleri karelere kırp"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Video sürelerini göster"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Tam ekran medyayı döndür"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Sistem ayarları"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Aygıt yönü"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "En boy oranı"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Tam ekran medyada siyah arka plan ve durum çubuğu"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Küçük resimleri yatay olarak kaydır"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Tam ekran medyada sistem arayüzünü otomatik gizle"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "İçeriğini sildikten sonra boş klasörleri sil"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Dikey hareketlerle fotoğraf parlaklığını denetlemeye izin ver"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Dikey hareketlerle video sesini ve parlaklığını denetlemeye izin ver"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Ana görünümde klasör medya sayısını göster"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Tam ekran medya üzerinde genişletilmiş ayrıntıları göster"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Genişletilmiş ayrıntıları yönet"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Tam ekran medyalarda tek parmakla yakınlaştırmaya izin ver"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Ekran kenarlarına tıklayarak anında medya değiştirmeye izin ver"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Derin yakınlaştırma resimlerine izin ver"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Durum çubuğu gizlendiğinde genişletilmiş ayrıntıları gizle"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Ekranın alt kısmında bazı eylem düğmelerini göster"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Geri dönüşüm kutusu'nu klasörler ekranında gösterme"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Derin yakınlaştırılabilir resimler"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Resimleri mümkün olan en yüksek kalitede göster"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Geri dönüşüm kutusunu ana ekranda son öge olarak göster"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Tam ekran görünümünü aşağı hareketi ile kapatmaya izin ver"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "İki çift dokunuşla 1:1 yakınlaştırmaya izin ver"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Videoları yeni yatay hareketlerle daima ayrı bir ekranda aç"
+    },
+    {
+      "name": "show_notch",
+      "value": "Varsa bir çentik göster"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Hareketlerle resimlerin döndürülmesine izin ver"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Dosya yükleme önceliği"
+    },
+    {
+      "name": "speed",
+      "value": "Hız"
+    },
+    {
+      "name": "compromise",
+      "value": "Ödünsüz"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Geçersiz dosyaları göstermekten kaçın"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Resim dosyası türlerini göster"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Videoları iki kez dokunarak yakınlaştırmaya izin ver"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Klasör küçük resim stili"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Dosya küçük resim stili"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Favori ögeleri işaretle"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Küçük resim aralığı"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Dosya sayısını ayrı bir satırda göster"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Dosya sayısını parantez içinde göster"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Dosya sayısını gösterme"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Uzun klasör başlıklarını 1 satırla sınırla"
+    },
+    {
+      "name": "square",
+      "value": "Kare"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Yuvarlatılmış köşeler"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Favorileri dışa aktar"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Favorileri içe aktar"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Yollar başarıyla içe aktarıldı"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Tüm dosya işlemlerinin güvenilir bir şekilde çalıştığından emin olmak için lütfen bu uygulamayı aygıt ayarlarınızda bir medya yönetimi uygulaması yapın."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Hariç tutulan klasör görünürlüğünü parola ile koru"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Bir şeyler ters gitti, lütfen aygıtınızın Ayarlar - Uygulamalar - Özel uygulama erişimi - Medya yönetimi uygulamaları bölümüne gidin ve bu uygulamanın medyayı yönetmesine izin verin."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Yeniden yönlendirme çalışmazsa, lütfen aygıtınızın Ayarlar - Uygulamalar - Özel uygulama erişimi - Medya yönetimi uygulamaları bölümüne gidin ve bu uygulamanın medyayı yönetmesine izin verin."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Bunu yapmak istemiyorsanız, aygıtınızın Ayarlar - Uygulamalar - Özel uygulama erişimi - Medya yönetimi uygulamaları bölümüne gidebilir ve bu uygulamanın medyayı yönetmesine izin verebilirsiniz."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternatif olarak, yalnızca medya dosyalarına erişime izin verebilirsiniz. Ancak bu durumda gizli dosyalarla çalışamazsınız."
+    },
+    {
+      "name": "media_only",
+      "value": "Yalnızca medya"
+    },
+    {
+      "name": "all_files",
+      "value": "Tüm dosyalar"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Ana ekranda klasörler yerine tüm dosyaları ara"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Tüm Klasör İçeriğini Göster seçeneğini hızlıca değiştirmek için bir menü düğmesi göster"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Küçük resimler"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Tam ekran medya"
+    },
+    {
+      "name": "extended_details",
+      "value": "Genişletilmiş ayrıntılar"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Alt eylemler"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Görünür alt eylemleri yönet"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Favoriyi göster/gizle"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Dosya görünürlüğünü aç/kapat"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Özel"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Sıfırla"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Kare"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Dönüştür"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filtre"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Yok"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Ayarla"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Gölgeler"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Pozlama"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Vurgular"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Parlaklık"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Kontrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Doygunluk"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Berraklık"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gama"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Siyahlar"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Beyazlar"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Sıcaklık"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Netlik"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Sıfırla"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Odak"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Yok"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radyal"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Doğrusal"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Aynalı"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gauss"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Metin ekle"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Metin"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Metin Seçenekleri"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Metin Rengi"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Yazı Tipi"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Ekle"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Düzenle"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Düzle"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Yazı Tipi"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Renk"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Arka Renk"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Hizalama"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Öne"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Sil"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Metniniz"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Fırça"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Renk"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Boyut"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Sertlik"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Öne"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Sil"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Fırça Rengi"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Düzenleyici"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Düzenleyici kapatılsın mı\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Değişiklikleri gerçekten atmak istiyor musunuz\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Evet"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Hayır"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "İptal"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Kabul Et"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Kaydet"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Dışa aktarılıyor…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "%s dışa aktarılıyor."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Etiket"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Etiket Rengi"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Etiket Seçenekleri"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Ekle"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Renk"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Sil"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Öne"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Düzleştir"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Değiştir"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opaklık"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Kontrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Doygunluk"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Parlaklık"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Yüklemeler"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Kaplama"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Karartma"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Örtme"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Kaplama"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Aydınlatma"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Çarpma"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Renk Yanması"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Hafif Aydınlık"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Şiddetli Aydınlık"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Hiçbiri"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Altın"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Hafif Sızıntı 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mozaik"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Kağıt"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Yağmur"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Nostaljik"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Yatay Çevir"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Dikey Çevir"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Geri Al"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Yinele"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Renk Seçici"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Şeffaf"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Beyaz"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Gri"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Siyah"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Açık Mavi"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Mavi"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Mor"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orkide"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Pembe"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Kırmızı"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Turuncu"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Altın"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Sarı"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Zeytin"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Yeşil"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Akuamarin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Pipetlenebilir renk"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Kırp"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Basit Galeri'yi nasıl öntanımlı aygıt galerisi yapabilirim\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Önce aygıt ayarlarınızın Uygulamalar bölümünde öntanımlı galeriyi bulmanız, \\\"Öntanımlı olarak aç\\\" gibi bir şey söyleyen bir düğme aramanız, üzerine tıklamanız ve ardından \\\"Öntanımlıları Temizle\\\" seçeneğini seçmeniz gerekir. Gelecek sefer video veya resim açmayı denediğinizde, Basit Galeri'yi seçip öntanımlı uygulama haline getirebileceğiniz bir uygulama seçicisini görmelisiniz."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Uygulamayı bir şifre ile kilitledim ama unuttum. Ne yapabilirim\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Bunu 2 şekilde çözebilirsiniz. Uygulamayı yeniden kurabilir veya uygulamayı aygıt ayarlarınızdan bulabilir ve \\\"Verileri temizle\\\" seçeneğini seçebilirsiniz. Bu, tüm ayarlarınızı sıfırlayacak, herhangi bir medya dosyasını kaldırmayacaktır."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Bir albümün her zaman en üstte görünmesini nasıl sağlayabilirim\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "İstediğiniz albüme uzunca basabilir ve eylem menüsündeki Sabitle simgesini seçebilirsiniz. Birden çok klasörü de sabitleyebilirsiniz, sabitlenmiş ögeler öntanımlı sıralama yöntemine göre sıralanır."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Videoları nasıl hızlıca ileri sarabilirim\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Ekranın yan tarafına iki kez dokunarak veya arama çubuğunun yanındaki geçerli veya maksimum süre metinlerine dokunarak bunu yapabilirsiniz. Videoları uygulama ayarlarından ayrı bir ekranda açmayı etkinleştirirseniz yatay hareketleri de kullanabilirsiniz."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Klasörün gizlenmesi ve hariç tutulması arasındaki fark nedir\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Hariç tut, klasörü yalnızca Basit Galeri'de görüntülemeyi engellerken, Gizle sistem genelinde çalışır ve klasörü diğer galerilerden de gizler. Verilen klasörde boş bir \\\".nomedia\\\" dosyası oluşturarak çalışır, daha sonra herhangi bir dosya yöneticisi ile kaldırabilirsiniz. Bazı aygıtların Kamera, Ekran Görüntüleri ve İndirilenler gibi klasörlerin gizlenmesine izin vermediğini unutmayın."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Neden albüm resimlerini içeren klasörler görünüyor\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Bazı olağandışı albümlerin ortaya çıktığını göreceksiniz. Onları uzun süre basarak ve Hariç tut'u seçerek kolayca hariç tutabilirsiniz. Bir sonraki iletişim kutusunda, üst klasörü seçebilirsiniz, ancak diğer ilgili albümlerin de gösterilmesini önleyecektir."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Resimler içeren bir klasör görünmüyor, ne yapabilirim\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Bunun birden fazla nedeni olabilir, ancak bunu çözmek kolaydır. Sadece Ayarlar -> Dahil Edilen Klasörleri Yönet'e gidin, Artı'yı seçin ve gerekli klasöre gidin."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Sadece birkaç belirli klasörün görünmesini istersem ne olur\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Dahil Edilen Klasörler'e bir klasör eklemek otomatik olarak hiçbir şeyi hariç tutmaz. Yapabilecekleriniz Ayarlar -> Hariç Tutulan Klasörleri Yönet, kök klasörü \\\"/\\\" hariç tut, ardından Ayarlar -> Dahil Edilen Klasörleri Yönet. Bu, hem hariç tutulan hem de dahil edilen olmak üzere, yalnızca seçilen klasörleri görünür hale getirir ve bir klasör her ikisi de hariç tutulur ve dahil edilirse, görünür."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Bu uygulamayla görüntüleri kırpabilir miyim\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Evet, görüntü köşelerini sürükleyerek resimleri düzenleyicide kırpabilirsiniz. Düzenleyiciye, bir resim küçük resmine uzun basıp Düzenle'yi seçerek veya tam ekran görünümünden Düzenle'yi seçerek ulaşabilirsiniz."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Medya dosyası küçük resimlerini bir şekilde gruplayabilir miyim\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Elbette, küçük resimler görünümünde \\\"Gruplandırma\\\" menü ögesini kullanın. Çekildiği Tarih de dahil olmak üzere dosyaları birçok ölçüte göre gruplayabilirsiniz. \\\"Tüm klasörleri göster\\\" işlevini kullanırsanız, bunları klasörlere göre de gruplayabilirsiniz."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Çekildiği Tarihe Göre Sıralama düzgün çalışmıyor gibi görünüyor, nasıl düzeltebilirim\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Büyük olasılıkla bir yerden kopyalanan dosyalardan kaynaklanır. Dosya küçük resimlerini seçip \\\"Çekilen tarih değerini düzelt\\\" seçeneğini seçerek düzeltebilirsiniz."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Görüntülerde renk şeritleri görüyorum. Kaliteyi nasıl arttırabilirim\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Görüntüleri görüntülemek için geçerli çözüm, vakaların büyük çoğunluğunda iyi çalışır, ama daha iyi görüntü kalitesi istiyorsanız, \\\"Derin yakınlaştırılabilir resimler\\\" bölümündeki uygulama ayarlarında \\\"Resimleri mümkün olan en yüksek kalitede göster\\\" seçeneğini etkinleştirebilirsiniz."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Bir dosya/klasör gizledim. Nasıl gösterebilirim\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Ana ekranda \\\"Geçici olarak gizli ögeleri göster\\\" menü ögesine veya gizli ögeyi görmek için uygulama ayarlarında \\\"Gizli ögeleri göster\\\" seçeneğine tıklayabilirsiniz. Göstermek isterseniz, sadece uzun basın ve \\\"Göster\\\" seçeneğini seçin. Klasörler gizlenmiş bir \\\".nomedia\\\" dosyası ekleyerek gizlenir, dosyayı herhangi bir dosya yöneticisi ile de silebilirsiniz. Gizlemenin yinelemeli olarak çalıştığını unutmayın, bu nedenle bir klasörü gizlerseniz tüm alt klasörler de gizlenir. Bu nedenle, alt klasörleri göstermek için ana klasörü göstermeniz gerekir."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Uygulama neden bu kadar yer kaplıyor\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Uygulama önbelleği 250 MB'a kadar çıkabilir, daha hızlı resim yüklemesini sağlar. Uygulama daha da fazla yer kaplıyorsa, büyük olasılıkla Geri Dönüşüm Kutusunda öge bulundurmanızdan kaynaklanmaktadır. Bu dosyalar uygulama boyutuna göre sayılır. Geri Dönüşüm Kutusunu açarak ve tüm dosyaları silerek ya da uygulama ayarlarından temizleyebilirsiniz. Geri dönüşümdeki her dosya 30 gün sonra otomatik olarak silinir."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Dosya ve klasör gizlemeye ne oldu ve neden artık gizli ögeleri göremiyorum\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Android 11'den itibaren artık dosya veya klasörleri gizleyemez veya gizliliğini kaldıramazsınız, sistem kısıtlamaları nedeniyle galeri uygulamalarında da gizli olanları göremezsiniz. Bunun için bir dosya yöneticisi kullanmanız gerekecektir."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Veya aygıt ayarlarınız aracılığıyla bu galeriye Tüm Dosyalara erişim izni verebilirsiniz, bu da gizli ögeleri göstermemizi ve dosya işlemlerini genel olarak daha güvenilir hale getirmemizi sağlayacaktır."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Neden artık eksik klasörleri dahil edemiyorum\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Bu, Android 11 ile birlikte gelen sistem değişiklikleri nedeniyle çalışmayı durdurdu, uygulama artık gerçek klasörlere göz atamıyor, verileri almak için MediaStore kullanıyor."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Video oynatılırken neden reklam görüyorum\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Uygulamalarımızda hiçbir şekilde reklam yoktur. Video oynatılırken reklam görüyorsanız, başka bir uygulamanın video oynatıcısını kullanıyor olmalısınız. Aygıt ayarlarında öntanımlı video oynatıcınızı bulmayı deneyin, ardından \\\"Öntanımlıları temizle\\\" yapın. Bir dahaki sefere video oynatmayı istediğinizde, kullanmak istediğiniz uygulamayı seçebileceğiniz bir uygulama seçici istemi göreceksiniz."
+    }
+  ]
+}

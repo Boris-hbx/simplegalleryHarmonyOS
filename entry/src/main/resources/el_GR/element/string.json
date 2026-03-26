@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Απλή Συλλογή"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Συλλογή"
+    },
+    {
+      "name": "edit",
+      "value": "Επεξεργασία"
+    },
+    {
+      "name": "open_camera",
+      "value": "Άνοιγμα κάμερας"
+    },
+    {
+      "name": "hidden",
+      "value": "(κρυφά)"
+    },
+    {
+      "name": "excluded",
+      "value": "(εξαιρούνται)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Καρφίτσωμα φακέλου"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Ξεκαρφίτσωμα φακέλου"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Καρφίτσωμα στην κορυφή"
+    },
+    {
+      "name": "show_all",
+      "value": "Προβολή όλων στο φάκελο"
+    },
+    {
+      "name": "all_folders",
+      "value": "Όλοι οι φάκελοι"
+    },
+    {
+      "name": "folder_view",
+      "value": "Αλλαγή σε προβολή φακέλων"
+    },
+    {
+      "name": "other_folder",
+      "value": "Άλλος φάκελος"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Εμφάνιση στο χάρτη"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Άγνωστη τοποθεσία"
+    },
+    {
+      "name": "volume",
+      "value": "Ένταση"
+    },
+    {
+      "name": "brightness",
+      "value": "Φωτεινότητα"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Κλείδωμα προσανατολισμού"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Ξεκλείδωμα προσανατολισμού"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Αλλαγή προσανατολισμού"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Εξαναγκασμός σε πορτρέτο"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Εξαναγκασμός σε τοπίο"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Χρήση προεπιλογής"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Διόρθωση ημερ. λήψης"
+    },
+    {
+      "name": "fixing",
+      "value": "Διορθώνεται…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Η Ημερ. διορθώθηκε με επιτυχία"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Δεν βρέθηκαν Τιμές Ημερομηνίας όταν ελήφθησαν"
+    },
+    {
+      "name": "share_resized",
+      "value": "Διαμοιρασμός έκδοσης με αλλαγμένο μέγεθος"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Εναλλαγή αναζήτησης αρχείων σε όλους τους ορατούς φακέλους"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Ορισμός ως προεπιλεγμένου φακέλου"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Κατάργηση ως προεπιλεγμένου φακέλου"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Αναδιάταξη φακέλων με μεταφορά"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Αναδιάταξη φακέλων με μεταφορά (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Επαναφορά σε '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Φιλτράρισμα πολυμέσων"
+    },
+    {
+      "name": "images",
+      "value": "Εικόνες"
+    },
+    {
+      "name": "videos",
+      "value": "Βίντεο"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW Εικόνες"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG"
+    },
+    {
+      "name": "portraits",
+      "value": "Πορτραίτα"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Δεν βρέθηκε κανένα αρχείο πολυμέσων με τα επιλεγμένα φίλτρα."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Αλλαγή φίλτρων"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Αυτή η λειτουργία κρύβει τον φάκελο προσθέτοντας ένα \\\".nomedia\\\" αρχείο μέσα του, θα κρύψει και όλους τους υποφακέλους επίσης. Μπορείτε να τους δείτε με την επιλογή του 'Εμφάνιση κρυφών δεδομένων' στις Ρυθμίσεις. Συνέχεια\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Αυτό θα εξαιρέσει τον επιλεγμένο μαζί με τους υποφακέλους από την Απλή Συλλογή μόνο. Μπορείτε να διαχειριστείτε τους φακέλους που εξαιρέθηκαν στις Ρυθμίσεις."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Να εξαιρεθεί μήπως ο γονικός φάκελος;"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Εξαιρώντας τους φακέλους, θα τους αποκρύψει μαζί με τους υποφακέλους τους μόνο στην Απλή Συλλογή, θα είναι ορατοί στις υπόλοιπες εφαρμογές.\r\n\\n\r\n\\nΑν θέλετε να τους αποκρύψετε και στις υπόλοιπες εφαρμογές, χρησιμοποιήστε την λειτουργία Απόκρυψη."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Κρυφοί φάκελοι"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Διαχείριση κρυφών φακέλων"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Φαίνεται πως δεν υπάρχουν κρυφοί φάκελοι με \\\".nomedia\\\" αρχείο."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Πρέπει να εκχωρήσετε στην εφαρμογή πρόσβαση σε \\\"Όλα τα αρχεία\\\" για να δείτε τα κρυφά αρχεία, διαφορετικά δεν μπορεί να λειτουργήσει."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Εάν ένας φάκελος ή ένας από τους αρχικούς του φακέλους έχει μια τελεία πριν από το όνομά του, είναι κρυφός και δεν μπορεί να εμφανιστεί με αυτόν τον τρόπο. Πρέπει να αφαιρέσετε την τελεία μετονομάζοντάς τον."
+    },
+    {
+      "name": "include_folders",
+      "value": "Συμπεριλαμβανόμενοι Φάκελοι"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Διαχείριση συμπεριλαμβανόμενων Φακέλων"
+    },
+    {
+      "name": "add_folder",
+      "value": "Προσθήκη φακέλου"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Αν υπάρχουν κάποιοι φάκελοι που περιέχουν πολυμέσα, αλλά δεν αναγνωρίζονται από την εφαρμογή, μπορείτε να τους προσθέσετε χειροκίνητα εδώ.\r\n\\n\r\n\\nΗ προσθήκη στοιχείων εδώ, δεν θα εξαιρέσει κάποιον άλλο φάκελο."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Δεν βρέθηκαν αρχεία πολυμέσων. Μπορεί να λυθεί αυτό, προσθέτοντας τους φακέλους που περιέχουν αρχεία πολυμέσων με μη αυτόματο τρόπο."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Αλλαγή μεγέθους και αποθήκευση"
+    },
+    {
+      "name": "width",
+      "value": "Πλάτος"
+    },
+    {
+      "name": "height",
+      "value": "Ύψος"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Διατήρηση αναλογίας"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Παρακαλώ εισάγετε σωστή ανάλυση"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Αλλαγή μεγέθους πολλών εικόνων"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Συντελεστής αλλαγής μεγέθους"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Αλλάξτε το μέγεθος των εικόνων στο δεδομένο ποσοστό. Η τιμή πρέπει να είναι μεταξύ 10 και 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Εισάγετε έναν αριθμό μεταξύ 10 και 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Το μέγεθος των εικόνων άλλαξε με επιτυχία"
+    },
+    {
+      "name": "editor",
+      "value": "Επεξεργαστής"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Βασικός επεξεργαστής"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Προηγμένος επεξεργαστής"
+    },
+    {
+      "name": "rotate",
+      "value": "Περιστροφή"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Άκυρη διαδρομή εικόνας"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Άκυρη διαδρομή βίντεο"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Η επεξεργασία εικόνας απέτυχε"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Η επεξεργασία βίντεο απέτυχε"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Η επεξεργασία εικόνας ακυρώθηκε"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Η επεξεργασία βίντεο ακυρώθηκε"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Επιτυχής επεξεργασία αρχείου"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Επιτυχής επεξεργασία εικόνας"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Επιτυχής επεξεργασία βίντεο"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Επεξεργασία εικόνας με:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Επεξεργασία βίντεο με:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Δεν βρέθηκε επεξεργαστής εικόνων"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Δεν βρέθηκε επεξεργαστής βίντεο"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Άγνωστη τοποθεσία αρχείου"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Δεν ήταν δυνατή η αντικατάσταση του αρχείου πηγής"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Περιστροφή αριστερά"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Περιστροφή δεξιά"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Περιστροφή κατά 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Μεταμόρφωση"
+    },
+    {
+      "name": "crop",
+      "value": "Περικοπή"
+    },
+    {
+      "name": "draw",
+      "value": "Σχεδίαση"
+    },
+    {
+      "name": "flip",
+      "value": "Περιστροφή"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Οριζόντια περιστροφή"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Κατακόρυφη περιστροφή"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Προσαρμογή"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Άλλο"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Απλή Συλλογή"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Εφαρμογή ως ταπετσαρία"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Η εφαρμογή ως ταπετσαρία απέτυχε"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Εφαρμογή ως ταπετσαρία με:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Εφαρμογή ταπετσαρίας…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Η ταπετσαρία εφαρμόστηκε"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Αναλογία κατακόρυφης προβολής"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Αναλογία οριζόντιας προβολής"
+    },
+    {
+      "name": "home_screen",
+      "value": "Αρχική οθόνη"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Οθόνη κλειδώματος"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Αρχική και Οθόνη Κλειδώματος"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Επιτρέπει την αλλαγή Αναλογίας Διαστάσεων"
+    },
+    {
+      "name": "slideshow",
+      "value": "Παρουσίαση διαφανειών"
+    },
+    {
+      "name": "interval",
+      "value": "Χρόνος επανάληψης"
+    },
+    {
+      "name": "include_photos",
+      "value": "Συμπερίληψη φωτογραφιών"
+    },
+    {
+      "name": "include_videos",
+      "value": "Συμπερίληψη βίντεο"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Συμπερίληψη GIFs"
+    },
+    {
+      "name": "random_order",
+      "value": "Τυχαία σειρά"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Κίνηση προς τα πίσω"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Επανάληψη εμφάνισης διαφανειών"
+    },
+    {
+      "name": "animation",
+      "value": "Κινήσεις"
+    },
+    {
+      "name": "no_animation",
+      "value": "Χωρίς"
+    },
+    {
+      "name": "fade",
+      "value": "Εξασθένηση"
+    },
+    {
+      "name": "slide",
+      "value": "Ολίσθηση"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Τέλος εμφάνισης διαφανειών"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Δεν βρέθηκαν πολυμέσα για την εμφάνιση διαφανειών"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Ομαδοποίηση υποφακέλων"
+    },
+    {
+      "name": "group_by",
+      "value": "Ομαδοποίηση κατά"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Χωρίς"
+    },
+    {
+      "name": "by_folder",
+      "value": "Φάκελο"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Τελευταία τροπ/ηση"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Τελευταία τροπ/ηση (ημερήσια)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Τελευταία τροπ/ηση (μηνιαία)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Ημερομ. λήψης"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Ημερομ. λήψης (ημερήσια)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Ημερομ. λήψης (μηνιαία)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Τύπο αρχείου"
+    },
+    {
+      "name": "by_extension",
+      "value": "Επέκταση"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Εμφάνιση αριθμού αρχείων στις επικεφαλίδες τμημάτων"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Σημειώστε ότι ομαδοποίηση και ταξινόμηση είναι 2 ανεξάρτητα πεδία"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Εμφάνιση φακέλου στο widget:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Εμφάνιση ονόματος φακέλου"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Αυτόματη αναπαραγωγή βίντεο"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Απομνημόνευση τελευταίας θέσης αναπαραγωγής βίντεο"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Επανάληψη βίντεο"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Εμφάνιση κινούμενων GIFs στα εικονίδια"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Μέγιστη φωτεινότητα κατά την προβολή πλήρους οθόνης"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Περικοπή εικονιδίων σε τετράγωνα"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Εμφάνιση διάρκειας βίντεο"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Περιστροφή πλήρους οθόνης σύμφωνα με"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Ρυθμίσεις συστήματος"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Περιστροφή συσκευής"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Αναλογία εικόνας"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Μαύρο φόντο και μπάρα κατάστασης σε πλήρη οθόνη"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Κύλιση εικονιδίων οριζόντια"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Αυτόματη απόκρυψη στοιχείων συστήματος σε πλήρη οθόνη"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Διαγραφή άδειων φακέλων, όταν διαγραφεί το περιεχόμενό τους"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Να επιτρέπεται ο έλεγχος φωτεινότητας με κατακόρυφες κινήσεις"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Να επιτρέπεται ο έλεγχος έντασης βίντεο και φωτεινότητας με κατακόρυφες κινήσεις (gestures)"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Εμφάνιση του αριθμού πολυμέσων στον φάκελο, στην κύρια οθόνη"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Εμφάνιση λεπτομερειών στα πολυμέσα σε κατάσταση πλήρους οθόνης"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Διαχείριση εκτεταμένων λεπτομερειών"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Να επιτρέπεται μεγένθυση με ένα δάχτυλο σε πλήρη οθόνη"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Να επιτρέπεται η άμεση αλλαγή των μέσων με το άγγιγμα στις άκρες της οθόνης"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Επιτρέπει βαθύ ζουμ στις εικόνες"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Απόκρυψη λεπτομερειών όταν η μπάρα κατάστασης είναι κρυμμένη"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Εμφάνιση μερικών κουμπιών λειτουργιών στο κάτω μέρος της οθόνης"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Εμφάνιση του κάδου ανακύκλωσης στην οθόνη φακέλων"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Βαθιά μεγέθυνση εικόνων"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Εμφάνιση εικόνων με την υψηλότερη δυνατή ποιότητα"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Εμφάνιση του Κάδου ως τελευταίο στοιχείο στην κύρια οθόνη"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Επιτρέψτε το κλείσιμο προβολής πλήρους οθόνης με χειρονομία προς τα κάτω"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Επιτρέπει μεγέθυνση 1:1 με δύο διπλά χτυπήματα"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Να ανοίγονται πάντα τα βίντεο σε ξεχωριστή οθόνη με νέες οριζόντιες χειρονομίες"
+    },
+    {
+      "name": "show_notch",
+      "value": "Εμφάνιση μιας εγκοπής αν διατίθεται"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Επιτρέπει την περιστροφή εικόνων με χειρονομίες"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Προτεραιότητα φόρτωσης αρχείου"
+    },
+    {
+      "name": "speed",
+      "value": "Ταχύτητα"
+    },
+    {
+      "name": "compromise",
+      "value": "Συμβιβασμός"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Αποφυγή εμφάνισης μη έγκυρων αρχείων"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Εμφάνιση τύπου αρχείου εικόνας"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Επιτρέπει την μεγέθυνση βίντεο με διπλό πάτημα"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Στυλ μικρογραφίας φακέλου"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Στυλ μικρογραφίας αρχείου"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Σημείωση Αγαπημένων στοιχείων"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Απόσταση μικρογραφιών"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Εμφάνιση πλήθους αρχείων σε ξεχωριστή γραμμή"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Εμφάνιση πλήθους αρχείων σε αγκύλες"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Χωρίς εμφάνιση μέτρησης αρχείων"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Περιορισμός μεγάλων τίτλων φακέλων σε 1 γραμμή"
+    },
+    {
+      "name": "square",
+      "value": "Τετράγωνο"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Στρογγυλεμένες γωνίες"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Εξαγωγή αγαπημένων"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Εισαγωγή αγαπημένων"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Οι Διαδρομές εισήχθησαν με επιτυχία"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Για να βεβαιωθείτε ότι όλες οι λειτουργίες αρχείων λειτουργούν αξιόπιστα, παρακαλούμε ορίστε την, \\\"Εφαρμογή Διαχείρισης Πολυμέσων\\\" στις ρυθμίσεις της συσκευής σας."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Προστασία ορατότητας αποκλεισμένου φακέλου με κωδικό"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Κάτι πήγε λάθος, μεταβείτε στις Ρυθμίσεις της συσκευής σας - Εφαρμογές - Ειδική πρόσβαση εφαρμογών - Εφαρμογές διαχείρισης πολυμέσων και επιτρέψτε σε αυτή την εφαρμογή να διαχειρίζεται πολυμέσα."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Αν η ανακατεύθυνση δεν λειτουργεί, μεταβείτε στις Ρυθμίσεις της συσκευής σας - Εφαρμογές - Ειδική πρόσβαση εφαρμογών - Εφαρμογές διαχείρισης πολυμέσων και επιτρέψτε σε αυτή την εφαρμογή να διαχειρίζεται πολυμέσα."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Αν δεν θέλετε να το κάνετε, μπορείτε επίσης να μεταβείτε στις Ρυθμίσεις της συσκευής σας - Εφαρμογές - Ειδική πρόσβαση εφαρμογών - Εφαρμογές διαχείρισης πολυμέσων και να επιτρέψετε σε αυτή την εφαρμογή να διαχειρίζεται πολυμέσα."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Εναλλακτικά, μπορείτε να επιτρέψετε την πρόσβαση μόνο σε αρχεία πολυμέσων. Σε αυτή την περίπτωση, όμως, δεν θα μπορείτε να εργαστείτε με κρυφά αρχεία."
+    },
+    {
+      "name": "media_only",
+      "value": "Πολυμέσα μόνο"
+    },
+    {
+      "name": "all_files",
+      "value": "Όλα τα Αρχεία"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Αναζήτηση όλων των αρχείων αντί φακέλων στην κύρια οθόνη"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Εμφάνιση κουμπιού μενού για εναλλαγή προβολή περιεχομένου Όλων των Φακέλων ταχύτερα"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Εικονίδια"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Πολυμέσα πλήρους οθόνης"
+    },
+    {
+      "name": "extended_details",
+      "value": "Περισσότερες λεπτομέρειες"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Λειτουργίες στο κάτω μέρος"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Διαχείρηση εμφάνισης λειτουργιών"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Εναλλαγή αγαπημένων"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Εναλλαγή προβολής αρχείου"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Προσαρμογή"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Επαναφορά"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Τετράγωνο"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Μετατροπή"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Φίλτρο"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Χωρίς"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Ρυθμίσεις"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Σκιές"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Έκθεση"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Φωτισμένα"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Φωτισμός"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Αντίθεση"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Κορεσμός"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Ευκρίνεια"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Γάμμα"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Μαύρα"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Λευκά"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Θερμοκρασία"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Οξύτητα"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Επαναφορά"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Εστίαση"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Χωρίς"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Ακτίνα"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Γραμμικά"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Καθρέπτης"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Θόλωση"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Προσθήκη Κειμένου"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Κείμενο"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Επιλογή κειμένου"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Χρώμα κειμένου"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Γραμ/σειρά"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Προσθήκη"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Επεξεργασία"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Ίσιωμα"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Γραμ/σειρά"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Χρώμα"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "BG Χρώμα"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Ευθυγράμμιση"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Σε Γραμ/σειρά"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Διαγραφή"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Το κειμενό μου"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Πινέλο"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Χρώμα"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Μέγεθος"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Σκληρότητα"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Σε Γραμ/σειρά"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Διαγραφή"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Χρώμα Πινέλου"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Επεξεργαστής"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Κλείσιμο Επεξεργαστή\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Θέλετε πραγματικά να απορρίψετε τις αλλαγές;"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Αποδοχή"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Ακύρωση"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Ακύρωση"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Αποδοχή"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Αποθήκευση"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Εξαγωγή…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Εξαγωγή %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Αυτοκόλλητο"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Χρώμα Αυτοκόλλητου"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Επιλογές Αυτοκόλλητου"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Προσθήκη"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Χρώμα"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Διαγραφή"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Εμπρός"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Ίσιωμα"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Αντικατάσταση"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Αδιαφάνεια"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Αντίθεση"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Κορεσμός"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Φωτεινότητα"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Μεταφορτώσεις"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Επικάλυψη"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Κανονικό"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Σκοτεινό"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Οθόνη"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Επικάλυψη"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Φωτεινό"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Πολλαπ/σμός"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Κάψιμο χρώματος"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Απαλό φως"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Σκληρό φως"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Χωρίς"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Χρυσό"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Φωτεινή διαρροή 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Μωσαϊκό"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Χαρτί"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Βροχή"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Αντικέ"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Αναστροφή Ο"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Αναστροφή Κ"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Αναίρεση"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Επανάληψη"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Επιλογέας χρώματος"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Διαφάνεια"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Λευκό"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Γκρί"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Μαύρο"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Ανοιχτό μπλέ"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Μπλέ"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Μώβ"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Ορχιδέα"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Ρόζ"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Κόκκινο"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Πορτοκαλί"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Χρυσό"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Κίτρινο"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Λαδί"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Πράσινο"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Γαλαζοπράσινο"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Χρώμα πίνακα Pipet"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Περικοπή"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Πώς μπορώ να κάνω την Απλή Συλλογή προεπιλεγμένη εφαρμογή συλλογής πολυμέσων;"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Αρχικά πρέπει να βρείτε την τρέχουσα προεπιλεγμένη εφαρμογή γκάλερι στις Ρυθμίσεις (τμήμα Εφαρμογών) της συσκευής. Αναζητήστε για ένα κουμπί που αναφέρει κάτι σαν \\\"Άνοιγμα με προεπιλογή\\\", πατήστε το, μετά επιλέξτε \\\"Καθαρισμός προεπιλεγμένων\\\". Την επόμενη φορά που θα προσπαθήσετε να ανοίξετε μία εικόνα ή ένα βίντεο θα πρέπει να δείτε έναν διάλογο επιλογής εφαρμογών, όπου μπορείτε να επιλέξετε Απλή Συλλογή να την κάνετε προεπιλεγμένη εφαρμογή."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Κλείδωσα την εφαρμογή με κωδικό, αλλά τον ξέχασα. Τι μπορώ να κάνω;"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Υπάρχουν 2 λύσεις. Είτε επανεγκατάσταση της εφαρμογής, ή να εντοπίσετε την εφαρμογή στις ρυθμίσεις της συσκευής και να επιλέξετε \\\"Καθαρισμό δεδομένων\\\". Θα επαναφέρει όλες τις ρυθμίσεις και δεν θα σβήσει κάποιο αρχείο πολυμέσου."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Πώς μπορώ να κάνω ένα άλμπουμ να φαίνεται στην κορυφή;"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Μπορείτε να πατήσετε παρατεταμένα στο άλμπουμ και να επιλέξετε το εικονίδιο καρφιτσώματος στο μενού, αυτό θα το καρφιτσώσει στην κορυφή. Επίσης μπορείτε να καρφιτσώσετε πολλαπλούς φακέλους, τα καρφιτσωμένα αντικείμενα θα είναι ταξινομημένα με την προεπιλεγμένη μέθοδο."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Πώς μπορώ να τρέξω μπροστά (fast forward) τα βίντεο;"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Μπορείτε να το κάνετε πατώντας δύο φορές την πλευρά της οθόνης ή πατώντας το κείμενο τρέχοντος ή μέγιστης διάρκειας κοντά στη γραμμή αναζήτησης. Αν ενεργοποιήσετε το άνοιγμα βίντεο σε ξεχωριστή οθόνη στις ρυθμίσεις εφαρμογής, μπορείτε επίσης να χρησιμοποιήσετε και τις οριζόντιες κινήσεις."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Ποια είναι διαφορά μεταξύ απόκρυψης και εξαίρεσης ενός φακέλου;"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Η εξαίρεση δεν επιτρέπει την εμφάνιση του φακέλου μόνο στην Απλή Συλλογή, ενώ η απόκρυψη λειτουργεί σε επίπεδο συστήματος και θα αποκρύψει τον φάκελο και από άλλες εφαρμογές γκάλερι. Λειτουργεί δημιουργώντας ένα άδειο \\\".nomedia\\\" αρχείο στον επιλεγμένο φάκελο, το οποίο μπορείτε να το διαγράψετε και με οποιονδήποτε διαχειριστή αρχείων. Σημειώστε ότι μερικές συσκευές δεν αποδέχονται την απόκρυψη φακέλων όπως Κάμερας, Στιγμιοτύπων, και Λήψεων."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Γιατί εμφανίζονται φάκελοι με εξώφυλλο μουσικής ή αυτόκολλητα;"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Είναι πιθανόν να δείτε κάποια περίεργα άλμπουμ να εμφανίζονται. Μπορείτε να τα εξαιρέσετε εύκολα με παρατεταμένο άγγιγμα και επιλογή του Εξαίρεση. Στον επόμενο διάλογο μπορείτε να επιλέξετε επάνω φάκελο. Είναι πιθανό να μην επιτρέψει την εμφάνιση και άλλων σχετικών άλμπουμ."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Ένας φάκελος με εικόνες δεν εμφανίζεται. Τι μπορώ να κάνω;"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Υπάρχουν διάφοροι λόγοι, αλλά είναι εύκολη η λύση. Επιλέξτε Ρυθμίσεις -> Διαχείριση Συμπεριβαλομένων Φακέλων, επιλέξτε Προσθήκη και πλοηγηθείτε στον ζητούμενο φάκελο."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Πώς μπορώ να επιλέξω μόνο κάποιους φακέλους να εμφανίζονται;"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Η προσθήκη ενός φακέλου στους Συμπεριλαμβανόμενους Φακέλους δεν εξαιρεί αυτόματα τίποτα. Μπορείτε να πάτε στις Ρυμίσεις-> Διαχείριση Εξαιρεμένων Φακέλων, εξαιρέστε τον ριζικό φάκελο \\\"/\\\", έπειτα προσθέστε τους φακέλους στο Ρυθμίσεις -> Διαχείριση Συμπεριλαμβανομένων Φακέλων. Αυτό θα κάνει ορατούς μόνο τους επιλεγμένους φακέλους, καθώς η εξαίρεση και η συμπερίληψη λειτουργούν αναδρομικά και αν ενας φάκελος ανήκει και στα δύο, θα εμφανιστεί."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Μπορώ να περικόψω εικόνες με την εφαρμογή;"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Ναι, μπορείτε να περικόψετε εικόνες στον επεξεργαστή, σύροντας τις γωνίες εικόνας. Μπορείτε να μεταβείτε στον επεξεργαστή είτε πατώντας παρατεταμένα μια μικρογραφία εικόνας και επιλέγοντας Επεξεργασία, είτε επιλέγοντας Επεξεργασία από την προβολή πλήρους οθόνης."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Μπορώ να ομαδοποιήσω κάπως τις μικρογραφίες των αρχείων πολυμέσων\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Σίγουρα, απλά με την χρήση \\\"Ομαδοποίηση κατά\\\" Επέκταση ή Τύπο αρχείου. Μπορείτε την ομαδοποίηση με πολλά κριτήρια, συμπεριλαμβανομένης της ημερομηνίας λήψης. Εάν χρησιμοποιείτε τη λειτουργία \\\"Εμφάνιση όλων των περιεχομένων στο φάκελο\\\" μπορείτε να ομαδοποιήσετε και τους φακέλους επίσης."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Η ταξινόμηση κατά ημερομηνία δεν φαίνεται να λειτουργεί σωστά, πώς μπορώ να τη διορθώσω\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Αυτό πιθανότατα προκαλείται από την αντιγραφή των αρχείων από κάπου. Μπορείτε να το διορθώσετε επιλέγοντας τις μικρογραφίες αρχείων και επιλέγοντας \\\"Επιδιόρθωση ημερ. λήψης\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Βλέπω κάποια χρωματική ζώνη στις εικόνες. Πώς μπορώ να βελτιώσω την ποιότητα\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Η τρέχουσα λύση για την εμφάνιση εικόνων λειτουργεί πολύ καλά στην πλειονότητα των περιπτώσεων, αλλά εάν θέλετε ακόμα καλύτερη ποιότητα εικόνας, μπορείτε να ενεργοποιήσετε την \\\"Εμφάνιση εικόνων με την υψηλότερη δυνατή ποιότητα\\\" στις ρυθμίσεις της εφαρμογής, στο πεδίο \\\"Βαθιά μεγέθυνση εικόνων\\\"."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Έχω αποκρύψει ένα αρχείο/φάκελο. Πώς μπορώ να το επανεμφανίσω\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Μπορείτε είτε να επιλέξετε στο μενού \\\"Εμφάνιση προσωρινά κρυφών στοιχείων\\\" στην κύρια οθόνη, είτε να αλλάξετε σε \\\"Εμφάνιση κρυφών στοιχείων\\\" στις ρυθμίσεις της εφαρμογής για να δείτε το κρυφό στοιχείο. Αν θέλετε να το αποκρύψετε, πατήστε παρατεταμένα και επιλέξτε \\\"Απόκρυψη\\\". Οι φάκελοι αποκρύπτονται προσθέτοντας ένα κρυφό αρχείο \\\".nomedia\\\" , μπορείτε επίσης να διαγράψετε το αρχείο με οποιονδήποτε διαχειριστή αρχείων. Σημειώστε ότι η απόκρυψη λειτουργεί αναδρομικά, έτσι εάν αποκρύψετε ένα φάκελο, όλοι οι υποφάκελοι θα αποκρυφθούν επίσης. Για την επανεμφάνιση των υποφακέλων, πρέπει να επανεμφανίσετε το γονικό φάκελο."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Γιατί η εφαρμογή καταλαμβάνει τόσο μεγάλο χώρο;"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Η προσωρινή μνήμη της εφαρμογής μπορεί να δεσμεύσει έως και 250MB, διασφαλίζοντας την ταχύτερη προφόρτωση των εικόνων. Αν η εφαρμογή χρησιμοποιεί ακόμα περισσότερο χώρο, πιθανότατα οφείλεται στην κατοχή αντικειμένων στον Κάδο. Αυτά τα αρχεία υπολογίζονται στο μέγεθος της εφαρμογής. Μπορείτε να αδειάσετε τον Κάδο Ανακύκλωσης ανοίγοντάς τον και διαγράφοντας όλα τα αρχεία ή από τις ρυθμίσεις της εφαρμογής. Κάθε αρχείο στον Κάδο διαγράφεται αυτόματα μετά από 30 ημέρες."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Τι συνέβη με την απόκρυψη αρχείων και φακέλων και γιατί δεν μπορώ πλέον να βλέπω τα κρυφά στοιχεία;"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Ξεκινώντας από το Android 11 δεν μπορείτε πλέον να κρύψετε ή να εμφανίσετε αρχεία ή φακέλους, ούτε να δείτε τα κρυφά στις εφαρμογές της Συλλογής. Θα πρέπει να χρησιμοποιήσετε κάποιον διαχειριστή αρχείων για αυτό."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Εναλλακτικά, μπορείτε επίσης να δώσετε σε αυτήν τη Συλλογή πρόσβαση σε όλα τα αρχεία μέσω των ρυθμίσεων της συσκευής σας, οι οποίες θα μας επιτρέψουν να εμφανίσει κρυφά αρχεία και να κάνει την λειτουργία αρχείων πιο αξιόπιστη γενικά."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Γιατί δεν μπορώ πλέον να συμπεριλάβω τους φακέλους που λείπουν;"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Αυτό σταμάτησε να λειτουργεί λόγω των αλλαγών στο σύστημα του Android 11. Η εφαρμογή δεν μπορεί πλέον να περιηγηθεί σε πραγματικούς φακέλους, αλλά βασίζεται στο λεγόμενο MediaStore για την απόκτηση δεδομένων."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Γιατί βλέπω διαφημίσεις κατά την αναπαραγωγή βίντεο;"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Οι εφαρμογές μας δεν έχουν καθόλου διαφημίσεις. Αν τις βλέπετε κατά την αναπαραγωγή βίντεο, ίσως να χρησιμοποιείτε κάποιο άλλο πρόγραμμα αναπαραγωγής βίντεο. Δοκιμάστε να βρείτε τον προεπιλεγμένο αναπαραγωγέα βίντεο στις ρυθμίσεις της συσκευής και, στη συνέχεια, πατήστε \\\"Εκκαθάριση προεπιλογών\\\" σε αυτήν. Την επόμενη φορά που θα προσπαθήσετε να δείτε ένα βίντεο, θα δείτε μια προτροπή για επιλογή εφαρμογής, όπου μπορείτε να επιλέξετε ποια εφαρμογή θέλετε να χρησιμοποιήσετε."
+    }
+  ]
+}

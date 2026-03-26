@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Једноставна галерија"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Галерија"
+    },
+    {
+      "name": "edit",
+      "value": "Уредити"
+    },
+    {
+      "name": "open_camera",
+      "value": "Отвори камеру"
+    },
+    {
+      "name": "hidden",
+      "value": "(скривено)"
+    },
+    {
+      "name": "excluded",
+      "value": "(excluded)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Прикачи фасциклу"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Раскачи фасциклу"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Закачи на врх"
+    },
+    {
+      "name": "show_all",
+      "value": "Прикажи садржај свих фасцикли"
+    },
+    {
+      "name": "all_folders",
+      "value": "Све фасцикле"
+    },
+    {
+      "name": "folder_view",
+      "value": "Пређи на преглед фасцикли"
+    },
+    {
+      "name": "other_folder",
+      "value": "Друга фасцикла"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Прикажи на мапи"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Непозната локација"
+    },
+    {
+      "name": "volume",
+      "value": "Волуме"
+    },
+    {
+      "name": "brightness",
+      "value": "Осветљење"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Закључај оријентацију"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Откључај оријентацију"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Измени оријентацију"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Форсирај портрет"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Форсирај пејзаж"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Користи подразумевајућу оријентацију"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Поправи вредност за датум креирања"
+    },
+    {
+      "name": "fixing",
+      "value": "Исправљам…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Датуми успешно исправљени"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Нису пронађене вредности датума узимања"
+    },
+    {
+      "name": "share_resized",
+      "value": "Подели верзију са промењеним димензијама"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Пребаците се на претрагу датотека у свим видљивим фасциклама"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Постави као подразумевани фолдер"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Поништи као подразумевани фолдер"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Промените редослед фасцикли превлачењем"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Промените редослед директоријума превлачењем (Про)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Враћање на '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Филтрирај медију"
+    },
+    {
+      "name": "images",
+      "value": "Слике"
+    },
+    {
+      "name": "videos",
+      "value": "Видео снимци"
+    },
+    {
+      "name": "gifs",
+      "value": "ГИФови"
+    },
+    {
+      "name": "raw_images",
+      "value": "Сирове слике"
+    },
+    {
+      "name": "svgs",
+      "value": "СВГови"
+    },
+    {
+      "name": "portraits",
+      "value": "Портрети"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Нема пронађених медија датотека са изабраним филтерима."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Измени филтере"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Ова функција скрива фасциклу додавањем '.nomedia' фајла у њу, она ће такође сакрити све подфасцикле. Можете их видети притиском на опцију 'Прикажи скривене ставке' у подешавањима. Настави\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Ово ће изузети одабир заједно са подфасциклама само из Једноставне галерије. Можете управљати изузетим фасциклама у подешавањима."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Изузми родитеља уместо овог\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Изузимање фасцикли ће их заједно са њиховим подфасциклама учинити скривеним само у Једноставној галерији, они ће и даље бити видљиви у другим апликацијама.\r\n\\n\r\n\\nАко желите да их сакријете од других апликација, употребите Сакриј функцију."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Скривене фасцикле"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Управљај скривеним фасциклама"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Изгледа да немате ни једну фасциклу скривену са \\\".nomedia\\\" датотеком."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "You have to grant the app All Files access to see hidden files, else it cannot work."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Уколико фасцикла или нека од фасцикли које је садржавају имају тачку на почетку имена, не могу се открити на овај начин. Морате да уклоните тачку из нјеног имена да бисте је открили."
+    },
+    {
+      "name": "include_folders",
+      "value": "Укључене фасцикле"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Управљај укљученим фасциклама"
+    },
+    {
+      "name": "add_folder",
+      "value": "Додај фасциклу"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Ако имате неке фасцикле које садрже медију, али нису препознате од стране апликације, можете их додати ручно овде.\r\n\\n\r\n\\nДодавањем неких ставки овде нећете изузети неку другу фасциклу."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Није пронађена ниједна медијска датотека. Можете га решити тако што ћете ручно додати фасцикле које садрже медијске датотеке."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Промени величину одабраног и сачувај"
+    },
+    {
+      "name": "width",
+      "value": "Ширина"
+    },
+    {
+      "name": "height",
+      "value": "Висина"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Задржи пропорције"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Унесите исправну резолуцију"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Resize multiple images"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Resize factor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resize images to the given percentage, value must be within 10 and 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Enter a number between 10 and 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Images resized successfully"
+    },
+    {
+      "name": "editor",
+      "value": "Едитор"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Basic Editor"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Advanced Editor"
+    },
+    {
+      "name": "rotate",
+      "value": "Ротирај"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Неисправна стаза слике"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Неважећа путања видеа"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Измена слике неуспешна"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Уређивање видеа није успело"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Уређивање слике је отказано"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Уређивање видеа је отказано"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Датотека је успешно измењена"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Слика је успешно измењена"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Видео је успешно уређен"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Измени слику са:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Измени видео са:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Није пронађен едитор слика"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Није пронађен ниједан видео уређивач"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Непозната локација датотеке"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Не могу да препишем изворну датотеку"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Ротирај лево"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Ротирај десно"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Ротирај за 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Transform"
+    },
+    {
+      "name": "crop",
+      "value": "Crop"
+    },
+    {
+      "name": "draw",
+      "value": "Draw"
+    },
+    {
+      "name": "flip",
+      "value": "Заврти"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Заврти хоризонтално"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Заврти вертикално"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Слободна пропорција"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Друга пропорција"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Једноставна позадина"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Подеси као позадину"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Подешавање позадине неуспешно"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Подеси као позадину са:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Подешавам позадину…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Позадина је успешно подешена"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Пропорција портрета"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Пропорција пејзажа"
+    },
+    {
+      "name": "home_screen",
+      "value": "Почетни екран"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Закључај екран"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Почетни и закључани екран"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Дозволите промену односа ширине и висине"
+    },
+    {
+      "name": "slideshow",
+      "value": "Слајдшоу"
+    },
+    {
+      "name": "interval",
+      "value": "Интервал"
+    },
+    {
+      "name": "include_photos",
+      "value": "Садржи слике"
+    },
+    {
+      "name": "include_videos",
+      "value": "Садржи видео снимке"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Садржи ГИФове"
+    },
+    {
+      "name": "random_order",
+      "value": "Насумични редослед"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Помери уназад"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Понављај слајдшоу"
+    },
+    {
+      "name": "animation",
+      "value": "Анимација"
+    },
+    {
+      "name": "no_animation",
+      "value": "None"
+    },
+    {
+      "name": "fade",
+      "value": "Увенути"
+    },
+    {
+      "name": "slide",
+      "value": "Slide"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Слајдшоу се завршио"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Нису пронађени медији за слајдшоу"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Групирај директне подфасцикле"
+    },
+    {
+      "name": "group_by",
+      "value": "Групиши према"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Не групиши датотеке"
+    },
+    {
+      "name": "by_folder",
+      "value": "Фасцикла"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Задње измењено"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Последња измена (свакодневно)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Последња измена (месечно)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Датум настанка"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Датум снимања (дневно)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Датум снимања (дневно)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Тип датотеке"
+    },
+    {
+      "name": "by_extension",
+      "value": "Тип датотеке"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Прикажи број датотека у заглављима одељка"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Имајте на уму да су груписање и сортирање 2 различите ствари"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Фасцикла приказана у виџету:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Прикажи име фасцикле"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Пуштај видео снимке аутоматски"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Запамти позицију задње пуштаног видеа"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Пуштај видео снимке у недоглед"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Анимирај ГИФове на сличицама"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Максимално осветљење када се пушта медиј преко целог екрана"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Скрати сличице у квадрате"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Прикажи дужину видео снимака"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Ротирај медиј преко целог екрана за"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Системска подешавања"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Ротација уређаја"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Пропорције"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Црна позадина на приказу преко целог екрана"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Скролуј сличице хоризонтално"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Аутоматски сакриј системски кориснички интерфејс приликом пуштања преко целог екрана"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Обриши празне фасцикле након брисања њиховог садржаја"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Дозволи контролисање осветљења слика са вертикалним покретима"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Дозволи контролисање јачине звука видео снимка и осветљења са вертикалним покретима"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Прикажи број медија у фасцикли на главном прегледу"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Прикажи више детаља преко медија пуштеног преко целог екрана"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Управљај дотатним детаљима"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Омогући зумирање једним прстом код медија на целом екрану"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Дозволи брзо мењање медија кликом на стране екрана"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Дозволи дубоко зумирање слика"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Сакриј додатне детаље када је статусна трака скривена"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Прикажи дугмиће за неке акције на дну екрана"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Прикажи канту за отпатке на екрану са фасциклама"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Дубоко зумирајуће слике"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Прикажи слике у највећем могућем квалитету"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Прикажи канту за отпатке као задњу ставку на главном екрану"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Дозволи затварање приказа преко целог екрана са покретом на доле"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Дозволи 1:1 зумирање са два дводупла притиска на екран"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Увек отварај видео снимке наз асебном екрану са новим хоризонталним гестикулацијама"
+    },
+    {
+      "name": "show_notch",
+      "value": "Прикажи исечак уколико је доступан"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Дозволи ротацију слика гестикулацијама"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Приоритет приликом учитавања фајла"
+    },
+    {
+      "name": "speed",
+      "value": "Брзина"
+    },
+    {
+      "name": "compromise",
+      "value": "Компромис"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Не приказуј оштећене датотеке"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Прикажи типове сликовних датотека"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Дозволите зумирање видео снимака двоструким додиром на њих"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Стил сличице директоријума"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Стил минијатуре датотеке"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Означите омиљене ставке"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Размак између сличица"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Прикажи број датотека у посебном реду"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Прикажи број датотека у заградама"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Не приказуј број датотека"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Ограничите дуге наслове фасцикли на 1 ред"
+    },
+    {
+      "name": "square",
+      "value": "Квадрат"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Заобљени углови"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Извезите путање омиљених датотека"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Import favorites"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Paths imported successfully"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Да бисте били сигурни да све операције са датотекама раде поуздано, учините ову апликацију апликацијом за управљање медијима у подешавањима уређаја."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Заштита лозинком искључена видљивост фасцикле"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Нешто је пошло наопако, идите на Подешавања уређаја – Апликације – Приступ посебним апликацијама – Апликације за управљање медијима и дозволите овој апликацији да управља медијима."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Ако преусмеравање не функционише, идите у Подешавања уређаја - Апликације - Приступ посебним апликацијама - Апликације за управљање медијима и дозволите овој апликацији да управља медијима."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Ако то не желите да урадите, такође можете да одете у Подешавања свог уређаја - Апликације - Приступ посебним апликацијама - Апликације за управљање медијима и дозволите овој апликацији да управља медијима."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Алтернативно, можете дозволити приступ само медијским датотекама. У том случају нећете моћи да радите са скривеним датотекама."
+    },
+    {
+      "name": "media_only",
+      "value": "Само медији"
+    },
+    {
+      "name": "all_files",
+      "value": "Све датотеке"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Search all files instead of folders on the main screen"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Show a menu button for toggling Show All Folders Content quickly"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Сличице"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Медији преко целог екрана"
+    },
+    {
+      "name": "extended_details",
+      "value": "Додатни детаљи"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Акције на дну"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Управљај са видљивим акцијама на дну"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Укључите фаворит"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Укључи/искључи видљивост датотеке"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Прилагођен"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Ресетовање"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Квадрат"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Трансформисати"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Филтер"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Ниједан"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Подесите"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Сенке"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Изложеност"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Акценти"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Осветљеност"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Контраст"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Засићење"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Јасноћа"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Гама"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Црнци"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Белци"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Температура"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Оштрина"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Reset"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Концентрација"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "None"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Радиал"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Linear"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Огледало"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussian"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Add text"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Text"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Text Options"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Text Color"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Add"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Уредити"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Исправити"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "BG Color"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Поравнање"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Напред"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Избриши"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Ваш текст"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Четка"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Боја"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Величина"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Тврдоћа"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Напред"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Боја четке"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Затворити уређивач\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Да ли заиста желите да одбаците промене\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Да"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Не"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Поништити"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Прихвати"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Cачувати"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Извоз…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Извоз%s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Налепница"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Боја налепнице"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Опције налепница"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Додати"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Боја"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Избриши"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Напред"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Исправи се"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Заменити"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Непрозирност"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Контраст"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Засићење"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Осветљеност"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Преузимања"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Преклапање"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Нормално"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Потамнити"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Екран"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Преклапање"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Посветлити"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Помножити"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Боје горе"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Меко светло"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Тешко светло"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Ниједан"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Златан"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Пренос светлости 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Мозаик"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Папир"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Киша"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Берба"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Окрените Х"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Окрените В"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Поништи"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Понови"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Бирач боја"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Транспарент"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Бела"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Сиво"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Црно"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Светло плава"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Плави"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Љубичаста"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Орхидеја"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Ружичаста"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Црвенo"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Наранчаста"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Злато"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Жута"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Маслина"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Зеленo"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Aquamarin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Боја за пипетирање"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Трим"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Како да подесим Једноставну галерију да буде главна галерија уређаја\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Први морате да нађете тренутну главну галерију у Апликације секцији подешавања вашег уређаја, потражите дугме које каже нешто попут \\\"Отвори по дифолту\\\", кликни на то, затим изабери \\\"Уклони дифолт\\\". Следећи пут када покушате да отворите слику или видео требало би да видите изабирач апликација, где можете да изаберете Једноставну галерију и учините је подразумевајућом апликацијом."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Закључао сам апликацију са шифром и заборавио шифру. Како да решим проблем\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Постоје 2 начина. Можете да обришете апликацију, или да нађете апликацију у подешавањима и кликнете на \\\"Обриши податке\\\". То ће ресетовати сва подешавања, али неће обрисати медија фајлове."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Како да подесим да се неки албум увек појављује на врху\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Дуго притисните на жељени албум и изаберите Закачи икону у менију за акције, то ће га поставити на врх. Можете да закачите више фасцикли истовремено, с тим што ће бити сортирани према подразумевајућем методу за сортирање."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Како да премотавам видео снимке\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "То можете да урадите тако што ћете двапут куцнути на бочну страну екрана или куцнути текст тренутног или максималног трајања близу траке за претрагу. Ако омогућите отварање видео записа на посебном екрану у подешавањима апликације, можете да користите и хоризонталне покрете."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Која је разлика између скривања и изузимања фасцикле\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Изузимање спречава приказивање фасцикле само у Једноставној галерији, док се скривање односи на цео систем и скрива фасциклу од свих других галерија. Он функционише тако што прави празан \\\".nomedia\\\" фајл у задатој фасцикли, који затим можете да уклоните са било којим фајл менаџером. Note that some devices do not allow hiding folders like Camera, Screenshots and Downloads."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Зашто се фасцикле са сликама музичких извођача или налепницама приказују\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Може се десити да се приказују неки необични албуми. Можете их лако изузети дугим притиском, а затим одабиром Изузми. У следећем дијалогу можете изабрати фасциклу родитеља, шансе су да ће спречити све остале албуме од приказивања."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Фасцикла са сликама се не приказује, или не приказује све ставке. Шта да урадим\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Може бити више разлога, али решење је лако. Идите у Подешавања -> Управљај садржаним фасциклама, изаберите плус и изаберите жељену фасциклу."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Шта ако желим само неколико одређених фасцикли у приказу\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Додавањем фасцикли у Садржаним фасциклама не изузима аутоматски ништа. Оно што можете је да одете у Подешавања -> Управљај изузетим фасциклама, изузмете почетну фасциклу \\\"/\\\", а затим додате жељене фасцикле у Подешавања -> Управљај садржаним фасциклама. То ће учинити да се само одређене фасцикле приказују, јер и изузимање и укључивање су рекурзивни и ако је нека фасцикла и изузета и садржана, она ће се појавити."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Да ли могу да исечем слику са овом апликацијом\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Да, можете да сечете слике са едитором, повлачењем ивица слике. Можете ући у едитор дугим притиском на сличицу слике и одабирањем Измени, или избором Измени из приказа преко целог екрана."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Да ли могу да групишем сличице медија\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Да, само употребите \\\"Групиши према\\\" мени ставку док сте у прегледу са сличицама. Можете да групишете датотеке према више критеријума, укључујући датум креирања. Ако користите \\\"Прикажи садржај свих фасцикли\\\" функцију, можете да их групишете и према фасциклама."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Сортирање према датуму креирања не ради како треба, како да га поправим\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Највероватнији узрок су датотеке које се копирају од некле. То можете поправити селектовањем сличице датотеке и изабиром \\\"Исправи датум креирања\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Имам проблема са приказом боја у сликама. Како да унапредим квалитет приказа слика\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Тренутно решење за приказивање слика функционише добро у већини случајева, али ако хоћете још бољи квалитет слика, можете да укључите \\\"Прикажи слике у најбољем могућем квалитету\\\" у подешавањима апликације, у \\\"Дубоко зумирање слика\\\" секцији."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Имам скривену датотеку/фасциклу. Како да је приказујем поново\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Можете да притиснете \\\"Привремено прикажи скривене ставке\\\" мени ставку на главном екрану, или да измените \\\"Прикажи скривене ставке\\\" у подешавањима апликације, да видите скривене ставке. Ако желите да је учините видљивом, једноставно је дуго притисните и изабеерите \\\"Откриј\\\". Фасцикле су скривене додавањем скривене \\\".nomedia\\\" датотеке у њих, које можете да обришете у било ком менаџеру датотека. Note that hiding works recursively though, so if you hide a folder, all subfolders will become hidden too. So for unhiding the subfolders you have to unhide the parent folder."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Зашто апликација заузима толико простора\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Кеш апликација може да потраје до 250MB, обезбеђује брже учитавање слике. Ако апликација заузима још више простора, највероватније је узрок томе што имате ставке у корпи за отпатке. Ти фајлови се рачунају до величине апликације. Корпу за отпатке можете да обришете тако што ћете је отворити и избрисати све датотеке или из поставки апликације. Свака датотека у регалу се аутоматски брише након 30 дана."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Шта се десило са скривањем датотека и фасцикли и зашто више не могу да видим скривене ставке\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Почевши од Андроида 11 више не можете да сакријете или откријете датотеке или фасцикле, скривене не можете да видите ни у апликацијама галерије. Мораћете да користите неки менаџер датотека за то."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Или такође можете да одобрите приступ овој галерији свим датотекама преко подешавања вашег уређаја, што ће нам омогућити да приказујемо скривене ставке и генерално поузданије операције са датотекама."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Зашто више не могу да укључим фасцикле које недостају\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "То је престало да ради због системских промена које су стигле и са Андроид 11, апликација више не може да прегледа праве фасцикле, ослања се на такозвани МедиаСторе при преношењу података."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Зашто видим огласе током репродукције видео записа\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Наше апликације немају никакве огласе. Ако их видите током репродукције видео записа, сигурно користите неки други видео плејер апликација. Покушајте да пронађете подразумевани видео плејер у поставкама уређаја, а затим на њему урадите \\\"Обриши подразумеване вредности\\\". Када се следећи пут позовете на неку намеру видео записа видећете одзивник за одабирач апликација, где можете да изаберете коју апликацију желите да користите."
+    }
+  ]
+}

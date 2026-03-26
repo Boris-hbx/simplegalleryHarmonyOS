@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Yksinkertainen galleria"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galleria"
+    },
+    {
+      "name": "edit",
+      "value": "Muokkaa"
+    },
+    {
+      "name": "open_camera",
+      "value": "Avaa kamera"
+    },
+    {
+      "name": "hidden",
+      "value": "(piilotettu)"
+    },
+    {
+      "name": "excluded",
+      "value": "(ohitettu)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Kiinnitä kansio"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Poista kiinnitys"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Kiinnitä ylimmäksi"
+    },
+    {
+      "name": "show_all",
+      "value": "Näytä kaikkien kansioiden sisältö"
+    },
+    {
+      "name": "all_folders",
+      "value": "Kaikki kansiot"
+    },
+    {
+      "name": "folder_view",
+      "value": "Vaihda kansionäkymään"
+    },
+    {
+      "name": "other_folder",
+      "value": "Muu kansio"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Näytä kartalla"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Tuntematon sijainti"
+    },
+    {
+      "name": "volume",
+      "value": "Tilavuus"
+    },
+    {
+      "name": "brightness",
+      "value": "Kirkkaus"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Lukitse näytön kierto"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Vapauta näytön kierto"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Vaihda näytön kiertoa"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Pakota pystysuunta"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Pakota vaakasuunta"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Käytä oletuskiertoa"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Korjaa kuvanottopäivämäärät"
+    },
+    {
+      "name": "fixing",
+      "value": "Korjataan…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Päivämäärät korjattu"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Kuvanottopäivämääriä ei löytynyt"
+    },
+    {
+      "name": "share_resized",
+      "value": "Jaa versio, jonka kokoa on muutettu"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Vaihda tiedostohakuun kaikissa näkyvillä olevissa kansioissa"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Aseta oletushakemistoksi"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Älä käytä oletushakemistona"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Järjestä kansiot uudelleen vetämällä"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Järjestä kansiot uudelleen vetämällä (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Palautetaan kohteeseen '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Suodata media"
+    },
+    {
+      "name": "images",
+      "value": "Kuvat"
+    },
+    {
+      "name": "videos",
+      "value": "Videot"
+    },
+    {
+      "name": "gifs",
+      "value": "GIFit"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW-kuvat"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG:t"
+    },
+    {
+      "name": "portraits",
+      "value": "Potretit"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Mediaa ei löytynyt valituilla suotimilla."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Muuta suotimia"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Tämä piilottaa kansion ja alikansiot lisäämällä '.nomedia' tiedoston kansioon. Näet ne valitsemalla 'Näytä piilotetut kansiot' asetuksissa. Jatketaanko\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Tämä poissulkee valitun ja alikansiot vain Simple Gallerysta. Voit hallinnoida poissuljettuja kansioita asetuksista."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Poissulje yläkansio tämän sijaan\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Kansion poissulkeminen piilottaa kansion alikansioineen vain Simple Galleryssa, ne jäävät näkyviin muihin sovelluksiin.\r\n\\n\r\n\\nJos haluat piilottaa kansion myös muissa sovelluksissa, käytä piilota-toimintoa."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Piilotetut kansiot"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Hallitse piilotettuja kansioita"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Näyttää siltä, että sinulla ei ole kansioita piilotettuna \\\".nomedia\\\" -tiedostolla."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Sovellukselle on myönnettävä kaikkien tiedostojen käyttöoikeus, jotta se näkee piilotiedostot, tai se ei toimi."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Jos kansion tai yhdenkin sen yläkansion nimi alkaa pisteellä, se piilotetaan. Kansio voidaan näyttää vain poistamalla piste nimen edestä."
+    },
+    {
+      "name": "include_folders",
+      "value": "Sisällytä kansiot"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Hallitse sisällettyjä kansioita"
+    },
+    {
+      "name": "add_folder",
+      "value": "Lisää kansio"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Jos sinulla on kansioita, jotka sisältää mediatiedostoja, mutta sovellus ei tunnistanut niitä, voit lisätä ne manuaalisesti tähän.\r\n\\n\r\n\\nLisääminen ei poissulje muita kansioita."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Mediatiedostoja ei löytynyt. Lisää mediatiedostoja sisältävät kansiot manuaalisesti."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Rajaa valinta ja tallenna"
+    },
+    {
+      "name": "width",
+      "value": "Leveys"
+    },
+    {
+      "name": "height",
+      "value": "Korkeus"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Säilytä kuvasuhde"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Aseta oikea resoluutio"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Muuta useamman kuvan kokoa"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Koon kerroin"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Muuta kuvien kokoa annettuun prosenttiosuuteen, arvon on oltava 10 ja 90 väliltä."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Syötä numero väliltä 10 ja 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Kuvien koot muutettu"
+    },
+    {
+      "name": "editor",
+      "value": "Editori"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Peruseditori"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Edistynyt editori"
+    },
+    {
+      "name": "rotate",
+      "value": "Käännä"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Virheellinen kuvan polku"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Virheellinen videon polku"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Kuvan muokkaus epäonnistui"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Videon muokkaus epäonnistui"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Kuvan muokkaus peruttu"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Videon muokkaus peruttu"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Tiedoston muokkaus onnistui"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Kuvan muokkaus onnistui"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Videon muokkaus onnistui"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Muokkaa kuvaa:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Muokkaa videota:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Kuvamuokkainta ei löytynyt"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Videoeditoria ei löytynyt"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Tuntematon tiedostosijainti"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Lähdetiedoston ylikirjoitus epäonnistui"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Kierrä vasemmalle"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Kierrä oikealle"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Kierrä 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Muunna"
+    },
+    {
+      "name": "crop",
+      "value": "Leikkaa"
+    },
+    {
+      "name": "draw",
+      "value": "Piirrä"
+    },
+    {
+      "name": "flip",
+      "value": "Käännä"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Käännä vaakasuoraan"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Käännä pystysuoraan"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Vapaa"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Muu"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Simple Wallpaper"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Aseta taustakuvaksi"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Taustakuvan asetus epäonnistui"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Aseta taustakuvaksi sovelluksella:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Asetetaan taustakuvaa…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Taustakuva asetettu onnistuneesti"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Kuvasuhde pystyssä"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Kuvasuhde vaakatasossa"
+    },
+    {
+      "name": "home_screen",
+      "value": "Aloitusnäyttö"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Lukitusnäyttö"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Aloitusnäyttö ja lukitusnäyttö"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Salli kuvasuhteen muuttaminen"
+    },
+    {
+      "name": "slideshow",
+      "value": "Diaesitys"
+    },
+    {
+      "name": "interval",
+      "value": "Aikaväli"
+    },
+    {
+      "name": "include_photos",
+      "value": "Sisällytä Kuvat"
+    },
+    {
+      "name": "include_videos",
+      "value": "Sisällytä Videot"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Sisällytä GIFit"
+    },
+    {
+      "name": "random_order",
+      "value": "Satunnainen järjestys"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Liiku takaisinpäin"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Jatkuva diaesitys"
+    },
+    {
+      "name": "animation",
+      "value": "Animaatio"
+    },
+    {
+      "name": "no_animation",
+      "value": "Ei mitään"
+    },
+    {
+      "name": "fade",
+      "value": "Häivytys"
+    },
+    {
+      "name": "slide",
+      "value": "Liuku"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Diaesitys päättyi"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Mediaa diaesitykseen ei löytynyt"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Ryhmitä välittömät alikansiot"
+    },
+    {
+      "name": "group_by",
+      "value": "Ryhmitä"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Älä ryhmitä tiedostoja"
+    },
+    {
+      "name": "by_folder",
+      "value": "Kansio"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Viimeksi muokattu"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Viimeksi muokattu (päivittäinen)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Viimeksi muokattu (kuukausittainen)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Kuvanottopäivämäärä"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Kuvanottopäivämäärä (päivittäinenen)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Kuvanottopäivämäärä (kuukausittainen)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Tiedoston tyyppi"
+    },
+    {
+      "name": "by_extension",
+      "value": "Tiedoston pääte"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Näytä tiedostojen lukumäärä otsakkeissa"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Huomoi, että ryhmitys ja lajittelu ovat kaksi eri toimintoa"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Pienoissovelluksessa näytettävä kansio:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Näytä kansion nimi"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Toista videot automaattisesti"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Muista toistokohta"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Jatkuvat videot"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animoi GIFit pienoiskuvissa"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Täysi kirkkaus mediaa katsoessa"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Leikkaa pienoiskuvat neliöiksi"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Näytä videon kesto"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Käännä koko ruudun mediaa"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Järjestelmän asetukset"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Laitteen kierto"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Kuvasuhde"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Musta tausta ja tilapalkki täyden ruudun tilassa"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Vieritä pienoiskuvia vaakasuorassa"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Piilota järjestelmän UI automaattisesti koko näytön mediassa"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Poista tyhjät kansiot kansion tyhjennyksen jälkeen"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Salli kirkkauden säätäminen pystysuorilla eleillä"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Salli videon äänenvoimakkuuden ja kirkkauden säätö pystysuorilla eleillä"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Näytä kansioiden sisällön määrä päänäkymässä"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Näytä yksityiskohtaiset tiedot täyden näytön tilassa"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Hallitse yksityiskohtaisia tietoja"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Salli lähentäminen yhdellä sormella täyden ruudun tilassa"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Salli median selaaminen ruudun reunoja koskettamalla"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Ota käyttöön kuvien syväzoomaus"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Piilota yksityiskohtaiset tiedot kun tilapalkki on piilotettu"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Näytä toimintapainikkeita ruudun alaosassa"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Näytä roskakori kansionäkymässä"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Syväzoomattavat kuvat"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Näytä kuvat korkeimmalla mahdollisella laadulla"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Näytä roskakori viimeisenä kohteena päänäkymässä"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Poistu koko näytön näkymästä alasvetoeleellä"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Lähennä 1:1 kahdella tuplanapautuksella"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Avaa videot aina erillisellä ruudulla uusilla vaakasuuntaisilla eleillä"
+    },
+    {
+      "name": "show_notch",
+      "value": "Näytä lovi, jos käytössä"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Käännä kuvia eleillä"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Tiedostojen latausprioriteetti"
+    },
+    {
+      "name": "speed",
+      "value": "Nopeus"
+    },
+    {
+      "name": "compromise",
+      "value": "Kompromissi"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Vältä epäkelpojen tiedostojen näyttämistä"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Näytä kuvatiedostojen tyypit"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Lähennä videoita tuplanapautuksella"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Kansion pienoiskuvan tyyli"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Tiedoston pienoiskuvan tyyli"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Merkitse suosikkikohteet"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Pienoiskuvan asettelu"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Näytä tiedostojen lukumäärä erillisellä rivillä"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Näytä tiedostojen lukumäärä suluissa"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Älä näytä tiedostojen lukumäärää"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Rajoita pitkät kansioiden nimet yhdelle riville"
+    },
+    {
+      "name": "square",
+      "value": "Neliö"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Pyöristetyt kulmat"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Vie suosikit"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Tuo suosikit"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Sijaintien tuonti onnistui"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Varmistaaksesi, että kaikki tiedostotoiminnot toimivat luotettavasti, tee tästä sovelluksesta medianhallintasovellus laitteen asetuksissa."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Suojaa salasanalla pois suljettujen kansioiden näkyvyys"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Jokin meni pieleen, mene laitteesi Asetukset - Sovellukset - Erikoissovellusten käyttöoikeus - Medianhallintasovellukset ja salli tämän sovelluksen hallita mediaa."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Jos uudelleenohjaus ei toimi, siirry laitteesi Asetukset - Sovellukset - Erikoissovellusten käyttöoikeus - Medianhallintasovellukset ja salli tämän sovelluksen hallita mediaa."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Jos et halua tehdä sitä, voit myös mennä laitteesi Asetukset - Sovellukset - Erikoissovellusten käyttöoikeus - Medianhallintasovellukset ja sallia tämän sovelluksen hallita mediaa."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Vaihtoehtoisesti voit myöntää vain mediatiedostojen käyttöoikeuden, joskaan tällöin et voi käsitellä piilotiedostoja."
+    },
+    {
+      "name": "media_only",
+      "value": "Vain media"
+    },
+    {
+      "name": "all_files",
+      "value": "Kaikki tiedostot"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Etsi kaikista tiedostoista pelkän päänäytön sijaan"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Näytä valikkopainike kaikkien kansioiden näytön nopeaa kytkentää varten"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Esikatselukuvat"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Täyden näytön media"
+    },
+    {
+      "name": "extended_details",
+      "value": "Yksityiskohtaiset tiedot"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Alareunan toiminnot"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Hallitse näkyviä alarivin toimintoja"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Vaihda suosikki"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Tiedoston näkyvyyden muutos"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Vapaa"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Nollaa"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Neliö"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Muunna"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Suodatin"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Ei mitään"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Säädöt"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Varjot"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Valotus"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Kirkkaat alueet"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Kirkkaus"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Kontrasti"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Värikylläisyys"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Terävyys"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Mustat"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Valkoiset"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Lämpötila"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Tarkkuus"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Nollaa"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Kohdista"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Ei mitään"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Säteittäinen"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Lineaarinen"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Peilattu"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussian"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Lisää tekstiä"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Teksti"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Tekstiasetukset"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Tekstin väri"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Fontti"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Lisää"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Muokkaa"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Suorista"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Fontti"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Väri"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Taustaväri"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Tasaus"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Eteen"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Poista"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Tekstisi"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Sivellin"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Väri"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Koko"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Kovuus"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Eteen"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Poista"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Siveltimen väri"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editori"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Suljetaanko editori\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Haluatko varmasti hylätä muutokset\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Kyllä"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Ei"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Peruuta"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Hyväksy"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Tallenna"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Viedään…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Viedään %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Tarra"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Tarran väri"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Tarran asetukset"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Lisää"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Väri"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Poista"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Eteen"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Suorista"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Korvaa"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Läpinäkyvyys"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Kontrasti"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Värikylläisyys"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Kirkkaus"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Lataukset"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Päällys"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normaali"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Tummenna"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Näyttö"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Päällys"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Valaise"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Monista"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Väripoltto"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Kevyt valo"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Kova valo"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Ei mitään"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Kultainen"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Valovuoto 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaiikki"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Paperi"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Sade"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Käännä vaakasuunnassa"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Käännä pystysuunnassa"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Kumoa"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Tee uudelleen"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Värivalitsin"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Läpinäkyvä"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Valkoinen"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Harmaa"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Musta"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Vaaleansininen"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Sininen"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Violetti"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orkidea"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Vaaleanpunainen"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Punainen"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Oranssi"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Kulta"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Keltainen"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Oliivi"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Vihreä"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Akvamariini"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Poimi väri"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Leikkaa"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Miten voin tehdä Simple Gallerystä oletusgalleriasovelluksen\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Etsi ensin laitteen asetuksista oletusgalleriasovellus, valitse sen asetuksista \\\"Avaa oletuksena\\\" ja valitse \\\"Poista oletukset\\\". Seuraavalla kerralla kun avaat kuvan tai videon, pyydetään valitsemaan uusi oletussovellus."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Lukitsin sovelluksen salasanalla, jonka unohdin. Mitä voin tehdä\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Tähän on kaksi ratkaisua. Voit joko asentaa sovelluksen uudelleen tai etsiä sovelluksen laitteen asetuksista ja tyhjentää sovelluksen tiedot. Sovelluksen asetukset nollautuvat, mutta mediatiedostoja ei poisteta."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Kuinka saan albumin näkymään aina ylhäällä\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Paina pitkään haluamaasi albumia ja valitse Kiinnitä toimintovalikosta. Voit kiinnittää useita kansiota, kiinnitetyt kansiot järjestetään oletuksena olevalla järjestystavalla."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Kuinka voin kelata videota nopeasti eteenpäin\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Tuplaklikkaa haluamaasi puolta ruudusta. Voit myös napauttaa hakupalkin vierestä kestoa kuvaavaa tekstiä. Jos käytössä on videoiden avaus erillisellä ruudulla, voit käyttää vaakatasoeleitä."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Mitä eroa on kansion piilotuksella ja poissululla\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Poissulku piilottaa kansion vain Simple Galleryssä, piilotus taas piilottaa järjestelmänlaajuisesti muistakin galleriasovelluksista. Piilotustoiminto luo kansioon tyhjän \\\".nomedia\\\"-tiedoston jonka voi tarvittaessa poistaa millä tahansa tiedostonhallintasovelluksella. Huomioi, että jotkin laitteet eivät salli joidenkin kansioden, kuten Camera, Screenshots ja Downloads, piilotusta."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Miksi galleriassa näkyy kansioita musiikkialbumien kansitaiteella tai tarroilla\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Voi olla, että joitain epätavallisia albumeita näytetään. Voit poissulkea ne helposti painamalla pitkään albumia ja valitsemalla Poissulje. Avautuvassa valikossa voit valita yläkansion, jonka poissulku mahdollisesti estää myös muiden epätoivottujen albumien näkymisen."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Kuvan sisältävä kansio ei näy tai siinä ei näy kaikkia kuvia. Mitä voin tehdä\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Tämä voi johtua useasta syystä, mutta ratkaisu on helppoa. Mene asetuksiin -> Hallitse sisällytettyjä kansioita -> Plus-painike -> Navigoi haluaamasi kansioon."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Mitä jos haluan vain muutaman tietyn kansion näkyviin\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Kansion lisääminen sisällytettyihin kansioihin ei automaattisesti poissulje muita kansioita. Voit mennä asetuksiin -> Hallitse poissuljettuja kansioita -> poissulje juurikansio \\\"/\\\", sen jälkeen lisää haluamasi näytettävät kansiot asetuksien Hallitse sisällytettyjä kansioita-toiminnolla. Siten vain valitut kansiot näytetä. Poissulku ja sisällyttäminen ovat rekursiivisia, mutta jos kansio kuuluu molempiin, se näytetään."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Voinko rajata kuvia tällä sovelluksella\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Kyllä, voit rajata kuvia editorissa vetämällä kuvan kulmista. Pääset editoriin joko painamalla pitkään pienoiskuvaa ja valitsemalla Muokkaa, tai valitsemalla Muokkaa koko näytön tilassa."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Voinko ryhmittää mediatieodostojen pienoiskuvia jotenkin\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Jep, käytä vain \\\"Ryhmitä\\\"-valintaa pienoiskuvanäkymässä. Voit ryhmittää tiedostoja useilla kriteereillä, kuten kuvanottopäivämäärän mukaan. Jos käytät \\\"Näytä kansion koko sisältö\\\" -toimintoa, voit ryhmittää myös kansioiden perusteella."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Lajittelu ottopäivämäärän mukaan ei vaikuta toimivan oikein, kuinka voin korjata ongelman\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Luultavimmin tämä johtuu siitä, että kuvat on kopioitu. Voit korjata tämän valitsemalla pienoiskuvat ja valitsemalla \\\"Korjaa kuvanottopäivämäärät\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Kuvissa näkyy joitain väriraitoja. Miten voin parantaa laatua\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Nykyinen ratkaisu kuvien näyttämiseen toimii valtaosassa tapauksia hyvin, mutta jos haluat vielä paremman laadun, voit ottaa asetuksissa käyttöön \\\"Näytä kuvat korkeimmalla mahdollisella laadulla\\\", joka on \\\"Syväzoomattavat kuvat\\\" osiossa."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Olen piilottanut tiedoston/kansion. Miten saan sen näkyviin\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Voit joko painaa päänäytön valikosta \\\"Näytä piilotetut kohteet väliaikaisesti\\\" tai muuttaa \\\"Näytä piilotetut kohteet\\\"-asetusta asetuksissa. Paina sitten piilotettua kohdetta pitkään ja valitse \\\"Poista piilotus\\\". FKansiot piilotetaan lisäämällä niihin \\\".nomedia\\\" tiedosto, jonka voit poistaa millä tahansa tiedostonhallintasovelluksella. Huomaa, että piilottaminen toimii kuitenkin rekursiivisesti, joten jos piilotat kansion, myös kaikki alikansiot piilotetaan. Joten alikansioiden piilottamiseksi sinun on otettava yläkansion piilotus pois käytöstä."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Miksi sovellus vie niin paljon tilaa\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Välimuisti voi viedä jopa 250 Mt; se varmistaa nopeamman kuvien lataamisen. Jos sovellus vie vielä enemmän tilaa, se johtuu mitä ilmeisemmin roskakorissa olevista kohteista, joiden koko lasketaan sovelluksen kokoon. Voit tyhjentää roskakorin sovelluksen asetuksista tai avaamalla roskakorin sovelluksessa ja poistamalla kohteet. Roskakori tyhjennetään automaattisesti 30 päivän välein."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Mitä taphtui tiedostojen ja kansioiden piilotukselle ja miksi en nää enää piilotettuja kohteita\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Android 11:stä alkaen ei voi enää piilottaa tai poistaa piilotettuja tiedostoja tai kansioita, eikä näe piilotettuja tiedostoja tai kansioita galleriasovelluksissa järjestelmän rajoitusten vuoksi. On käytettävä jotain tiedostonhallintaohjelmaa siihen."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Tai voit myös myöntää tälle gallerialle kaikkien tiedostojen käyttöoikeuden laitteesi asetuksista, jolloin se voi näyttää myös piilotiedostot ja suorittaa yleisiä tiedostojen hallintatoimenpiteitä luotettavammin."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Miksi en voi enää sisällyttää puuttuvia kansioita\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Se lakkasi toimimasta Android 11:n mukana tulleiden järjestelmämuutosten vuoksi. Sovellus ei voi enää selata oikeita kansioita, vaan se luottaa niin sanottuun MediaStoreen tietojen hakemisessa."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Miksi näen mainoksia videon toiston aikana\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Sovelluksissamme ei ole lainkaan mainoksia. Jos näet niitä videon toiston aikana, sinun täytyy käyttää jotain muuta sovellusta videosoittimena. Yritä etsiä oletusarvoinen videosoittimesi laitteen asetuksista ja tee sitten ”Tyhjenä oletusasetukset” sille. Seuraavan kerran, kun kutsut jonkin videon aikomuksen, näet sovelluksen valintakehotuksen, jossa voit valita, mitä sovellusta haluat käyttää."
+    }
+  ]
+}

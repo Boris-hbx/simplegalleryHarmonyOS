@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Paprasta galerija"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galerija"
+    },
+    {
+      "name": "edit",
+      "value": "Redaguoti"
+    },
+    {
+      "name": "open_camera",
+      "value": "Atidaryti fotoaparatą"
+    },
+    {
+      "name": "hidden",
+      "value": "(paslėpta)"
+    },
+    {
+      "name": "excluded",
+      "value": "(neįtraukta)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Prisegti aplanką"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Atsegti aplanką"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Prisegti į viršų"
+    },
+    {
+      "name": "show_all",
+      "value": "Rodyti visų aplankų turinį"
+    },
+    {
+      "name": "all_folders",
+      "value": "Visi aplankai"
+    },
+    {
+      "name": "folder_view",
+      "value": "Perjungti į aplankų peržiūrą"
+    },
+    {
+      "name": "other_folder",
+      "value": "Kitas aplankas"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Rodyti žemėlapyje"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Nežinoma vieta"
+    },
+    {
+      "name": "volume",
+      "value": "Apimtis"
+    },
+    {
+      "name": "brightness",
+      "value": "Ryškumas"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Užrakinti orientaciją"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Atrakinti orientaciją"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Keisti orientaciją"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Force portrait"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Force landscape"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Use default orientation"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Fix Date Taken value"
+    },
+    {
+      "name": "fixing",
+      "value": "Fixing…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Dates fixed successfully"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "No Date Taken values have been found"
+    },
+    {
+      "name": "share_resized",
+      "value": "Share a resized version"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Switch to file search across all visible folders"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Set as default folder"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Unset as default folder"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Reorder folders by dragging"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Reorder folders by dragging (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Restoring to '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Filtruoti mediją"
+    },
+    {
+      "name": "images",
+      "value": "Paveikslai"
+    },
+    {
+      "name": "videos",
+      "value": "Vaizdo įrašai"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF'ai"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW images"
+    },
+    {
+      "name": "svgs",
+      "value": "SVGs"
+    },
+    {
+      "name": "portraits",
+      "value": "Portraits"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Su pasirinktais filtrais nerasta medijos bylų."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Pakeisti filtrus"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Ši funkcija slepia aplanką, pridedant į jį '. Nomedia ' bylą, jis taip pat slėps visus subaplankus. Galite juos peržiūrėti, perjunkite parinktį Rodyti paslėptus elementus \\\" skiltyje Nustatymai. Tęsti\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Tai pašalins pasirinkimą su jo aplankais tik iš Paprastos galerijos. Galite valdyti išskirtus aplankus skiltyje Nustatymai."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Vietoj to išskirti tėvinį\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "\"Išskyrus aplankus, jie bus sujungti su jų aplankais paslėpti tik Paprastoje galerijoje, jie vis tiek bus matomi kitose programose.  N  nJei norite paslėpti juos ir iš kitų programų, naudokite funkciją Slėpti.\""
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Paslėpti aplankai"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Tvarkyti paslėptus aplankus"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Atrodo, kad neturite jokių aplankų, paslėptų \\\". Nomedia \\\" bylos."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "You have to grant the app All Files access to see hidden files, else it cannot work."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "Įtraukti aplankai"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Tvarkyti įtrauktus aplankus"
+    },
+    {
+      "name": "add_folder",
+      "value": "Įtraukti aplanką"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "\"Jei turite tam tikrų aplankų, kuriuose yra medijos , bet kurių neneatpažįsta programėlė, galite juos pridėti rankiniu būdu.  N  nPridedant kai kuriuos elementus, neišskirsite jokio kito aplanko.\""
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "No media files have been found. You can solve it by adding the folders containing media files manually."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Pakeisti pasirinkto dydį ir išsaugoti"
+    },
+    {
+      "name": "width",
+      "value": "Plotis"
+    },
+    {
+      "name": "height",
+      "value": "Aukštis"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Išlaikyti proporcijas"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Prašome įvesti tinkamą raišką"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Resize multiple images"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Resize factor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resize images to the given percentage, value must be within 10 and 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Enter a number between 10 and 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Images resized successfully"
+    },
+    {
+      "name": "editor",
+      "value": "Redaktorius"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Basic Editor"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Advanced Editor"
+    },
+    {
+      "name": "rotate",
+      "value": "Sukti"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Netinkamas atvaizdo kelias"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Invalid video path"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Atvaizdo redagavimas nepavyko"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Video editing failed"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Image editing cancelled"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Video editing cancelled"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "File edited successfully"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Image edited successfully"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Video edited successfully"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Redaguoti atvaizdą su:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Edit video with:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Nerasta atvaizdų redagavimo programėlės"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "No video editor found"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Nežinoma bylos vieta"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Negalima perrašyti šaltinio bylos"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Sukti į kairę"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Sukti į dešinę"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Sukti 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Transform"
+    },
+    {
+      "name": "crop",
+      "value": "Crop"
+    },
+    {
+      "name": "draw",
+      "value": "Draw"
+    },
+    {
+      "name": "flip",
+      "value": "Apversti"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Apversti horizontaliai"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Apversti vertikaliai"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Free"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Other"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Paprastas darbalaukio fonas"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Nustatyti kaip darbalaukio foną"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Nustatyti darbalaukio fono nepavyko"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Nustatyti kaip darbalaukio paveikslėlį su:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Nustatomas darbalaukio paveikslėlis…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Darbalaukio foną nustatyti pavyko"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Portreto formato santykis"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Peizažo formato santykis"
+    },
+    {
+      "name": "home_screen",
+      "value": "Pagrindinis ekranas"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Užrakto ekranas"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Pagrindinis ir užrakto ekranas"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Allow changing the aspect ratio"
+    },
+    {
+      "name": "slideshow",
+      "value": "Skaidrių demonstracija"
+    },
+    {
+      "name": "interval",
+      "value": "Intervalas"
+    },
+    {
+      "name": "include_photos",
+      "value": "Įtraukti nuotraukas"
+    },
+    {
+      "name": "include_videos",
+      "value": "Įtraukti vaizdo įrašus"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Itraukti GIF'us"
+    },
+    {
+      "name": "random_order",
+      "value": "Atsitiktinė tvarka"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Sukti atgal"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Klipuoti skaidrių demonstraciją"
+    },
+    {
+      "name": "animation",
+      "value": "Animation"
+    },
+    {
+      "name": "no_animation",
+      "value": "None"
+    },
+    {
+      "name": "fade",
+      "value": "Fade"
+    },
+    {
+      "name": "slide",
+      "value": "Slide"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Skaidrių demonstracija pasibaigė"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Nerasta medijos skaidrių demonstracijai"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Group direct subfolders"
+    },
+    {
+      "name": "group_by",
+      "value": "Group by"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Do not group files"
+    },
+    {
+      "name": "by_folder",
+      "value": "Folder"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Last modified"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Last modified (daily)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Last modified (monthly)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Date taken"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Date taken (daily)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Date taken (monthly)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "File type"
+    },
+    {
+      "name": "by_extension",
+      "value": "Extension"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Show file count at section headers"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Please note that grouping and sorting are 2 independent fields"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Folder shown on the widget:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Show folder name"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Groti vaizdo įrašus automatiškai"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Remember last video playback position"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Klipuoti vaizdo įrašus"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animuoti GIF'us miniatiūrose"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Maksimalus ryškumas, kai medija peržiūrima viso ekrano rėžimu"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Apkirpti miniatiūras kvadratu"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Show video durations"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Sukti viso ekrano mediją pagal"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Sistemos nustatymai"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Įrenginio sukimas"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Padėties santykis"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Juodasis fonas ir būsenos juosta per visą ekraną"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Slinkti miniatiūras horizontaliai"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Automatiškai slėpti sistemos vartotojo sąsają per visą ekraną"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Ištrinti tuščius aplankus po jų turinio ištrynimo"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Leisti valdyti nuotraukų ryškumą vertikaliais gestais"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Leisti kontroliuoti vaizdo įrašo garsumą ir ryškumą vertikaliais gestais"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Rodyti aplanko bylų skaičių pagrindiniame rodinyje"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Rodyti išsamią informaciją per visą ekraną"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Tvarkykite išsamią informaciją"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Leisti vienu pirštu pritraukti viso ekrano rėžime"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Leiskite akimirksniu keisti mediją spustelėdami ekrano šonuose"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Allow deep zooming images"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Slėpti išsamią informaciją, kai būsenos juosta yra paslėpta"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Show some action buttons at the bottom of the screen"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Show the Recycle Bin at the folders screen"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Deep zoomable images"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Show images in the highest possible quality"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Show the Recycle Bin as the last item on the main screen"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Allow closing the fullscreen view with a down gesture"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Allow 1:1 zooming in with two double taps"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Always open videos on a separate screen with new horizontal gestures"
+    },
+    {
+      "name": "show_notch",
+      "value": "Show a notch if available"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Allow rotating images with gestures"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "File loading priority"
+    },
+    {
+      "name": "speed",
+      "value": "Speed"
+    },
+    {
+      "name": "compromise",
+      "value": "Compromise"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Avoid showing invalid files"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Show image file types"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Allow zooming videos with double tapping them"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Folder thumbnail style"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "File thumbnail style"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Mark favorite items"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Thumbnail spacing"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Show file count on a separate line"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Show file count in brackets"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Do not show file count"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Limit long folder titles to 1 line"
+    },
+    {
+      "name": "square",
+      "value": "Square"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Rounded corners"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Export favorites"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Import favorites"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Paths imported successfully"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "To make sure that all file operations work reliably, please make this app a Media management app in your device settings."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Slaptažodžiu apsaugokite neįtrauktų aplankų matomumą"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Something went wrong, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_note",
+      "value": "If the redirection does not work, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "If you do not want to do it, you can also go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternatively, you can allow accessing media files only. In that case you will not be able to work with hidden files though."
+    },
+    {
+      "name": "media_only",
+      "value": "Media only"
+    },
+    {
+      "name": "all_files",
+      "value": "All files"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Search all files instead of folders on the main screen"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Show a menu button for toggling Show All Folders Content quickly"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Miniatiūros"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Viso ekrano medija"
+    },
+    {
+      "name": "extended_details",
+      "value": "Išsami informacija"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Bottom actions"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Manage visible bottom actions"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Toggle favorite"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Toggle file visibility"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Custom"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Reset"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Square"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Transform"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filter"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "None"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Adjust"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Shadows"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Exposure"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Highlights"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Brightness"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Saturation"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Clarity"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Blacks"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Whites"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Temperature"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Sharpness"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Reset"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Focus"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "None"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radial"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Linear"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Mirrored"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussian"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Add text"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Text"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Text Options"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Text Color"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Add"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Edit"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Straighten"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "BG Color"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Alignment"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "To Front"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Your text"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Brush"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Size"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Hardness"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "To Front"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Brush Color"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Close Editor\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Do you really want to discard the changes\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Yes"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "No"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Accept"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Save"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Exporting…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Exporting %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Sticker"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Sticker Color"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Sticker Options"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Add"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "To Front"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Straighten"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Replace"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opacity"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Saturation"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Brightness"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Uploads"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Overlay"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Darken"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Screen"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Overlay"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Lighten"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Multiply"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Color Burn"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Soft Light"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Hard Light"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "None"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Golden"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Lightleak 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaic"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Paper"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Rain"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Flip H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Flip V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Undo"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Redo"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Color Picker"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Transparent"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "White"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Gray"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Black"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Light blue"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Blue"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Purple"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orchid"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Pink"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Red"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Orange"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Gold"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Yellow"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Olive"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Green"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Aquamarin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Pipettable color"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Trim"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Kaip galiu padaryti paprastą galeriją kaip numatytąją įrenginio galeriją\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "\"Pirmiausia turite rasti numatytąją galeriją savo prietaiso nustatymų skyriuje Programėlės, ieškoti mygtuko panašaus į  Atidaryti pagal numatytuosius \\\", spustelėkite jį, tada pasirinkite  Išvalyti numatytuosius \\\". Kitą kartą, kai bandysite atidaryti atvaizdą ar vaizdo įrašą, turėtumėte pamatyti programos parinkiklį, kuriame galite pasirinkti Paprastą galeriją ir padaryti ją numatytaja.\""
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Aš užrakinau programėlę su slaptažodžiu, bet pamiršau jį. Ką aš galiu padaryti\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "\"Tai galite išspręsti dviem būdais. Galite arba iš naujo įdiegti programėlę, arba rasti programėlę savo įrenginio nustatymuose ir pasirinkti  Išvalyti duomenis \\\". Jis iš naujo nustatys visus jūsų nustatymus, bet nepašalins jokių medijos bylų.\""
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Kaip aš galiu padaryti albumą visada rodomą viršuje\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Galite ilgai paspausti norimą albumą ir pasirinkti Prisegti piktogramą, esančią meniu Veiksmo meniu, viršuje. Galite prisegti kelis aplankus, prisegti elementai bus rūšiuojami pagal numatytąjį rūšiavimo metodą."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Kaip galėčiau greitai prasukti vaizdo įrašus\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Koks skirtumas tarp slėpimo ir išskyrimo iš aplanko\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "\"Išskyrimas neleidžia rodyti aplanko tik paprastoje galerijoje, tuo tarpu slėpimas slepia aplanką iš kitų galerijų. Tai veikia, sukuriant tuščią  . Nomedia \\\" bylą tam tikrame aplanke, kurį vėliau galite pašalinti bet kuria bylų tvarkykle. Note that some devices do not allow hiding folders like Camera, Screenshots and Downloads.\""
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Kodėl pasirodo aplankai su muzikos viršeliu ar lipdukais\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Gali atsitikti taip, kad pamatysite keletą neįprastų albumų. Galite lengvai juos pašalinti, ilgai paspaudę juos ir pasirinkdami Išskirti. Kitame dialoge galite pasirinkti tėvinį aplanką, greičiausiai bus išvengta kitų panašių albumų."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Aplankas su nuotraukomis nerodomas, ką aš galiu padaryti\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Tai gali būti dėl keletos priežasčių, tačiau sprendimas yra lengvas. Tiesiog eikite į Nustatymai -> Tvarkyti įtrauktus aplankus, pasirinkite Plius ir eikite į reikiamą aplanką."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Ką daryti, jei noriu matyti tik keletą konkrečių aplankų\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "\"Pridėjus aplanką į Įtraukti aplankai, automatiškai neįtraukiama nieko. Ką jūs galite padaryti, eikite į Nustatymai -> Tvarkyti išskirtus aplankus, išskirkite šakninį aplanką  / \\\", tada pridėkite norimus aplankus, esančius Nustatymai -> Tvarkyti įtrauktas aplankas.\r\n\\n         Tai leis matyti tik tuos pasirinktus aplankus, nes abu atmetami ir įtraukti yra rekursyvūs, ir jei aplankas yra išskirtas ir įtrauktas, jis bus rodomas.\""
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Ar galiu apkarpyti vaizdus naudojant šią programėlę\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Taip, redaguodami vaizdus, galite juos apkarpyti, vilkdami vaizdo kampus. Galite patekti į redaktorių ilgai paspaudę vaizdo miniatiūrą ir pasirinkę Redaguoti arba iš viso ekrano rodinio pasirinkę Redaguoti."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Can I somehow group media file thumbnails\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Sure, just use the \\\"Group by\\\" menu item while at the thumbnails view. You can group files by multiple criteria, including Date Taken. If you use the \\\"Show all folders content\\\" function you can group them by folders too."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Sorting by Date Taken doesn't seem to work properly, how can I fix it\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "It is most likely caused by the files being copied from somewhere. You can fix it by selecting the file thumbnails and selecting \\\"Fix Date Taken value\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "I see some color banding on the images. How can I improve the quality\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "The current solution for displaying images works fine in the vast majority of cases, but if you want even better image quality, you can enable the \\\"Show images in the highest possible quality\\\" at the app settings, in the \\\"Deep zoomable images\\\" section."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "I have hidden a file/folder. How can I unhide it\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "You can either press the \\\"Temporarily show hidden items\\\" menu item at the main screen, or toggle \\\"Show hidden items\\\" in the app settings to see the hidden item. If you want to unhide it, just long press it and select \\\"Unhide\\\". Folders are hidden by adding a hidden \\\".nomedia\\\" file into them, you can delete the file with any file manager too. Note that hiding works recursively though, so if you hide a folder, all subfolders will become hidden too. So for unhiding the subfolders you have to unhide the parent folder."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Why does the app take up so much space\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "App cache can take up to 250MB, it ensures quicker image loading. If the app is taking up even more space, it is most likely caused by you having items in the Recycle Bin. Those files count to the app size. You can clear the Recycle bin by opening it and deleting all files, or from the app settings. Every file in the Bin is deleted automatically after 30 days."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "What happened to file and folder hiding and why cannot I see hidden items anymore\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Nuo \\\"Android 11\\\" nebegalite paslėpti arba panaikinti failų ar aplankų paslėpimo, taip pat paslėptų failų ar aplankų negalite matyti galerijos programėlėse. Tam turėsite naudoti kokį nors failų tvarkytuvą."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Or you can also grant this gallery access to All Files through your device settings, that will allow us showing hidden items and make file operations more reliable in general."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Why cannot I include missing folders anymore\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "That stopped working due to the system changes that came with Android 11 too, the app cannot browse real folders anymore, it relies on the so called MediaStore at fetching data."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Why do I see ads during video playback\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Our apps have no ads whatsoever. If you see them during video playback, you must be using some other apps video player. Try finding your default video player in the device settings, then do a \\\"Clear defaults\\\" on it. The next time you invoke some video intent you will see an app picker prompt, where you can select what app you want to use."
+    }
+  ]
+}

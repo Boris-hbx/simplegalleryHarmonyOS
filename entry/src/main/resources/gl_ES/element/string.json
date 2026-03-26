@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Galería Simple"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galería"
+    },
+    {
+      "name": "edit",
+      "value": "Editar"
+    },
+    {
+      "name": "open_camera",
+      "value": "Abrir cámara"
+    },
+    {
+      "name": "hidden",
+      "value": "(oculto)"
+    },
+    {
+      "name": "excluded",
+      "value": "(excluído)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Fixar cartafol"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Soltar cartafol"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Fixar arriba"
+    },
+    {
+      "name": "show_all",
+      "value": "Mostralo contido de todos os cartafoles"
+    },
+    {
+      "name": "all_folders",
+      "value": "Todolos cartafoles"
+    },
+    {
+      "name": "folder_view",
+      "value": "Mudala vista por cartafol"
+    },
+    {
+      "name": "other_folder",
+      "value": "Outro cartafol"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Mostrar no mapa"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Localización descoñecida"
+    },
+    {
+      "name": "volume",
+      "value": "Volume"
+    },
+    {
+      "name": "brightness",
+      "value": "Brillo"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Fixar orientación"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Non fixar orientación"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Cambiala orientación"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Forzar retrato"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Forzar paisaxe"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Usar a orientación predeterminada"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Arranxar o valor da Data de Captura"
+    },
+    {
+      "name": "fixing",
+      "value": "Arranxando…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Datas arranxadas con éxito"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Non se atoparon valores de Datas de Captura"
+    },
+    {
+      "name": "share_resized",
+      "value": "Comparte unha versión reducida"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Cambiala procura de ficheiros en todolos cartafoles visibles"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Poñer como cartafol predeterminado"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Desactivar como cartafol predeterminado"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Reordealos cartafois arrastrando"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Reordealos cartafoles arrastrando (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Restaurando a '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Filtrar medios"
+    },
+    {
+      "name": "images",
+      "value": "Imaxes"
+    },
+    {
+      "name": "videos",
+      "value": "Vídeos"
+    },
+    {
+      "name": "gifs",
+      "value": "Gifs"
+    },
+    {
+      "name": "raw_images",
+      "value": "Imaxes RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVGS"
+    },
+    {
+      "name": "portraits",
+      "value": "Retratos"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Non se atopou multimedia do tipo indicado polo filtro."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Cambiar filtro"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Esta función oculta o cartafol engadíndolle ficheiro '.nomedia', tamén ocultará os subcartafoles. Podes velos pulsando a opción 'Mostrar elementos ocultos' nos Axustes. Continuar\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Isto ocultará a selección xunto cos seus subcartafoles só en Simple Gallery. Podes xestionar os cartafoles ocultos en Axustes."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Excluír o cartafol pai no seu lugar\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Excluír un cartafol xunto cos subcartafoles só terá efecto en Simple Gallery, seguirán sendo visibles noutros aplicativos.\r\n\\n\r\n\\nSe tamén queres excluílos noutros aplicativos, utiliza a opción Agochar."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Cartafoles ocultos"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Xestionar cartafoles ocultos"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Semella que non tes ningún cartafol oculto cun ficheiro \\\".nomedia\\\"."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Ten que concederlle acceso á aplicación a todolos ficheiros para velos ficheiros ocultos, se non, a aplicación non pode funcionar."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Se un cartafol ou algún dos seus cartoles nai ten un punto antes do nome fará que esté agochado. Debes eliminar o punto cambiándolle o nome."
+    },
+    {
+      "name": "include_folders",
+      "value": "Cartafoles incluídos"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Xestionar cartafoles incluídos"
+    },
+    {
+      "name": "add_folder",
+      "value": "Engadir cartafol"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Se tes algún cartafol con medios, mais non foi recoñecido polo aplicativo, pódelo engadir manualmente.\r\n\\n\r\n\\nEngadindo aquí elementos non eliminarás outros."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Non se atopou ningún ficheiro multimedia. Podes solucionalo engadindo manualmente algúns cartafoles con eses ficheiros."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Selección da redimensión e gardar"
+    },
+    {
+      "name": "width",
+      "value": "Ancho"
+    },
+    {
+      "name": "height",
+      "value": "Alto"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Manter proporcións"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Por favor escribe unha resolución válida"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Cambiar tamaño a varias imaxes"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Factor de escala"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Escalar a unha porcentaxe dada, o valor debe estar entre 10 e 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Escribe un número entre 10 e 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Escalado de imaxes correcto"
+    },
+    {
+      "name": "editor",
+      "value": "Editor"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Editor básico"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Editor avanzado"
+    },
+    {
+      "name": "rotate",
+      "value": "Rotar"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Ruta á imaxe non válida"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Ruta do vídeo non válida"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Fallo na edición da imaxe"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Produciuse un erro na edición do vídeo"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Cancelouse a edición da imaxe"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Cancelouse a edición do vídeo"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Ficheiro editado correctamente"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Imaxe editada con éxito"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Vídeo editado correctamente"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Editar imaxe con:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Editalo vídeo con:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Non se atopou ningún editor"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Non se atopou ningún editor de vídeo"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Localización do ficheiro descoñecida"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Non se puido sobrescribir o ficheiro"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Virar a esquerda"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Virar a dereita"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Virar 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Transformar"
+    },
+    {
+      "name": "crop",
+      "value": "Recortar"
+    },
+    {
+      "name": "draw",
+      "value": "Debuxa"
+    },
+    {
+      "name": "flip",
+      "value": "Virar"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Virar horizontalmente"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Virar verticalmente"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Libre"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Outro"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Fondo da pantalla"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Establecer como fondo da pantalla"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Fallou establecer fondo da pantalla"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Establecer fondo da pantalla con:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Establecendo fondo da pantalla…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Fondo da pantalla establecido correctamente"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Relación de aspecto do retrato"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Proporción da paisaxe"
+    },
+    {
+      "name": "home_screen",
+      "value": "Pantalla de incio"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Pantalla de bloqueo"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Pantallas de inicio e bloqueo"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Permite cambiala relación do aspecto"
+    },
+    {
+      "name": "slideshow",
+      "value": "Presentación"
+    },
+    {
+      "name": "interval",
+      "value": "Intervalo"
+    },
+    {
+      "name": "include_photos",
+      "value": "Incluír fotos"
+    },
+    {
+      "name": "include_videos",
+      "value": "Incluír vídeos"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Incluír GIFs"
+    },
+    {
+      "name": "random_order",
+      "value": "Orde aleatoria"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Mover cara atrás"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Presentación das diapositivas en bucle"
+    },
+    {
+      "name": "animation",
+      "value": "Animación"
+    },
+    {
+      "name": "no_animation",
+      "value": "Ningún"
+    },
+    {
+      "name": "fade",
+      "value": "Esvaecer"
+    },
+    {
+      "name": "slide",
+      "value": "Diapositiva"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "A presentación das diapositivas rematou"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Non se atoparon medios para a presentación das diapositivas"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Agrupar subcartafoles directos"
+    },
+    {
+      "name": "group_by",
+      "value": "Agrupar por"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Non agrupar ficheiros"
+    },
+    {
+      "name": "by_folder",
+      "value": "Cartafol"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Último modificado"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Último modificado (diario)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Último modificado (mensual)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Data de captura"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Data de captura (diaria)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Data de captura (mensual)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Tipo de ficheiro"
+    },
+    {
+      "name": "by_extension",
+      "value": "Extensión"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Mostralo reconto de ficheiros nas cabeceiras das seccións"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Por favor, ten en conta que agrupar e ordenar son dous campos diferentes"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Cartafol a mostrar no widget:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Mostrar nome de cartafol"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Reproducir vídeos automáticamente"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Lembrar a posición do vídeo na última vez"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Víeos en bucle"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animar os GIFs na icona"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Brillo ao máximo cando mire medios"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Recortar iconas a cadrados"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Mostrar a duración dos vídeos"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Rotar medios a pantalla completa a"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Axuste ao sistema"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Rotación do dispositivo"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Relación de aspecto"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Fondo negro e barra de estado en reprodución a pantalla completa"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Desprazar iconas horizontalmente"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Agochar controis do sistema cando visualice a pantalla completa"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Borrar cartafoles baleiros cando elmine oseu contido"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Permitir controlar o brillo da foto con xestos verticais"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Permitir controlar o volume do vídeo e o brillo con xestos verticais"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Mostrar a conta de medios do cartafol na vista principal"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Mostrar información pormenorizada sobre medios a pantalla completa"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Xestionar información polo miúdo"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Permitir zoom cun dedo a pantalla completa"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Permitir o cambio instantáneo de medios premendo os lados da pantalla"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Permitir ampliar moito as imaxes"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Agochar detalles extendidos cando a barra de estado está oculta"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Mostrar botóns para accións na parte baixa da pantalla"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Mostrala papeleira na pantalla dos cartafoles"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Imaxes con moita ampliación"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Mostrar imaxes na súa máxima calidade"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Mostrar a Papeleira no derradeiro posto da pantalla principal"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Permitir pechar a visualización en pantalla completa deslizando cara abaixo"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Permitir ampliar a 1:1 con dous toques"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Abrir sempre os vídeos nunha pantalla diferente con novos xestos horizontais"
+    },
+    {
+      "name": "show_notch",
+      "value": "Mostrar unha marca se a houbese"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Permitir rotar unha imaxe con xestos"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Prioridade de carga de ficheiro"
+    },
+    {
+      "name": "speed",
+      "value": "Velocidade"
+    },
+    {
+      "name": "compromise",
+      "value": "Compromiso"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Non mostrar ficheiros non válidos"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Mostrar tipos de ficheiros de imaxe"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Permitir zoom nos vídeos co dobre-toque sobre eles"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Estilo das miniaturas do cartafol"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Estilo da miniatura do ficheiro"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Marcalos elementos favoritos"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Espazo das miniaturas"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Mostralo reconto dos ficheiros nunha liña afastada"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Facelo reconto dos ficheiros entre corchetes"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Non mostralo reconto dos ficheiros"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Limitalos títulos longos dos cartafoles a 1 liña"
+    },
+    {
+      "name": "square",
+      "value": "Praza"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Cantos redondeados"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Exportalos favoritos"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Importalos favoritos"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "As rutas importáronse correctamente"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Para asegurarte de que todalas operacións cos ficheiros funcionan de forma fiable, fai desta aplicación unha aplicación de xestión multimedia na configuración do teu dispositivo."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Visibilidade do cartafol protexida con contrasinal"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Produciuse un erro, acceda Configuración do teu dispositivo - Aplicacións - Acceso especial ás aplicacións - Aplicacións de xestión multimedia e permite que esta aplicación xestione o contido multimedia."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Se a redirección non funciona, acceda Configuración do teu dispositivo - Aplicacións - Acceso especial ás aplicacións - Aplicacións de xestión multimedia e permite que esta aplicación xestione contido multimedia."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Se non queres facelo, tamén podes accedela Configuración do teu dispositivo - Aplicacións - Acceso especial ás aplicacións - Aplicacións de xestión multimedia e permitir ca ista aplicación xestione o contido multimedia."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternativamente, só pode permitilo acceso a ficheiros multimedia. Nese caso non poderás traballar con ficheiros ocultos."
+    },
+    {
+      "name": "media_only",
+      "value": "Só medios"
+    },
+    {
+      "name": "all_files",
+      "value": "Todolos ficheiros"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Busca todolos ficheiros en lugar de cartafoles na pantalla principal"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Mostrar un botón de menú para alternar Mostralo contido de todolos cartafoles rapidamente"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Miniaturas"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Medios a pantalla completa"
+    },
+    {
+      "name": "extended_details",
+      "value": "Detalles ampliados"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Accións do fondo"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Xestionar accións visibles do fondo"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Engadir como favorito"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Alternar visibilidade do ficheiro"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Persoalizado"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Reiniciar"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Cadrado"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Transformar"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filtrar"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Ningún"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Axustar"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Sombras"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Exposición"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Resalte"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Brillo"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Contraste"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Saturación"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Claridade"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Negros"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Brancos"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Temperatura"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Nitidez"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Reiniciar"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Enfoque"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Ningún"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radiais"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Lineal"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Reflectir"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussiano"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Engadir texto"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Texto"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Opcións do Texto"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Cor do Texto"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Fonte"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Engadir"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Editar"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Endereitar"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Fonte"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Cor"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Cor do Fondo"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Alineamento"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Á Fronte"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Borrar"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "O teu texto"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Pincel"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Cor"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Tamaño"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Firmeza"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Á Fronte"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Borrar"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Cor do Pincel"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Pechalo Editor\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "De verdade queres desbotar os cambios\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Si"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Non"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Cancelar"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Aceptar"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Gardar"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Exportando…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Exportando %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Pegatina"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Pegatina de cor"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Opcións dos adhesivos"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Engadir"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Cor"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Eliminar"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Para Diante"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Endereitar"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Trocar"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opacidade"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Contraste"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Saturación"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Brillo"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Cargas"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Superposición"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Escurecer"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Pantalla"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Superposición"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Aclarar"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Multiplicar"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Queimalas cores"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Luz suave"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Luz forte"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Ningún"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Dourado"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Fuga da luz 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaico"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Papel"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Choiva"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Virar H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Virar V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Desfacer"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Refacer"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Escolla das cores"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Transparente"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Branco"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Gris"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Negro"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Azul claro"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Azul"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Púrpura"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orquídea"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Rosa"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Vermello"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Laranxa"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Dourado"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Amarelo"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Oliva"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Verde"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Augamariña"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Escoller coa pipeta"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Recortar"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Como podo facer que Simple Gallery sexa a galería por defecto no meu dispositivo\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Primeiro debes atopar a galería por omisión actual na sección de App nos axustes do dispositivo, buscar un botón que diga algo como \\\"Abrir por omisión\\\", pulsalo e despois seleccionar \\\"Limpar por omisión\\\". A próxima vez que intentes abrir unha imaxe ou vídeo aparecerá un selector de aplicativos onde podes escoller Simple Gallery e facela a aplicativo por defecto/n."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Asegurei o aplicativo cun contrasinal, pero esquecino. Que podo facer\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Pode solucionado de dous xeitos. Ou ben reinstalar o aplicativo ou buscar o aplicativo os axustes do dispositivo e escoller \\\"Limpar datos\\\". Restablecerá todos os seus axustes, mais non eliminará ficheiros de medios."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Como podo facer que un álbum apareza sempre arriba de todo\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Pode manter premido o álbum e escoller a icona de Fixar no menú de accións, isto fixarao arriba. Pode fixar varios cartafoles tamén, os elementos fixados estarán ordenados polo criterio por omisión."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Como podo aumentala velocidade da reprodución do vídeo\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Pode facelo tocando dúas veces o lateral da pantalla, ou tocando os textos de duración máxima ou actual preto da barra de avance. Se activa abrir os vídeos nunha pantalla separada, tamén pode usar xestos horizontais."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Cal é a diferenza entre agochar e excluír un cartafol\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "A exclusión prevén que se mostre o cartafol só en Simple Gallery, mentras Agochar funciona para todo o sistema e agocha o cartafol para outras galerías tamén. Esto funciona creando un ficheiro baldeiro de nome \\\".nomedia\\\" no cartafol, que tamén pode quitar con calquera xestor de ficheiros.Teña en conta que algúns dispositivos non permiten cartafoles agochados como Cámara, Capturas de pantalla e Descargas."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Por que aparecen cartafoles de música con portadas ou pegatinas\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Pode acontecer que vexa que aparecen álbumes raros. Pode excluílos con facilidade mantendo premidos e escollendo Excluír. No seguinte diálogo pode escoller o cartafol pai, esto probablemente agoche outros álbumes relacionados."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Un cartafol con imaxes non aparece, que podo facer\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Isto pode acontecer por varias razóns, pero é doado resolvelo. Vaia a Axustes -> xestionar cartafoles incluídos, escolle o Máis e navegar ate o cartafol requerido."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "¿E que pasa se só quero que sexan visibles certos cartafoles\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Engadir un cartafol a Cartafoles incluídos non exclúe nada de xeito automático. O que pode facer é ir a Axustes -> Xestionar cartafoles incluídos, excluír o cartafol root \\\"/\\\", e despois engadir os cartafoles desexados con Axustes -> Xestionar Cartafoles Incluídos. Isto fará visibles só aos cartafoles escollidos, como tanto excluír e incluír son recursivos e si está excluído e logo incluído, será mostrado."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Podo recortar imaxes con este aplciativo\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Si, pode recortar imaxes no editor, arrastrando as esquinas das imaxes. Pode chegar ao editor tanto presionando na imaxe durante un anaco e seleccionando Editar, ou seleccionando Editar dende a vista de pantalla completa."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Podo agrupar as iconas dalgún xeito\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Claro, use no menu \\\"Agrupar por\\\" na vista de iconas. Pode facelo por múltiples criterios, incluindo a data de captura. Se usa a función \\\"Mostrar o contido dos cartafoles\\\", tamén pode agruparlos por cartafoles."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Semella que Ordenar por Data non está a funcionar, como o amaño\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Seguramente foi causa de copiar os ficheiros de algures. Podes amañalo seleccionando as iconas e \\\"Arranxar o valor da Data de Captura\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Vexo bandas de cor nas imaxes. Como podo mellorar a súa calidade\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "A solución actual de mostra das imaxes funciona ben na maioría dos casos, pero se desexa unha calidade maior, active \\\"Mostrar imaxes na máxima calidade posible\\\" na configuración, na sección \\\"Imaxes con moita ampliación\\\"."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Teño un ficheiro ou cartafol oculto. Como o amoso\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Pode ou ben activar \\\"Mostrar temporalmente ficheiros agochados\\\" no menu principal, ou activar \\\"Amosar obxectos ocultos\\\" na configuración. Se quere amosalo sempre, pode presionar uns intres e seleccionar \\\"Amosar\\\". Os cartafoles agóchanse engadindo un ficheiro oculto \\\".nomedia\\\" no seu interior; tamén pode borrar ese ficheiro con calquera xestor de ficheiros. Note that hiding works recursively though, so if you hide a folder, all subfolders will become hidden too. So for unhiding the subfolders you have to unhide the parent folder."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Por que consume tanto espacio este aplicativo\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Os ficheiros temporais poden chegar aos 250MB e server para cargar máis rápido. Se o aplicativo está a a consumir máis espazo, o máis probable é que teña ficheiros na Papeleira de Reciclaxe.Estes ficheiros contan no tamaño da aplicación.Podes baleirala abríndoa e borrando os ficheiros, ou desde a configuración.Cada ficheiro da Papeleira bórrase automáticamente tras 30 días."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Que pasou ca ocultación dos ficheiros e cartafoles e por que xa non podo velos elementos ocultos\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Desde Android 11 xa non podes agochar ou mostrar cartafoles, non podes ver os agochados nas apps galería debido a restricións dos sistema. Terás que usar algún xestor de ficheiros para isto."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Ou tamén podes concederlle acceso a esta galería a todolos ficheiros a través da configuración do teu dispositivo, mostralos elementos ocultos e facer que as operacións cos ficheiros sexan máis fiables en xeral."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Por que xa non podo incluilos cartafoles que faltan\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Iso deixou de funcionar debido aos cambios no sistema que tamén viñeron con Android 11, a aplicación xa non pode navegar por cartafoles reais, depende da chamada MediaStore para obtelos datos."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Por que vexo anuncios na reprodución dos vídeos\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "As nosas aplicacións non teñen ningún tipo de anuncio. Se os ves durante a reprodución de vídeo, debes estar usando outras aplicacións de reprodutor de vídeo. Tenta atopar o teu reprodutor de vídeo predeterminado na configuración do dispositivo e, a continuación, fai un \\\"Borrar valores predeterminados\\\". A próxima vez que invoques algunha intención de vídeo, verás un indicador de selección de aplicacións, onde podes seleccionar a aplicación que queres usar."
+    }
+  ]
+}

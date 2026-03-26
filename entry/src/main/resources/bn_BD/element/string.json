@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "সিম্পল গ্যালারি"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "গ্যালারি"
+    },
+    {
+      "name": "edit",
+      "value": "সম্পাদনা"
+    },
+    {
+      "name": "open_camera",
+      "value": "ক্যামেরা খুলুন"
+    },
+    {
+      "name": "hidden",
+      "value": "(লুকানো)"
+    },
+    {
+      "name": "excluded",
+      "value": "(excluded)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "ফোল্ডার পিন করুন"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "ফোল্ডার আনপিন করুন"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "একদম উপরে পিন করুন"
+    },
+    {
+      "name": "show_all",
+      "value": "সব ফোল্ডারের ভেতরে কি আছে দেখান"
+    },
+    {
+      "name": "all_folders",
+      "value": "সব ফোল্ডার"
+    },
+    {
+      "name": "folder_view",
+      "value": "ফোল্ডার ভিউতে সুইচ করুন"
+    },
+    {
+      "name": "other_folder",
+      "value": "অন্যান্য ফোল্ডার"
+    },
+    {
+      "name": "show_on_map",
+      "value": "মানচিত্রে দেখান"
+    },
+    {
+      "name": "unknown_location",
+      "value": "অজানা স্থান"
+    },
+    {
+      "name": "volume",
+      "value": "শব্দ"
+    },
+    {
+      "name": "brightness",
+      "value": "উজ্জ্বলতা"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "ওরিয়েন্টেশন বন্ধ"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "ওরিয়েন্টেশন খুলুন"
+    },
+    {
+      "name": "change_orientation",
+      "value": "ওরিয়েন্টেশন পরিবর্তন"
+    },
+    {
+      "name": "force_portrait",
+      "value": "পোট্রেট ওরিয়েন্টেশন"
+    },
+    {
+      "name": "force_landscape",
+      "value": "অবতল ওরিয়েন্টেশন"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "ডিফল্ট ওরিয়েন্টেশন"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "তারিখ ঠিক করুন"
+    },
+    {
+      "name": "fixing",
+      "value": "ঠিক করা হচ্ছে…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "তারিখ সফলভাবে ঠিক করা হয়েছে"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "তোলার তারিখ নেই"
+    },
+    {
+      "name": "share_resized",
+      "value": "পরিবর্তিত একা সংস্করণ নিন"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "সব দেখা যাওয়া ফোল্ডারে ফাইল সার্চে চলে যান"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "ডিফল্ট ফোল্ডার হিশেবে সেট করুন"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "ডিফল্ট ফোল্ডার হিশেবে আর রাখবেন না"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Reorder folders by dragging"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Reorder folders by dragging (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Restoring to '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "মিডিয়া ফিল্টার করুন"
+    },
+    {
+      "name": "images",
+      "value": "ছবিসমূহ"
+    },
+    {
+      "name": "videos",
+      "value": "ভিডিওসমূহ"
+    },
+    {
+      "name": "gifs",
+      "value": "গিফসমূহ"
+    },
+    {
+      "name": "raw_images",
+      "value": "র ছবিসমূহ"
+    },
+    {
+      "name": "svgs",
+      "value": "এসভিজি সমূহ"
+    },
+    {
+      "name": "portraits",
+      "value": "পোট্রেইট"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "এ নির্দিষ্ট ফিল্টারে কোন মিডিয়া ফাইল পাওয়া যায়নি।"
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "ফিল্টার পরিবর্তন করুন"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "This function hides the folder by adding a '.nomedia' file into it, it will hide all subfolders too. You can see them by toggling the 'Show hidden items' option in Settings. Continue\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "This will exclude the selection together with its subfolders from Simple Gallery only. You can manage excluded folders in Settings."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Exclude a parent instead\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Excluding folders will make them together with their subfolders hidden just in Simple Gallery, they will still be visible in other applications.\r\n\\n\r\n\\nIf you want to hide them from other apps too, use the Hide function."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "লুকানো ফোল্ডারগুলো"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "লুকানো ফোল্ডারগুলি পরিচালনা করুন"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "দেখে মনে হচ্ছে আপনার সাথে কোনও ফোল্ডার লুকানো নেই \\\".nomedia\\\" ফাইল।"
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "You have to grant the app All Files access to see hidden files, else it cannot work."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "অন্তর্ভুক্ত ফোল্ডার"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "অন্তর্ভুক্ত ফোল্ডার ব্যবস্থাপনা করুন"
+    },
+    {
+      "name": "add_folder",
+      "value": "ফোল্ডার যোগ করুন"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "If you have some folders which contain media, but were not recognized by the app, you can add them manually here.\r\n\\n\r\n\\nAdding some items here will not exclude any other folder."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "No media files have been found. You can solve it by adding the folders containing media files manually."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "নির্বাচিতগুলোর আকার পরিবর্তন ও সংরক্ষণ করুন।"
+    },
+    {
+      "name": "width",
+      "value": "প্রস্থ"
+    },
+    {
+      "name": "height",
+      "value": "দৈর্ঘ্য"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "অনুপাত রাখুন"
+    },
+    {
+      "name": "invalid_values",
+      "value": "দয়া করে একটি বৈধ রেজোলিউশন দিন।"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Resize multiple images"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Resize factor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resize images to the given percentage, value must be within 10 and 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Enter a number between 10 and 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Images resized successfully"
+    },
+    {
+      "name": "editor",
+      "value": "সম্পাদক"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Basic Editor"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Advanced Editor"
+    },
+    {
+      "name": "rotate",
+      "value": "ঘোরান"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "ভুল ছবির পথ"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "ভুল ভিডিওর পথ"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "ছবি সম্পাদনা ব্যর্থ"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "ভিডিও সম্পাদনা ব্যর্থ"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "ছবি সম্পাদনা বাতিল"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "ভিডিও সম্পাদনা বাতিল"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "ফাইল সফলভাবি সম্পাদিত হয়েছে"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "ছবি সফলভাবি সম্পাদিত হয়েছে"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "ভিডিও সফলভাবি সম্পাদিত হয়েছে"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "ছবি সম্পাদনা করুন:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "ভিডিও সম্পাদনা করুন:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "কোন ছবি সম্পাদক পাওয়া যায়নি"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "কোন ভিডিও সম্পাদক পাওয়া যায়নি"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "অজানা অবস্থান ফাইল"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "উৎস ফাইল প্রতিস্থাপন করা যায়নি"
+    },
+    {
+      "name": "rotate_left",
+      "value": "বামে ঘোরান"
+    },
+    {
+      "name": "rotate_right",
+      "value": "ডানে ঘোরান"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "১৮০º ঘোরান"
+    },
+    {
+      "name": "transform",
+      "value": "Transform"
+    },
+    {
+      "name": "crop",
+      "value": "Crop"
+    },
+    {
+      "name": "draw",
+      "value": "Draw"
+    },
+    {
+      "name": "flip",
+      "value": "ঘোরান"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "অবতলভাবে ঘোরান"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "খাড়াখাড়িভাবে ঘোরান"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "মুক্ত"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "অন্যান্য"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "সিম্পল ওয়ালপেপার"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "ওয়ালপেপার হিশেবে সেট করুন"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "ওয়ালপেপার সেট করা ব্যর্থ হয়েছে"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "ওয়ালপেপার সেট করুন:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "ওয়ালপেপার সেট করা হচ্ছে…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "সফলভাবে ওয়ালপেপার সেট হয়েছে"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "খাড়াখারি আকৃতিগত অনুপাত"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "অবতল আকৃতিগত অনুপাত"
+    },
+    {
+      "name": "home_screen",
+      "value": "হোম স্ক্রিন"
+    },
+    {
+      "name": "lock_screen",
+      "value": "লক স্ক্রিন"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "হোম ও লক স্ক্রিন"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Allow changing the aspect ratio"
+    },
+    {
+      "name": "slideshow",
+      "value": "স্লাইডশো"
+    },
+    {
+      "name": "interval",
+      "value": "বিরতি"
+    },
+    {
+      "name": "include_photos",
+      "value": "ছবিগুলো যোগ করুন"
+    },
+    {
+      "name": "include_videos",
+      "value": "ভিডিওগুলো যোগ করুন"
+    },
+    {
+      "name": "include_gifs",
+      "value": "গিফগুলো যোগ করুন"
+    },
+    {
+      "name": "random_order",
+      "value": "বিক্ষিপ্তভাবে"
+    },
+    {
+      "name": "move_backwards",
+      "value": "পেছনে নিয়ে যান"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "স্লাইডশো লুপ করুন"
+    },
+    {
+      "name": "animation",
+      "value": "অ্যানিমেশন"
+    },
+    {
+      "name": "no_animation",
+      "value": "কিছু না"
+    },
+    {
+      "name": "fade",
+      "value": "বিবর্ণ"
+    },
+    {
+      "name": "slide",
+      "value": "স্লাইড"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "স্লাইডশো শেষ হয়েছে"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "স্লাইডশোর জন্য কোন মিডিয়া পাওয়া যায়নি"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Group direct subfolders"
+    },
+    {
+      "name": "group_by",
+      "value": "একত্রিত করুন"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Do not group files"
+    },
+    {
+      "name": "by_folder",
+      "value": "ফোল্ডার"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "শেষ পরিবর্তন করা হয়েছে"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "শেষ পরিবর্তন (দৈনিক)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "শেষ পরিবর্তন (মাসিক)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "তোলার তারিখ"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "তোলার তারিখ (দৈনিক)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "তোলার তারিখ (মাসিক)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "ফাইল টাইপ"
+    },
+    {
+      "name": "by_extension",
+      "value": "এক্সটেনশন"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Show file count at section headers"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Please note that grouping and sorting are 2 independent fields"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "উইজেটে দেখানো ফোল্ডার:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "ফোল্ডারের নাম দেখান"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "স্বয়ংক্রিয়ভাবে ভিডিও চালান"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Remember last video playback position"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Loop videos"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animate GIFs at thumbnails"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Max brightness when viewing fullscreen media"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Crop thumbnails into squares"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Show video durations"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Rotate fullscreen media by"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "সিস্টেম সেটিংস"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Device rotation"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "অ্যাস্পেক্ট রেশিও"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Black background at fullscreen media"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Scroll thumbnails horizontally"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Automatically hide system UI at fullscreen media"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Delete empty folders after deleting their content"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Allow controlling photo brightness with vertical gestures"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Allow controlling video volume and brightness with vertical gestures"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Show folder media count on the main view"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Show extended details over fullscreen media"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Manage extended details"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Allow one finger zoom at fullscreen media"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Allow instantly changing media by clicking on screen sides"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Allow deep zooming images"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Hide extended details when status bar is hidden"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Show some action buttons at the bottom of the screen"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Show the Recycle Bin at the folders screen"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Deep zoomable images"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Show images in the highest possible quality"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Show the Recycle Bin as the last item on the main screen"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Allow closing the fullscreen view with a down gesture"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Allow 1:1 zooming in with two double taps"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Always open videos on a separate screen with new horizontal gestures"
+    },
+    {
+      "name": "show_notch",
+      "value": "Show a notch if available"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Allow rotating images with gestures"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "File loading priority"
+    },
+    {
+      "name": "speed",
+      "value": "গতি"
+    },
+    {
+      "name": "compromise",
+      "value": "সমঝোতা"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Avoid showing invalid files"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Show image file types"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Allow zooming videos with double tapping them"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Folder thumbnail style"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "File thumbnail style"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Mark favorite items"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Thumbnail spacing"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Show file count on a separate line"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Show file count in brackets"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Do not show file count"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Limit long folder titles to 1 line"
+    },
+    {
+      "name": "square",
+      "value": "বর্গ"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Rounded corners"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Export favorites"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Import favorites"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Paths imported successfully"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "To make sure that all file operations work reliably, please make this app a Media management app in your device settings."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Password protect excluded folder visibility"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Something went wrong, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_note",
+      "value": "If the redirection does not work, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "If you do not want to do it, you can also go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternatively, you can allow accessing media files only. In that case you will not be able to work with hidden files though."
+    },
+    {
+      "name": "media_only",
+      "value": "Media only"
+    },
+    {
+      "name": "all_files",
+      "value": "All files"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Search all files instead of folders on the main screen"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Show a menu button for toggling Show All Folders Content quickly"
+    },
+    {
+      "name": "thumbnails",
+      "value": "থাম্বনেল"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "পুরো স্ক্রিনের মিডিয়া"
+    },
+    {
+      "name": "extended_details",
+      "value": "বর্ধিত বিশদ"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "নিচের অংশের ক্রিয়াগুলো"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Manage visible bottom actions"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Toggle favorite"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Toggle file visibility"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "কাস্টম"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "রিসেট"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "বর্গ"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "রূপান্তর"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "ফিল্টার"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "কিছু না"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "সামঞ্জস্য করুন"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "ছায়া"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "অনাবৃত করুন"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "হাইলাইটসমূহ"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "উজ্জ্বলতা"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "স্যাচুরেশন"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "নির্মলতা"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "গামা"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "কালো"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "শাদা"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "উষ্ণতা"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "তীক্ষ্ণতা"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "রিসেট"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "ফোকাস"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "কিছু না"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "রশ্মীবৎ"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "লিনিয়ার"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "আয়না"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "গাউসিয়ান"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Add text"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "লেখা"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "লেখার অপশন"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "লেখার রঙ"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "ফন্ট"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "যোগ করুন"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "সম্পাদনা করুন"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "সোজা করা"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "ফন্ট"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "রঙ"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "পেছনের রঙ"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "প্রান্তিককরণ"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "সামনে আনুন"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "মুছে ফেলুন"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "আপনার লেখা"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "ব্রাশ"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "রঙ"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "আয়তন"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "কঠোরতা"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "সামনে আনুন"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "মুছে ফেলুন"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "ব্রাশের রঙ"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "সম্পাদক"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "সম্পাদক বন্ধ করুন\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "আপনি কি সত্যিই পরিবর্তনগুলো বাদ দিতে চান\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "হ্যাঁ"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "না"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "বাতিল"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "গ্রহণ"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "সংরক্ষণ"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "এক্সপোর্ট হচ্ছে…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "এক্সপোর্ট হচ্ছে %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "স্টিকার"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "স্টিকারের রঙ"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Sticker Options"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "যোগ"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "রঙ"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "মুছে ফেলা"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "সামনে"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "সোজা করুন"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "প্রতিস্থাপন"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "অস্বচ্ছতা"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "বৈপরীত্য"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "সম্পৃক্তি"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "উজ্জ্বলতা"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "আপলোডসমূহ"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "ওভারলে"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "সাধারণ"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "অন্ধকারাচ্ছন্ন করা"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "স্ক্রিন"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "ওভারলে"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "হালকা করা"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "গুণ"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "পোড়া রঙ"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "নরম আলো"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "কড়া আলো"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "কিছু না"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "সোনালী"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "লাইটলিক ১"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "মোজাইক"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "কাগন"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "বৃষ্টি"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "ভিন্টেজ"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "পাশাপাশি ঘুরান"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "খাড়াখাড়ি ঘুরান"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "পূর্বাবস্থায় ফেরত যান"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "পুনরায় আনুন"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "রঙ নির্বাচক"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "স্বচ্ছ"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "শাদা"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "ধুসর"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "কালো"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "হালকা নীল"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "নীল"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "বেগুনী"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "অর্কিড"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "গোলাপী"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "লাল"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "কমলা"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "সোনালী"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "হলুদ"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "জলপাই রঙ"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "নীল"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "সামুদ্রিক নীল"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "পাইপেটেবল রঙ"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "কাটুন"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "How can I make Simple Gallery the default device gallery\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "First you have to find the currently default gallery in the Apps section of your device settings, look for a button that says something like \\\"Open by default\\\", click on it, then select \\\"Clear defaults\\\". The next time you will try opening an image or video you should see an app picker, where you can select Simple Gallery and make it the default app."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "I locked the app with a password, but I forgot it. What can I do\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "You can solve it in 2 ways. You can either reinstall the app, or find the app in your device settings and select \\\"Clear data\\\". It will reset all your settings, it will not remove any media files."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "How can I make an album always appear at the top\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "You can long press the desired album and select the Pin icon at the actions menu, that will pin it to the top. You can pin multiple folders too, pinned items will be sorted by the default sorting method."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "How can I fast forward videos\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "What is the difference between hiding and excluding a folder\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Exclude prevents displaying the folder only in Simple Gallery, while Hide works system-wise and it hides the folder from other galleries too. It works by creating an empty \\\".nomedia\\\" file in the given folder, which you can then remove with any file manager too. Note that some devices do not allow hiding folders like Camera, Screenshots and Downloads."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Why do folders with music cover art or stickers show up\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "It can happen that you will see some unusual albums show up. You can easily exclude them by long pressing them and selecting Exclude. In the next dialog you can then select the parent folder, chances are it will prevent the other related albums showing up too."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "A folder with images isn't showing up, or it doesn't show all items. What can I do\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "That can have multiple reasons, but solving it is easy. Just go in Settings -> Manage Included Folders, select Plus and navigate to the required folder."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "What if I want just a few particular folders visible\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Adding a folder at the Included Folders doesn't automatically exclude anything. What you can do is go in Settings -> Manage Excluded Folders, exclude the root folder \\\"/\\\", then add the desired folders at Settings -> Manage Included Folders. That will make only the selected folders visible, as both excluding and including are recursive and if a folder is both excluded and included, it will show up."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Can I crop images with this app\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Yes, you can crop images in the editor, by dragging the image corners. You can get to the editor either by long pressing an image thumbnail and selecting Edit, or selecting Edit from the fullscreen view."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Can I somehow group media file thumbnails\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Sure, just use the \\\"Group by\\\" menu item while at the thumbnails view. You can group files by multiple criteria, including Date Taken. If you use the \\\"Show all folders content\\\" function you can group them by folders too."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Sorting by Date Taken doesn't seem to work properly, how can I fix it\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "It is most likely caused by the files being copied from somewhere. You can fix it by selecting the file thumbnails and selecting \\\"Fix Date Taken value\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "I see some color banding on the images. How can I improve the quality\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "The current solution for displaying images works fine in the vast majority of cases, but if you want even better image quality, you can enable the \\\"Show images in the highest possible quality\\\" at the app settings, in the \\\"Deep zoomable images\\\" section."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "I have hidden a file/folder. How can I unhide it\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "You can either press the \\\"Temporarily show hidden items\\\" menu item at the main screen, or toggle \\\"Show hidden items\\\" in the app settings to see the hidden item. If you want to unhide it, just long press it and select \\\"Unhide\\\". Folders are hidden by adding a hidden \\\".nomedia\\\" file into them, you can delete the file with any file manager too. Note that hiding works recursively though, so if you hide a folder, all subfolders will become hidden too. So for unhiding the subfolders you have to unhide the parent folder."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Why does the app take up so much space\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "App cache can take up to 250MB, it ensures quicker image loading. If the app is taking up even more space, it is most likely caused by you having items in the Recycle Bin. Those files count to the app size. You can clear the Recycle bin by opening it and deleting all files, or from the app settings. Every file in the Bin is deleted automatically after 30 days."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "What happened to file and folder hiding and why cannot I see hidden items anymore\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Starting with Android 11 you cannot hide or unhide files or folders anymore, you cannot see the hidden ones in gallery apps either. You will have to use some file manager for that."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Or you can also grant this gallery access to All Files through your device settings, that will allow us showing hidden items and make file operations more reliable in general."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Why cannot I include missing folders anymore\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "That stopped working due to the system changes that came with Android 11 too, the app cannot browse real folders anymore, it relies on the so called MediaStore at fetching data."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Why do I see ads during video playback\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Our apps have no ads whatsoever. If you see them during video playback, you must be using some other apps video player. Try finding your default video player in the device settings, then do a \\\"Clear defaults\\\" on it. The next time you invoke some video intent you will see an app picker prompt, where you can select what app you want to use."
+    }
+  ]
+}

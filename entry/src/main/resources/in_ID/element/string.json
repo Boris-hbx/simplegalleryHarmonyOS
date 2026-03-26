@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Simple Gallery"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galeri"
+    },
+    {
+      "name": "edit",
+      "value": "Sunting"
+    },
+    {
+      "name": "open_camera",
+      "value": "Buka kamera"
+    },
+    {
+      "name": "hidden",
+      "value": "(tersembunyi)"
+    },
+    {
+      "name": "excluded",
+      "value": "(tidak disertakan)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Sematkan folder"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Lepas pin folder"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Pin ke atas"
+    },
+    {
+      "name": "show_all",
+      "value": "Tampilkan semua isi folder"
+    },
+    {
+      "name": "all_folders",
+      "value": "Semua folder"
+    },
+    {
+      "name": "folder_view",
+      "value": "Beralih ke tampilan folder"
+    },
+    {
+      "name": "other_folder",
+      "value": "Folder lainnya"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Tampilkan di peta"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Lokasi tidak diketahui"
+    },
+    {
+      "name": "volume",
+      "value": "Volume"
+    },
+    {
+      "name": "brightness",
+      "value": "Kecerahan"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Kunci orientasi"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Buka kunci orientasi"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Ubah orientasi"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Paksa potret"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Paksa lanskap"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Gunakan orientasi default"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Perbaiki Tanggal Diambil"
+    },
+    {
+      "name": "fixing",
+      "value": "Memperbaiki…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Tanggal berhasil diperbaiki"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Tidak ada nilai Tanggal Diambil yang ditemukan"
+    },
+    {
+      "name": "share_resized",
+      "value": "Bagikan versi yang diubah ukurannya"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Beralih ke pencarian berkas di semua folder yang terlihat"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Tetapkan sebagai folder default"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Hapus sebagai folder default"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Susun ulang folder dengan menyeret"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Susun ulang folder dengan menyeret (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Memulihkan ke '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Filter media"
+    },
+    {
+      "name": "images",
+      "value": "Gambar"
+    },
+    {
+      "name": "videos",
+      "value": "Video"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF"
+    },
+    {
+      "name": "raw_images",
+      "value": "Gambar RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG"
+    },
+    {
+      "name": "portraits",
+      "value": "Potret"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Tidak ditemukan berkas media yang sesuai dengan filter ini."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Ubah filter"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Fungsi ini menyembunyikan folder dengan menambahkan berkas '.nomedia' ke dalamnya, juga akan menyembunyikan semua subfoldernya. Anda bisa melihatnya dengan mengaktifkan opsi 'Tampilkan berkas tersembunyi' di Pengaturan. Lanjutkan\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Ini akan mengecualikan folder yang dipilih dan seluruh subfoldernya hanya di Simple Gallery. Anda bisa mengelola folder yang dikecualikan di Pengaturan."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Kecualikan folder induk\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Mengecualikan folder akan menyembunyikan folder tersebut dan seluruh subfoldernya hanya di Simple Gallery, namun masih bisa dilihat di aplikasi lain.\r\n\\n\r\n\\nJika anda ingin menyembunyikannya dari aplikasi lain juga, gunakan fitur Sembunyikan."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Folder tersembunyi"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Kelola folder tersembunyi"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Sepertinya tidak ada folder yang tersembunyi dengan berkas \\\".nomedia\\\" di dalamnya."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Anda harus memberikan aplikasi akses Semua Berkas untuk melihat berkas tersembunyi, jika tidak diberikan maka tidak akan bekerja."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "Folder yang disertakan"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Kelola folder yang disertakan"
+    },
+    {
+      "name": "add_folder",
+      "value": "Tambah folder"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Jika ada folder yang berisi berkas media namun tidak dikenali oleh aplikasi ini, anda bisa menambahkannya secara manual.\r\n\\n\r\n\\nMenambahkan beberapa item di sini tidak akan mengecualikan folder yang lain."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Tidak ada berkas media yang ditemukan. Anda bisa memperbaikinya dengan menambahkan folder yang berisi berkas media secara manual."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Ubah ukuran dan simpan"
+    },
+    {
+      "name": "width",
+      "value": "Lebar"
+    },
+    {
+      "name": "height",
+      "value": "Tinggi"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Jaga aspek rasio"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Silakan masukkan resolusi yang valid"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Resize multiple images"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Resize factor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resize images to the given percentage, value must be within 10 and 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Enter a number between 10 and 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Images resized successfully"
+    },
+    {
+      "name": "editor",
+      "value": "Penyunting"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Penyunting Dasar"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Penyunting Tingkat Lanjut"
+    },
+    {
+      "name": "rotate",
+      "value": "Rotasi"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Jalur gambar tidak valid"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Jalur video tidak valid"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Gagal menyunting gambar"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Pengeditan video gagal"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Pengeditan gambar dibatalkan"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Pengeditan video dibatalkan"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "File berhasil diedit"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Gambar berhasil diedit"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Video berhasil diedit"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Sunting gambar dengan:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Edit video dengan:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Tidak ditemukan aplikasi penyunting gambar"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Tidak ada editor video yang ditemukan"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Lokasi berkas tidak diketahui"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Tidak bisa mengganti berkas sumber"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Putar ke kiri"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Putar ke kanan"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Putar 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Transform"
+    },
+    {
+      "name": "crop",
+      "value": "Crop"
+    },
+    {
+      "name": "draw",
+      "value": "Draw"
+    },
+    {
+      "name": "flip",
+      "value": "Balik"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Balik horizontal"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Balik vertikal"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Bebas"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Lainnya"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Simple Wallpaper"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Setel sebagai Wallpaper"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Gagal menyetel sebagai Wallpaper"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Setel sebagai Wallpaper dengan:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Menyetel wallpaper…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Wallpaper berhasil disetel"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Aspek rasio potret"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Aspek rasio lanskap"
+    },
+    {
+      "name": "home_screen",
+      "value": "Layar beranda"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Layar kunci"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Beranda dan layar kunci"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Perbolehkan mengubah rasio aspek"
+    },
+    {
+      "name": "slideshow",
+      "value": "Slideshow"
+    },
+    {
+      "name": "interval",
+      "value": "Interval"
+    },
+    {
+      "name": "include_photos",
+      "value": "Sertakan foto"
+    },
+    {
+      "name": "include_videos",
+      "value": "Sertakan video"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Sertakan GIF"
+    },
+    {
+      "name": "random_order",
+      "value": "Urutan acak"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Mundur"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Slideshow tanpa henti"
+    },
+    {
+      "name": "animation",
+      "value": "Animasi"
+    },
+    {
+      "name": "no_animation",
+      "value": "Tidak ada"
+    },
+    {
+      "name": "fade",
+      "value": "Pudar"
+    },
+    {
+      "name": "slide",
+      "value": "Slide"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Slideshow berakhir"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Tidak ditemukan media untuk slideshow"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Kelompokkan subfolder langsung"
+    },
+    {
+      "name": "group_by",
+      "value": "Kelompokkan menurut"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Jangan kelompokkan berkas"
+    },
+    {
+      "name": "by_folder",
+      "value": "Folder"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Terakhir diubah"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Terakhir diubah (harian)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Terakhir diubah (bulanan)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Tanggal diambil"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Tanggal diambil (harian)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Tanggal diambil (bulanan)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Tipe berkas"
+    },
+    {
+      "name": "by_extension",
+      "value": "Ekstensi"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Tampilkan jumlah file di bagian tajuk"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Harap dicatat bahwa mengelompokkan dan mengurutkan adalah 2 hal yang berbeda"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Folder yang ditampilkan pada widget:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Tampilkan nama folder"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Putar video secara otomatis"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Ingat posisi pemutaran terakhir"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Video berulang"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animasi GIF di thumbnail"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Kecerahan maksimum saat melihat di layar penuh"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Pangkas thumbnail menjadi persegi"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Tampilkan durasi video"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Rotasi layar penuh menurut"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Pengaturan sistem"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Rotasi perangkat"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Aspek rasio"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Latar belakang hitam saat layar penuh"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Gulir thumbnail secara horizontal"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Otomatis sembunyikan UI sistem saat layar penuh"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Hapus folder kosong setelah menghapus isinya"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Izinkan mangatur kecerahan foto dengan gestur vertikal"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Izinkan mangatur kecerahan dan volume video dengan gestur vertikal"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Tampilkan jumlah media di tampilan utama"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Tampilkan detail tambahan saat layar penuh"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Kelola detail tambahan"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Izinkan zum dengan satu jari di layar penuh"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Izinkan mengganti media dengan mengklik sisi layar"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Izinkan zum gambar lebih dalam"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Sembunyikan detail tambahan ketika bilah status disembunyikan"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Tampilkan tombol tindakan di layar bagian bawah"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Tampilkan Keranjang Sampah di layar folder"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Zum gambar mendalam"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Tampilkan gambar dalam kualitas tertinggi"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Tampilkan Keranjang Sampah sebagai item terakhir di layar utama"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Izinkan keluar dari layar penuh dengan menggeser ke bawah"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Izinkan zum 1:1 dengan dua kali ketuk"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Selalu buka video pada layar terpisah dengan gestur horizontal baru"
+    },
+    {
+      "name": "show_notch",
+      "value": "Tampilkan notch jika tersedia"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Izinkan memutar gambar dengan gestur"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Prioritas pemuatan berkas"
+    },
+    {
+      "name": "speed",
+      "value": "Kecepatan"
+    },
+    {
+      "name": "compromise",
+      "value": "Kompromi"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Hindari menampilkan berkas yang tidak valid"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Tampilkan tipe berkas gambar"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Perbolehkan perbesaran video dengan menekan dua kali"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Gaya thumbnail folder"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Gaya thumbnail file"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Tandai item favorit"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Spasi thumbnail"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Tampilkan jumlah file di baris terpisah"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Tampilkah jumlah file di kotak"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Jangan tampilkan jumlah file"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Batasi judul folder panjang ke 1 baris"
+    },
+    {
+      "name": "square",
+      "value": "Kotak"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Sudut bulat"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Ekspor favorit"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Impor favorit"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Jalur berhasil diimpor"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Untuk memastikan semua operasi file bekerja dengan andal, mohon buat aplikasi ini sebagai pengelola aplikasi Media di pengaturan perangkat Anda."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Lindungi visibiltas folder yang tidak disertakan dengan kata sandi"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Ada yang salah, silakan menuju ke Pengaturan - Aplikasi - Akses aplikasi khusus - Aplikasi manajemen media dan perbolehkan aplikasi ini untuk mengelola media."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Jika perubahan arah tidak bekerja, silakan menuju ke Pengaturan - Aplikasi - Akses aplikasi khusus - Aplikasi manajemen media dan perbolehkan aplikasi ini untuk mengelola media."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Jika Anda tidak ingin melakukannya, Anda juga dapat menuju ke Pengaturan - Aplikasi - Akses aplikasi khusus - Aplikasi manajemen media dan perbolehkan aplikasi ini untuk mengelola media."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Secara alternatif, Anda dapat memperbolehkan mengakses berkas media saja. Dalam hal itu Anda tidak akan dapat bekerja dengan berkas tersembunyi."
+    },
+    {
+      "name": "media_only",
+      "value": "Hanya media"
+    },
+    {
+      "name": "all_files",
+      "value": "Semua berkas"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Cari semua berkas daripada folder di layar utama"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Tampilkan tombol menu untuk menampilkan konten Tampilkan Semua Folder secara cepat"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Thumbnail"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Media layar penuh"
+    },
+    {
+      "name": "extended_details",
+      "value": "Detail tambahan"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Tindakan bawah"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Kelola tombol tindakan bawah"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Alih favorit"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Ubah visibilitas berkas"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Bebas"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Reset"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Persegi"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Ukuran"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filter"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Tidak ada"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Sesuaikan"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Bayangan"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Eksposur"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Sorotan"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Kecerahan"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Kontras"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Saturasi"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Perjelas"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Hitam"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Putih"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Suhu"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Ketajaman"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Reset"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Fokus"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Tidak ada"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radial"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Linear"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Cermin"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussian"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Add text"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Teks"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Opsi Teks"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Warna Teks"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Tambah"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Edit"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Luruskan"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Warna"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Warna BG"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Perataan"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Ke Depan"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Hapus"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Ketik teks"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Kuas"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Warna"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Ukuran"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Kekerasan"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Ke Depan"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "hapus"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Warna Kuas"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Tutup Editor\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Apakah Anda ingin membuang perubahannya\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Ya"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Tidak"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Batal"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Terima"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Simpan"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Mengekspor…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Mengekspor %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Stiker"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Warna Stiker"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Opsi Stiker"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Add"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Ke Depan"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Luruskan"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Ganti"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opasitas"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Kontras"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Saturasi"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Kecerahan"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Unggahan"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Hamparan"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Gelapkan"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Screen"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Hamparan"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Terangkan"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Kalikan"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Warna Terbakar"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Cahaya Lembut"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Cahaya Keras"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "None"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Emas"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Lightleak 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaik"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Kertas"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Hujan"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Balik H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Balik V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Urungkan"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Ulangi"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Pemilih Warna"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Transparan"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Putih"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Abu-abu"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Hitam"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Biru cerah"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Biru"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Ungu"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Anggrek"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Merah Muda"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Merah"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Oranye"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Emas"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Kuning"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Zaitun"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Hijau"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Aquamarin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Warna pipet"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Potong"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Bagaimana cara menjadikan Simple Gallery sebagai aplikasi galeri default\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Pertama anda harus menemukan galeri default saat ini di bagian Aplikasi di Pengaturan perangkat, cari tombol dengan label seperti \\\"Buka secara default\\\", klik, lalu pilih \\\"Hapus default\\\". Lain kali anda mencoba membuka gambar atau video, anda akan diminta memilih aplikasi, dan anda bisa memilih Simple Gallery dan menjadikannya default."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Saya mengunci aplikasi dengan sandi, tapi saya lupa. Apa yang harus dilakukan\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Anda bisa menyelesaikannya dengan 2 cara. Anda bisa pasang ulang aplikasi, atau cari aplikasi ini di Pengaturan perangkat dan pilih \\\"Hapus data\\\". Ini akan menyetel ulang semua pengaturan anda, dan tidak akan menghapus berkas media apapun."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Bagaimana agar album selalu muncul paling atas di dalam daftar\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Anda bisa menekan lama album tersebut dan pilih ikon Pin di menu tindakan, hal tersebut akan membuat album tetap berada di bagian paling atas daftar. Anda juga bisa menyematkan beberapa folder, item yang di-pin akan diurutkan berdasarkan metode urutan default."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Bagaimana cara mempercepat laju video\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Anda dapat melakukannya dengan mengetuk dua kali sisi layar, atau mengetuk teks durasi saat ini atau durasi maksimal di dekat seekbar. Jika Anda mengaktifkan pembukaan video pada layar terpisah dalam pengaturan aplikasi, Anda juga dapat menggunakan gerakan horizontal."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Apa perbedaan antara menyembunyikan dan mengecualikan folder\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Mengecualikan tidak akan menampilkan folder di Simple Gallery saja, sedangkan Sembunyikan bekerja sesuai aturan sistem dan akan menyembunyikan folder dari aplikasi galeri yang lain. Cara kerjanya dengan membuat berkas \\\".nomedia\\\" kosong pada folder yang diinginkan, yang bisa anda hapus juga dengan aplikasi pengelola berkas. Note that some devices do not allow hiding folders like Camera, Screenshots and Downloads."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Mengapa folder dengan gambar album musik atau stiker muncul\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Kadang anda melihat beberapa album yang tidak biasa muncul. Anda bisa dengan mudah menyembunyikannya dengan menekan lama dan pilih Kecualikan. Pada dialog berikutnya, anda lalu bisa memilih folder induk, yang akan mencegah album terkait muncul kembali."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Ada folder berisi gambar namun tidak muncul, apa yang harus dilakukan\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Itu bisa disebabkan berbagai alasan, namun solusinya mudah. Pergi ke Pengaturan -> Atur folder yang disertakan, pilih Tambah dan cari folder yang diinginkan."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Bagaimana jika saya hanya ingin beberapa folder saja yang terlihat\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Menambahkan folder di Folder yang Disertakan tidak otomatis mengecualikan folder yang lain. Yang bisa anda lakukan adalah pergi ke Pengaturan -> Atur Folder yang Dikecualikan, lalu kecualikan folder root \\\"/\\\", lalu tambahkan folder yang diinginkan di Pengaturan -> Atur Folder yang Disertakan. Itu akan membuat folder yang dipilih saja yang muncul, dan jika sebuah folder disertakan dan dikecualikan secara bersamaan, folder tersebut akan muncul."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Bisakah saya memangkas gambar dengan aplikasi ini\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Ya, anda bisa melakukannya di Penyunting, dengan menyeret sudut gambar. Anda bisa masuk ke penyunting dengan menekan lama thumbnail gambar dan memilih Sunting, atau pilih Sunting dari tampilan layar penuh."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Bisakah saya mengelompokkan thumbnail berkas media\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Bisa, gunakan menu \\\"Kelompokkan menurut\\\" pada tampilan thumbnail. Anda bisa mengelompokkan berkas dengan berbagai kriteria, termasuk Tanggal Diambil. Jika anda menggunakan fungsi \\\"Tampilkan semua isi folder\\\", anda juga bisa mengelompokkan berdasarkan foldernya."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Tidak bisa mengurutkan berdasarkan Tanggal Diambil, bagaimana cara memperbaikinya\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Itu umumnya disebabkan karena berkas yang disalin dari tempat lain. Anda bisa memperbaikinya dengan memilih berkas thumbnail dan pilih \\\"Perbaiki Tanggal Diambil\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Saya melihat beberapa pita warna pada gambar. Bagaimana saya meningkatkan kualitasnya\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Solusi saat ini untuk menampilkan gambar berfungsi dengan baik dalam sebagian besar kasus, namun jika anda ingin kualitas gambar yang lebih baik, anda bisa mengaktifkan \\\"Tampilkan gambar dalam kualitas tertinggi\\\" di pengaturan aplikasi, pada bagian \\\"Zum gambar mendalam\\\"."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Saya punya berkas/folder tersembunyi. Bagaimana cara memunculkannya\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Anda bisa memilih menu \\\"Tampilkan sementara berkas tersembunyi\\\" di layar utama, atau \\\"Tampilkan berkas tersembunyi\\\" di pengaturan aplikasi untuk menampilkannya. Jika anda tidak ingin menyembunyikannya, tekan lama dan pilih \\\"Jangan sembunyikan\\\". Folder disembunyikan dengan menambahkan berkas \\\".nomedia\\\" di dalamnya, anda bisa menghapus berkas tersebut dengan aplikasi pengelola berkas. Note that hiding works recursively though, so if you hide a folder, all subfolders will become hidden too. So for unhiding the subfolders you have to unhide the parent folder."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Kenapa aplikasi menggunakan sangat banyak ruang kosong\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Cache aplikasi bisa mencapai 250MB, ini untuk menjamin pemuatan gambar yang lebih cepat. Jika aplikasi menggunakan lebih banyak lagi ruang kosong, sangat memungkinkan anda memiliki item di dalam Keranjang Sampah. Berkas tersebut akan menambah ukuran aplikasi. Anda bisa mengosongkan Keranjang sampah dengan cara membukanya dan menghapus semua berkas, atau dari pengaturan aplikasi. Semua berkas di dalam keranjang sampah akan otomatis dihapus setelah 30 hari."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Apa yang terjadi pada penyembunyian file dan folder, dan mengapa saya tidak bisa melihat item yang tersembunyi lagi\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Dimulai dengan Android 11, Anda tidak dapat menyembunyikan atau memunculkan file atau folder lagi, Anda juga tidak dapat melihat file atau folder yang tersembunyi di aplikasi galeri karena pembatasan sistem. Anda harus menggunakan beberapa manajer file untuk itu."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Atau Anda dapat memberikan galeri ini akses ke Semua Berkas melalui pengaturan perangkat Anda, itu akan memungkinkan kami untuk menampilkan item tersembunyi dan operasi berkas lebih andal."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Mengapa saya tidak bisa lagi menyertakan folder yang hilang\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Itu berhenti bekerja karena perubahan sistem yang datang dengan Android 11 juga, aplikasinya tidak dapat menelusuri folder nyata lagi, itu bergantung pada apa yang disebut MediaStore dalam mengambil data."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Mengapa saya melihat iklan selama pemutaran video\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Aplikasi kami tidak memiliki iklan apa pun. Jika Anda melihatnya selama pemutaran video, Anda harus menggunakan beberapa pemutar video aplikasi lain. Coba temukan pemutar video default Anda di pengaturan perangkat, lalu lakukan \\\"Hapus default\\\" di atasnya. Saat berikutnya Anda memanggil beberapa maksud video, Anda akan melihat permintaan pemilih aplikasi, di mana Anda dapat memilih aplikasi apa yang ingin Anda gunakan."
+    }
+  ]
+}

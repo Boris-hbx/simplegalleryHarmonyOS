@@ -1,0 +1,19 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/MainPage",
+    "pages/MediaPage",
+    "pages/PermissionPage",
+    "pages/ViewingPage",
+    "pages/SearchPage",
+    "pages/SettingsPage",
+    "pages/EditPage",
+    "pages/SetWallpaperPage",
+    "pages/IncludedFoldersPage",
+    "pages/ExcludedFoldersPage",
+    "pages/HiddenFoldersPage",
+    "pages/WidgetConfigPage",
+    "pages/AboutPage",
+    "pages/SandboxTestPage"
+  ]
+}

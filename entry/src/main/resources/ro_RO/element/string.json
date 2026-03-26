@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Galerie simplă"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galerie"
+    },
+    {
+      "name": "edit",
+      "value": "Editaţi"
+    },
+    {
+      "name": "open_camera",
+      "value": "Deschide camera"
+    },
+    {
+      "name": "hidden",
+      "value": "(ascuns)"
+    },
+    {
+      "name": "excluded",
+      "value": "(excluded)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Fixează dosarul"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Desprinde dosarul"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Fixează în vârf"
+    },
+    {
+      "name": "show_all",
+      "value": "Afișează conținutul tuturor dosarelor"
+    },
+    {
+      "name": "all_folders",
+      "value": "Toate dosarele"
+    },
+    {
+      "name": "folder_view",
+      "value": "Schimbă la vizualizarea pe dosare"
+    },
+    {
+      "name": "other_folder",
+      "value": "Alt dosar"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Arată pe hartă"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Locație necunoscută"
+    },
+    {
+      "name": "volume",
+      "value": "Volum"
+    },
+    {
+      "name": "brightness",
+      "value": "Luminozitate"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Blochează orientarea"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Deblochează orientarea"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Schimbă orientarea"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Forţează modul portret"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Forţează modul peisaj"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Utilizează orientarea implicită"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Fixează data creării"
+    },
+    {
+      "name": "fixing",
+      "value": "Fixare…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Date stabilite cu succes"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Nu a fost găsită nicio valoare pentru data creării"
+    },
+    {
+      "name": "share_resized",
+      "value": "Distribuie o versiune redimensionată"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Treceți la căutarea de fișiere în toate dosarele vizibile"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Setază ca dosar implicit"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Dezactivează ca dosar implicit"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Reordonează dosarele prin tragere"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Reordonează dosarele prin tragere (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Restaurare la \\\"%s"
+    },
+    {
+      "name": "filter_media",
+      "value": "Filtrează elementele media"
+    },
+    {
+      "name": "images",
+      "value": "Imagini"
+    },
+    {
+      "name": "videos",
+      "value": "Videoclipuri"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF-uri"
+    },
+    {
+      "name": "raw_images",
+      "value": "Imagini RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG-uri"
+    },
+    {
+      "name": "portraits",
+      "value": "Portrete"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Nu a fost găsit niciun fișier media cu filtrele selectate."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Schimbă filtrele"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Această funcție ascunde dosarul prin adăugarea unui fișier '.nomedia' în el, ascunzând și toate subdosarele. Le poţi vedea prin activarea opțiunii 'Afișați elementele ascunse' din Setări. Continuați\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Acest lucru va exclude selecția, împreună cu subdosarele sale, numai din Simple Gallery. Poţi gestiona dosarele excluse în Setări."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Exclude dosarul părinte în schimb\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Excluderea dosarelor le va face ca acestea, împreună cu subdosarele lor, să fie ascunse doar în Simple Gallery, ele vor fi în continuare vizibile în alte aplicații.\r\n\\n\r\n\\nDacă doreşti să le ascunzi și pentru alte aplicații, utilizează funcția Ascundere."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Dosare ascunse"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Gestionează dosarele ascunse"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Se pare că nu ai niciun dosar ascuns cu un fișier \\\".nomedia\\\"."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "You have to grant the app All Files access to see hidden files, else it cannot work."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "Dosare incluse"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Gestionează dosarele incluse"
+    },
+    {
+      "name": "add_folder",
+      "value": "Adăugă un dosar"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Dacă ai unele dosare care conțin conținut media, dar care nu au fost recunoscute de aplicație, le poţi adăuga manual aici.\r\n\\n\r\n\\nAdăugarea unor elemente aici nu va exclude niciun alt dosar."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Nu a fost găsit niciun fișier media. Poţi rezolva această problemă adăugând manual dosarele care conțin fișiere media."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Redimensionează selecția și salvează"
+    },
+    {
+      "name": "width",
+      "value": "Lățime"
+    },
+    {
+      "name": "height",
+      "value": "Înălțime"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Păstrează raportul de aspect"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Vă rugăm să introduceți o rezoluție validă"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Resize multiple images"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Resize factor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resize images to the given percentage, value must be within 10 and 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Enter a number between 10 and 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Images resized successfully"
+    },
+    {
+      "name": "editor",
+      "value": "Editor"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Basic Editor"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Advanced Editor"
+    },
+    {
+      "name": "rotate",
+      "value": "Rotire"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Calea imaginii este invalidă"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Calea videoclupui este invalidă"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Editarea imaginii a eșuat"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Editarea videoclipului a eșuat"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Editarea imaginii a fost anulată"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Editarea videoclipului a fost anulată"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Fișier editat cu succes"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Imagine editată cu succes"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Videoclip editat cu succes"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Editează imaginea cu:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Editează videoclipul cu:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Nu s-a găsit niciun editor de imagini"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Nu a fost găsit niciun editor video"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Locație necunoscută a fișierului"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Nu s-a putut suprascrie fișierul sursă"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Rotire la stânga"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Rotire la dreapta"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Rotire cu 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Transform"
+    },
+    {
+      "name": "crop",
+      "value": "Crop"
+    },
+    {
+      "name": "draw",
+      "value": "Draw"
+    },
+    {
+      "name": "flip",
+      "value": "Flip"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Flip orizontal"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Flip vertical"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Liber"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Altele"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Imagine de fundal simplă"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Setează ca imagine de fundal"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Setarea ca imagine de fundal a eşuat"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Setează ca imagine de fundal cu:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Setarea imaginii de fundal…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Imagine de fundal setată cu succes"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Raport de aspect portret"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Raport de aspect peisaj"
+    },
+    {
+      "name": "home_screen",
+      "value": "Ecranul de pornire"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Ecranul de blocare"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Ecranul de pornire și de blocare"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Permiteți modificarea raportului de aspect"
+    },
+    {
+      "name": "slideshow",
+      "value": "Slideshow"
+    },
+    {
+      "name": "interval",
+      "value": "Interval"
+    },
+    {
+      "name": "include_photos",
+      "value": "Include fotografii"
+    },
+    {
+      "name": "include_videos",
+      "value": "Include videoclipuri"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Include GIF-uri"
+    },
+    {
+      "name": "random_order",
+      "value": "Ordine aleatorie"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Mută-te înapoi"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Repetă Slideshow-ul"
+    },
+    {
+      "name": "animation",
+      "value": "Animație"
+    },
+    {
+      "name": "no_animation",
+      "value": "Niciuna"
+    },
+    {
+      "name": "fade",
+      "value": "Fade"
+    },
+    {
+      "name": "slide",
+      "value": "Slide"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Slideshow-ul s-a încheiat"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Nu a fost găsit niciun media pentru slideshow"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Grupează subdosarele directe"
+    },
+    {
+      "name": "group_by",
+      "value": "Grupează după"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Nu grupați fișierele"
+    },
+    {
+      "name": "by_folder",
+      "value": "Dosar"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Ultima modificare"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Ultima modificare (zilnic)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Ultima modificare (lunar)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Data realizării"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Data realizării (zilnic)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Data realizării (lunar)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Tipul de fișier"
+    },
+    {
+      "name": "by_extension",
+      "value": "Extensie"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Afișați numărul de fișiere la capetele de secțiune"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Vă rugăm să rețineți că gruparea și sortarea sunt două câmpuri independente"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Dosar afișat pe widget:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Afișează numele dosarului"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Redă videoclipurile automat"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Reține ultima poziție de redare video"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Repetă videoclipurile"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animează GIF-urile în miniaturi"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Luminozitatea maximă la vizualizarea elementelor media pe ecran complet"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Taie miniaturile în pătrate"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Afișează durata videoclipului"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Roteşte elementele media pe ecran complet cu"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Setări de sistem"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Rotația dispozitivului"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Raport de aspect"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Fundal negru pentru elemente media pe ecran complet"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Derulează miniaturile pe orizontală"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Ascunde automat interfața de sistem la elementele media pe ecran complet"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Șterge dosarelor goale după ștergerea conținutului acestora"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Permite controlul luminozității fotografiilor cu ajutorul gesturilor verticale"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Permite controlul volumului video și al luminozității cu ajutorul gesturilor verticale"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Afișează numărul de elemente media al dosarelor în vizualizarea principală"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Afișați detalii extinse peste elementele mediile pe ecran complet"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Gestionați detaliile extinse"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Permite zoom-ul cu un singur deget la media pe ecran complet"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Permite schimbarea instantanee a suportului media prin apăsarea pe părțile laterale ale ecranului"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Permite mărirea profundă a imaginilor"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Ascunde detaliile extinse atunci când bara de stare este ascunsă"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Afișează câteva butoane de acțiune în partea de jos a ecranului"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Afișează coșului de reciclare în ecranul cu dosare"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Imagini cu zoom profund"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Afișează imaginile la cea mai bună calitate posibilă"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Afișează coșului de reciclare ca ultimul element de pe ecranul principal"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Permite închiderea vizualizării pe tot ecranul cu un gest de jos"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Permite o mărire 1:1 cu două atingeri duble ale ecranului"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Deschide întotdeauna videoclipurile pe un ecran separat cu ajutorul noilor gesturi orizontale"
+    },
+    {
+      "name": "show_notch",
+      "value": "Afișează o crestătură, dacă este disponibilă"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Permite rotirea imaginilor cu ajutorul gesturilor"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Prioritatea de încărcare a fișierelor"
+    },
+    {
+      "name": "speed",
+      "value": "Viteză"
+    },
+    {
+      "name": "compromise",
+      "value": "Compromis"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Evită afișarea fișierelor invalide"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Arată tipurile de fișiere de imagine"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Permite mărirea clipurilor video prin dubla atingere a acestora"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Stilul miniaturii dosarului"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Stilul miniaturii fișierului"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Marcați elementele favorite"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Spațierea miniaturilor"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Afișează numărul de fișiere pe o linie separată"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Afișează numărul de fișiere în paranteze"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Nu afișa numărul de fișiere"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Limitează titlurile lungi ale dosarelor la 1 rând"
+    },
+    {
+      "name": "square",
+      "value": "Pătrat"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Colțuri rotunjite"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Exportă căile de acces ale fișierelor favorite"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Import favorites"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Paths imported successfully"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Pentru a vă asigura că toate operațiunile cu fișiere funcționează în mod fiabil, vă rugăm să selectați această aplicație ca aplicație de gestionare a mediilor în setările dispozitivului."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Protejați cu parolă vizibilitatea dosarelor excluse"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Ceva nu a mers bine, vă rugăm să accesați Setări - Aplicații - Acces special la aplicații - Aplicații de gestionare media și permiteți acestei aplicații să gestioneze media."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Dacă redirecționarea nu funcționează, accesați Setări - Aplicații - Acces special la aplicații - Aplicații de gestionare media și permiteți acestei aplicații să gestioneze media."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Dacă nu doriți să faceți acest lucru, puteți, de asemenea, să accesați Setări - Aplicații - Acces special la aplicații - Aplicații de gestionare media și să permiteți acestei aplicații să gestioneze media."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternatively, you can allow accessing media files only. In that case you will not be able to work with hidden files though."
+    },
+    {
+      "name": "media_only",
+      "value": "Media only"
+    },
+    {
+      "name": "all_files",
+      "value": "All files"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Search all files instead of folders on the main screen"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Show a menu button for toggling Show All Folders Content quickly"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Miniaturi"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Elemente media pe ecran complet"
+    },
+    {
+      "name": "extended_details",
+      "value": "Detalii extinse"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Acţiunile disponibile în partea de jos a ecranului"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Gestionează acțiunile vizibile în partea de jos a ecranului"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Comutați favoritele"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Schimbă vizibilitatea fișierului"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Personalizat"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Resetare"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Pătrat"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Transformare"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filtru"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Fără"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Ajustare"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Umbre"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Expunere"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Puncte de atracție"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Luminozitate"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Saturație"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Claritate"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Nuanţe de negru"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Nuanţe de alb"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Căldură"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Acuitate"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Resetare"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Focalizare"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Fără"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radial"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Linear"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Oglindit"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussian"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Adăugare text"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Text"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Opțiuni de text"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Culoarea textului"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Adăugare"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Editare"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Îndreptare"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Culoare"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Culoare BG"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Aliniere"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "În față"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Şterge"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Textul tău"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Pensulă"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Culoare"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Dimensiune"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Duritate"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "În față"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Şterge"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Culoarea pensulei"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Închide editorul\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Chiar doreşti să renunți la modificări\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Da"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Nu"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Anulează"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Acceptă"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Salvează"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Exportând…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Exportând %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Autocolant"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Culoarea autocolantului"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Opțiuni pentru autocolant"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Adaugare"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Culoare"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Şterge"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "În faţă"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Îndreaptă"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Înlocuiește"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opacitate"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Saturație"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Luminozitate"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Încărcări"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Suprapunere"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Întunecat"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Ecran"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Suprapunere"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Iluminat"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Multiplicat"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Culori Arse"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Lumină blândă"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Lumină intensă"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Fără"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Aur"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Scurgeri de lumină 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mozaic"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Hârtie"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Ploaie"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Flip Orizontal"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Flip Vertical"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Înapoi"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Înainte"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Alegător de culori"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Transparent"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Alb"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Gri"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Negru"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Albastru deschis"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Albastru"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Purpuriu"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orhidee"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Roz"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Roşu"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Portocaliu"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Auriu"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Galben"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Olive"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Verde"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Aquamarin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Culoare pipetabilă"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Trim"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Cum pot face ca Simple Gallery să fie galeria implicită a dispozitivului\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Mai întâi trebuie să găsiți galeria implicită curentă în secțiunea Aplicații din setările dispozitivului, căutați un buton pe care scrie ceva de genul a \\\"Setare ca implicită\\\", apăsaţi pe acesta, apoi selectați \\\"Ştergeţi valorile implicite\\\". Data viitoare când veți încerca să deschideți o imagine sau un videoclip, ar trebui să vedeți un selector de aplicații, unde puteți selecta Simple Gallery și să o transformați în aplicația implicită."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Am blocat aplicația cu o parolă, dar am uitat-o. Ce pot să fac\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Puteți rezolva acest lucru în 2 moduri. Puteți fie reinstala aplicația, fie găsiți aplicația în setările dispozitivului și în secţiunea de stocare a aplicaţiei selectați \\\"Golire date\\\". Aceasta va reseta toate setările, dar nu va elimina niciun fișier media."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Cum pot face ca un album să apară întotdeauna în partea de sus\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Puteți să apăsați lung pe albumul dorit și să selectați pictograma Pin din meniul de acțiuni, care îl va fixa în partea de sus. Puteți fixa alte dosare, iar elementele fixate vor fi sortate după metoda de sortare implicită."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Cum pot să rulez rapid videoclipurile\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Puteți face acest lucru atingând de două ori partea laterală a ecranului sau atingând textele privind durata curentă sau durata maximă de lângă bara de căutare. Dacă activați deschiderea videoclipurilor pe un ecran separat în setările aplicației, puteți utiliza și gesturile orizontale."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Care este diferența dintre ascunderea și excluderea unui dosar\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Exclude previne afișarea dosarului doar în Simple Gallery, în timp ce Hide funcționează la nivel de sistem și ascunde dosarul și din alte galerii. Funcționează prin crearea unui fișier gol \\\".nomedia\\\" în dosarul dat, pe care îl puteți elimina apoi și cu orice manager de fișiere. Rețineți că unele dispozitive nu permit ascunderea unor dosare precum Camera, Imagini de ecran și Descărcări."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "De ce apar dosarele cu coperte de muzică sau autocolante\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Se poate întâmpla să apară albume neobișnuite. Le puteți exclude cu ușurință apăsând lung pe ele și selectând Excludere. În următoarea fereastră de dialog, puteți selecta dosarul părinte, ceea ce va împiedica apariția celorlalte albume aferente."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Un dosar cu imagini nu apare sau nu afișează toate elementele. Ce pot să fac\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Această problemă poate avea mai multe motive, dar rezolvarea ei este ușoară. Trebuie doar să accesați Setări -> Gestionați dosarele incluse, selectați Plus și navigați până la dosarul necesar."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Ce se întâmplă dacă vreau ca doar câteva dosare anume să fie vizibile\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Adăugarea unui dosar la Dosarele incluse nu exclude automat nimic. Ceea ce puteți face este să accesați Setări -> Gestionați dosarele excluse, să excludeți dosarul rădăcină \\\"/\\\", apoi să adăugați dosarele dorite la Setări -> Gestionați dosarele incluse. Astfel, vor fi vizibile numai dosarele selectate, deoarece atât excluderea, cât și includerea sunt recursive, iar dacă un dosar este atât exclus, cât și inclus, va fi afișat."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Pot să decupez imagini cu această aplicație\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Da, puteți decupa imaginile în editor, trăgând colțurile imaginii. Puteți ajunge la editor fie prin apăsarea lungă a unei miniaturi de imagine și selectarea opţiunii Editare, fie prin selectarea opţiunii Editare din vizualizarea pe ecran complet."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Pot să grupez cumva miniaturi de fișiere media\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Sigur, utilizați elementul de meniu \\\"Grupează după\\\" în timp ce vă aflați în vizualizarea miniaturilor. Puteți grupa fișierele în funcție de mai multe criterii, inclusiv de data luării. Dacă utilizați funcția \\\"Afișați conținutul tuturor dosarelor\\\", le puteți grupa, de asemenea, după dosare."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Sortarea după data luată nu pare să funcționeze corect, cum pot să o repar\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Cel mai probabil, aceasta este cauzată de faptul că fișierele au fost copiate de undeva. Puteți să o reparați selectând miniaturile fișierelor și selectând \\\"Fixează data creării\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Văd unele benzi de culoare pe imagini. Cum pot îmbunătăți calitatea\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Soluția actuală de afișare a imaginilor funcționează bine în marea majoritate a cazurilor, dar dacă doriți o calitate și mai bună a imaginii, puteți activa opțiunea \\\"Afișați imaginile la cea mai bună calitate posibilă\\\" din setările aplicației, în secțiunea \\\"Imagini cu zoom profund\\\"."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Am ascuns un fișier/dosar. Cum îl pot dezvălui\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Puteți fie să apăsați elementul de meniu \\\"Afișaţi temporar elementele ascunse\\\" din ecranul principal, fie să comutați \\\"Afișaţi elementele ascunse\\\" din setările aplicației pentru a vedea elementul ascuns. Dacă doriți să îl dezascundeți, trebuie doar să apăsați lung pe el și să selectați \\\"Dezvăluiți\\\". Dosarele sunt ascunse prin adăugarea unui fișier ascuns \\\".nomedia\\\" în ele, puteți șterge fișierul și cu orice manager de fișiere. Rețineți că ascunderea funcționează totuși recursiv, astfel încât, dacă ascundeți un dosar, toate subdosarele vor fi și ele ascunse. Așadar, pentru a dezascunde subdosarele, trebuie să dezascundeți și dosarul părinte."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "De ce ocupă aplicația atât de mult spațiu\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Memoria cache a aplicației poate ocupa până la 250 MB, asigurând o încărcare mai rapidă a imaginilor. Dacă aplicația ocupă și mai mult spațiu, cel mai probabil este cauzată de faptul că aveți elemente în coșul de reciclare. Acele fișiere contează la dimensiunea aplicației. Puteți goli coșul de reciclare deschizându-l și ștergând toate fișierele sau din setările aplicației. Fiecare fișier din coșul de gunoi este șters automat după 30 de zile."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Ce s-a întâmplat cu ascunderea fișierelor și a dosarelor și de ce nu mai pot vedea elementele ascunse\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Începând cu Android 11, nu mai puteți ascunde sau dezascunde fișiere sau foldere, nu le puteți vedea pe cele ascunse nici în aplicațiile din galerie din cauza restricțiilor de sistem. Va trebui să folosiți un manager de fișiere pentru asta."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Or you can also grant this gallery access to All Files through your device settings, that will allow us showing hidden items and make file operations more reliable in general."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "De ce nu mai pot include dosarele lipsă\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Aceasta a încetat să mai funcționeze din cauza schimbărilor de sistem care au venit odată cu Android 11. Aplicația nu mai poate răsfoi dosare reale, ci se bazează pe așa-numitul MediaStore pentru a prelua informaţiile."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "De ce văd reclame în timpul redării video\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Aplicațiile noastre nu au niciun fel de reclame. Dacă le vedeți în timpul redării video, înseamnă că utilizați un alt player video. Încercați să găsiți playerul video implicit în setările dispozitivului, apoi efectuați o operațiune de \\\"Curăţare a valorilor implicite\\\" pentru acesta. Data viitoare când veți apela la o intenție video, veți vedea o fereastră de selectare a aplicației, unde puteți selecta aplicația pe care doriți să o utilizați."
+    }
+  ]
+}

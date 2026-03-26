@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "الاستديو البسيط"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "الاستديو"
+    },
+    {
+      "name": "edit",
+      "value": "تعديل"
+    },
+    {
+      "name": "open_camera",
+      "value": "فتح الكاميرا"
+    },
+    {
+      "name": "hidden",
+      "value": "(مخفي)"
+    },
+    {
+      "name": "excluded",
+      "value": "(مستبعد)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "تثبيت المجلد"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "إلغاء تثبيت المجلد"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "تثبيت في الأعلى"
+    },
+    {
+      "name": "show_all",
+      "value": "إظهار كل محتويات المجلدات"
+    },
+    {
+      "name": "all_folders",
+      "value": "كل المجلدات"
+    },
+    {
+      "name": "folder_view",
+      "value": "التبديل إلى طريقة عرض المجلد"
+    },
+    {
+      "name": "other_folder",
+      "value": "مجلد آخر"
+    },
+    {
+      "name": "show_on_map",
+      "value": "عرض على الخريطة"
+    },
+    {
+      "name": "unknown_location",
+      "value": "موقع غير معروف"
+    },
+    {
+      "name": "volume",
+      "value": "مستوى الصوت"
+    },
+    {
+      "name": "brightness",
+      "value": "السطوع"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "قفل الاتجاه"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "فتح الاتجاه"
+    },
+    {
+      "name": "change_orientation",
+      "value": "تغيير الاتجاه"
+    },
+    {
+      "name": "force_portrait",
+      "value": "فرض الاتجاه العمودي"
+    },
+    {
+      "name": "force_landscape",
+      "value": "فرض الاتجاه الأفقي"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "استخدام الاتجاه الافتراضي"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "إصلاح قيمة تاريخ الالتقاط"
+    },
+    {
+      "name": "fixing",
+      "value": "جارٍ الإصلاح…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "تم إصلاح التواريخ بنجاح"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "لم يتم العثور على قيم تاريخ التقاط"
+    },
+    {
+      "name": "share_resized",
+      "value": "مشاركة الصورة التي تم تغيير حجمها"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "التبديل إلى البحث فى الملفات عبر كافة المجلدات المرئية"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "تعيين كمجلد افتراضي"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "إلغاء التعيين كمجلد افتراضي"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "إعادة ترتيب المجلدات عن طريق السحب"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "إعادة ترتيب المجلدات عن طريق السحب (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "الاستعادة إلى '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "فرز الوسائط"
+    },
+    {
+      "name": "images",
+      "value": "الصور"
+    },
+    {
+      "name": "videos",
+      "value": "الفيديوهات"
+    },
+    {
+      "name": "gifs",
+      "value": "الصور المتحركة (GIF)"
+    },
+    {
+      "name": "raw_images",
+      "value": "صور الخام (RAW)"
+    },
+    {
+      "name": "svgs",
+      "value": "صور الرسومات المتجهة (SVG)"
+    },
+    {
+      "name": "portraits",
+      "value": "صور البورتريه"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "لم يتم العثور على ملفات وسائط مع الفلاتر المحددة."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "تغيير الفلاتر"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "تقوم هذه الوظيفة بإخفاء المجلد عن طريق إضافة ملف '. nomedia ' إليه، وستقوم بإخفاء كل المجلدات الفرعية أيضًا. يمكنك رؤيتهم عن طريق تبديل خيار 'إظهار العناصر المخفية ' في الإعدادات. هل تريد المتابعة؟"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "سيؤدي ذلك إلى استبعاد التحديد مع المجلدات الفرعية من الاستديو فقط. يمكنك إدارة المجلدات المستبعدة في الإعدادات."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "استبعاد المجلد الأصل بدلاً من ذلك (المحدد)؟"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "سيؤدي استبعاد المجلدات إلى جعلها هي والمجلدات الفرعية مخفية في الاستديو فقط، وستظل مرئية في تطبيقات أخرى.\r\n\\n\r\n\\nإذا كنت تريد إخفاءها من التطبيقات الأخرى أيضاً، فاستخدم وظيفة الإخفاء."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "المجلدات المخفية"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "إدارة المجلدات المخفية"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "يبدو أنه لا توجد لديك أي مجلدات مخفية بملف \\\".nomedia\\\"."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "يجب عليك منح التطبيق حق الوصول إلى جميع الملفات لرؤية الملفات المخفية ، وإلا فإنه لا يمكن أن يعمل."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "إذا كان المجلد أو أحد مجلداته الأصل يحتوي على نقطة قبل اسمه ، فهو مخفي ولا يمكن إلغاء إخفائه مثل هذا. يجب عليك إزالة النقطة عن طريق إعادة تسميتها."
+    },
+    {
+      "name": "include_folders",
+      "value": "المجلدات المضمنة"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "إدارة المجلدات المضمنة"
+    },
+    {
+      "name": "add_folder",
+      "value": "إضافة مجلد"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "إذا كان لديك بعض المجلدات التي تحتوي على الوسائط، ولكن لم يتم التعرف عليها من قبل التطبيق، يمكنك إضافتها يدوياً هنا.\r\n\\n\r\n\\nلن تؤدي إضافة بعض العناصر هنا إلى استبعاد أي مجلد آخر."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "لم يتم العثور علي أي ملفات وسائط. يمكنك حل المشكلة عن طريق إضافة المجلدات التي تحتوي على ملفات وسائط يدوياً."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "تغيير حجم التحديد والحفظ"
+    },
+    {
+      "name": "width",
+      "value": "العرض"
+    },
+    {
+      "name": "height",
+      "value": "الارتفاع"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "الحفاظ على نسبة الأبعاد"
+    },
+    {
+      "name": "invalid_values",
+      "value": "يرجى إدخال دقة صالحة"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "تغيير حجم صور متعددة"
+    },
+    {
+      "name": "resize_factor",
+      "value": "عامل تغيير الحجم"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "تغيير حجم الصور إلى النسبة المئوية المحددة ، يجب أن تكون القيمة في حدود 10 و 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "أدخل رقما بين 10 و90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "تم تغيير حجم الصور بنجاح"
+    },
+    {
+      "name": "editor",
+      "value": "تعديل"
+    },
+    {
+      "name": "basic_editor",
+      "value": "المحرر الأساسي"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "محرر متقدم"
+    },
+    {
+      "name": "rotate",
+      "value": "تدوير"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "مسار الصورة غير صحيح"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "مسار الفيديو غير صالح"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "فشل تعديل الصورة"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "فشل تحرير الفيديو"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "تم إلغاء تعديل الصورة"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "تم إلغاء تحرير الفيديو"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "تم تعديل الملف بنجاح"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "تم تحرير الصورة بنجاح"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "تم تحرير الفيديو بنجاح"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "تعديل الصورة باستخدام:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "تحرير الفيديو باستخدام:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "لم يتم العثور على أي محرر للصور"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "لم يتم العثور على محرر فيديو"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "موقع الملف غير معروف"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "لا يمكن استبدال الملف الأصل"
+    },
+    {
+      "name": "rotate_left",
+      "value": "تدوير لليسار"
+    },
+    {
+      "name": "rotate_right",
+      "value": "تدوير لليمين"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "تدوير بزاوية 180º"
+    },
+    {
+      "name": "transform",
+      "value": "تحويل"
+    },
+    {
+      "name": "crop",
+      "value": "ا قتصاص"
+    },
+    {
+      "name": "draw",
+      "value": "رسم"
+    },
+    {
+      "name": "flip",
+      "value": "انعكاس"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "قلب أفقياً"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "قلب عمودياً"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "حر"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "أخرى"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "خلفية بسيطة"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "تعيين كخلفية"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "فشل التعيين كخلفية"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "تعيين كخلفية باستخدام:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "جارٍ تعيين الخلفية…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "تم تعيين الخلفية بنجاح"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "نسبة الأبعاد العمودية"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "نسبة الأبعاد الأفقية"
+    },
+    {
+      "name": "home_screen",
+      "value": "الشاشة الرئيسية"
+    },
+    {
+      "name": "lock_screen",
+      "value": "شاشة القفل"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "الشاشة الرئيسية وشاشة القفل"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "السماح بتغيير نسبة الأبعاد"
+    },
+    {
+      "name": "slideshow",
+      "value": "عرض الشرائح"
+    },
+    {
+      "name": "interval",
+      "value": "الفاصل الزمني"
+    },
+    {
+      "name": "include_photos",
+      "value": "تضمين الصور"
+    },
+    {
+      "name": "include_videos",
+      "value": "تضمين مقاطع الفيديو"
+    },
+    {
+      "name": "include_gifs",
+      "value": "تضمين الصور المتحركة (GIF)"
+    },
+    {
+      "name": "random_order",
+      "value": "ترتيب عشوائي"
+    },
+    {
+      "name": "move_backwards",
+      "value": "تحريك للخلف"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "تكرار عرض الشرائح"
+    },
+    {
+      "name": "animation",
+      "value": "الحركة"
+    },
+    {
+      "name": "no_animation",
+      "value": "لا شيء"
+    },
+    {
+      "name": "fade",
+      "value": "تلاشي"
+    },
+    {
+      "name": "slide",
+      "value": "انزلاق"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "انتهى عرض الشرائح"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "لم يتم العثور على أي وسائط لعرض الشرائح"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "تجميع المجلدات الفرعية مباشرة"
+    },
+    {
+      "name": "group_by",
+      "value": "تجميع حسب"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "عدم تجميع الملفات"
+    },
+    {
+      "name": "by_folder",
+      "value": "المجلد"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "آخر تعديل"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "آخر تعديل (يومياً)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "آخر تعديل (شهرياً)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "تاريخ الالتقاط"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "تاريخ الالتقاط (يومياً)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "تاريخ الالتقاط (شهريًّا)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "نوع الملف"
+    },
+    {
+      "name": "by_extension",
+      "value": "الامتداد"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "إظهار عدد الملفات في رؤوس الأقسام"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "يرجى ملاحظة أن التجميع والفرز هما حقلان مستقلان"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "المجلد الظاهر فى الويدجت:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "إظهار اسم المجلد"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "تشغيل مقاطع الفيديو تلقائياً"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "تذكر آخر موضع لتشغيل الفيديو"
+    },
+    {
+      "name": "loop_videos",
+      "value": "تكرار مقاطع الفيديو"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "تحريك الصور المتحركة (GIF) في الصور المصغرة"
+    },
+    {
+      "name": "max_brightness",
+      "value": "أقصى سطوع عند عرض وسائط ملء الشاشة"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "اقتصاص الصور المصغرة إلى مربعات"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "إظهار مدة الفيديوهات"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "تدوير وسائط ملء الشاشة باستخدام"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "إعدادات النظام"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "تدوير الجهاز"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "نسبة الأبعاد"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "جعل الخلفية باللون الأسود في وسائط ملء الشاشة"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "تمرير الصور المصغرة أفقياً"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "إخفاء واجهة مستخدم النظام تلقائياً في وضع ملء الشاشة"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "حذف المجلدات الفارغة بعد حذف محتواها"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "السماح بالتحكم في سطوع الصور باستخدام الإيماءات العمودية"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "السماح بالتحكم في مستوي صوت الفيديو والسطوع باستخدام الإيماءات العمودية"
+    },
+    {
+      "name": "show_media_count",
+      "value": "إظهار عدد وسائط المجلد في العرض الرئيسي"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "إظهار التفاصيل الموسعة عبر وسائط ملء الشاشة"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "إدارة التفاصيل الموسعة"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "السماح بتكبير الوسائط بإصبع واحد في وضع ملء الشاشة"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "السماح بتغيير الوسائط على الفور من خلال النقر على جوانب الشاشة"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "السماح بالتكبير العميق للصور"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "إخفاء التفاصيل الموسعة عند إخفاء شريط الحالة"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "إظهار بعض أزرار الإجراءات في أسفل الشاشة"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "إظهار سلة المحذوفات في شاشة المجلدات"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "الصور القابلة للتكبير العميق"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "عرض الصور بأعلى جودة ممكنة"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "إظهار سلة المحذوفات كعنصر آخر على الشاشة الرئيسية"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "السماح بإغلاق عرض ملء الشاشة باستخدام إيماءة لأسفل"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "السماح بالتكبير 1:1 باستخدام النقر مزدوجاّ"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "فتح مقاطع الفيديو دائماً على شاشة منفصلة مع إيماءات أفقية جديدة"
+    },
+    {
+      "name": "show_notch",
+      "value": "عرض النوتش إذا كان متوفر"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "السماح بتدوير الصور باستخدام الإيماءات"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "أولوية تحميل الملفات"
+    },
+    {
+      "name": "speed",
+      "value": "بسرعة"
+    },
+    {
+      "name": "compromise",
+      "value": "اختيار وسط"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "تجنب إظهار الملفات غير الصالحة"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "إظهار أنواع ملفات الصور"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "السماح بتكبير مقاطع الفيديو مع النقر المزدوج عليها"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "نمط الصورة المصغرة للمجلد"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "نمط الصورة المصغرة للملف"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "وضع علامة على العناصر المفضلة"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "تباعد الصور المصغرة"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "إظهار عدد الملفات في سطر منفصل"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "إظهار عدد الملفات بين قوسين"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "عدم إظهار عدد الملفات"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "تحديد عناوين المجلدات الطويلة إلى سطر واحد"
+    },
+    {
+      "name": "square",
+      "value": "مربع"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "زوايا مستديرة"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "تصدير المفضلة"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "استيراد المفضلة"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "تم استيراد المسارات بنجاح"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "للتأكد من أن جميع عمليات الملفات تعمل بشكل موثوق ، يرجى جعل هذا التطبيق تطبيقا لإدارة الوسائط في إعدادات جهازك."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "حمايةالمجلدات المستبعدة بكلمة مرور"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "حدث خطأ ما ، يرجى الانتقال إلى إعدادات جهازك - التطبيقات - الوصول إلى التطبيقات الخاصة - تطبيقات إدارة الوسائط والسماح لهذا التطبيق بإدارة الوسائط."
+    },
+    {
+      "name": "media_management_note",
+      "value": "إذا لم تنجح عملية إعادة التوجيه ، فيرجى الانتقال إلى إعدادات جهازك - التطبيقات - الوصول إلى التطبيق الخاص - تطبيقات إدارة الوسائط والسماح لهذا التطبيق بإدارة الوسائط."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "إذا كنت لا ترغب في القيام بذلك، فيمكنك أيضًا الانتقال إلى إعدادات جهازك - التطبيقات - الوصول إلى التطبيقات الخاصة - تطبيقات إدارة الوسائط والسماح لهذا التطبيق بإدارة الوسائط."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "بدلاً من ذلك ، يمكنك السماح بالوصول إلى ملفات الوسائط فقط. في هذه الحالة ، لن تتمكن من العمل مع الملفات المخفية بالرغم من ذلك."
+    },
+    {
+      "name": "media_only",
+      "value": "الوسائط فقط"
+    },
+    {
+      "name": "all_files",
+      "value": "كل الملفات"
+    },
+    {
+      "name": "search_all_files",
+      "value": "البحث في جميع الملفات بدلا من المجلدات على الشاشة الرئيسية"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "إظهار زر قائمة للتبديل إظهار محتوى كافة المجلدات بسرعة"
+    },
+    {
+      "name": "thumbnails",
+      "value": "الصور المصغّرة"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "وسائط ملء الشاشة"
+    },
+    {
+      "name": "extended_details",
+      "value": "التفاصيل الموسعة"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "إجراءات الأزرار السفلية"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "إدارة إجراءات الأزرار المرئية"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "تبديل المفضلة"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "تبديل رؤية الملف"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "مخصص"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "إعادة تعيين"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "مربع"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "تحويل"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "فلتر"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "لا شيء"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "ضبط"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "ظلال"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "التعرض"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "أكثر وضوحاً"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "السطوع"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "التباين"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "التشبع"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "الوضوح"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "جاما"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "دراجات الأسود"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "دراجات الأبيض"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "درجة الحرارة"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "الحدة"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "إعادة تعيين"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "تركيز"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "لا شيء"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "قطري"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "خطي"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "مرآة"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "جاوس"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Add text"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "النص"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "خيارات النص"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "لون الخط"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "الخط"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "إضافة"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "تعديل"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "تقوية"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "الخط"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "اللون"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "لون الخلفية"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "محاذاة"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "إلى الأمام"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "حذف"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "النص الخاص بك"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "الفرشاة"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "اللون"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "الحجم"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "الصلابة"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "إلى الأمام"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "حذف"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "لون الفرشاة"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "المحرر"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "هل تريد إغلاق المحرر؟"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "هل حقًا تريد تجاهل التغييرات؟"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "نعم"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "لا"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "إلغاء"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "موافق"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "حفظ"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "جارٍ التصدير …"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "تصدير %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "ملصق"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "لون الملصق"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "خيارات الملصق"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "اضافة"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "اللون"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "حذف"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "إلى الأمام"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "التعريض"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "استبدال"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "التعتيم"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "التباين"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "التشبع"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "السطوع"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "التحميلات"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "التراكبات"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "عادي"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "التغميق"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "الشاشة"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "التراكبات"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "التفتيح"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "مضاعفة"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "احتراق الالوان"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "ضوء ناعم"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "ضوء الثابت"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "لاشيء"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "ذهبي"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "تسرب الضوء 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "فسيفساء"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "ورق"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "مطر"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "عتيق"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "أنعكاس أفقي"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "أنعكاس رأسي"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "تراجع"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "إعادة"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "لاقط اللون"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "شفاف"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "أبيض"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "رمادي"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "أسود"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "أزرق فاتح"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "أزرق"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "بنفسجي"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "أرجواني"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "وردي"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "أحمر"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "برتقالي"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "ذهبي"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "أصفر"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "زيتوني"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "أخضر"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "زبرجد"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Pipettable لون"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "تقليم"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "كيف يمكنني جعل تطبيق الاستديو معرض الجهاز الإفتراضي؟"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "أولًا، يجب عليك العثور على المعرض الافتراضي الحالي في قسم التطبيقات من إعدادات الجهاز، ثم ابحث عن زر يقول شيئاً مثل \\\"فتح كافتراضي\\\" ثم انقر عليه، ثم حدد \\\"مسح الإعدادات الإفتراضية\\\". في المرة القادمة التي ستحاول فيها فتح صورة أو مقطع فيديو يجب أن ترى اختيار تطبيق، حيث يمكنك تحديد تطبيق الاستديو وجعله التطبيق الافتراضي."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "لقد أغلقت التطبيق بكلمة مرور، لكنني نسيتها. ماذا يمكنني أن أفعل؟"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "يمكنك حلها بطريقتين. يمكنك إما إعادة تثبيت التطبيق أو البحث عن التطبيق في إعدادات جهازك وتحديد \\\"مسح البيانات\\\". سيتم إعادة تعيين كل إعداداتك، ولن يقوم بإزالة أي ملفات وسائط."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "كيف يمكنني جعل ألبوماً يظهر دائماً في الأعلى؟"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "يمكنك الضغط مطولًا على الألبوم المطلوب وحدد أيقونة التثبيت في قائمة الإجراءات، التي ستقوم بتثبيته في الأعلى. يمكنك تثبيت مجلدات متعددة أيضًا، سيتم فرز العناصر المثبتة حسب طريقة الفرز الافتراضية."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "كيف يمكنني تسريع مقاطع الفيديو؟"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "يمكنك القيام بذلك عن طريق النقر المزدوج على جانب الشاشة، أو النقر على نصوص المدة الحالية أو القصوى بالقرب من شريط التمرير. إذا قمت بتمكين فتح مقاطع الفيديو على شاشة منفصلة في إعدادات التطبيق، يمكنك استخدام الإيماءات الأفقية أيضاً."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "ما الفرق بين إخفاء المجلد واستبعاده؟"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "لاحظ أن بعض الأجهزة لا تسمح بإخفاء المجلدات مثل الكاميرا ولقطات الشاشة والتنزيلات. الاستبعاد يمنع عرض المجلد فقط في الاستديو، بينما الإخفاء يعمل على مستوى النظام ويخفي المجلد من المعارض الأخرى أيضاً. يعمل عن طريق إنشاء ملف فارغ .nomedia \\\" في المجلد المحدد، والذي يمكنك إزالته بعد ذلك بواسطة أي مدير ملفات أيضًا."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "لماذا تظهر المجلدات مع صورة غلاف الموسيقى أو الملصقات؟"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "قد يحدث أن ترى بعض الألبومات غير العادية تظهر. يمكنك بسهولة إستبعادهم بالضغط مطولاً عليهم واختيار استبعاد. في مربع الحوار التالي يمكنك بعد ذلك تحديد المجلد الاصل، من المحتمل أن يمنع ظهور الألبومات الأخرى ذات الصلة أيضاً."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "المجلد الذي به صور لا يظهر، أو لا يظهر كل العناصر. ماذا يمكنني أن أفعل؟"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "قد يكون لهذا عدة أسباب، ولكن حل هذه المشكلة أمر سهل. فقط أذهب إلى الإعدادات -> إدارة المجلدات المضمنة، وأختر علامة زائد (+) وانتقل إلى المجلد المطلوب."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "ماذا أفعل لو كنت أريد بعض المجلدات المحددة مرئية فقط؟"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "إضافة مجلد إلى المجلدات المضمنة لا يستبعد تلقائياً أي شيء. ما يمكنك القيام به هو الإنتقال إلى الإعدادات -> إدارة المجلدات المستبعدة، استبعاد المجلد الأصل \\\"/\\\"، ثم إضافة المجلدات المطلوبة في الإعدادات -> إدارة المجلدات المضمنة. سيؤدي ذلك إلى جعل المجلدات المحددة مرئية فقط، حيث أن كل من الاستبعاد والتضمين منعكسين وإذا كان أحد المجلدات مستبعداً ومضمن معاً، فسوف يظهر."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "هل يمكنني اقتصاص الصور باستخدام هذا التطبيق؟"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "نعم، يمكنك اقتصاص الصور في المحرر، عن طريق سحب زوايا الصورة. يمكنك الوصول إلى المحرر إما بالضغط مطولاً على الصورة المصغرة واختيار تعديل، أو اختيار تعديل من عرض ملء الشاشة."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "هل يمكنني بطريقة ما تجميع الصور المصغرة لملف الوسائط؟"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "بالتأكيد، فقط استخدم عنصر القائمة \\\"تجميع حسب\\\" أثناء عرض الصور المصغرة. يمكنك تجميع الملفات حسب معايير متعددة، بما في ذلك تاريخ الالتقاط. إذا كنت تستخدم وظيفة \\\"إظهار كل محتويات المجلدات\\\" فيمكنك تجميعها حسب المجلدات أيضًا."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "يبدو ان الفرز حسب تاريخ الالتقاط لا يعمل بشكل صحيح، كيف يمكنني إصلاحه؟"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "غالباً ما يكون ذلك بسبب الملفات التي يتم نسخها من مكان ما. يمكنك اصلاحه عن طريق تحديد الصور المصغرة للملف وأختر \\\"إصلاح تاريخ إلتقاط القيمة\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "أرى بعض التباين اللونى على الصور. كيف يمكنني تحسين الجودة؟"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "الحل الحالي لعرض الصور يعمل بشكل جيد في الأغلبية العظمى للحالات، ولكن إذا كنت تريد تحسين جودة الصور، يمكنك تمكين خيار \\\"عرض الصور بأعلى جودة ممكنة\\\" من إعدادات التطبيق، من قسم \\\"الصور العميقة القابلة للتكبير\\\"."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "لقد قمت بإخفاء ملف/مجلد. كيف يمكنني إظهاره؟"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "يمكنك إما الضغط على عنصر القائمة \\\"إظهار العناصر المخفية مؤقتا\\\" في الشاشة الرئيسية، أو تبديل \\\"إظهار العناصر المخفية\\\" في إعدادات التطبيق لرؤية العنصر المخفي. إذا كنت ترغب في إظهاره، فما عليك سوى الضغط عليه لفترة طويلة وتحديد \\\"إظهار\\\". يتم إخفاء المجلدات عن طريق إضافة ملف \\\".nomedia\\\" مخفي إليها، يمكنك حذف الملف مع أي مدير ملفات أيضا. لاحظ أن الإخفاء يعمل بشكل متكرر، لذلك إذا قمت بإخفاء مجلد، فستصبح جميع المجلدات الفرعية مخفية أيضا. لذلك لإلغاء إخفاء المجلدات الفرعية، يجب عليك إظهار المجلد الأصل."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "لماذا يشغل التطبيق مساحة كبيرة؟"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "يمكن لذاكرة التخزين المؤقت للتطبيق أن تصل سعتها إلى 250 ميجابايت، مما يضمن سرعة تحميل الصور. إذا كان التطبيق يشغل مساحة أكبر، فمن المحتمل أن يكون ذلك بسبب وجود عناصر في سلة المحذوفات. يتم حساب هذه الملفات إلى حجم التطبيق. يمكنك مسح سلة المحذوفات عن طريق فتحها وحذف جميع الملفات، أو من إعدادات التطبيق. يتم حذف كل ملف في سلة المحذوفات تلقائياً بعد 30 يوماً."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "ماذا حدث لإخفاء الملفات والمجلدات ولماذا لا يمكنني رؤية العناصر المخفية بعد الآن؟"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "بدءًا من Android 11، لا يمكنك إخفاء أو إظهار الملفات أو المجلدات، ولا يمكنك رؤية الملفات أو المجلدات المخفية في تطبيقات المعرض بسبب قيود النظام أيضًا. سيكون عليك استخدام مدير الملفات لذلك."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "أو يمكنك أيضاً أن تمنح هذا المعرض وصولاً إلى جميع الملفات من خلال أعدادات جهازك هذا سيتيح لك عرض المحتوى الخفي."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "لماذا لا يمكنني تضمين المجلدات المفقودة بعد الآن؟"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "توقف ذلك عن العمل بسبب تغييرات النظام التي جاءت مع Android 11 أيضا ، ولم يعد بإمكان التطبيق تصفح المجلدات الحقيقية بعد الآن ، فهو يعتمد على ما يسمى MediaStore في جلب البيانات."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "لماذا أشاهد الإعلانات أثناء تشغيل الفيديو؟"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "لا تحتوي تطبيقاتنا على أي إعلانات على الإطلاق. إذا رأيتها أثناء تشغيل الفيديو، فيجب أن تستخدم مشغل فيديو بعض التطبيقات الأخرى. حاول العثور على مشغل الفيديو الافتراضي في إعدادات الجهاز، ثم قم بإجراء \\\"مسح الإعدادات الافتراضية\\\" عليه. في المرة التالية التي تستدعي فيها بعض نوايا الفيديو، سترى مطالبة منتقي التطبيقات، حيث يمكنك تحديد التطبيق الذي تريد استخدامه."
+    }
+  ]
+}

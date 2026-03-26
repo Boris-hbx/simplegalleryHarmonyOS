@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Simple Gallery"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galeria"
+    },
+    {
+      "name": "edit",
+      "value": "Edita"
+    },
+    {
+      "name": "open_camera",
+      "value": "Obre la càmera"
+    },
+    {
+      "name": "hidden",
+      "value": "(ocult)"
+    },
+    {
+      "name": "excluded",
+      "value": "(exclòs)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Fixa la carpeta"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "No fixis la carpeta"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Fixa a dalt"
+    },
+    {
+      "name": "show_all",
+      "value": "Mostra el contingut de totes les carpetes"
+    },
+    {
+      "name": "all_folders",
+      "value": "Totes les carpetes"
+    },
+    {
+      "name": "folder_view",
+      "value": "Canvia a la vista de carpeta"
+    },
+    {
+      "name": "other_folder",
+      "value": "Una altra carpeta"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Mostra en el mapa"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Ubicació desconeguda"
+    },
+    {
+      "name": "volume",
+      "value": "Volum"
+    },
+    {
+      "name": "brightness",
+      "value": "Lluminositat"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Bloqueja l'orientació"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Desbloqueja l'orientació"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Canvia l'orientació"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Força vertical"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Força horitzontal"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Fes servir l'orientació predeterminada"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Corregeix el valor de la data de presa"
+    },
+    {
+      "name": "fixing",
+      "value": "S'està corregint…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Data corregida correctament"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "No s'ha trobat cap valor de data de presa"
+    },
+    {
+      "name": "share_resized",
+      "value": "Comparteix una versió redimensionada"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Canvia a la cerca de fitxers per totes les carpetes visibles"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Estableix com a carpeta predeterminada"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Desactiva com a carpeta predeterminada"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Reordeneu les carpetes arrossegant-les"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Reordeneu les carpetes arrossegant-les (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "S'està restaurant a «%s»"
+    },
+    {
+      "name": "filter_media",
+      "value": "Filtre multimèdia"
+    },
+    {
+      "name": "images",
+      "value": "Imatges"
+    },
+    {
+      "name": "videos",
+      "value": "Vídeos"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF"
+    },
+    {
+      "name": "raw_images",
+      "value": "Imatges RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG"
+    },
+    {
+      "name": "portraits",
+      "value": "Retrats"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "No s'ha trobat cap fitxer multimèdia amb els filtres seleccionats."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Canvia els filtres"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Aquesta funció oculta la carpeta agregant un fitxer «.nomedia» a dins d'ella. També ocultarà les subcarpetes. Podeu veure-les canviant l'opció «Mostra els elements ocults» a la configuració. Continuo\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Això exclourà la selecció junt amb les seves subcarpetes, només a la Simple Gallery. Podeu gestionar les carpetes excloses a la configuració."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Voleu excloure la carpeta superior\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Excloure les carpetes les ocultarà junt amb les seves subcarpetes, però només a la Simple Gallery. Seguiran sent visibles en altres aplicacions.\r\n\\n\r\n\\nSi voleu ocultar-les d'altres aplicacions, feu servir la funció Oculta."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Carpetes ocultes"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Gestiona les carpetes ocultes"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Sembla que no teniu cap carpeta oculta amb el fitxer «.nomedia»."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Cal concedir a l'aplicació accés a tots els fitxers per veure els fitxers ocults, en cas contrari podria no funcionar."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Si una carpeta o una de les seves carpetes superiors té un punt abans del seu nom, està amagada i no es pot mostrar aquí. Heu d'eliminar el punt canviant el seu nom."
+    },
+    {
+      "name": "include_folders",
+      "value": "Carpetes incloses"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Gestiona les carpetes incloses"
+    },
+    {
+      "name": "add_folder",
+      "value": "Agrega una carpeta"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Si hi ha algunes carpetes que continguin multimèdia, però l'aplicació no les ha reconegut, podeu agregar-les manualment aquí.\r\n\\n\r\n\\nSi aquí s'afegeixen elements, no s'exclourà cap altra carpeta."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "No s'ha trobat cap fitxer multimèdia. Podeu resoldre-ho afegint manualment les carpetes que contenen fitxers multimèdia."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Redimensiona la selecció i desa"
+    },
+    {
+      "name": "width",
+      "value": "Amplada"
+    },
+    {
+      "name": "height",
+      "value": "Alçada"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Mantén la relació d'aspecte"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Introduïu una resolució vàlida"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Canvia la mida de diverses imatges"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Factor de canvi de mida"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Canvia la mida de les imatges al percentatge indicat, el valor ha d'estar entre 10 i 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Introduïu un número entre 10 i 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Les imatges s'han canviat de mida correctament"
+    },
+    {
+      "name": "editor",
+      "value": "Editor"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Editor bàsic"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Editor avançat"
+    },
+    {
+      "name": "rotate",
+      "value": "Gira"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "El camí de la imatge no és vàlid"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "El camí del vídeo no és vàlid"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Ha fallat l'edició de la imatge"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Ha fallat l'edició del vídeo"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "S'ha cancel·lat l'edició de la imatge"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "S'ha cancel·lat l'edició del vídeo"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "El fitxer s'ha editat correctament"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "La imatge s'ha editat correctament"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "El vídeo s'ha editat correctament"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Edita la imatge amb:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Edita el vídeo amb:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "No s'ha trobat cap editor d'imatges"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "No s'ha trobat cap editor de vídeo"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Ubicació desconeguda del fitxer"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "No s'ha pogut sobreescriure el fitxer d'origen"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Gira a l'esquerra"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Gira a la dreta"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Gira 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Transforma"
+    },
+    {
+      "name": "crop",
+      "value": "Escapça"
+    },
+    {
+      "name": "draw",
+      "value": "Dibuixa"
+    },
+    {
+      "name": "flip",
+      "value": "Inverteix"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Inverteix horitzontalment"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Inverteix verticalment"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Lliure"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Altres"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Fons de pantalla simple"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Estableix com a fons de pantalla"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Ha fallat en establir com a fons de pantalla"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Estableix com a fons de pantalla amb:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "S'està establint el fons de pantalla…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "El fons de pantalla s'ha establert correctament"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Relació d'aspecte de retrat"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Relació d'aspecte de paisatge"
+    },
+    {
+      "name": "home_screen",
+      "value": "Pantalla d'inici"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Pantalla de bloqueig"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Pantalla d'inici i de bloqueig"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Permet canviar la relació d'aspecte"
+    },
+    {
+      "name": "slideshow",
+      "value": "Presentació de diapositives"
+    },
+    {
+      "name": "interval",
+      "value": "Interval"
+    },
+    {
+      "name": "include_photos",
+      "value": "Inclou fotos"
+    },
+    {
+      "name": "include_videos",
+      "value": "Inclou vídeos"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Inclou GIF"
+    },
+    {
+      "name": "random_order",
+      "value": "Ordre aleatori"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Mou cap enrere"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Presentació de diapositives en bucle"
+    },
+    {
+      "name": "animation",
+      "value": "Animació"
+    },
+    {
+      "name": "no_animation",
+      "value": "Cap"
+    },
+    {
+      "name": "fade",
+      "value": "Esvaïment"
+    },
+    {
+      "name": "slide",
+      "value": "Lliscament"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "S'ha acabat la presentació de diapositives"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "No s'ha trobat cap contingut multimèdia per a la presentació de diapositives"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Agrupa les subcarpetes directes"
+    },
+    {
+      "name": "group_by",
+      "value": "Agrupa per"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "No agrupis els fitxers"
+    },
+    {
+      "name": "by_folder",
+      "value": "Carpeta"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Última modificació"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Última modificació (diària)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Última modificació (mensual)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Data de presa"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Data de presa (diari)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Data de presa (mensual)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Tipus de fitxer"
+    },
+    {
+      "name": "by_extension",
+      "value": "Extensió"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Mostra el comptador de fitxers a les capçaleres de la secció"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Tingueu en compte que l'agrupació i la classificació són 2 camps independents"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Carpeta que es mostra al giny:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Mostra el nom de la carpeta"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Reprodueix automàticament els vídeos"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Recorda la posició de la darrera reproducció de vídeo"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Vídeos en bucle"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Anima les miniatures dels GIF"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Lluminositat màxima en visualitzar contingut multimèdia a pantalla completa"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Escapça les miniatures en quadrats"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Mostra la durada dels vídeos"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Gira el contingut multimèdia a pantalla completa"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Configuració del sistema"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Gir del dispositiu"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Relació d'aspecte"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Fons negre en el contingut multimèdia a pantalla completa"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Desplaça les miniatures horitzontalment"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Oculta automàticament la interfície d'usuari del sistema en el contingut multimèdia a pantalla complerta"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Suprimeix les carpetes buides després d'haver suprimit el seu contingut"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Permet controlar la brillantor de la foto amb gestos verticals"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Permet controlar el volum i la brillantor del vídeo amb gestos verticals"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Mostra el comptador de contingut multimèdia de les carpetes a la vista principal"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Mostra els detalls ampliats sobre el contingut multimèdia a pantalla complerta"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Gestioneu els detalls ampliats"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Permet fer zoom amb un dit en el contingut multimèdia a pantalla complerta"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Permet canviar el contingut multimèdia instantàniament fent clic a les vores de la pantalla"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Permet imatges de zoom profund"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Oculta els detalls ampliats quan la barra d'estat està oculta"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Mostra alguns botons d'acció a la part inferior de la pantalla"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Mostra la paperera de reciclatge a la pantalla de carpetes"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Imatges ampliables profundament"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Mostra les imatges amb la màxima qualitat possible"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Mostra la paperera de reciclatge com a últim element a la pantalla principal"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Permet tancar la vista de pantalla completa amb un gest cap avall"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Permet el zoom 1:1 amb dos tocs dobles"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Obre sempre els vídeos en una pantalla separada amb gestos horitzontals nous"
+    },
+    {
+      "name": "show_notch",
+      "value": "Mostra una osca si està disponible"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Permet girar imatges amb gestos"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Prioritat de càrrega de fitxers"
+    },
+    {
+      "name": "speed",
+      "value": "Velocitat"
+    },
+    {
+      "name": "compromise",
+      "value": "Compromís"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Evita mostrar fitxers no vàlids"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Mostra els tipus de fitxer d'imatge"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Permet fer zoom als vídeos amb un toc doble en ells"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Estil de miniatura de carpeta"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Estil de miniatura de fitxer"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Marca els elements preferits"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Espaiat de les miniatures"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Mostra el comptador de fitxers en una línia separada"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Mostra el comptador de fitxers entre claudàtors"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "No mostris el comptador de fitxers"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Limita els títols llargs de carpeta a 1 línia"
+    },
+    {
+      "name": "square",
+      "value": "Quadrat"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Cantonades arrodonides"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Exporta els preferits"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Importa els preferits"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Els camins s'han importat correctament"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Per assegurar que totes les operacions de fitxers funcionin de manera fiable, feu que aquesta aplicació sigui una aplicació de gestió multimèdia a la configuració del dispositiu."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Protegeix amb contrasenya la visibilitat de les carpetes excloses"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "S'ha produït un error, aneu a la Configuració del dispositiu - Aplicacions - Accés especial a l'aplicació - Aplicacions de gestió multimèdia i permeteu que aquesta aplicació gestioni el contingut multimèdia."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Si la redirecció no funciona, aneu a la Configuració del dispositiu - Aplicacions - Accés especial d'aplicacions - Aplicacions de gestió multimèdia i permeteu que aquesta aplicació gestioni el contingut multimèdia."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Si no voleu fer-ho, també podeu anar a la Configuració del dispositiu - Aplicacions - Accés especial a l'aplicació - Aplicacions de gestió multimèdia i permetre que aquesta aplicació gestioni el contingut multimèdia."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternativament, podeu permetre l'accés només a fitxers multimèdia. En aquest cas, però, no podreu treballar amb fitxers ocults."
+    },
+    {
+      "name": "media_only",
+      "value": "Només fitxers multimèdia"
+    },
+    {
+      "name": "all_files",
+      "value": "Tots els fitxers"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Cerca tots els fitxers en lloc de carpetes a la pantalla principal"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Mostra un botó de menú per commutar «Mostra el contingut de totes les carpetes ràpidament»"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Miniatures"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Contingut multimèdia a pantalla completa"
+    },
+    {
+      "name": "extended_details",
+      "value": "Detalls ampliats"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Accions a la part inferior"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Gestió de les accions visibles de la part inferior"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Commuta com a preferit"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Commuta la visibilitat del fitxer"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Personalitzat"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Restaura"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Quadrat"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Transforma"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filtre"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "No"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Ajusta"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Ombres"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Exposició"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Ressaltat"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Brillantor"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Saturació"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Claredat"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Negres"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Blancs"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Temperatura"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Nitidesa"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Restaura"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Focus"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "No"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radial"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Lineal"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Emmirallat"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussià"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Afegeix text"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Text"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Opcions del text"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Color del text"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Lletra"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Afegeix"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Edita"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Redreça"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Lletra"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Color de fons"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Alineació"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Al davant"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Suprimeix"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "El meu text"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Pinzell"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Mida"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Duresa"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Al davant"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Suprimeix"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Color del pinzell"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Tanco l'editor\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Realment voleu descartar els canvis\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Sí"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "No"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Cancel·la"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Accepta"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Desa"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "S'està exportant…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "S'està exportant %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Adhesiu"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Color de l'adhesiu"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Opcions de l'adhesiu"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Afegeix"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Suprimeix"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Al davant"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Redreça"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Substitueix"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opacitat"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Saturació"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Brillantor"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Càrregues"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Superposició"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Enfosqueix"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Pantalla"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Superposició"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Aclareix"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Multiplica"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Crema el color"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Llum suau"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Llum dura"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Cap"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Daurat"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Fuita de llum 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaic"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Paper"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Pluja"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Inverteix h"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Inverteix v"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Desfés"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Refés"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Selector de colors"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Transparent"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Blanc"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Gris"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Negre"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Blau clar"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Blau"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Porpra"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orquídia"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Rosa"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Vermell"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Taronja"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Or"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Groc"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Oliva"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Verd"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Aiguamarina"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Color que es pot triar amb una pipeta"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Retalla"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Com puc fer que Simple Gallery sigui la galeria predeterminada del dispositiu\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Primer heu de trobar la galeria actualment predeterminada a la secció Aplicacions de la configuració del dispositiu, cerqueu un botó que digui alguna cosa semblant a «Obre per defecte», feu-hi clic i seleccioneu «Neteja els valors predeterminats». La pròxima vegada que proveu d'obrir una imatge o un vídeo, haureu de veure un selector d'aplicació, on podeu seleccionar Simple Gallery i convertir-la en l'aplicació predeterminada."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Vaig bloquejar l'aplicació amb una contrasenya, però l'he oblidat. Què puc fer\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Es pot resoldre de dues maneres. Podeu tornar a instal·lar l'aplicació o trobar l'aplicació a la configuració del dispositiu i seleccionar «Neteja les dades». Això reiniciarà totes les configuracions, no eliminarà cap fitxer multimèdia."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Com puc fer que un àlbum sempre aparegui a la part superior\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Podeu prémer l'àlbum desitjat i seleccionar la icona de la xinxeta al menú d'acció, i el fixarà a la part superior. També podeu fixar diverses carpetes, els elements fixats s'ordenaran pel mètode de classificació predeterminat."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Com puc avançar ràpidament els vídeos\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Podeu fer-ho tocant dues vegades la vora de la pantalla, o tocant els textos de durada actual o màxima a prop de la barra de cerca. Si activeu l'obertura de vídeos en una pantalla separada a la configuració de l'aplicació, també podreu fer servir gestos horitzontals."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Quina és la diferència entre ocultar i excloure una carpeta\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Excloure impedeix mostrar la carpeta només a Simple Gallery, mentre que ocultar també amaga la carpeta a altres galeries. Funciona creant un fitxer «.nomedia» buit a la carpeta indicada, que podeu eliminar amb qualsevol gestor de fitxers. Tingueu en compte que alguns dispositius no permeten amagar carpetes com Càmera, Captures de pantalla o Descàrregues."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Per què apareixen les carpetes amb les portades de la música o adhesius\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Pot passar que veureu que apareixen alguns àlbums inusuals. Podeu excloure'ls fàcilment prement-los prolongadament i seleccionant Excloure. Al diàleg següent, podeu seleccionar la carpeta principal, és probable que impedeixi que també apareguin altres àlbums relacionats."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "No apareix una carpeta amb imatges, o no mostra tots els elements. Què puc fer\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Això pot tenir diversos motius, però resoldre-ho és fàcil. Accediu a Configuració -> Gestiona les carpetes incloses, seleccioneu Més i navegueu fins a la carpeta necessària."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Què passa si vull veure només algunes carpetes concretes\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Afegir una carpeta a les carpetes incloses no exclou automàticament res. El que podeu fer és anar a Configuració -> Gestiona les carpetes excloses, excloure la carpeta arrel «/» i, a continuació, afegir les carpetes desitjades a Configuració -> Gestiona les carpetes incloses. Això farà que només siguin visibles les carpetes seleccionades, ja que tant excloure com incloure són recursius i si una carpeta està exclosa i inclosa, aquesta es mostrarà."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Puc escapçar imatges amb aquesta aplicació\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Sí, podeu escapçar imatges a l'editor, arrossegant les cantonades de la imatge. Es pot accedir a l'editor prement prolongadament una miniatura d'imatge i seleccionant Edita o seleccionant Edita des de la visualització de pantalla completa."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Puc agrupar d'alguna manera les miniatures dels fitxers multimèdia\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Sí, només cal utilitzar l'element de menú «Agrupa per» mentre esteu a la vista de miniatures. Podeu agrupar fitxers amb diversos criteris, inclosa la data de presa. Si utilitzeu la funció «Mostra el contingut de totes les carpetes», també podeu agrupar-les per carpetes."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "L'ordenació per la data de presa no sembla funcionar correctament, com puc solucionar-ho\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Probablement, els fitxers s'han copiat des de qualsevol lloc. Podeu arreglar-ho seleccionant les miniatures de fitxer i seleccionant «Corregeix el valor de la data de presa»."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Veig algunes bandes de colors a les imatges. Com puc millorar la qualitat\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "La solució actual per mostrar imatges funciona bé en la gran majoria dels casos, però si voleu obtenir una qualitat d'imatge millor, podeu activar «Mostra les imatges amb la màxima qualitat possible» a la configuració de l'aplicació, a la secció «Imatges ampliables profundament»."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "He ocultat un fitxer/carpeta. Com puc mostrar-ho\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Podeu prémer l'element de menú «Mostra temporalment els elements ocults» a la pantalla principal o canviar «Mostra els elements ocults» a la configuració de l'aplicació per veure l'element ocult. Si el voleu mostrar, premeu-lo i seleccioneu «Mostra». Les carpetes s'oculten afegint un fitxer «.nomedia» ocult en elles, també podeu eliminar el fitxer amb qualsevol gestor de fitxers. Tingueu en compte que l'ocultació funciona recursivament, així que si oculteu una carpeta, totes les subcarpetes també es faran ocultes. Per tant, per a fer visibles les subcarpetes cal mostrar la carpeta superior."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Per què l'aplicació ocupa tant espai\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "La memòria cau de l'aplicació pot ocupar fins a 250 MB, i garanteix una càrrega més ràpida de les imatges. Si l'aplicació ocupa més espai, probablement serà perquè hi ha elements a la paperera de reciclatge. Aquests fitxers compten en la mida de l'aplicació. Podeu netejar la paperera de reciclatge obrint-la i suprimint tots els fitxers, o des de la configuració de l'aplicació. Els fitxers de la paperera s'eliminen automàticament després de 30 dies."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Què ha passat amb l'ocultació de fitxers i carpetes i per què ja no puc veure els elements ocults\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "A partir d'Android 11, ja no podeu amagar ni mostrar carpetes ni fitxers, tampoc no podeu veure els ocults a les aplicacions de galeria per restriccions del sistema. Haureu d'utilitzar algun gestor de fitxers per a això."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "O també podeu concedir a aquesta galeria accés a tots els fitxers mitjançant la configuració del vostre dispositiu, que permetrà mostrar els elements ocults i fer que les operacions dels fitxers siguin més fiables en general."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Per què ja no puc incloure les carpetes que manquen\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Això ha deixat de funcionar a causa dels canvis del sistema que també han vingut amb Android 11, l'aplicació ja no pot navegar per carpetes reals, es basa en l'anomenat MediaStore per obtenir dades."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Per què veig anuncis comercials durant la reproducció de vídeo\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Les nostres aplicacions no tenen cap anunci. Si els veieu durant la reproducció de vídeo, estareu utilitzant una altra aplicació de reproducció de vídeo. Intenteu trobar el reproductor de vídeo predeterminat a la configuració del dispositiu i, a continuació, feu «Esborra els valors predeterminats». La pròxima vegada que invoqueu una acció de vídeo, veureu un missatge de selecció d'aplicacions, on podreu seleccionar quina aplicació voleu utilitzar."
+    }
+  ]
+}

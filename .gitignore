@@ -1,0 +1,15 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer*.txt conversation-* 2026-*
+conversation-*.txt
+2026-*.txt
+.appanalyzer/

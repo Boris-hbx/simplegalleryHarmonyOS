@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "எளிய காட்சியகம்"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "காட்சியகம்"
+    },
+    {
+      "name": "edit",
+      "value": "திருத்து"
+    },
+    {
+      "name": "open_camera",
+      "value": "படக்கருவியைத் திற"
+    },
+    {
+      "name": "hidden",
+      "value": "(மறைந்த)"
+    },
+    {
+      "name": "excluded",
+      "value": "(excluded)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "அடைவை முள்ளிடு"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "அடைவை முள்ளெடு"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "மேலே முள்ளிடு"
+    },
+    {
+      "name": "show_all",
+      "value": "எல்லா அடைவு உள்ளடக்கம் காட்டு"
+    },
+    {
+      "name": "all_folders",
+      "value": "எல்லா அடைவுகள்"
+    },
+    {
+      "name": "folder_view",
+      "value": "அடைவு பார்வைக்கு மாறு"
+    },
+    {
+      "name": "other_folder",
+      "value": "பிற அடைவு"
+    },
+    {
+      "name": "show_on_map",
+      "value": "வரைபடத்தில் காட்டு"
+    },
+    {
+      "name": "unknown_location",
+      "value": "அறியா இடம்"
+    },
+    {
+      "name": "volume",
+      "value": "ஒலியளவு"
+    },
+    {
+      "name": "brightness",
+      "value": "ஒளிர்வு"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "நோக்குநிலையைப் பூட்டு"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "நோக்குநிலையைப் பூட்டவிழ்"
+    },
+    {
+      "name": "change_orientation",
+      "value": "நோக்குநிலையை மாற்று"
+    },
+    {
+      "name": "force_portrait",
+      "value": "உருவப்படத்தை வற்புறுத்து"
+    },
+    {
+      "name": "force_landscape",
+      "value": "அகலவாக்கை வற்புறுத்து"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "இயல்புநிலை நோக்குநிலையைப் பயன்படுத்து"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "எடுத்த தேதி மதிப்பைச் சரிசெய்"
+    },
+    {
+      "name": "fixing",
+      "value": "சரிசெய்தல்…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "தேதிகள் சரிசெய்தல் வெற்றி"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "தேதி எடுத்த மதிப்புகள் எதுவும் கண்டுபிடிக்கப்படவில்லை"
+    },
+    {
+      "name": "share_resized",
+      "value": "மறுவளவிடப்பட்ட பதிப்பைப் பகிர்"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "எல்லா தெரியும் அடைவுகளிலும் கோப்பு தேடலுக்கு மாறு"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "இயல்புநிலை அடைவாக அமை"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "இயல்புநிலை அடைவாக அமைக்காதே"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "பிடித்திழுத்து அடைவுகளை மறுசீரமை"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "பிடித்திழுத்து அடைவுகளை மறுசீரமை (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Restoring to '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "ஊடகத்தை வடிகட்டு"
+    },
+    {
+      "name": "images",
+      "value": "படங்கள்"
+    },
+    {
+      "name": "videos",
+      "value": "காணொளிகள்"
+    },
+    {
+      "name": "gifs",
+      "value": "GIFகள்"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW படங்கள்"
+    },
+    {
+      "name": "svgs",
+      "value": "SVGகள்"
+    },
+    {
+      "name": "portraits",
+      "value": "உருவப்படங்கள்"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "தேர்ந்தெடுத்த வடிகட்டிகளுடன் ஊடக கோப்புகள் ஏதுமில்லை."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "வடிகட்டிகளை மாற்று"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "இச்செயல்பாடு ஒரு '.nomedia' கோப்பைச் சேர்த்து அடைவை மறைக்கிறது, இது எல்லா துணையடைவுகளையும் மறைக்கும். அமைப்புகளில் 'மறைந்த உருப்படிகளைக் காட்டு' விருப்பத்தை மாற்றிஅவற்றைக் காணலாம். தொடரவா\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "இது எளிய காட்சியகத்திலிருந்து தெரிவின் துணையடைவுகளுடன் அதை விலக்கும். அமைப்புகளில் விலக்கிய அடைவுகளை நீங்கள் நிர்வகிக்கலாம்."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "பதிலாக ஒரு பெற்றோரை விலக்கவா\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "அடைவுகளை விலக்குதல், அவற்றின் துணையடைவுகளுடன் அவற்றை எளிய காட்சியகத்தில் மட்டுமே மறைக்கும், அவை பிற செயலிகளில் இன்னும் தெரியும்.\r\n\\n\r\n\\nபிற செயலிகளிலிருந்தும் அவற்றை மறைக்க, மறை செயல்பாட்டைப் பயன்படுத்து."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "மறைத்த அடைவுகள்"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "மறைத்த அடைவுகளை நிர்வகி"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "உங்களிடம் \\\".nomedia\\\" கோப்புடன் எவ்வடைகளும் மறைக்கப்படவில்லை என தெரிகிறது."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "You have to grant the app All Files access to see hidden files, else it cannot work."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "உள்ளடக்கிய அடைவுகள்"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "உள்ளடக்கிய அடைவுகளை நிர்வகி"
+    },
+    {
+      "name": "add_folder",
+      "value": "அடைவு சேர்"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "உம்மிடம் ஊடகத்துடன் சில அடைவுகள் இருக்கின்றன, ஆனால் செயலியால் ஆங்கீகரிக்கப்படவில்லையெனில், அவற்றை கைமுறையாக இங்கே சேர்க்கலாம்.\r\n\\n\r\n\\nசில உருப்படிகளை இங்கே சேர்ப்பது வேறு எவ்வடைவையும் விலக்காது."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "ஊடக கோப்புகள் ஏதுமில்லை. ஊடக கோப்புகளைக் கொண்ட அடைவுகளை கைமுறையாகச் சேர்த்து அதைத் தீர்க்கலாம்."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "தெரிவை மறுஅளவிட்டுச் சேமி"
+    },
+    {
+      "name": "width",
+      "value": "அகலம்"
+    },
+    {
+      "name": "height",
+      "value": "உயரம்"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "கூறுவிகிதத்தை வைத்திரு"
+    },
+    {
+      "name": "invalid_values",
+      "value": "செல்லத்தக்க தீர்மானத்தை உள்ளிடவும்"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Resize multiple images"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Resize factor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resize images to the given percentage, value must be within 10 and 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Enter a number between 10 and 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Images resized successfully"
+    },
+    {
+      "name": "editor",
+      "value": "திருத்தி"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Basic Editor"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Advanced Editor"
+    },
+    {
+      "name": "rotate",
+      "value": "சுழற்று"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "செல்லாத பட பாதை"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "செல்லாத காணொளி பாதை"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "படத்திருத்தம் தோல்வி"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "காணொளித்திருத்தம் தோல்வி"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "படத்திருத்தம் இரத்து"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "காணொளித்திருத்தம் இரத்து"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "கோப்புத்திருத்தம் வெற்றி"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "படத்திருத்தம் வெற்றி"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "காணொளித்திருத்தம் வெற்றி"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "படத்தை இதனுடன் திருத்து:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "காணொளியை இதனுடன் திருத்து:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "படத்திருத்தி ஏதுமில்லை"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "காணொளித்திருத்தி ஏதுமில்லை"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "அறியப்படாத கோப்பிடம்"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "மூல கோப்பை மேலெழுத முடியவில்லை"
+    },
+    {
+      "name": "rotate_left",
+      "value": "இடதில் சுழற்று"
+    },
+    {
+      "name": "rotate_right",
+      "value": "வலதில் சுழற்று"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "180º சுழற்று"
+    },
+    {
+      "name": "transform",
+      "value": "Transform"
+    },
+    {
+      "name": "crop",
+      "value": "Crop"
+    },
+    {
+      "name": "draw",
+      "value": "Draw"
+    },
+    {
+      "name": "flip",
+      "value": "புரட்டு"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "கிடைமட்டமாக புரட்டு"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "செங்குத்தாக புரட்டு"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "கட்டுப்பாடற்ற"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "மற்ற"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "எளிய சுவர்த்தாள்"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "சுவர்த்தாளாக அமை"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "சுவர்த்தாளாக அமைத்தல் தோல்வி"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "இதனுடன் சுவர்த்தாளாக அமை:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "சுவர்த்தாள் அமைத்தல்…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "சுவர்த்தாள் அமைத்தல் வெற்றி"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "உருவப்பட கூறுவிகிதம்"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "அகலவாக்கு கூறுவிகிதம்"
+    },
+    {
+      "name": "home_screen",
+      "value": "முகப்புத் திரை"
+    },
+    {
+      "name": "lock_screen",
+      "value": "பூட்டுத் திரை"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "முகப்பு மற்றும் பூட்டுத் திரை"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Allow changing the aspect ratio"
+    },
+    {
+      "name": "slideshow",
+      "value": "வில்லைக்காட்சி"
+    },
+    {
+      "name": "interval",
+      "value": "இடைவெளி"
+    },
+    {
+      "name": "include_photos",
+      "value": "புகைப்படங்களை உள்ளடக்கு"
+    },
+    {
+      "name": "include_videos",
+      "value": "காணொளிகளை உள்ளடக்கு"
+    },
+    {
+      "name": "include_gifs",
+      "value": "GIFகளை உள்ளடக்கு"
+    },
+    {
+      "name": "random_order",
+      "value": "சீரற்ற வரிசை"
+    },
+    {
+      "name": "move_backwards",
+      "value": "பின்னோக்கி நகர்த்து"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "வில்லைக்காட்சியை வட்டமடி"
+    },
+    {
+      "name": "animation",
+      "value": "இயங்குபடம்"
+    },
+    {
+      "name": "no_animation",
+      "value": "ஒன்றுமில்லை"
+    },
+    {
+      "name": "fade",
+      "value": "மங்குதல்"
+    },
+    {
+      "name": "slide",
+      "value": "வில்லை"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "வில்லைக்காட்சி முடிந்தது"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "வில்லைக்காட்சிக்கான ஊடகங்கள் ஏதுமில்லை"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "நேரடி துணையடைவுகளை ஒன்றிணை"
+    },
+    {
+      "name": "group_by",
+      "value": "இதன்படி ஒன்றிணை"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "கோப்புகளை ஒன்றிணைக்காதே"
+    },
+    {
+      "name": "by_folder",
+      "value": "அடைவு"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "கடைசியாக மாற்றியது"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "கடைசியாக மாற்றியது (தினசரி)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "கடைசியாக மாற்றியது (மாதாந்திர)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "எடுத்த தேதி"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "எடுத்த தேதி (தினசரி)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "எடுத்த தேதி (மாதாந்திர)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "கோப்பு வகை"
+    },
+    {
+      "name": "by_extension",
+      "value": "நீட்டிப்பு"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "கோப்பெண்ணிக்கையை பிரிவு மேற்குறிப்பில் காட்டு"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "ஒன்றிணைத்தலும் வரிசைப்படுத்தலும் 2 சார்பிலா புலங்கள் என்பதை குறிக்கவும்"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "விட்ஜெட்டில் கோப்புறை காட்டப்பட்டுள்ளது:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "அடைவு பெயரைக் காட்டு"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "காணொளிகளைத் தானியக்கு"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "கடைசி காணொளி பின்னணி நிலையை நினைவிற்கொள்"
+    },
+    {
+      "name": "loop_videos",
+      "value": "காணொளிகளை வட்டமடி"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "சிறுபடங்களில் GIFகளை உயிரூட்டு"
+    },
+    {
+      "name": "max_brightness",
+      "value": "முழுத்திரை ஊடகத்தை பார்க்கும்போது அதிகபட்ச ஒளிர்வு"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "சிறுபடங்களை சதுரங்களாக நறுக்கு"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "காணொளி காலவளவுகளைக் காட்டு"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "முழுத்திரை ஊடகத்தை இப்படி சுழற்று"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "கணினி அமைவு"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "சாதன சுழற்சி"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "கூறுவிகிதம்"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "முழுத்திரை ஊடகங்களில் கருப்பு பின்னணி"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "சிறுபடங்களை கிடைமட்டமாக உருட்டு"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "முழுத்திரை ஊடகத்தில் கணினி UIஐத் தானாக மறை"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "வெற்று அடைவுகளை அவற்றின் உள்ளடக்கத்தை அழித்தபின் அழி"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "செங்குத்து சைகைகளுடன் புகைப்பட ஒளிர்வைக் கட்டுப்படுத்த அனுமதி"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "செங்குத்து சைகைகளுடன் காணொளி ஒலியளவு மற்றும் ஒளிர்வைக் கட்டுப்படுத்த அனுமதி"
+    },
+    {
+      "name": "show_media_count",
+      "value": "அடைவு ஊடக எண்ணிக்கையை பிரதான பார்வையில் காட்டு"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "முழுத்திரை ஊடகங்களில் நீடித்த விவரங்களைக் காட்டு"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "நீடித்த விவரங்களை நிர்வகி"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "முழுத்திரை ஊடகத்தில் ஒரு விரல் பெரிதாக்கத்தை அனுமதி"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "திரை ஓரங்களில் சொடுக்குவதன் மூலம் உடனடியாக ஊடகத்தை மாற்ற அனுமதி"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "படங்களை ஆழமாக பெரிதாக்க அனுமதி"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "நிலைப்பட்டி மறைக்கப்படும்போது நீடித்த விவரங்களை மறை"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "திரையின் அடிப்புறத்தில் சில செயல் பொத்தான்களைக் காட்டு"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "அடைவுகள் திரையில் மீள்சுழற்சி தொட்டியைக் காட்டு"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "ஆழமாக பெரிதாக்கக்கூடிய படங்கள்"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "படங்களைச் சாத்தியமான மிகவுயர்ந்த தரத்தில் காட்டு"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "பிரதான திரையில் கடைசி உருப்படியாக மீள்சுழற்சி தொட்டியைக் காட்டு"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "கீழ் சைகையுடன் முழுத்திரை காட்சியை மூட அனுமதி"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "இரு இரட்டைத் தட்டுகளுடன் 1: 1 பெரிதாக்கத்தை அனுமதி"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "புதிய கிடைமட்ட சைகைகளுடன் காணொளிகளை எப்போதும் தனித்திரையில் திற"
+    },
+    {
+      "name": "show_notch",
+      "value": "கிடைத்தால் பிளப்பைக் காட்டு"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "சைகைகளுடன் படங்களை சுழற்ற அனுமதி"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "கோப்பு ஏற்றுதல் முன்னுரிமை"
+    },
+    {
+      "name": "speed",
+      "value": "வேகம்"
+    },
+    {
+      "name": "compromise",
+      "value": "சமரசம்"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "செல்லா கோப்புகளைக் காட்டுவதைத் தவிர்"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "பட கோப்பு வகைகளைக் காட்டு"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "காணொளிகளை இரட்டைத் தட்டிப் பெரிதாக்க அனுமதி"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "கோப்புறை சிறுபட பாணி"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "கோப்பு சிறுபட பாணி"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "அபிமானவையைக் குறி"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "சிறுபட இடைவெளி"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "கோப்பு எண்ணிக்கையை தனி வரியில் காட்டு"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "கோப்பு எண்ணிக்கையை அடைப்புக்குறிக்குள் காட்டு"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "கோப்பு எண்ணிக்கையைக் காட்டாதே"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "நீண்ட அடைவு தலைப்புகளை 1 வரிக்கு வரம்பிடு"
+    },
+    {
+      "name": "square",
+      "value": "சதுரம்"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "மழுங்கையான மூலைகள்"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "பிடித்த கோப்பு பாதைகளை ஏற்றுமதி செய்"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Import favorites"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Paths imported successfully"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "To make sure that all file operations work reliably, please make this app a Media management app in your device settings."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Password protect excluded folder visibility"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Something went wrong, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_note",
+      "value": "If the redirection does not work, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "If you do not want to do it, you can also go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternatively, you can allow accessing media files only. In that case you will not be able to work with hidden files though."
+    },
+    {
+      "name": "media_only",
+      "value": "Media only"
+    },
+    {
+      "name": "all_files",
+      "value": "All files"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Search all files instead of folders on the main screen"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Show a menu button for toggling Show All Folders Content quickly"
+    },
+    {
+      "name": "thumbnails",
+      "value": "சிறுபடங்கள்"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "முழுத்திரை ஊடகம்"
+    },
+    {
+      "name": "extended_details",
+      "value": "நீடித்த விவரங்கள்"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "அடிப்புறச் செயல்கள்"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "புலப்படும் அடிப்புறச் செயல்களை நிர்வகி"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "அபிமானதை நிலைமாற்று"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "கோப்பு கட்புலனை நிலைமாற்று"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "தனிப்பயன்"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "அகரமாக்கு"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "சதுரம்"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "உருமாற்று"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "வடிகட்டி"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "ஒன்றுமில்லை"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "அனுசரி"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "நிழல்கள்"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "திறந்தவைப்பு"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "சிறப்புக்கூறுகள்"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "ஒளிர்வு"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "உறழ்பொருவு"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "செறிவூட்டம்"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "தெளிவு"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "காமா"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "கறுப்புகள்"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "வெள்ளைகள்"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "வெப்பநிலை"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "கூர்மை"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "அகரமாக்கு"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "குவியம்"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "ஒன்றுமில்லை"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "ஆரச்சீர்"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "நேரியல்"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "பிரதிபலித்தது"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "காஸியன்"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "உரை சேர்"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "உரை"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "உரை விருப்பங்கள்"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "உரை நிறம்"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "எழுத்துரு"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "சேர்"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "திருத்து"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "நேராக்கு"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "எழுத்துரு"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "நிறம்"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "BG நிறம்"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "சீரமைப்பு"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "முன்னுக்கு"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "அழி"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "உங்கள் உரை"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "தூரிகை"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "நிறம்"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "அளவு"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "கடினத்தன்மை"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "முன்னுக்கு"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "அழி"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "தூரிகை நிறம்"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "திருத்தி"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "திருத்தியை மூடவா\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "மாற்றங்களைக் கைவிட வேண்டுமா\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "ஆம்"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "இல்லை"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "ரத்துசெய்"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "ஏற்றுக்கொள்"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "சேமி"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "ஏற்றுமதி செய்கிறது…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "ஏற்றுமதி செய்கிறது %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "ஒட்டுபடம்"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "ஒட்டுபட நிறம்"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "ஒட்டுபட விருப்பங்கள்"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "சேர்"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "நிறம்"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "அழி"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "முன்னுக்கு"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "நேராக்கு"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "மாற்று"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "ஒளிபுகா தன்மை"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "உறழ்பொருவு"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "செறிவூட்டம்"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "ஒளிர்வு"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "பதிவேற்றங்கள்"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "மேலடுக்கு"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "இயல்பானது"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "இருட்டாக்கு"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "திரை"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "மேலடுக்கு"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "ஒளிர்வி"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "பெருக்கு"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "நிற எரிப்பு"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "மென்னொளி"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "வன்னொளி"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "ஒன்றுமில்லை"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "கோல்டன்"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "ஒளிக்கசிவு 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "மொசைக்"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "தாள்"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "மழை"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "விண்டேஜ்"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "கி. புரட்டு"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "செ. புரட்டு"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "செயல்தவிர்"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "மீண்டுஞ்செய்"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "நிற எடுப்பி"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "ஒளிபுகும்"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "வெள்ளை"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "சாம்பல்"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "கருப்பு"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "வெளிர் நீலம்"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "நீலம்"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "செவ்வூதா"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "மந்தாரை"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "குருவகம்"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "சிவப்பு"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "ஆரஞ்சு"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "தங்கம்"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "மஞ்சள்"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "இடலை"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "பச்சை"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "நீலப்பச்சை"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "பைப்பேடபில் நிறம்"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "ஒழுங்கமை"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "எளிய காட்சியகத்தை இயல்புநிலை சாதன காட்சியகமாக மாற்றுவது எப்படி\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "முதலில் உங்கள் சாதன அமைப்புகளின் செயலிகள் பிரிவில் தற்போது இயல்புநிலை காட்சியகத்தைக் கண்டுபிடிக்க வேண்டும், \\\"இயல்புநிலையாகத் திற\\\" போன்றதைக் கூறும் பொத்தானைத் தேடு, அதைக் சொடுக்கி, \\\"இயல்புநிலைகளைத் துடை\\\" என்பதைத் தேர்ந்தெடு. அடுத்த முறை நீங்கள் ஒரு படத்தை அ காணொளியை திறக்க முயற்சிப்பீர்கள், நீங்கள் ஒரு செயலி எடுப்பியைப் பார்க்க வேண்டும், அங்கு நீங்கள் எளிய காட்சியகத்தை தேர்ந்தெடுத்து அதை இயல்புநிலை செயலியாக மாற்றலாம்."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "கடவுச்சொல்லுடன் செயலியைப் பூட்டினேன், ஆனால் அதை மறந்தேன். என்ன செய்வது\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "நீங்கள் அதை 2 வழிகளில் தீர்க்கலாம். நீங்கள் செயலியை மறுநிறுவலாம் அ உங்கள் சாதன அமைப்புகளில் செயலியைக் கண்டுபிடித்து \\\"தரவைத் துடை\\\" என்பதைத் தேர்ந்தெடுக்கலாம். இது உங்கள் எல்லா அமைப்புகளையும் அகரமாக்கும், இது எந்த ஊடக கோப்புகளையும் நீக்காது."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "ஒரு தொகுப்பை எப்போதும் மேலே தோன்றச்செய்வது எப்படி\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "நீங்கள் விரும்பிய தொகுப்பை நீண்டழுத்தி, செயல்கள் சிறுபட்டியில் பின் உருவடியைத் தேர்ந்தெடுக்கலாம், அது அதனை மேலே முள்ளிடும். நீங்கள் பல அடைவுகளையும் முள்ளிடலாம், முள்ளிட்ட உருப்படிகள் இயல்புநிலை வரிசையாக்க முறையால் வரிசைப்படுத்தப்படும்."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "காணொளிகளை எவ்வாறு வேகமாக அனுப்புவது\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "திரையின் பக்கத்தை இருமுறை தட்டியோ சீக்பார் அருகே தற்போதைய அ அதிகபட்ச கால நூல்களைத் தட்டியோ நீங்கள் இதைச் செய்யலாம். செயலி அமைப்புகளில் தனித்திரையில் காணொளிகளைத் திறக்க நீங்கள் இயக்கினால், கிடைமட்ட சைகைகளையும் பயன்படுத்தலாம்."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "ஒரு அடைவை மறைப்பதற்கும் விலக்குவதற்கும் என்ன வேறுபாடு\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "விலக்கு எளிய காட்சியகத்தில் மட்டுமே அடைவைக் காண்பிப்பதைத் தடுக்கிறது, அதே சமயம் கணினி வாரியாக மறைக்கிறது, மேலும் இது மற்ற காட்சியகங்களிலிருந்தும் அடைவை மறைக்கிறது. கொடுக்கப்பட்ட அடைவில் வெற்று \\\".nomedia\\\" கோப்பை உருவாக்குவதன் மூலம் இது செயல்படுகிறது, அதை நீங்கள் எந்தக் கோப்பு நிர்வாகியுடனும் நீக்கலாம். படக்கருவி, திரைப்பிடிப்புகள் மற்றும் பதிவிறக்கங்கள் போன்ற அடைவுகளை மறைக்க சில சாதனங்கள் அனுமதிக்காது என்பதை நினைவில் கொள்க."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "இசை கவர் ஆர்ட் அ ஒட்டுபடங்களைக் கொண்ட அடைவுகள் ஏன் காட்டப்படுகின்றன\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "சில அசாதாரண தொகுப்புகள் காட்டப்படுவதை நீங்கள் காண்பீர்கள். அவற்றை நீண்டழுத்தி, விலக்கு என்பதைத் தேர்ந்தெடுத்து எளிதாக விலக்கலாம். அடுத்த ஈருரையில் நீங்கள் பெற்றோர் அடைவைத் தேர்ந்தெடுக்கலாம், இது பிற உறவுடைய தொகுப்புகள் காண்பிப்பதையும் தடுக்கும் வாய்ப்புகள் உள்ளன."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "படங்களைக் கொண்ட அடைவு காண்பிக்கப்படவில்லை, அல்லது அது எல்லா உருப்படிகளையும் காட்டவில்லை. என்ன செய்யலாம்\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "அதற்கு பல காரணங்கள் இருக்கலாம், ஆனால் அதைத் தீர்ப்பது எளிதானது. அமைப்புகள் -> சேர்க்கப்பட்ட அடைவு நிர்வகி, பிளஸ் என்பதைத் தேர்ந்தெடுத்து தேவையான அடைவுக்குச் செல்லவும்."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "ஒரு சில குறிப்பிட்ட அடைவுகளை நான் காண வேண்டுமெனில் என்ன செய்வது\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "உள்ளடக்கிய அடைவுகளில் ஒரு அடைவைச் சேர்ப்பது தானாக எதையும் விலக்காது. நீங்கள் செய்யக்கூடியது அமைப்புகள் -> விலக்கிய கோப்புறைகளை நிர்வகி, \\\"/\\\" என்ற ரூட் அடைவை விலக்கி, பின்னர் அமைப்புகளில் விரும்பிய அடைவுகளைச் சேர் -> உள்ளடக்கிய அடைவுகளை நிர்வகி. இது தேர்ந்தெடுக்கப்பட்ட அடைவுகளை மட்டுமே தெரியவைக்கும், ஏனெனில் தவிர்த்து, உள்ளடக்குவது இரண்டும் சுழல்நிலை மற்றும் ஒரு அடைவு விலக்கப்பட்டு உள்ளடக்கப்பட்டால், அது காண்பிக்கப்படும்."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "இச்செயலியுடன் படங்களை நறுக்கலாமா\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "ஆம், பட மூலைகளை இழுப்பதன் மூலம், திருத்தியில் படங்களை நறுக்கலாம். பட சிறுபடத்தை நீண்டழுத்தி திருத்து என்பதை தேர்ந்தெடுத்தோ, முழுத்திரைக் பார்வையிலிருந்து திருத்து என்பதை தேர்ந்தெடுத்தோ நீங்கள் திருத்தியைப் பெறலாம்."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "நான் எப்படியாவது குழு ஊடக கோப்பு சிறுபடங்களை ஒன்றிணைக்கலாமா\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "நிச்சயமாக, சிறுபடங்களின் பார்வையில் \\\"குழு மூலம்\\\" சிறுபட்டி உருப்படியைப் பயன்படுத்துக. எடுத்த தேதி உட்பட பல அளவுகோல்களால் கோப்புகளை ஒன்றிணைக்கலாம். \\\"எல்லா அடைவு உள்ளடக்கத்தையும் காட்டு\\\" செயல்பாட்டை நீங்கள் பயன்படுத்தினால், அவற்றை அடைவுகளாலும் ஒன்றிணைக்கலாம்."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "எடுத்த தேதியின்படி வரிசைப்படுத்துவது சரியாக வேலை செய்வதாகத் தெரியவில்லை, அதை எவ்வாறு சரிசெய்வது\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "கோப்புகள் எங்கிருந்தோ நகலெடுக்கப்படுவதால் இது பெரும்பாலும் ஏற்படுகிறது. கோப்பு சிறுபடங்களைத் தேர்ந்தெடுத்து \\\"தேதியை எடுத்த மதிப்பை சரிசெய்\\\" என்பதைத் தேர்ந்தெடுத்து அதைச் சரிசெய்யலாம்."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "படங்களில் சில நிற பேண்டிங்கை நான் காண்கிறேன். தரத்தை எவ்வாறு மேம்படுத்துவது\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "படங்களைக் காண்பிப்பதற்கான தற்போதைய தீர்வு பெரும்பாலான சந்தர்ப்பங்களில் சிறப்பாக செயல்படுகிறது, ஆனால் நீங்கள் இன்னும் சிறந்த படத் தரத்தை விரும்பினால், \\\"ஆழமாக பெரிதாக்கக்கூடிய படங்கள்\\\" பிரிவில், செயலி அமைப்புகளில் \\\"படங்களை சாத்தியமான மிகவுயர்ந்த தரத்தில் காட்டு\\\" என்பதை இயக்கலாம். ."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "நான் ஒரு கோப்பு / அடைவை மறைத்துள்ளேன். நான் அதை எப்படி மறைநீக்க முடியும்\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "பிரதான திரையில் \\\"தற்காலிகமாக மறைந்த உருப்படிகளைக் காண்பி\\\" சிறுபட்டி உருப்படியை அழுத்தவும் அ மறைந்த உருப்படியைக் காண செயலி அமைப்புகளில் \\\"மறைந்த உருப்படிகளைக் காட்டு\\\" என்பதை மாற்று. நீங்கள் அதை மறைக்க விரும்பினால், அதை நீண்டழுத்தி \\\"மறை\\\" என்பதைத் தேர்ந்தெடு. அடைவுகள் ஒரு மறைக்கப்பட்ட \\\".nomedia\\\" கோப்பைச் சேர்ப்பதால் மறைக்கப்படுகின்றன, நீங்கள் எந்த கோப்பு நிர்வாகியிடமும் கோப்பை அழிக்கலாம். மறைப்பது மீண்டும் மீண்டும் செயல்படுகிறது என்பதை நினைவில் கொள்க, எனவே நீங்கள் ஒரு அடைவை மறைத்தால், எல்லா துணையடைவுகளும் மறைக்கப்படும். எனவே துணையடைவுகளை மறைக்க நீங்கள் பெற்றோர் அடைவை மறைக்க வேண்டும்."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "செயலி ஏன் அதிக இடத்தை எடுத்துக்கொள்கிறது\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "செயலி பதுக்ககம் 250MB வரை எடுக்கலாம், இது படத்தை விரைவாக ஏற்றுவதை உறுதி செய்கிறது. செயலி இன்னும் அதிக இடத்தை எடுத்துக்கொண்டால், மீள்சுழற்சி தொட்டியில் நீங்கள் உருப்படிகளை வைத்திருப்பதால் இது பெரும்பாலும் ஏற்படலாம். அந்த கோப்புகள் செயலி அளவிற்கு எண்ணப்படுகின்றன. மீள்சுழற்சி தொட்டியை அதனைத் திறந்து எல்லா கோப்புகளையும் அழித்தோ செயலி அமைவுகளிலிருந்து அழித்தோ துடைக்கலாம். தொட்டியில் உள்ள ஒவ்வொரு கோப்பும் 30 நாட்களுக்குப் பிறகு தானாகவே அழிக்கப்படும்."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "What happened to file and folder hiding and why cannot I see hidden items anymore\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Starting with Android 11 you cannot hide or unhide files or folders anymore, you cannot see the hidden ones in gallery apps either. You will have to use some file manager for that."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Or you can also grant this gallery access to All Files through your device settings, that will allow us showing hidden items and make file operations more reliable in general."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Why cannot I include missing folders anymore\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "That stopped working due to the system changes that came with Android 11 too, the app cannot browse real folders anymore, it relies on the so called MediaStore at fetching data."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Why do I see ads during video playback\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Our apps have no ads whatsoever. If you see them during video playback, you must be using some other apps video player. Try finding your default video player in the device settings, then do a \\\"Clear defaults\\\" on it. The next time you invoke some video intent you will see an app picker prompt, where you can select what app you want to use."
+    }
+  ]
+}

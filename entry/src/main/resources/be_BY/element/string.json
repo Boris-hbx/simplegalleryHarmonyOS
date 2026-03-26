@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Simple Gallery"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Галерэя"
+    },
+    {
+      "name": "edit",
+      "value": "Рэдагаваць"
+    },
+    {
+      "name": "open_camera",
+      "value": "Адкрытая камера"
+    },
+    {
+      "name": "hidden",
+      "value": "(схаваны)"
+    },
+    {
+      "name": "excluded",
+      "value": "(выключана)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Замацаваць папку"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Адмацаваць папку"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Замацаваць зверху"
+    },
+    {
+      "name": "show_all",
+      "value": "Паказаць змесціва ўсіх папак"
+    },
+    {
+      "name": "videos",
+      "value": "Відэа"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF-файлы"
+    },
+    {
+      "name": "raw_images",
+      "value": "Выявы RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG"
+    },
+    {
+      "name": "portraits",
+      "value": "Партрэты"
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Медыяфайлы не знойдзеныя. Вы можаце вырашыць гэтую праблему, дадаўшы тэчкі, якія змяшчаюць медыяфайлы ўручную."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Зменіце памер выбару і захавайце"
+    },
+    {
+      "name": "width",
+      "value": "Шырыня"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Файл паспяхова адрэдагаваны"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Відарыс паспяхова адрэдагаваны"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Відэа паспяхова адрэдагавана"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Рэдагаваць малюнак з дапамогай:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Рэдагаваць відэа з дапамогай:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Рэдактар малюнкаў не знойдзены"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Паказаць выявы ў максімальна магчымай якасці"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Паказаць кошык у якасці апошняга элемента на галоўным экране"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Дазволіць закрыццё поўнаэкраннага рэжыму жэстам уніз"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Дазволіць павелічэнне 1:1 двума падвойнымі націсканнямі"
+    },
+    {
+      "name": "show_notch",
+      "value": "Пакажыце выемку, калі яна ёсць"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Колер пэндзля"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Рэдактар"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Жоўты"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Аліўкавы"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Зялёны"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Аквамарынавы"
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Як я магу зрабіць так, каб альбом заўсёды з'яўляўся ўверсе\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Вы можаце доўга націскаць патрэбны альбом і выбраць значок «Замацаваць» у меню дзеянняў, які замацуе яго ўверсе. Вы таксама можаце замацаваць некалькі папак, замацаваныя элементы будуць адсартаваны метадам сартавання па змаўчанні."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Як я магу перамотваць відэа наперад\\?"
+    },
+    {
+      "name": "faq_5_title",
+      "value": "У чым розніца паміж схаваннем і выключэннем папкі\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Гэта можа быць некалькі прычын, але вырашыць гэта лёгка. Проста зайдзіце ў Налады -> Кіраванне ўключанымі папкамі, абярыце Плюс і перайдзіце да патрэбнай тэчкі."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Што рабіць, калі я хачу, каб былі бачныя толькі некалькі пэўных тэчак\\?"
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Ці магу я неяк згрупаваць мініяцюры медыяфайлаў\\?"
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Сартаванне па даце здымкі, здаецца, не працуе належным чынам, як я магу гэта выправіць\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Хутчэй за ўсё гэта выклікана тым, што файлы аднекуль скапіяваны. Вы можаце выправіць гэта, выбраўшы мініяцюры файлаў і выбраўшы «Выправіць значэнне даты ўзяцця»."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Я бачу некаторыя каляровыя паласы на малюнках. Як я магу палепшыць якасць\\?"
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Я схаваў файл/тэчку. Як я магу паказаць гэта\\?"
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Што здарылася са схаваннем файлаў і тэчак і чаму я больш не бачу схаваных элементаў\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Гэта перастала працаваць з-за змяненняў у сістэме, якія таксама ўвайшлі ў Android 11, праграма больш не можа праглядаць рэальныя папкі, яна спадзяецца на так званы MediaStore для атрымання даных."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Чаму я бачу рэкламу падчас прайгравання відэа\\?"
+    },
+    {
+      "name": "all_folders",
+      "value": "Усе тэчкі"
+    },
+    {
+      "name": "folder_view",
+      "value": "Пераключыцца ў рэжым прагляду тэчак"
+    },
+    {
+      "name": "brightness",
+      "value": "Яркасць"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Замацаваць арыентацыю"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Адмацаваць арыентацыю"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Змяніць арыентацыю"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Сілавы партрэт"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Сілавы пейзаж"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Выкарыстоўвайце стандартную арыентацыю"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Выправіць значэнне даты ўзяцця"
+    },
+    {
+      "name": "fixing",
+      "value": "Выпраўленне…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Даты паспяхова выпраўлены"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Значэнні даты ўзяцця не знойдзены"
+    },
+    {
+      "name": "share_resized",
+      "value": "Абагуліць версію змененага памеру"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Пераключыцеся на пошук файлаў ва ўсіх бачных папках"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Усталяваць у якасці папкі па змаўчанні"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Адмяніць у якасці папкі па змаўчанні"
+    },
+    {
+      "name": "volume",
+      "value": "Гучнасць"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Невядомае месца"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Змяніце парадак папак перацягваннем"
+    },
+    {
+      "name": "other_folder",
+      "value": "Іншая папка"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Паказаць на карце"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Змяніць парадак папак перацягваннем (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Аднаўленне да '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Носьбіт фільтра"
+    },
+    {
+      "name": "images",
+      "value": "Выявы"
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Выключыць аднаго з бацькоў\\?"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "З выбранымі фільтрамі не знойдзены медыяфайлы."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Змяніць фільтры"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Гэтая функцыя хавае тэчку, дадаючы ў яе файл'.nomedia' , ён таксама схавае ўсе укладзеныя папкі. Вы можаце ўбачыць іх, пераключыўшы опцыю \\\"Паказваць схаваныя элементы\\\" у наладах. Працягваць\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Выключэнне тэчак зробіць іх разам з іх укладзенымі тэчкамі ўтоенымі толькі ў простай галерэі, яны ўсё роўна будуць бачныя ў іншых прыкладаннях.\r\n\\n\r\n\\nКалі вы хочаце, каб схаваць іх ад іншых прыкладанняў, выкарыстоўвайце функцыю ўтойвання."
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Гэта выключыць вылучэнне разам з яго укладзенымі тэчкамі толькі з простай галерэі. Вы можаце кіраваць выключанымі тэчкамі ў наладах."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Схаваныя тэчкі"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Кіраванне схаванымі папкамі"
+    },
+    {
+      "name": "include_folders",
+      "value": "Уключаныя тэчкі"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Кіраванне ўключанымі папкамі"
+    },
+    {
+      "name": "add_folder",
+      "value": "Дадаць папку"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Калі ў вас ёсць некалькі тэчак, якія ўтрымліваюць носьбіты, але не былі распазнаныя дадаткам, вы можаце дадаць іх уручную тут.\r\n\\n\r\n\\nДаданне некаторых элементаў сюды не прывядзе да выключэння якой-небудзь іншай тэчкі."
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Здаецца, у вас няма тэчак, схаваных з файлам \\\".nomedia\\\"."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Вы павінны даць праграме доступ да ўсіх файлаў, каб бачыць схаваныя файлы, інакш яна не можа працаваць."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Калі папка або адна з яе бацькоўскіх тэчак мае кропку перад імем, яна схаваная і не можа быць паказана такім чынам. Вы павінны выдаліць кропку, перайменаваўшы яе."
+    },
+    {
+      "name": "height",
+      "value": "Вышыня"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Захоўвайце суадносіны бакоў"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Увядзіце сапраўднае рашэнне"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Змяніць памер некалькіх малюнкаў"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Каэфіцыент змены памеру"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Зменіце памер выявы да вызначанага працэнта, значэнне павінна быць ад 10 да 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Увядзіце лік ад 10 да 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Памер малюнкаў паспяхова зменены"
+    },
+    {
+      "name": "rotate",
+      "value": "Павярнуць"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Няправільны шлях выявы"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Няправільны шлях відэа"
+    },
+    {
+      "name": "editor",
+      "value": "Рэдактар"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Базавы рэдактар"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Пашыраны рэдактар"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Збой рэдагавання выявы"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Збой рэдагавання відэа"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Рэдагаванне выявы скасавана"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Рэдагаванне відэа адменена"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Рэдактар відэа не знойдзены"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Невядомае месцазнаходжанне файла"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Не атрымалася перазапісаць зыходны файл"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Павярнуць улева"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Павярнуць управа"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Павярнуць на 180°"
+    },
+    {
+      "name": "transform",
+      "value": "Трансфармаваць"
+    },
+    {
+      "name": "crop",
+      "value": "Абрэзаць"
+    },
+    {
+      "name": "draw",
+      "value": "Маляваць"
+    },
+    {
+      "name": "flip",
+      "value": "Адлюстраваць"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Адлюстраваць гарызантальна"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Шпалеры ўсталяваны паспяхова"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Партрэтныя суадносіны бакоў"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Альбомная прапорцыя"
+    },
+    {
+      "name": "home_screen",
+      "value": "Галоўны экран"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Экран блакавання"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Адлюстраваць вертыкальна"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Бясплатна"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Галоўны экран і экран блакіроўкі"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Дазволіць змяняць суадносіны бакоў"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Іншае"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Простыя шпалеры"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Усталяваць у якасці шпалер"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Збой усталявання ў якасці шпалер"
+    },
+    {
+      "name": "interval",
+      "value": "Інтэрвал"
+    },
+    {
+      "name": "include_photos",
+      "value": "Уключыце фатаграфіі"
+    },
+    {
+      "name": "slide",
+      "value": "Слайд"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Усталяваць у якасці шпалер з:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Устаноўка шпалер…"
+    },
+    {
+      "name": "slideshow",
+      "value": "Слайд-шоў"
+    },
+    {
+      "name": "include_videos",
+      "value": "Уключыць відэа"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Уключыце GIF-файлы"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Слайд-шоў скончылася"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Носьбіты для слайд-шоў не знойдзены"
+    },
+    {
+      "name": "random_order",
+      "value": "У выпадковым парадку"
+    },
+    {
+      "name": "move_backwards",
+      "value": "У зваротным парадку"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Паўторнае слайд-шоў"
+    },
+    {
+      "name": "animation",
+      "value": "Анімацыя"
+    },
+    {
+      "name": "no_animation",
+      "value": "Няма"
+    },
+    {
+      "name": "fade",
+      "value": "Знікае"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Згрупаваць прамыя падпапкі"
+    },
+    {
+      "name": "group_by",
+      "value": "Згрупаваць па"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Не групаваць файлы"
+    },
+    {
+      "name": "by_folder",
+      "value": "Папка"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Тып файла"
+    },
+    {
+      "name": "by_extension",
+      "value": "Пашырэнне"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Паказаць колькасць файлаў у загалоўках раздзелаў"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Звярніце ўвагу, што групоўка і сартаванне - гэта 2 незалежныя палі"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Папка, якая адлюстроўваецца ў віджэце:"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Паказваць колькасць мультымедыя папкі ў галоўным праглядзе"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Апошні раз зменена"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Апошняе змяненне (штодня)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Апошняе змяненне (штомесяц)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Дата ўзяцця"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Дата здымкі (штодня)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Дата здымкі (месяц)"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Паказаць пашыраныя звесткі на поўнаэкранным рэжыме"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Кіраванне пашыранымі дэталямі"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Дазволіць маштабаванне адным пальцам у поўнаэкранным рэжыме"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Дазвольце імгненна мяняць медыя, націскаючы па баках экрана"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Дазволіць глыбокае маштабаванне малюнкаў"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Схаваць пашыраныя звесткі, калі радок стану схаваны"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Паказаць некаторыя кнопкі дзеянняў унізе экрана"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Паказваць назву папкі"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Аўтаматычнае прайграванне відэа"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Запомніць апошнюю пазіцыю прайгравання відэа"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Цыкл відэа"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Аніміруйце GIF-файлы на мініяцюрах"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Паварот поўнаэкраннага мультымедыя на"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Налада сістэмы"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Паварот прылады"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Суадносіны бакоў"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Чорны фон у поўнаэкранным рэжыме"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Пракруціць эскізы па гарызанталі"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Максімальная яркасць пры праглядзе поўнаэкраннага мультымедыя"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Аўтаматычна хаваць сістэмны інтэрфейс у поўнаэкранным рэжыме"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Абрэзаць мініяцюры ў квадраты"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Паказаць працягласць відэа"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Выдаліце пустыя тэчкі пасля выдалення іх змесціва"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Дазволіць кіраваць яркасцю фота з дапамогай вертыкальных жэстаў"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Паказаць кошык на экране тэчак"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Дазволіць кіраваць гучнасцю і яркасцю відэа з дапамогай вертыкальных жэстаў"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Выявы з магчымасцю глыбокага маштабавання"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Заўсёды адкрывайце відэа на асобным экране з дапамогай новых гарызантальных жэстаў"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Дазволіць паварот малюнкаў з дапамогай жэстаў"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Прыярытэт загрузкі файла"
+    },
+    {
+      "name": "speed",
+      "value": "хуткасць"
+    },
+    {
+      "name": "compromise",
+      "value": "Кампраміс"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Інтэрвал паміж мініяцюрамі"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Пазбягайце паказу несапраўдных файлаў"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Паказаць тыпы файлаў малюнкаў"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Паказаць колькасць файлаў у асобным радку"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Дазволіць маштабаванне відэа з падвойным націскам"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Стыль эскізаў тэчак"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Стыль мініяцюр файла"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Адзначце любімыя прадметы"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Паказаць колькасць файлаў у дужках"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Не паказваць колькасць файлаў"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Абмяжуйце доўгія назвы тэчак 1 радком"
+    },
+    {
+      "name": "square",
+      "value": "квадратны"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Скругленыя куты"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Экспарт абранага"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Імпарт абранага"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Шляхі паспяхова імпартаваны"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Каб пераканацца, што ўсе аперацыі з файламі працуюць надзейна, зрабіце гэта дадатак праграмай для кіравання мультымедыя ў наладах прылады."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Бачнасць выключанай папкі абараніць паролем"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Нешта пайшло не так, калі ласка, перайдзіце ў Налады прылады - Прыкладанні - Спецыяльны доступ да праграм - Прыкладанні для кіравання мультымедыя і дазвольце гэтай праграме кіраваць мультымедыя."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Калі перанакіраванне не працуе, калі ласка, перайдзіце ў Налады прылады - Праграмы - Спецыяльны доступ да праграм - Праграмы для кіравання медыяфайламі і дазвольце гэтай праграме кіраваць медыяфайламі."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Калі вы не жадаеце гэтага рабіць, вы таксама можаце перайсці ў Налады прылады - Прыкладанні - Спецыяльны доступ да праграм - Прыкладанні для кіравання мультымедыя і дазволіць гэтай праграме кіраваць мультымедыя."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Акрамя таго, вы можаце дазволіць доступ толькі да медыяфайлаў. У такім выпадку вы не зможаце працаваць са схаванымі файламі."
+    },
+    {
+      "name": "media_only",
+      "value": "Толькі мультымедыя"
+    },
+    {
+      "name": "all_files",
+      "value": "Усе файлы"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Пошук ва ўсіх файлах замест тэчак на галоўным экране"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Паказаць кнопку меню для хуткага пераключэння «Паказаць змесціва ўсіх папак»"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Эскізы"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Поўнаэкранны медыя"
+    },
+    {
+      "name": "extended_details",
+      "value": "Пашыраныя дэталі"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Ніжнія дзеянні"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Кіруйце бачнымі ніжнімі дзеяннямі"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Пераключыць абранае"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "квадратны"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Пераключыць бачнасць файла"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Прыстасаваныя"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Трансфармаваць"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Скінуць"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Фільтраваць"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Няма"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Эфекты"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Цені"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Экспазіцыя"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Падсветка"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Яркасць"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Кантраст"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Насычанасць"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Зацямненне"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Выразнасць"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Гама"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Высвятленне"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Тэмпература"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Рэзкасць"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Скінуць"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Фокус"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Люстраная"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Гаўсава"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Няма"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Радыяльны"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Лінейны"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Дадаць тэкст"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Тэкст"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Параметры тэксту"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Колер тэксту"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Шрыфт"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Дадаць"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Шрыфт"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Колер"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Рэдагаваць"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Выпрастаць"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Колер фону"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Выраўноўванне"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "На фронт"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Выдаліць"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Ваш тэкст"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Пэндзаль"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Колер"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Памер"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Цвёрдасць"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "На фронт"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Выдаліць"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Закрыць рэдактар\\?"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Экспартаванне %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Налепка"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Колер налепкі"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Вы сапраўды хочаце адмяніць змены\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Так"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Не"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Скасаваць"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Прыняць"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Захаваць"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Экспартаванне…"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Параметры налепкі"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Дадаць"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Колер"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Выдаліць"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "На фронт"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Выпрастаць"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Замяніць"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Непразрыстасць"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Кантраст"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Насычанасць"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Яркасць"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Загрузкі"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Накладка"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Нармальны"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Цямнець"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Экран"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Накладка"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Асвятліць"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Памножыць"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Выпальванне колеру"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Мяккае святло"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Жорсткі святло"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Няма"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Залаты"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Уцечка святла 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Мазаіка"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "папера"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Дождж"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Вінтаж"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Фліп H"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Выбар колеру"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Празрысты"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Белы"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Шэры"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Чорны"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Фліп V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Адрабіць"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Блакітны"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Узнавіць"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Сіні"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Фіялетавы"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Бэзавы"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Ружовы"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Чырвоны"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Аранжавы"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Залаты"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Колер для піпеткі"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Абрэзаць"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Як я магу зрабіць Simple Gallery стандартнай галерэяй прылады\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Спачатку вы павінны знайсці бягучую галерэю па змаўчанні ў раздзеле \\\"Прыкладанні\\\" налад вашага прылады, знайдзіце кнопку з надпісам \\\"Адкрыць па змаўчанні\\\", націсніце на яе, затым выберыце \\\"Ачысціць налады па змаўчанні\\\". У наступны раз, калі вы паспрабуеце адкрыць відарыс або відэа, вы павінны ўбачыць інструмент выбару прыкладанняў, дзе вы можаце выбраць Simple Gallery і зрабіць яго праграмай па змаўчанні."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Я заблакаваў прыкладанне паролем, але забыўся яго. Што я магу зрабіць\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Вы можаце вырашыць гэтую праблему 2 спосабамі. Вы можаце пераўсталяваць дадатак або знайсці яго ў наладах прылады і выбраць \\\"ачысціць дадзеныя\\\". Ён скіне ўсе вашы налады, але не выдаліць ніякіх медыяфайлаў."
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Вы можаце зрабіць гэта, двойчы націснуўшы на бок экрана або націснуўшы тэксты бягучай ці максімальнай працягласці каля панэлі пошуку. Калі вы ўключыце адкрыццё відэа на асобным экране ў наладах праграмы, вы таксама можаце выкарыстоўваць гарызантальныя жэсты."
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Exclude прадухіляе адлюстраванне тэчкі толькі ў Simple Gallery, у той час як Hide працуе сістэмна і хавае папку ад іншых галерэй. Ён працуе шляхам стварэння пустога файла \\\".nomedia\\\" у дадзенай тэчцы, які вы таксама можаце выдаліць з дапамогай любога файлавага мэнэджара. Звярніце ўвагу, што некаторыя прылады не дазваляюць хаваць такія папкі, як камера, скрыншоты і загрузкі."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Чаму з'яўляюцца папкі з вокладкамі музыкі або стыкерамі\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Можа здарыцца так, што вы ўбачыце некалькі незвычайных альбомаў. Вы можаце лёгка выключыць іх, доўга націскаючы і выбіраючы Выключыць. У наступным дыялогавым акне вы можаце выбраць бацькоўскую папку, хутчэй за ўсё, гэта не дазволіць паказваць іншыя звязаныя альбомы."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Тэчка з выявамі не адлюстроўваецца або ў ёй адлюстроўваюцца не ўсе элементы. Што я магу зрабіць\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Даданне папкі ва ўключаныя тэчкі нічога аўтаматычна не выключае. Што вы можаце зрабіць, гэта перайсці ў Налады -> Кіраванне выключанымі папкамі, выключыць каранёвую папку \\\"/\\\", затым дадаць патрэбныя тэчкі ў Налады -> Кіраванне ўключанымі папкамі. Гэта зробіць бачнымі толькі выбраныя папкі, паколькі як выключэнне, так і ўключэнне рэкурсіўныя, і калі папка адначасова выключана і ўключана, яна з'явіцца."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Ці магу я абрэзаць выявы з дапамогай гэтага прыкладання\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Так, вы можаце абрэзаць выявы ў рэдактары, перацягваючы вуглы выявы. Вы можаце перайсці ў рэдактар, доўга націскаючы мініяцюру выявы і выбіраючы Рэдагаваць, або выбіраючы Рэдагаваць у поўнаэкранным рэжыме."
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Вядома, проста выкарыстоўвайце пункт меню \\\"Групаваць па\\\" падчас прагляду мініяцюр. Вы можаце групаваць файлы па некалькіх крытэрыях, у тым ліку па даце ўзяцця. Калі вы выкарыстоўваеце функцыю \\\"Паказаць змесціва ўсіх папак\\\", вы таксама можаце згрупаваць іх па папках."
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Цяперашняе рашэнне для адлюстравання відарысаў працуе нармальна ў пераважнай большасці выпадкаў, але калі вы жадаеце яшчэ лепшай якасці відарысаў, вы можаце ўключыць «Паказваць відарысы ў максімальна магчымай якасці» ў наладах праграмы ў раздзеле «Глыбокія маштабаваныя выявы»."
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Вы можаце націснуць пункт меню «Часова паказаць схаваныя элементы» на галоўным экране або пераключыць «Паказаць схаваныя элементы» ў наладах праграмы, каб убачыць схаваны элемент. Калі вы хочаце паказаць яго, проста націсніце яго і выберыце «Паказаць». Тэчкі хаваюцца шляхам дадання ў іх схаванага файла \\\".nomedia\\\", вы таксама можаце выдаліць файл з дапамогай любога файлавага мэнэджара. Звярніце ўвагу, што схаванне працуе рэкурсіўна, таму, калі вы схаваеце папку, усе падтэчкі таксама стануць схаванымі. Такім чынам, каб паказаць укладзеныя папкі, вам трэба паказаць бацькоўскую папку."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Чаму праграма займае так шмат месца\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Кэш праграмы можа займаць да 250 МБ, гэта забяспечвае больш хуткую загрузку малюнкаў. Калі праграма займае нават больш месца, гэта, хутчэй за ўсё, выклікана тым, што ў вас ёсць элементы ў кошыку. Гэтыя файлы ўлічваюцца ў памеры прыкладання. Вы можаце ачысціць кошык, адкрыўшы яе і выдаліўшы ўсе файлы, або з налад прыкладання. Кожны файл у кошыку аўтаматычна выдаляецца праз 30 дзён."
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Пачынаючы з Android 11 вы больш не можаце хаваць або паказваць файлы і папкі, вы таксама не можаце бачыць схаваныя ў праграмах галерэі з-за сістэмных абмежаванняў. Для гэтага вам спатрэбіцца выкарыстоўваць які-небудзь файлавы менеджэр."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Або вы таксама можаце даць гэтай галерэі доступ да ўсіх файлаў у наладах вашай прылады, што дазволіць нам паказваць схаваныя элементы і зрабіць працу з файламі ў цэлым больш надзейнай."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Чаму я больш не магу ўключыць адсутныя папкі\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "У нашых прыкладаннях наогул няма рэкламы. Калі вы бачыце іх падчас прайгравання відэа, вы, павінна быць, карыстаецеся відэаплэер якога-небудзь іншага прыкладання. Паспрабуйце знайсці свой відэаплэер па змаўчанні ў наладах прылады, затым выканаеце для яго \\\"ачысціць налады па змаўчанні\\\". У наступны раз, калі вы выклічаце якое-небудзь відэа-намер, вы ўбачыце запрашэнне выбару прыкладання, у якім вы можаце выбраць, якое дадатак вы хочаце выкарыстоўваць."
+    }
+  ]
+}

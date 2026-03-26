@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Egyszerű galéria"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galéria"
+    },
+    {
+      "name": "edit",
+      "value": "Szerkesztés"
+    },
+    {
+      "name": "open_camera",
+      "value": "Kamera megnyitása"
+    },
+    {
+      "name": "hidden",
+      "value": "(rejtett)"
+    },
+    {
+      "name": "excluded",
+      "value": "(kizárt)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Mappa kitűzése"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Mappa kitűzésének megszüntetése"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Kitűzés felülre"
+    },
+    {
+      "name": "show_all",
+      "value": "Összes mappa tartalmának megjelenítése"
+    },
+    {
+      "name": "all_folders",
+      "value": "Összes mappa"
+    },
+    {
+      "name": "folder_view",
+      "value": "Váltás mappanézetre"
+    },
+    {
+      "name": "other_folder",
+      "value": "Egyéb mappa"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Megjelenítése a térképen"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Ismeretlen helyszín"
+    },
+    {
+      "name": "volume",
+      "value": "Hangerő"
+    },
+    {
+      "name": "brightness",
+      "value": "Fényesség"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Tájolás zárolása"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Tájolás feloldása"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Tájolás módosítása"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Álló mód kényszerítése"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Fekvő mód kényszerítése"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Alapértelmezett tájolás használata"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Dátum javítása"
+    },
+    {
+      "name": "fixing",
+      "value": "Javítás…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Dátumok sikeresen javítva"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Nem találhatók elkészítési dátumok"
+    },
+    {
+      "name": "share_resized",
+      "value": "Átméretezett verzió megosztása"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Váltás a fájlkeresésre az összes látható mappában"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Beállítás alapértelmezett mappaként"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Eltávolítás mint alapértelmezett mappa"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Mappák átrendezése húzással"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Mappák átrendezése húzással (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Helyreállítás ide: „%s”"
+    },
+    {
+      "name": "filter_media",
+      "value": "Médiafájlok szűrése"
+    },
+    {
+      "name": "images",
+      "value": "Képek"
+    },
+    {
+      "name": "videos",
+      "value": "Videók"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF"
+    },
+    {
+      "name": "raw_images",
+      "value": "Nyers kép"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG"
+    },
+    {
+      "name": "portraits",
+      "value": "Portrék"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "A kiválasztott szűrők nem találtak médiafájlokat."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Szűrők változtatása"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Ez a funkció elrejti a mappát egy „.nomedia” fájl hozzáadásával, és elrejti az almappákat is. Láthatóvá teheti ezeket a Beállítások „Rejtett elemek megjelenítése\\\" lehetőségének bekapcsolásáva. Folytatja\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Ez kizárja a kijelölést és az alkönyvtárakat a Simple Gallery alkalmazásból. A kizárt mappákat a Beállításokban kezelheti."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Kizárja a szülőmappát\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "A mappák kizárásával az almappákkal együtt elrejti a Simple Gallery alkalmazásban, de továbbra is láthatóak maradnak más alkalmazásokban.\r\n\\n\r\n\\nHa el szeretné rejteni őket más alkalmazásokban is, használja az Elrejtés funkciót."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Rejtett mappák"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Rejtett mappák kezelése"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Úgy tűnik, nincsenek „.nomedia” fájllal elrejtett mappái."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Meg kell adnia az alkalmazásnak az összes fájl elérésének engedélyét a rejtett fájlok megtekintéséhez, különben nem tud működni."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Ha egy mappa vagy valamelyik szülőmappája neve előtt pont van, akkor az el van rejtve, és így nem lehet feloldani. Átnevezéssel el kell távolítania a pontot."
+    },
+    {
+      "name": "include_folders",
+      "value": "Belevett mappák"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Belevett mappák kezelése"
+    },
+    {
+      "name": "add_folder",
+      "value": "Mappa hozzáadása"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Ha vannak olyan mappák, amelyek médiafájlokat tartalmaznak, de az alkalmazás nem ismerte fel, akkor kézzel is hozzáadhatja ezeket.\r\n\\n\r\n\\nAz elemek hozzáadása nem zár ki más mappákat."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Nem talált médiafájlokat. Ezt megoldhatja a médiafájlokat tartalmazó mappák kézi hozzáadásával."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Kiválasztás átméretezése és mentés"
+    },
+    {
+      "name": "width",
+      "value": "Szélesség"
+    },
+    {
+      "name": "height",
+      "value": "Magasság"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Képarány megtartása"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Írjon be érvényes felbontást"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Több kép átméretezése"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Átméretezés mértéke"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "A képek átméretezése a megadott százalékos értékre, az értéknek 10 és 90 között kell lennie."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Adjon meg egy számot 10 és 90 között"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Képek átméretezése sikeresen"
+    },
+    {
+      "name": "editor",
+      "value": "Szerkesztő"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Alapvető szerkesztő"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Speciális szerkesztő"
+    },
+    {
+      "name": "rotate",
+      "value": "Forgatás"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Érvénytelen kép elérési útvonal"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Érvénytelen videó elérési útvonal"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Képszerkesztés sikertelen"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Videószerkesztés sikertelen"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Képszerkesztés megszakítva"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Videószerkesztés megszakítva"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Fájlszerkesztés sikeres"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Képszerkesztés sikeres"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Videószerkesztés sikeres"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Kép szerkesztése ezzel:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Videó szerkesztése ezzel:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Nem található képszerkesztő"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Nem található videószerkesztő"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Ismeretlen fájlhely"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Nem lehet felülírni a forrásfájlt"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Forgatás balra"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Forgatás jobbra"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Forgatás 180º-kal"
+    },
+    {
+      "name": "transform",
+      "value": "Átalakítás"
+    },
+    {
+      "name": "crop",
+      "value": "Levágás"
+    },
+    {
+      "name": "draw",
+      "value": "Rajzolás"
+    },
+    {
+      "name": "flip",
+      "value": "Tükrözés"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Tükrözés vízszintesen"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Tükrözés függőlegesen"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Szabad"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Egyéb"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Egyszerű háttérkép"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Beállítás háttérképként"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "A háttérképként beállítás sikertelen"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Beállítás háttérképként ezzel:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Beállítás háttérképként…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Sikeresen beállítva háttérképnek"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Álló képarány"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Fekvő képarány"
+    },
+    {
+      "name": "home_screen",
+      "value": "Kezdőképernyő"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Zárolási képernyő"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Kezdő- és zárolási képernyő"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Képarány módosításának engedélyezése"
+    },
+    {
+      "name": "slideshow",
+      "value": "Diavetítés"
+    },
+    {
+      "name": "interval",
+      "value": "Időköz"
+    },
+    {
+      "name": "include_photos",
+      "value": "Fotók belevétele"
+    },
+    {
+      "name": "include_videos",
+      "value": "Videók belevétele"
+    },
+    {
+      "name": "include_gifs",
+      "value": "GIF-ek belevétele"
+    },
+    {
+      "name": "random_order",
+      "value": "Véletlenszerű sorrend"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Áthelyezés hátra"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Diavetítés ismétlése"
+    },
+    {
+      "name": "animation",
+      "value": "Animáció"
+    },
+    {
+      "name": "no_animation",
+      "value": "Nincs"
+    },
+    {
+      "name": "fade",
+      "value": "Áttűnés"
+    },
+    {
+      "name": "slide",
+      "value": "Csúsztatás"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "A diavetítés vége"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "A diavetítéshez nem található média"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Közvetlen almappák csoportosítása"
+    },
+    {
+      "name": "group_by",
+      "value": "Csoportosítás"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Nincs csoportosítás"
+    },
+    {
+      "name": "by_folder",
+      "value": "Mappa"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Utoljára módosítva"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Utoljára módosítva (naponta)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Utoljára módosítva (havonta)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Dátum"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Felvétel dátuma (naponta)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Felvétel dátuma (havonta)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Fájltípus"
+    },
+    {
+      "name": "by_extension",
+      "value": "Kiterjesztés"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Fájlok számának megjelenítése a szakaszfejlécekben"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Vegye figyelembe, hogy a csoportosítás és a rendezés 2 egymástól független mező"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Mappa megjelenítése a modulon:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Mappanév megjelenítése"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Automatikus videólejátszás"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Videó utolsó lejátszási pozíciójának megjegyzése"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Videók ismétlése"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animált GIF-ek a bélyegképeken"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Maximális fényerő teljes képernyős média megtekintésénél"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Bélyegképek négyzetesre vágása"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Videók időtartamának megjelenítése"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Teljes képernyős média forgatása"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Rendszerbeállítások"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Eszköz elforgatása"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Képarány"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Fekete háttérszín teljes képernyős médiánál"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Bélyegképek görgetése vízszintesen"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "A rendszer felületének automatikus elrejtése teljes képernyős médiánál"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Az üres mappák törlése a tartalom törlése után"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Függőleges gesztusokkal történő fényerőmódosítás engedélyezése"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Függőleges gesztusokkal történő videóhangerő és -fényerő módosítás engedélyezése"
+    },
+    {
+      "name": "show_media_count",
+      "value": "A mappákban lévő fájlok számának megjelenítése"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Bővített részletek megjelenítése a teljes képernyős média felett"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Bővített részletek kezelése"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Egy ujjas nagyítás engedélyezése a teljes képernyős médiában"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Azonnali médiaváltás engedélyezése a képernyő oldalára kattintva"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Képek mély nagyításának engedélyezése"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Bővített részletek elrejtése, ha az állapotsor rejtett"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Egyes műveleti gombok megjelenítése a képernyő alján"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Lomtár megjelenítése a mappák képernyőjén"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Mély nagyítású képek"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Képek megjelenítése a lehető legjobb minőségben"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Lomtár megjelenítése a főképernyő utolsó elemeként"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Teljes képernyős nézet bezárásának engedélyezése a lefelé gesztussal"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Az 1:1 nagyítás engedélyezése két dupla érintéssel"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Az új vízszintes gesztusokkal mindig külön képernyőn nyitja meg a videókat"
+    },
+    {
+      "name": "show_notch",
+      "value": "Notch megjelenítése, ha elérhető"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Képek gesztusokkal történő forgatásának engedélyezése"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Fájlbetöltés prioritása"
+    },
+    {
+      "name": "speed",
+      "value": "Gyors"
+    },
+    {
+      "name": "compromise",
+      "value": "Kiegyensúlyozott"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Érvénytelen fájlok megjelenítésének elkerülése"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Képfájltípusok megjelenítése"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Videók dupla koppintással történő nagyításának engedélyezése"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Mappák bélyegképének stílusa"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Fájlok bélyegképének stílusa"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Kedvenc elemek megjelölése"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Bélyegképek térköze"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Fájlok számának megjelenítése külön sorban"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Fájlok számának megjelenítése zárójelben"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Ne jelenítse meg a fájlok számát"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Hosszú mappanevek egy sorra korlátozása"
+    },
+    {
+      "name": "square",
+      "value": "Négyzet"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Lekerekített sarkok"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Kedvencek exportálása"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Kedvencek importálása"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "A fájlútvonalak sikeresen importálva"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Hogy megbízhatóan működjenek a fájlműveletek, győződjön meg róla, hogy ez az alkalmazás egy Médiakezelő alkalmazás az eszközbeállításokban."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Jelszóval védi a kizárt mappák láthatóságát"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Valami hiba történt, ugorjon a Beállítások – Alkalmazások – Különleges alkalmazás-hozzáférés – Médiakezelő alkalmazások részhez, és engedélyezze, hogy az alkalmazás kezelhesse a médiafájlokat."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Ha az átirányítás nem működik, akkor ugorjon a Beállítások – Alkalmazások – Különleges alkalmazás-hozzáférés – Médiakezelő alkalmazások részhez, és engedélyezze, hogy az alkalmazás kezelhesse a médiafájlokat."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Ha ezt nem akarja megtenni, ugorjon a Beállítások – Alkalmazások – Különleges alkalmazás-hozzáférés – Médiakezelő alkalmazások részhez, és engedélyezze, hogy az alkalmazás kezelhesse a médiafájlokat."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Vagy engedélyezheti csak a médiafájlok elérését. Ebben az esetben viszont nem fog tudni rejtett fájlokkal dolgozni."
+    },
+    {
+      "name": "media_only",
+      "value": "Csak média"
+    },
+    {
+      "name": "all_files",
+      "value": "Összes fájl"
+    },
+    {
+      "name": "search_all_files",
+      "value": "A főképernyőn a mappák helyett keresés az összes fájl között"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Menügomb megjelenítése az Összes mappa tartalmának megjelenítéséhez"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Bélyegképek"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Teljes képernyős média"
+    },
+    {
+      "name": "extended_details",
+      "value": "Bővített részletek"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Gombműveletek"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Látható gombok műveletének kezelése"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Kedvenc be/ki"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Fájl láthatósága be/ki"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Egyéni"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Visszaállítás"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Négyzet"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Átalakítás"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Szűrő"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Egyik sem"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Igazítás"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Árnyékok"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Expozíció"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Kiemelések"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Fényerő"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Kontraszt"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Telítettség"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Világosság"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Feketék"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Fehérek"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Színhőmérséklet"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Élesség"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Visszaállítás"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Fókusz"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Egyik sem"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Sugárirányú"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Lineáris"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Tükrözött"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gauss"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Szöveg hozzáadása"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Szöveg"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Szövegbeállítások"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Szöveg színe"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Betűkészlet"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Hozzáadás"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Szerkesztés"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Egyenesítés"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Betűkészlet"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Szín"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Háttérszín"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Elrendezés"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Előre"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Törlés"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Saját szöveg"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Ecset"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Szín"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Méret"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Keménység"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Előre"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Törlés"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Ecset színe"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Szerkesztő"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Bezárja a szerkesztőt\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Valóban elveti a változtatásokat\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Igen"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Nem"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Mégse"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Elfogadás"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Mentés"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Exportálás…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "%s exportálása."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Matrica"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Matrica színe"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Matricabeállítások"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Hozzáadás"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Szín"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Törlés"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Előre"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Egyenesítés"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Csere"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Átlátszatlanság"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Kontraszt"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Telítettség"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Fényerő"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Feltöltések"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Rávetítés"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normál"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Sötétítés"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Szendvicsnegatív"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Rávetítés"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Világosítás"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Többszörözés"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Színégetés"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Gyenge fény"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Erős fény"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Egyik sem"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Arany"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Fényszivárgás 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mozaik"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Papír"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Eső"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Tükrözés vízszintesen"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Tükrözés függőlegesen"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Visszavonás"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Mégis"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Színválasztó"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Áttetsző"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Fehér"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Szürke"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Fekete"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Világoskék"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Kék"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Lila"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orchidea"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Rózsaszín"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Vörös"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Narancssárga"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Arany"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Sárga"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Olívzöld"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Zöld"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Akvamarin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Pipettázható szín"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Levágás"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Hogyan tudom beállítani a Simple Gallery-t alapértelmezett galériának\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Először meg kell találnia az alapértelmezett galériát az eszköz beállításainak Alkalmazások részében. Keressen egy olyan gombot, amely valami olyasmit, mint az \\\"Legyen alapértelmezett\\\", kattintson rá, majd válassza a \\\"Alapértelmezések törlése\\\" pontot. A következő alkalommal, amikor megpróbál megnyitni egy képet vagy videót, megjelenik egy alkalmazásválasztó, ahol kiválaszthatja a Simple Gallery lehetőséget, és beállíthatja alapértelmezett alkalmazásnak."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Zároltam az alkalmazást jelszóval, de elfelejtettem. Mit tehetek\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "2 módon is megoldhatja. Újratelepítheti az alkalmazást, vagy megkeresi az alkalmazást az eszköz beállításai között, és válassza az \\\"Adatok törlése\\\" lehetőséget. Minden beállítást visszaállít alapértelmezettre. Ez nem távolítja el a média fájlokat."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Hogyan állíthatok be egy albumot úgy, hogy mindig felül legyen\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Hosszan nyomja meg a kívánt albumot, és válassza ki a Kitűzés ikont a művelet menüben, ami rögzíti felülre. Többféle mappát is kitűzhet, ezeket az elemeket az alapértelmezett rendezési mód szerint rendezi."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Hogyan tudom előre tekerni a videókat\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Ezt a képernyő oldalán történő dupla koppintással teheti meg, vagy a keresősáv melletti jelenlegi és leghosszabb időtartam szövegekre koppintva. Ha engedélyezi a videók külön képernyőn történő megnyitását az alkalmazásbeállításokban, vízszintes gesztusokat is használhat."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Mi a különbség a mappa elrejtése és kizárása között\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "A Kizárás megakadályozza, hogy a mappát a Simple Gallery megjelenítse, az Elrejtés pedig rendszer szinten működik, és elrejti a mappát más galériákból is. Úgy működik, hogy létrehoz egy üres \\\". nomedia\\\" nevű fájlt az adott mappában, amelyet bármikor eltávolíthat bármilyen fájlkezelővel is. Note that some devices do not allow hiding folders like Camera, Screenshots and Downloads."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Miért jelennek meg a zenei borítóval vagy matricával rendelkező mappák\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Lehet, hogy látni fog néhány szokatlan album megjelenést. Könnyen kizárhatja a hosszú megnyomással és a Kizárás kiválasztásával. A következő párbeszédablakban kiválaszthatja a szülő mappát, és valószínűleg megakadályozza, hogy a többi kapcsolódó album is megjelenjen."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "A képekkel nem rendelkező mappa nem jelenik meg, vagy nem jeleníti meg az összes elemet. Mit tehetek\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Ennek több oka lehet, de megoldása egyszerű. Menjen a Beállítások -> Belevett mappák kezelése lehetőségre, válassza a plusz jelet, és keresse meg a kívánt mappát."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Mi van, ha csak néhány különleges mappát szeretnék látni\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "A Befoglalt mappákhoz tartozó mappák hozzáadása nem zár ki automatikusan semmit. Amit tehetünk, menjünk a Beállítások -> Kizárt mappák kezelése, kizárjuk a gyökérmappát \\\"/ \\\", utána hozzáadjuk a kívánt mappákat a Beállítások -> Befoglalt mappák kezelése menüpontban. Ezzel csak a kiválasztott mappák láthatók, mivel a kizárás és a befoglalás rekurzív. Ha egy mappát hozzáadunk mindkettőhöz, akkor megjelenik."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Tudom vágni a képeket ezzel az alkalmazással\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Igen, megvághatja a képeket a szerkesztőben a kép sarkainak húzásával. A szerkesztőhöz eljuthat egy bélyegkép hosszú megnyomásával és a Szerkesztés választásával, vagy a Szerkesztés választásával a teljes képernyős nézetben."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Valamilyen módon tudom csoportosítani a médiafájlok bélyegképeit\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Persze, a bélyegképes nézetben használja a „Csoportosítás” menüpontot. A fájlokat többféle kritérium alapján is csoportosíthatja, beleértve a dátumot is. Ha az „Összes mappa tartalmának megjelenítése” funkciót választja, akkor mappákba is csoportosíthatja ezeket."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "A dátum szerinti rendezés nem működik megfelelően, hogyan tudom megjavítani\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Valószínűleg a fájlok másolásából adódik. Ezt a fájl bélyegképének kiválasztásával és a „Dátum javítása” lehetőség kiválasztásával oldhatja meg."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Néhány színcsíkot látok a képeken. Hogyan javíthatom a minőséget\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Az esetek többségében a képek megjelenítésének jelenlegi megoldása jól működik, de ha még jobb képminőséget szeretne, akkor engedélyezheti a \\\"Képek megjelenítése a lehető legjobb minőségben\\\" lehetőséget az alkalmazásbeállításokban, a „Mély nagyítású képek” szakaszban."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Elrejtettem egy fájlt/mappát. Hogyan tudom újra megjeleníteni\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "A rejtett elemek megtekintéséhez nyomja meg a „Rejtett elemek ideiglenes megjelenítése” elemet a főképernyőn, vagy válassza a „Rejtett elemek megjelenítése” lehetőséget az alkalmazásbeállításokban. Ha meg akarja szüntetni, csak hosszan nyomja meg, és válassza az „Elrejtés megszüntetése” lehetőséget. A mappák elrejtése egy rejtett „.nomedia” fájl hozzáadásával történik. Ezt a fájlt bármelyik fájlkezelővel törölheti. Vegye figyelembe, hogy az elrejtés rekurzív módon működik, ha elrejt egy mappát, akkor az összes almappája is rejtett lesz. Így az almappák elrejtésének megszüntetéséhez láthatóvá kell tennie a szülőmappát is."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Miért használ az alkalmazás ennyi helyet\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Az alkalmazás gyorsítótára akár a 250 MB-ot is meghaladhatja, és ez gyorsabb megjelenítést biztosít. Ha az alkalmazás még több helyet foglal el, a legvalószínűbb oka, hogy a Lomtárban is van elem. Ezek a fájlok is az alkalmazás méretébe számítanak bele. Törölheti a Lomtárat azzal, hogy megnyitja és törli az összes fájlt vagy az alkalmazás beállításait. A Lomtárban lévő minden fájl 30 nap elteltével automatikusan törlődik."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Mi történt a fájlok és mappák elrejtésével, és miért nem látom már a rejtett elemeket\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Az Android 11-től kezdődően már nem lehet elrejteni vagy elrejtést megszüntetni a fájlokat vagy mappákat, a rendszer korlátozása miatt a galériaalkalmazásokban sem láthatók a rejtett fájlok és mappák. Ehhez valamilyen fájlkezelőt kell használnod."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Vagy engedélyezheti a galériának az eszközbeállításokban, hogy az összes fájlt elérje, ez lehetővé teszi a rejtett fájlok megjelenítését, és úgy általánosságban megbízhatóbbá teszi a fájlműveleteket."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Miért nem vehetem bele a hiányzó mappákat\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Ez már nem működik egy az Android 11-gyel érkezett rendszermódosítás miatt, az alkalmazás már nem tallózhatja a tényleges mappákat, az ún. MediaStore-ra támaszkodik az adatok lekéréséhez."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Miért látok reklámokat videólejátszás során\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Az alkalmazásainkban egyáltalán nincsenek reklámok. Ha videólejátszás során látja őket, akkor valamilyen külső videólejátszót használhat. Próbálja megkeresni az alapértelmezett videólejátszót az eszközbeállításokban, majd futtassa az „Alapértelmezések törlése” lehetőséget. Amikor legközelebb videót játszana le, akkor az alkalmazásválasztót fogja látni, és kiválaszthatja a használandó alkalmazást."
+    }
+  ]
+}

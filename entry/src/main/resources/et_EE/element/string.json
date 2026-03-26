@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Lihtne galerii"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galerii"
+    },
+    {
+      "name": "edit",
+      "value": "Muuda"
+    },
+    {
+      "name": "open_camera",
+      "value": "Ava kaamera"
+    },
+    {
+      "name": "hidden",
+      "value": "(peidetud)"
+    },
+    {
+      "name": "excluded",
+      "value": "(välistatud)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Klammerda kaust"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Eemalda kausta klammerdus"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Kinnita ülaossa"
+    },
+    {
+      "name": "show_all",
+      "value": "Näita kõikide kaustade sisu"
+    },
+    {
+      "name": "all_folders",
+      "value": "Kõik kaustad"
+    },
+    {
+      "name": "folder_view",
+      "value": "Kasuta kaustavaadet"
+    },
+    {
+      "name": "other_folder",
+      "value": "Muu kaust"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Näita kaardil"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Teadmata asukoht"
+    },
+    {
+      "name": "volume",
+      "value": "Helitugevus"
+    },
+    {
+      "name": "brightness",
+      "value": "Eredus"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Lukusta ekraani pööramine"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Eemalda ekraani pööramise lukustus"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Muuda ekraani paigutust"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Kasuta püstkuva"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Kasuta rõhtkuva"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Kasuta ekraani paigutuse vaikimisi seadistust"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Paranda pildistamise ajatempel"
+    },
+    {
+      "name": "fixing",
+      "value": "Parandame…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Kuupäevade parandamine õnnestus"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Pildistamise kuupäevi ei leidu"
+    },
+    {
+      "name": "share_resized",
+      "value": "Jaga versiooni, mille suurust sa oled muutnud"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Kasuta failiotsingus kõiki nähtavaid kaustu"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Määra vaikimisi kaustaks"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Eemalda määramine vaikimisi kaustaks"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Muuda kaustade järjekorda lohistades"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Muuda kaustade järjekorda lohistades (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Taastame kausta „%s“"
+    },
+    {
+      "name": "filter_media",
+      "value": "Sirvi meediat"
+    },
+    {
+      "name": "images",
+      "value": "Pildid"
+    },
+    {
+      "name": "videos",
+      "value": "Videod"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF'id"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW-failid"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG'd"
+    },
+    {
+      "name": "portraits",
+      "value": "Portreed"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Valitud päringu alusel ei leidu meediafaile."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Muuda filtreid"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "See funktsioon peidab kausta koos alamkaustadega, lisades sinna faili „.nomedia“. Neid näed, lülitades seadetes sisse valiku „Kuva peidetud kirjed“. Kas jätkame\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "See välistab valiku koos selle alamkaustadega ainult Lihtsast galeriist. Väljajäetud kaustu saad hallata seadetes."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Kas selle asemel jätame ülemkirjed välja\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Kaustade välistamine peidab kaustad koos nende alamkaustadega vaid Lihtsast galeriist ning nad jäävad nähtavaks muudele rakendustele.\r\n\\n\r\n\\nKui sa tahad neid varjata ka muude rakenduste eest, siis kasuta peitmise funktsionaalsust."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Peidetud kaustad"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Halda peidetud kaustu"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Tundub, et sa pole „.nomedia“ faili abil ühtegi kausta märkinud peidetuks."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Peidetud failide nägemiseks pead andma sellele rakendusele juurdepääsu kõikidele failidele, muidu ei saa see töötada."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Kui kausta või mõne tema ülemkausta nime alguses on punkt, siis on tegemist peidetud kaustaga ning sa peitmist lõpetada ei saa. Palun muuda nime ja eemalda nime algusest punkt."
+    },
+    {
+      "name": "include_folders",
+      "value": "Kaasatud kaustad"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Halda kaasatud kaustu"
+    },
+    {
+      "name": "add_folder",
+      "value": "Lisa kaust"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Kui sinu teda on olemas meediakaustu, mida rakendus pole tuvastanud, siis saad need käsitsi siin lisada.\r\n\\n\r\n\\nSiia kaustade lisamine ei välista muude kaustade tuvastamist ja kasutamist."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Meediafaile ei leidunud. Selle saad lahendada, lisades meediafaile sisaldavad kaustad käsitsi."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Muuda suurust ja salvesta"
+    },
+    {
+      "name": "width",
+      "value": "Laius"
+    },
+    {
+      "name": "height",
+      "value": "Kõrgus"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Jäta proportsioon samaks"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Palun sisesta kehtiv resolutsioon"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Muuda mitme pildi suurust"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Suuruse muutmise skaala"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Muuda pildi suurust etteantud protsendi alusel, mis peab jääma 10 ja 90 vahele."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Sisesta number, mis jääb 10 ja 90 vahele"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Piltide suuruse muutmine õnnestus"
+    },
+    {
+      "name": "editor",
+      "value": "Redaktor"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Lihtne redaktor"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Võimalusterohke redaktor"
+    },
+    {
+      "name": "rotate",
+      "value": "Pööra"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Vale pildi asukoht"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Vale video asukoht"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Pildi muutmine ei õnnestunud"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Video muutmine ei õnnestunud"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Pildi muutmine tühistati"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Video muutmine tühistati"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Faili muutmine õnnestus"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Pildi muutmine õnnestus"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Video muutmine õnnestus"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Muuda pilti:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Muuda videot:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Pildiredaktorit ei leitud"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Videoredaktorit ei leitud"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Faili asukoht pole teada"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Lähtefaili ei saanud üle kirjutada"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Pööra vasakule"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Pööra paremale"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Pööra 180º võrra"
+    },
+    {
+      "name": "transform",
+      "value": "Muuda"
+    },
+    {
+      "name": "crop",
+      "value": "Kadreeri"
+    },
+    {
+      "name": "draw",
+      "value": "Joonista"
+    },
+    {
+      "name": "flip",
+      "value": "Pööra ümber"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Pööra ümber horisontaalselt"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Pööra ümber vertikaalselt"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Tasuta"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Muud"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Lihtne taustapilt"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Määra taustapildiks"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Taustapildiks määramine ei õnnestunud"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Määra taustapildiks:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Taustapildi seadistamine…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Taustapildi seadistamine õnnestus"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Portreevaate kuvasuhe"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Maastikuvaate kuvasuhe"
+    },
+    {
+      "name": "home_screen",
+      "value": "Avaleht"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Lukustusekraan"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Avaleht ja lukustusekraan"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Võimalda kuvasuhte muutmist"
+    },
+    {
+      "name": "slideshow",
+      "value": "Slaidiesitlus"
+    },
+    {
+      "name": "interval",
+      "value": "Välp"
+    },
+    {
+      "name": "include_photos",
+      "value": "Kaasa fotod"
+    },
+    {
+      "name": "include_videos",
+      "value": "Kaasa videod"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Kaasa GIF-pildid"
+    },
+    {
+      "name": "random_order",
+      "value": "Juhuslik järjekord"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Liigu tagasi"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Korda slaidiesitlust"
+    },
+    {
+      "name": "animation",
+      "value": "Animatsioon"
+    },
+    {
+      "name": "no_animation",
+      "value": "Puudub"
+    },
+    {
+      "name": "fade",
+      "value": "Hämardumine"
+    },
+    {
+      "name": "slide",
+      "value": "Slaid"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Slaidiesitlus lõppes"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Slaidiesitluse jaoks ei ole leitud ühtegi meediafaili"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Rühmita otseseid alamkaustu"
+    },
+    {
+      "name": "group_by",
+      "value": "Rühmituse alus"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Ärge rühmita faile"
+    },
+    {
+      "name": "by_folder",
+      "value": "Kaust"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Viimati muudetud"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Viimati muudetud (päevana)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Viimati muudetud (kuuna)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Pildistamise kuupäev"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Pildistamise kuupäev (päevana)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Pildistamise kuupäev (kuuna)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Faili tüüp"
+    },
+    {
+      "name": "by_extension",
+      "value": "Faililaiend"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Näita vahepealkirjades failide arvu"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Pane tähele, et rühmitamine ja sorteerimine on 2 erinevat välja"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Vidinas näidatav kaust:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Näita kausta nime"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Esita videosid automaatselt"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Jäta meelde video taasesituse viimane ajapunkt"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Esita videosid lõputult"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animeeri GIF-faile pisipiltide juures"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Maksimaalne heledus meedia vaatamisel täisekraanil"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Kärbi pisipildid ruutudeks"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Näita videote kestust"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Täisekraani vaates pööra meediat"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Süsteemi seadistused"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Seadme pööramine"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Kuvasuhe"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Meedia must taust täisekraanivaates"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Keri pisipilte horisontaalselt"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Täisekraanivaates peida süsteemi kasutajaliides automaatselt"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Kustuta tühjad kaustad pärast nende sisu kustutamist"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Luba foto heleduse muutmist vertikaalse viipamisega"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Luba foto video valjuse ja heleduse muutmist vertikaalse viipamisega"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Näita põhivaates kaustates olevate meediafailide arvu"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Näita meedia täisekraanivaates detailset teavet"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Halda detailse vaate teavet"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Näita meedia täisekraanivaates ühe sõrmega suumimist"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Luba koheselt vahetada meediat, klõpsates ekraani külgedel"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Luba piltide sügavat suumimist"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Kui olekuriba on peidetud, peida detailne lisateave"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Näita mõned tegevusnupud ekraani allosas"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Kuva prügikast kaustade vaates"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Sügavalt suumitavad pildid"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Näita pilte võimalikult kõrge kvaliteediga"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Kuva prügikast põhivaate viimase kirjena"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Luba täisekraanivaate sulgemist allapoole suunatud viipega"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Luba 1:1 suumimist kahe topeltpuudutusega"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Ava videod alati eraldi vaates uute horisontaalsete viibetega"
+    },
+    {
+      "name": "show_notch",
+      "value": "Kuva sälk, kui see on saadaval"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Luba piltide pööramist viibetega"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Faili laadimise prioriteet"
+    },
+    {
+      "name": "speed",
+      "value": "Kiirus"
+    },
+    {
+      "name": "compromise",
+      "value": "Kompromiss"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Väldi vigaste failide kuvamist"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Näita pildifailide tüüpe"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Luba videote suumimist kahekordse puututusega"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Kausta pisipildi stiil"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Faili pisipildi stiil"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Märgi lemmikud"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Pisipiltide vahekaugus"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Näita failide arvu eraldi real"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Näita failide arvu sulgudes"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Ära näita failide arvu"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Piira pikad kaustanimed 1 reaga"
+    },
+    {
+      "name": "square",
+      "value": "Ruut"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Ümarad nurgad"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Ekspordi lemmikud"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Impordi lemmikud"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Asukohtade import õnnestus"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Selleks, et kõik failitoimingud toimiksid korralikult, muuda see rakendus oma seadme seadetes meediahaldusrakenduseks."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Kaitse salasõna abil varjatud kaustade nähtavust"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Midagi läks valesti, palun ava oma seadmes Seaded - Rakendused - Erirakenduste juurdepääs - Meediahaldusrakendused ja luba sellel rakendusel meediafaile hallata."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Kui ümbersuunamine ei toimi, ava oma seadmes Seadistused - Rakendused - Erirakenduste juurdepääs - Meedia haldamise rakendused ja luba sellel rakendusel meedifaile hallata."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Kui sa ei soovi seda teha, võite ka avada oma seadmes Seaded - Rakendused - Erirakenduste juurdepääs - Meediahaldusrakendused ja luba sellel rakendusel meediafaile hallata."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternatiivina võid lubada juurdepääsu ainult meediafailidele. Sellisel juhul ei saa sa siiski tegutseda peidetud failidega."
+    },
+    {
+      "name": "media_only",
+      "value": "Ainult meedia"
+    },
+    {
+      "name": "all_files",
+      "value": "Kõik failid"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Avavaatest otsi kaustade asemel kõiki faile"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Näitamaks kõikide kaustade sisu kuva menüüs vastav nupp"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Pisipildid"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Meedia täisekraanivaade"
+    },
+    {
+      "name": "extended_details",
+      "value": "Detailne lisateave"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Tegevused ekraani alumises ääres"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Halda ekraani alumises ääres tehtavaid toiminguid"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Vaheta olekut lemmikuna"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Lülita faili nähtavus sisse/välja"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Kohandatud"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Lähtesta"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Ruut"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Muuda"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filtreeri"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Ükski"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Reguleeri"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Varjud"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Säritus"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Eredad alad"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Heledus"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Kontrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Küllastumine"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Selgus"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Mustad"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Valged"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Temperatuur"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Teravus"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Lähtesta"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Fookus"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Pole kasutusel"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radiaalne"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Lineaarne"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Peegeldatud"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussi"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Lisa tekst"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Tekst"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Teksti valikud"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Teksti värv"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Kirjatüüp"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Lisa"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Toimeta"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Sirgenda"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Kirjatüüp"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Värv"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Taustavärv"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Joondamine"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Ettepoole"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Kustuta"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Sinu tekst"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Pintsel"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Värv"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Suurus"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Kõvadus"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Ettepoole"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Kustuta"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Pintsli värv"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Redaktor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Kas soovid redaktori sulgeda\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Kas sa tõesti tahad muudatustest loobuda\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Jah"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Ei"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Katkesta"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Nõustu"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Salvesta"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Eksportimine…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Ekspordime %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Kleebis"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Kleebise värv"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Kleebise valikud"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Lisa"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Värv"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Kustuta"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Ettepoole"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Sirgenda"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Asenda"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Läbipaistmatus"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Kontrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Küllastumine"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Heledus"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Üleslaadimised"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Ülekate"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Tavaline"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Tee tumedamaks"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Ekraan"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Ülekate"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Tee heledamaks"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Korruta"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Värvipõletus"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Pehme valgus"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Kõva valgus"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Määratlemata"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Kuldne"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Valguse leke 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaiik"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Paber"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Vihm"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Pööra rõhtselt"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Pööra püstloodis"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Võta tegevus tagasi"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Korda tegevust"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Värvivalija"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Läbipaistev"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Valge"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Hall"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Must"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Helesinine"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Sinine"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Lilla"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orhidee"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Roosa"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Punane"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Oranž"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Kuldne"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Kollane"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Oliivikarva"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Roheline"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Akvamariin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Pipeteeritav värv"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Video kärpimine"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Kuidas saan teha Simple Gallery seadme vaikimisi galeriiks\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Kõigepealt otsi seadme seadete rakenduste valikust praegune vaikimisi galerii, leia nupp, millel on midagi sellist nagu „Ava vaikimisi“, klõpsa sellel ja vali „Tühista vaikimisi“. Järgmine kord, kui proovid pilti või videot avada, peaksid nägema rakenduste valijat, kus saad valida Lihtsa galerii ja teha selle vaikimisi rakenduseks."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Lukustasin rakenduse salasõnaga, kuid unustasin selle. Mida ma saan teha\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Seda saad lahendada kahel viisil. Võid kas paigaldada rakenduse uuesti või otsi rakenduse kirje oma seadme seadistustest ja vali „Tühjenda andmed“. See nullib kõik sinu seadistused, see ei eemalda ühtegi meediafaili."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Kuidas saan teha nii, et album ilmuks alati ülaosas\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Vajuta soovitud albumit pikalt ja vali toimingute menüüst ikooni Kinnita, mis kinnitab selle ülespoole. Saad kinnitada ka mitu kausta, kinnitatavad kirjed sorteeritakse vaikimisi sorteerimismeetodi järgi."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Kuidas saan videoid kiiresti edasi kerida\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Seda saad teha, kui topeltkoputad ekraani küljele või koputad praeguse või maksimaalse kestuse tekstidele otsinguriba lähedal. Kui lubad rakenduse seadetes videote avamise eraldi ekraanil, saate kasutada ka horisontaalseid viipeid."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Mis vahe on kausta varjamise ja väljajätmise vahel\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Exclude takistab kausta kuvamist ainult Simple Gallery's, samas kui Hide töötab süsteemipõhiselt ja peidab kausta ka teistest galeriidest. See töötab, luues antud kausta tühja \\\".nomedia\\\" faili, mille saate seejärel eemaldada ka mis tahes failihalduriga. Pange tähele, et mõned seadmed ei võimalda kaustade, nagu Camera, Screenshots ja Downloads, peitmist."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Miks ilmuvad kaustad muusika kaanekujundusega või kleebised\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Võib juhtuda, et ilmub mõni ebatavaline album. Saate need hõlpsasti välja jätta, vajutades pikalt ja valides Exclude (Väljaarvamine). Järgmises dialoogis saate seejärel valida vanemkausta, mis tõenäoliselt takistab ka teiste seotud albumite ilmumist."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Kaust, kus on pilte, ei ilmu või ei näita kõiki objekte. Mida ma saan teha\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Sellel võib olla mitu põhjust, kuid selle lahendamine on lihtne. Lihtsalt minge Settings -> Manage Included Folders, valige Plus ja navigeerige soovitud kausta juurde."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Mis siis, kui ma tahan, et ainult mõned konkreetsed kaustad oleksid nähtavad\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Kausta lisamine kaasatud kaustadesse ei välista automaatselt midagi. Mida saate teha, on minna Settings -> Manage Excluded Folders, välistada juurkaust \\\"/\\\", seejärel lisada soovitud kaustad Settings -> Manage Included Folders. See muudab ainult valitud kaustad nähtavaks, kuna nii välistamine kui ka lisamine on rekursiivne ja kui kaust on nii välistatud kui ka lisatud, siis see kaust kuvatakse."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Kas ma saan selle rakendusega pilte kärpida\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Jah, sa saad pilte redaktoris kärpida, lohistades pildi nurki. Redaktorisse pääseb, kui vajutate pikalt pildi pisipildile ja valite käsu Edit või valite täisekraani vaates käsu Edit."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Kas ma saan kuidagi rühmitada meediafailide pisipilte\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Muidugi, kasutage pisipiltide vaates lihtsalt menüüelementi \\\"Group by\\\". Saate grupeerida faile mitme kriteeriumi, sealhulgas pildistamise kuupäeva järgi. Kui kasutate funktsiooni \\\"Show all folders content\\\" saate neid kaustade järgi rühmitada."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Sorteerimine võetud kuupäeva järgi ei tundu korralikult toimivat, kuidas seda parandada\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Tõenäoliselt on selle põhjuseks kuskilt kopeeritud failid. Saate selle parandada, valides faili pisipildid ja valides \\\"Fix Date Taken väärtus\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Ma näen piltidel mõningaid värviribasid. Kuidas ma saan kvaliteeti parandada\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Praegune lahendus piltide kuvamiseks töötab enamasti hästi, kuid kui soovite veelgi paremat pildikvaliteeti, saate rakenduse seadetes, jaotises \\\"Sügavsuumitavad pildid\\\", lubada funktsiooni \\\"Näita pilte kõrgeima võimaliku kvaliteediga\\\"."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Olen faili/kausta ära peitnud. Kuidas ma saan selle peidust välja tuua\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Peidetud elemendi nägemiseks saate kas vajutada põhiekraanil menüüelementi \\\"Ajutiselt näidata peidetud elemente\\\" või lülitada rakenduse seadetes ümber \\\"Näita peidetud elemente\\\". Kui soovite selle välja võtta, vajutage sellele lihtsalt pikalt ja valige \\\"Unhide\\\". Kaustad on peidetud, lisades neisse peidetud \\\".nomedia\\\" faili, saate selle faili kustutada ka mis tahes failihalduriga. Pange tähele, et peitmine toimib siiski rekursiivselt, nii et kui te peidate kausta, muutuvad ka kõik alamkaustad samuti peidetuks. Nii et alamkaustade peitmise tühistamiseks tuleb eemaldada vanema kausta peitmine."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Miks võtab rakendus nii palju ruumi\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Rakenduse vahemälu võib võtta kuni 250 MB ja see tagab piltide kiirema laadimise. Kui rakendus võtab veelgi rohkem ruumi, on selle põhjuseks tõenäoliselt see, et sul on esemeid prügikastis. Need failid on osa rakenduse mälukasutusest. Saad prügikasti tühjendada, avades selle ja kustutades kõik failid või tehes sama rakenduse seadetest. Iga prügikastis olev fail kustutatakse automaatselt 30 päeva pärast."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Mis juhtus failide ja kaustade peitmisega ja miks ma ei näe enam peidetud kirjeid\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Alates Android 11'st sa enam ei saa rakendusest kaustu peita või teha nähtavaks. Lisaks ei saa süsteemsete piirangute tõttu enam galeriist kasutada peidetud kaustu. Kirjeldatud eesmärgi saavutamiseks palun kasuta failihaldurit."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Aga samas võid sa sellele galeriirakendusele anda süsteemihaldusest õigused kõikide failide nägemiseks ning sellega saame õigused ka peidetud failide kuvamiseks ja kõik toimingud failidega on töökindlamad."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Miks ma ei saa enam lisada puuduvaid kaustu\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "See funktsionaalsus lakkas töötamast tänu süsteemimuudatustele, mis lisandusid Android 11-ga, mispuhul rakendus ei saa enam sirvida reaalseid kaustu, vaid tugineb andmete hankimisel nn MediaStore'ile."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Miks ma näen video taasesituse ajal reklaami\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Meie rakendustes ei ole üldse reklaami. Kui näed neid videote esitamise ajal, pead kasutama mõnda muud rakendust videomängijana. Proovi leida seadme seadetest oma vaikimisi videomängija, seejärel tee selle kohta „Eemalda vaikimisi seaded“. Järgmine kord, kui alustad videoesitust, näed rakenduse valikut, kus saad valida, millist rakendust soovid kasutada."
+    }
+  ]
+}

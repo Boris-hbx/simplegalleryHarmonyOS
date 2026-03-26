@@ -1,0 +1,13 @@
+App Icon: Simple Gallery Pro
+Source: Android app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+Status: REPLACED (2026-03-21)
+
+Layered icon structure (HarmonyOS adaptive icon):
+- foreground.png: White mountain/landscape logo with sun (432x432 RGBA)
+- background.png: Solid orange (#F57C00) (1024x1024)
+- layered_image.json: References $media:background + $media:foreground
+
+Start window (splash screen):
+- startIcon.png: Circular orange icon with white mountain logo (centered)
+- start_window_background: #333333 (light mode) / #000000 (dark mode)
+  Matches Android splash.xml dark background + centered icon pattern

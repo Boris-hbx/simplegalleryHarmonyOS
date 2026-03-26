@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Simple Gallery"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galleri"
+    },
+    {
+      "name": "edit",
+      "value": "Redigér"
+    },
+    {
+      "name": "open_camera",
+      "value": "Åbn kamera"
+    },
+    {
+      "name": "hidden",
+      "value": "(skjult)"
+    },
+    {
+      "name": "excluded",
+      "value": "(ekskluderet)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Fastgør mappe"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Frigør mappe"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Fastgør til toppen"
+    },
+    {
+      "name": "show_all",
+      "value": "Vis indholdet af alle mapper"
+    },
+    {
+      "name": "all_folders",
+      "value": "Alle mapper"
+    },
+    {
+      "name": "folder_view",
+      "value": "Skift til mappevisning"
+    },
+    {
+      "name": "other_folder",
+      "value": "Anden mappe"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Vis på kort"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Ukendt placering"
+    },
+    {
+      "name": "volume",
+      "value": "Lydstyrke"
+    },
+    {
+      "name": "brightness",
+      "value": "Lysstyrke"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Lås orientering"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Lås orientering op"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Skift orientering"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Tving portræt"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Tving landskab"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Brug standard orientering"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Fiks optagelsesdato"
+    },
+    {
+      "name": "fixing",
+      "value": "Fikser…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Datoer fikset med succes"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Ingen eksponeringsdatoer er fundet"
+    },
+    {
+      "name": "share_resized",
+      "value": "Del en skaleret version"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Skift til filsøgning på tværs af synlige mapper"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Vælg som standardmappe"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Fravælg som standardmappe"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Omorganiser mapper ved at trække"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Omorganiser mapper ved at trække (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Gendanner til '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Filtrer medier"
+    },
+    {
+      "name": "images",
+      "value": "Billeder"
+    },
+    {
+      "name": "videos",
+      "value": "Videoer"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF'er"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW-billeder"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG'er"
+    },
+    {
+      "name": "portraits",
+      "value": "Portrætter"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Der blev ikke fundet nogen filer med det valgte filter."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Skift filter"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Denne funktion skjuler mappen og dens eventuelle undermapper ved at oprette en \\\".nomedia\\\"-fil i den. Du kan se dem ved at klikke på \\\"Vis skjulte\\\" i indstillingerne. Fortsæt\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Dette vil kun ekskludere de valgte mapper (og deres undermapper) fra Simple Gallery. Du kan administrere ekskluderede mapper i indstillingerne."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Ekskluder en overliggende mappe i stedet\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Ekskludering af mapper vil skjule dem og eventuelle undermapper for Simple Gallery, de vil stadig være synlige for andre apps.\r\n\\n\r\n\\nHvis du også vil skjule dem for andre apps, skal du bruge funktionen Skjul."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Skjulte mapper"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Administrer skjulte mapper"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Det ser ikke ud til at du har nogen skjulte mapper med en \\\".nomedia\\\"-fil."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Du skal give app'en \"Alle filer\" tilladelsen for at se skjulte filer, ellers vil det ikke fungere."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "Inkluderede mapper"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Administrer inkluderede mapper"
+    },
+    {
+      "name": "add_folder",
+      "value": "Tilføj mappe"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Hvis du har mapper med mediefiler som appen ikke har fundet, kan du manuelt tilføje dem her.\r\n\\n\r\n\\nDet vil ikke ekskludere andre mapper."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Ingen mediefiler er fundet. Dette kan løses ved manuelt at tilføje mapper som indeholder mediefiler."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Skaler valgte elementer og gem"
+    },
+    {
+      "name": "width",
+      "value": "Bredde"
+    },
+    {
+      "name": "height",
+      "value": "Højde"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Bevar billedformat"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Indtast en gyldig opløsning"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Ændr størrelsen på flere billeder"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Størrelsesfaktor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Ændr billedstørrelser til den angivne procentdel, værdien skal være mellem 10 og 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Indtast et tal mellem 10 og 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Billedstørrelser ændret"
+    },
+    {
+      "name": "editor",
+      "value": "Editor"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Grundlæggende editor"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Avanceret editor"
+    },
+    {
+      "name": "rotate",
+      "value": "Roter"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Ugyldig sti til billede"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Ugyldig sti til video"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Redigering af billede mislykkedes"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Redigering af video mislykkedes"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Billedredigering annulleret"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Videoredigering annulleret"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Fil redigeret med succes"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Billede redigeret med succes"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Video redigeret med succes"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Redigér billede med:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Redigér video med:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Der blev ikke fundet en editor til billedbehandling"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Der blev ikke fundet en videoeditor"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Ukendt filplacering"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Kunne ikke overskrive kildefilen"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Roter mod venstre"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Roter mod højre"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Roter 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Transformér"
+    },
+    {
+      "name": "crop",
+      "value": "Beskær"
+    },
+    {
+      "name": "draw",
+      "value": "Tegn"
+    },
+    {
+      "name": "flip",
+      "value": "Spejlvend"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Spejlvend vandret"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Spejlvend lodret"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Fri"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Andet"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Simple baggrundsbillede"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Indstil som baggrundsbillede"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Indstilling af billede som baggrund mislykkedes"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Sæt som baggrundsbillede med:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Indstiller baggrundsbillede…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Sat som baggrundsbillede"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Stående billedformat"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Liggende billedformat"
+    },
+    {
+      "name": "home_screen",
+      "value": "Hjemmeskærm"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Låseskærm"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Hjemme- og låseskærm"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Tillader ændring af billedformatet"
+    },
+    {
+      "name": "slideshow",
+      "value": "Lysbilledshow"
+    },
+    {
+      "name": "interval",
+      "value": "Frekvens"
+    },
+    {
+      "name": "include_photos",
+      "value": "Inkluder billeder"
+    },
+    {
+      "name": "include_videos",
+      "value": "Inkluder videoer"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Inkluder GIF'er"
+    },
+    {
+      "name": "random_order",
+      "value": "Tilfældig rækkefølge"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Kør baglæns"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Endeløs kørsel"
+    },
+    {
+      "name": "animation",
+      "value": "Animation"
+    },
+    {
+      "name": "no_animation",
+      "value": "Ingen"
+    },
+    {
+      "name": "fade",
+      "value": "Udton"
+    },
+    {
+      "name": "slide",
+      "value": "Glid"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Lysbilledshowet endte"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Der blev ikke fundet nogen mediefiler til lysbilledshowet"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Gruppér direkte undermapper"
+    },
+    {
+      "name": "group_by",
+      "value": "Gruppér efter"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Gruppér ikke filer"
+    },
+    {
+      "name": "by_folder",
+      "value": "Mappe"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Sidst ændret"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Sidst ændret (daglig)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Sidst ændret (månedlig)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Dato for optagelse"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Dato for optagelse (daglig)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Dato for optagelse (månedlig)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Filtype"
+    },
+    {
+      "name": "by_extension",
+      "value": "Filendelse"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Vis antal filer ved sektionsoverskrifter"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Vær opmærksom på at gruppering og sortering er to uafhængige felter"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Mappe vist på widget:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Vis mappenavn"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Afspil automatisk videoer"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Husk sidste position ved videoafspilning"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Kør videoer i sløjfe"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animer GIF'er i miniaturer"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Maksimal lysstyrke ved fuldskærmsvisning af medier"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Beskær miniaturer til kvadrater"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Vis varighed på video"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Roter fuldskærmsmedier efter"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Systemindstilling"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Enhedens orientering"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Billedformat"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Sort baggrund og statuslinje ved medievisning i fuldskærm"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Scroll miniaturer vandret"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Skjul automatisk systemets brugerflade ved fuldskærmsvisning af medier"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Slet tomme mapper efter sletning af deres indhold"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Tillad kontrol af lysstyrke på billeder med lodrette bevægelser"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Tillad kontrol af lyd- og lysstyrke på videoer med lodrette bevægelser"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Vis antal filer i hver mappe i oversigten"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Vis udvidede oplysninger over medier i fuldskærm"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Administrer udvidede oplysninger"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Tillad zoom med en finger når medier er i fuldskærm"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Tillad skift af medie ved klik på skærmens sider"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Tillad dyb zooming af billeder"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Skjul udvidede oplysninger når statuslinjen er skjult"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Vis nogle handlingsknapper i bunden af skærmen"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Vis papirkurven ved mappevisning"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Dybt zoombare billeder"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Vis billeder i den højst mulige kvalitet"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Vis papirkurven som sidste element på hovedskærmen"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Luk fuldskærmsvisning ved at swipe ned"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Tillad 1:1 zooming med to dobbelttryk"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Åbn altid videoer på en separat skærm med nye vandrette bevægelser"
+    },
+    {
+      "name": "show_notch",
+      "value": "Vis \\\"notch\\\" hvis tilgængelig"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Tillad rotering af billeder med bevægelser"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Prioritering af filindlæsning"
+    },
+    {
+      "name": "speed",
+      "value": "Hastighed"
+    },
+    {
+      "name": "compromise",
+      "value": "Kompromis"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Undgå at vise ugyldige filer"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Vis billeders filtyper"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Tillad zoom på videoer ved dobbelttryk"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Miniaturestil på mapper"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Miniaturestil på filer"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Markere foretrukne elementer"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Afstand mellem miniaturer"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Vis antal filer på separat linje"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Vis antal filer i parentes"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Vis ikke antal filer"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Begræns lange mappenavne til 1 linje"
+    },
+    {
+      "name": "square",
+      "value": "Firkant"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Afrundede hjørner"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Eksportér favoritter"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Importér favoritter"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Stier blev importeret"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "For at sikre at alle filhandlinger fungerer pålideligt, skal du gøre denne app en mediestyringsapp i dine enhedsindstillinger."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Beskyt synligheden af udelukkede mapper med adgangskode"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Noget gik galt, gå ind på din enhed Indstillinger - Apps - Særlig app-adgang - Mediehåndteringsapps, og tillad denne app at håndtere medier."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Hvis omdirigeringen ikke virker, skal du gå ind i enheden Indstillinger - Apps - Særlig app-adgang - Mediehåndteringsapps og tillade denne app at håndtere medier."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Hvis du ikke ønsker at gøre dette, kan du også gå ind i din enhed - Indstillinger - Apps - Særlig appadgang - Mediehåndteringsapps og tillade denne app at håndtere medier."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternativt kan du kun tillade adgang til mediefiler. I så fald vil du dog ikke kunne arbejde med skjulte filer."
+    },
+    {
+      "name": "media_only",
+      "value": "Kun medier"
+    },
+    {
+      "name": "all_files",
+      "value": "Alle filer"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Søg i alle filer i stedet for mapper på hovedskærmen"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Vis en menuknap til at slå \"Vis indholdet af alle mapper\" til og fra hurtigt"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Miniaturebilleder"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Fuldskærmsmedier"
+    },
+    {
+      "name": "extended_details",
+      "value": "Flere oplysninger"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Handlingsknapper"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Administrer synlige handlingsknapper"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Favorit"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Synlighed"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Brugerdefineret"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Nulstil"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Firkant"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Transformér"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filter"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Ingen"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Justér"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Skygger"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Eksponering"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Højlys"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Lysstyrke"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Kontrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Mætning"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Klarhed"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Sorte"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Hvide"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Temperatur"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Skarphed"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Nulstil"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Fokus"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Ingen"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radial"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Lineær"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Spejlvendt"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussisk"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Tilføj tekst"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Tekst"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Tekst-muligheder"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Tekstfarve"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Skrifttype"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Tilføj"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Rediger"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Ret op"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Skrifttype"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Farve"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Baggrundsfarve"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Justering"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Til Front"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Slet"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Din tekst"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Pensel"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Farve"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Størrelse"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Hårdhed"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Til Front"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Slet"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Penselfarve"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Luk editor\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Vil du virkelig kassere ændringerne\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Ja"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Nej"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Annuller"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Accepter"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Gem"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Eksporterer…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Eksporterer %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Klistermærke"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Klistermærkefarve"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Klistermærke-indstillinger"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Tilføj"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Farve"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Slet"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Til Front"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Ret op"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Erstat"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opacitet"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Kontrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Mætning"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Lysstyrke"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Uploads"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Overlejring"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Formørk"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Skærm"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Overlejring"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Lysne"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Flerdobl"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Farvebrænding"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Blødt lys"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Hårdt lys"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Intet"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Gyldent"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Lysstribe 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaik"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Papir"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Regn"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Vend H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Vend V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Fortryd"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Omgør"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Farvevælger"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Gennemsigtig"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Hvid"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Grå"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Sort"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Lyseblå"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Blå"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Lilla"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orkidé"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Lyserød"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Rød"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Orange"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Guld"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Gul"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Oliven"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Grøn"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Akvamarin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Pipetterbar farve"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Trim"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Hvordan kan jeg gøre Simple Gallery til min enheds standardgalleri\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Først skal du finde det nuværende standardgalleri i Apps-sektionen af din enheds indstillinger. Kig efter en knap som hedder noget i stil med \\\"Åbn som standard\\\", klik på denne og vælg \\\"Ryd standarder\\\". Næste gang du forsøger at åbne et billede eller en video, bør du se en app-vælger, hvor du kan vælge Simple Gallery og gøre den til standardapp."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Jeg har låst appen med en adgangskode, men jeg har glemt den. Hvad kan jeg gøre\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Du har to muligheder. Du kan enten geninstallere appen, eller finde den i indstillingerne på din enhed og vælge \\\"Ryd data\\\". Dette vil nulstille alle dine indstillinger, det vil ikke slette nogen mediefiler."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Hvordan kan jeg altid få et bestemt album vist i toppen\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Du kan holde fingeren nede på det ønskede album, og vælge tegnestift-ikonet i menuen. Dette vil fastgøre det til toppen. Du kan fastgøre flere mapper. Fastgjorte elementer vil blive sorteret efter standard sorterings-metoden."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Hvordan kan jeg spole fremad i videoer\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Du kan gøre det ved at dobbelttrykke på siden af skærmen eller ved at trykke på teksten for aktuel eller maksimal varighed nær søgelinjen. Hvis du aktiverer åbning af videoer på en separat skærm i appindstillingerne, kan du også bruge horisontale bevægelser."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Hvad er forskellen på at skjule og ekskludere en mappe\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Ekskludering forhindrer kun visning af mappen i Simple Gallery, mens Skjul virker på systemniveau og skjuler mappen fra andre gallerier også. Det fungerer ved at oprette en tom \\\".nomedia\\\"-fil i den givne mappe, som du kan slette med enhver filhåndterings-app. Bemærk, at det på nogle enheder ikke er muligt at skjule mapper som Kamera, Skærmbilleder og Downloads."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Hvorfor dukker mapper med musikomslag eller klistermærker op\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Det kan ske at du vil se nogle udsædvanlige albummer. Du kan nemt ekskludere disse ved at holde fingeren nede på disse og vælge Ekskluder. I den næste dialogboks kan du vælge den ovenliggende mappe, da andre relaterede albummer så sandsynligvis også vil blive forhindret i at blive vist."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "En mappe med billeder dukker ikke op, eller den viser ikke alle elementer. Hvad kan jeg gøre\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Der kan være flere grunde, men en løsning er nem. Gå til Indstillinger -> Administrer inkluderede mapper, vælg plusset og naviger til mappen."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Hvad hvis jeg kun vil have, at nogle få bestemte mapper er synlige\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "At tilføje en mappe ved de Inkluderede mapper, ekskluderer ikke automatisk alt. Det du kan gøre, er at gå til Indstillinger -> Adminsterer ekskluderede mapper, eksludere rodmappen \\\"/\\\", og så tilføje de ønskede mapper under Indstillinger -> Administrer inkluderede mapper. Det vil kun gøre de valgte mapper synlige, da både ekskludering og inkludering virker reskursivt, og hvis en mappe både er ekskluderet og inkluderet, vil den blive vist."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Kan jeg beskære billeder med denne app\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Ja, du kan beskære billeder i editoren, ved at trække i billedets kanter. Du kan gå til editoren, ved enten at holde fingeren nede på et miniaturebillede og vælge Rediger, eller vælge Rediger fra fuldskærmsvisningen."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Kan jeg på en eller anden måde gruppere miniaturebilleder til mediefiler\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Sagtens, brug menupunktet \\\"Gruppér efter\\\", mens du ser miniaturebillederne. Du kan gruppere flere efter flere kriterier, inklusiv eksponeringsdato. Hvis du bruger funktionen \\\"Vis indholdet af alle mapper\\\", kan du også gruppere dem efter mapper."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Sortering efter eksponeringsdato ser ikke ud til at fungere. Hvordan kan jeg fikse det\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Det skyldes højst sandsynligt at filerne er kopieret fra et andet sted. Du kan fikse det ved at vælge filens miniature, og vælge \\\"Fiks optagelsesdato\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Jeg ser noget \\\"color banding\\\" på billederne. Hvordan kan jeg forbedre kvaliteten\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Den nuværende løsning til visning af billeder virker fint i langt de fleste tilfælde, men hvis du vil have en endnu bedre billedkvalitet, kan du aktivere \\\"Vis billeder i den højst mulige kvalitet\\\" i appens indstillinger, i sektionen \\\"Dybt zoombare billeder\\\"."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Jeg har skjult en fil/mappe. Hvordan kan jeg få den vist igen\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Du kan enten trykke på menupunktet \\\"Vis midlertidigt skjulte\\\" på hovedskærmen, eller aktivere \\\"Vis skjulte elementer\\\" i appens indstillinger for at se det skjulte element. Hvis du vil fjerne skjulningen, skal du blot holde fingeren nede og vælge \\\"Fjern skjulning\\\". Mapper er skjult ved at tilføje en skjult \\\".nomedia\\\"-fil i dem, som du også kan slette med enhver filhåndterings-app. Note that hiding works recursively though, so if you hide a folder, all subfolders will become hidden too. So for unhiding the subfolders you have to unhide the parent folder."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Hvorfor fylder appen så meget\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "App-mellemlageret kan bruge op til 250MB, det sikrer hurtigere indlæsning. Fylder appen endnu mere kan det skyldes at der ligger meget papirkurven. Filer heri tæller med til appens størrelse. Du kan tømme papirkurven ved at åbne den og slette indholdet, eller fra appens indstillinger. Alle filer i papirkurven slettes automatisk efter 30 dage."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Hvad skete der med 'Skjul filer og mapper', og hvorfor kan jeg ikke se skjulte elementer længere\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Fra og med Android 11 kan du ikke længere skjule eller vise filer eller mapper. På grund af systembegrænsninger kan du heller ikke se de skjulte i galleriapps. Du bliver nødt til at bruge en anden form for filhåndtering til det."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Du kan også give dette galleri adgang til Alle filer via din enheds indstillinger, hvilket vil give os mulighed for at vise skjulte elementer og generelt gøre filoperationer mere pålidelige."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Hvorfor kan jeg ikke længere inkludere manglende mapper\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Det holdt op med at virke på grund af systemændringerne, der fulgte med Android 11, appen kan ikke længere gennemse rigtige mapper, den er afhængig af den såkaldte MediaStore til at hente data."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Hvorfor ser jeg reklamer under videoafspilning\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Vores apps har ingen reklamer overhovedet. Hvis du ser dem under videoafspilning, bruger du videoafspilleren fra en anden app. Prøv at finde din standard videoafspiller i enhedens indstillinger, og vælg \\\"Ryd standarder\\\" på den. Næste gang du forsøger at åbne en videofil, vil du se en prompt, hvor du kan vælge hvilken app du vil bruge."
+    }
+  ]
+}

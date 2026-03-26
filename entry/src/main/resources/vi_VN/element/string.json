@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Simple Gallery"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Thư viện"
+    },
+    {
+      "name": "edit",
+      "value": "Chỉnh sửa"
+    },
+    {
+      "name": "open_camera",
+      "value": "Mở Camera"
+    },
+    {
+      "name": "hidden",
+      "value": "(ẩn)"
+    },
+    {
+      "name": "excluded",
+      "value": "(loại trừ)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Ghim thư mục"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Bỏ ghim thư mục"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Ghim lên đầu"
+    },
+    {
+      "name": "show_all",
+      "value": "Hiển thị tất cả nội dung thư mục"
+    },
+    {
+      "name": "all_folders",
+      "value": "Tất cả các thư mục"
+    },
+    {
+      "name": "folder_view",
+      "value": "Chuyển sang xem thư mục"
+    },
+    {
+      "name": "other_folder",
+      "value": "Thư mục khác"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Hiển thị trên bản đồ"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Vị trí không xác định"
+    },
+    {
+      "name": "volume",
+      "value": "Âm lượng"
+    },
+    {
+      "name": "brightness",
+      "value": "Độ sáng"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Khóa xoay màn hình"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Mở khóa xoay"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Thay đổi hướng màn hình"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Bắt buộc dọc"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Bắt buộc ngang"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Sử dụng hướng mặc định"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Sửa giá trị ngày chụp"
+    },
+    {
+      "name": "fixing",
+      "value": "Đang sửa…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Sửa ngày thành công"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Không tìm thấy Ngày chụp phù hợp"
+    },
+    {
+      "name": "share_resized",
+      "value": "Chia sẻ phiên bản đã thay đổi kích thước"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Chuyển sang tìm kiếm tệp trên tất cả các thư mục hiển thị"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Đặt làm thư mục mặc định"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Bỏ đặt làm thư mục mặc định"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Sắp xếp lại các thư mục bằng cách kéo"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Sắp xếp lại các thư mục bằng cách kéo (Phiên bản Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Đang khôi phục lại '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Lọc"
+    },
+    {
+      "name": "images",
+      "value": "Hình ảnh"
+    },
+    {
+      "name": "videos",
+      "value": "Video"
+    },
+    {
+      "name": "gifs",
+      "value": "Ảnh GIF"
+    },
+    {
+      "name": "raw_images",
+      "value": "Ảnh RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVGs"
+    },
+    {
+      "name": "portraits",
+      "value": "Chân dung"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Không có tập tin phương tiện nào được tìm thấy với các bộ lọc được chọn."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Thay đổi bộ lọc"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Chức năng này ẩn thư mục bằng cách thêm tệp '.nomedia' vào nó, nó cũng sẽ ẩn tất cả các thư mục con. Bạn có thể nhìn thấy chúng bằng cách bật tùy chọn 'Hiển thị các mục bị ẩn' trong Cài đặt. Tiếp tục\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Điều này sẽ loại trừ lựa chọn cùng với các thư mục con của nó khỏi Simple Gallery. Bạn có thể quản lý các thư mục loại trừ trong Cài đặt."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Loại trừ thư mục mẹ thay thế\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Các thư mục loại trừ sẽ làm cho chúng cùng với các thư mục con của chúng bị ẩn chỉ trong Simple Gallery, chúng vẫn sẽ hiển thị trong các ứng dụng khác.\r\n\\n\r\n\\nNếu bạn cũng muốn ẩn chúng khỏi các ứng dụng khác, hãy sử dụng chức năng Ẩn."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Các thư mục ẩn"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Quản lý thư mục ẩn"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Có vẻ như bạn không có bất kỳ thư mục nào bị ẩn với tệp \\\".nomedia\\\"."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Bạn phải cấp cho ứng dụng quyền truy cập Tất cả các tệp để xem các tệp ẩn, nếu không ứng dụng sẽ không thể hoạt động."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "Bao gồm các thư mục"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Quản lý các thư mục được bao gồm"
+    },
+    {
+      "name": "add_folder",
+      "value": "Thêm thư mục"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Nếu bạn có một số thư mục chứa tập tin phương tiện, nhưng ứng dụng không nhận ra, bạn có thể thêm chúng theo cách thủ công tại đây.\r\n\\n\r\n\\nThêm một số mục ở đây sẽ không loại trừ bất kỳ thư mục nào khác."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Không có tập tin phương tiện được tìm thấy. Bạn có thể thêm các thư mục chứa tệp phương tiện theo cách thủ công."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Thay đổi kích thước mục đã chọn và lưu"
+    },
+    {
+      "name": "width",
+      "value": "Chiều rộng"
+    },
+    {
+      "name": "height",
+      "value": "Chiều cao"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Giữ tỷ lệ khung hình"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Vui lòng nhập độ phân giải hợp lệ"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Thay đổi kích thước nhiều hình ảnh"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Thay đổi kích thước yếu tố"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Thay đổi kích thước hình ảnh theo tỷ lệ phần trăm nhất định, giá trị phải nằm trong khoảng 10 và 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Nhập một số từ 10 đến 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Thay đổi kích thước hình ảnh thành công"
+    },
+    {
+      "name": "editor",
+      "value": "Trình biên tập"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Trình chỉnh sửa cơ bản"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Trình chỉnh sửa nâng cao"
+    },
+    {
+      "name": "rotate",
+      "value": "Xoay"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Đường dẫn hình ảnh không hợp lệ"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Đường dẫn video không hợp lệ"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Thất bại"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Chỉnh sửa video không thành công"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Chỉnh sửa hình ảnh đã bị hủy"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Chỉnh sửa video đã bị hủy"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Tập tin được chỉnh sửa thành công"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Đã chỉnh sửa hình ảnh thành công"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Đã chỉnh sửa video thành công"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Chỉnh sửa hình ảnh với:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Chỉnh sửa video với:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Không tìm thấy trình chỉnh sửa hình ảnh"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Không tìm thấy trình chỉnh sửa video"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Vị trí tệp không xác định"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Không thể ghi đè tệp nguồn"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Xoay trái"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Xoay phải"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Xoay 180 độ"
+    },
+    {
+      "name": "transform",
+      "value": "Biến đổi"
+    },
+    {
+      "name": "crop",
+      "value": "Xén"
+    },
+    {
+      "name": "draw",
+      "value": "Vẽ"
+    },
+    {
+      "name": "flip",
+      "value": "Lật"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Lật theo chiều ngang"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Lật theo chiều dọc"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Tự do"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Khác"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Hình nền"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Cài làm hình nền"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Thất bại"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Đặt làm hình nền với:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Cài đặt hình nền…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Đặt hình nền thành công"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Tỷ lệ khung hình dọc"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Tỷ lệ khung hình ngang"
+    },
+    {
+      "name": "home_screen",
+      "value": "Màn hình chính"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Màn hình khóa"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Màn hình chính và khóa"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Cho phép thay đổi tỷ lệ khung hình"
+    },
+    {
+      "name": "slideshow",
+      "value": "Trình chiếu"
+    },
+    {
+      "name": "interval",
+      "value": "Khoảng thời gian"
+    },
+    {
+      "name": "include_photos",
+      "value": "Bao gồm hình ảnh"
+    },
+    {
+      "name": "include_videos",
+      "value": "Bao gồm video"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Bao gồm ảnh GIF"
+    },
+    {
+      "name": "random_order",
+      "value": "Thứ tự ngẫu nhiên"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Lùi lại"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Trình chiếu theo vòng lặp"
+    },
+    {
+      "name": "animation",
+      "value": "Hiệu ứng"
+    },
+    {
+      "name": "no_animation",
+      "value": "Không"
+    },
+    {
+      "name": "fade",
+      "value": "Phai màu"
+    },
+    {
+      "name": "slide",
+      "value": "Trượt"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Trình chiếu kết thúc"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Không có tập tin phương tiện cho trình chiếu được tìm thấy"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Nhóm thư mục con trực tiếp"
+    },
+    {
+      "name": "group_by",
+      "value": "Nhóm theo"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Không nhóm các tệp"
+    },
+    {
+      "name": "by_folder",
+      "value": "Thư mục"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Sửa đổi lần cuối"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Sửa đổi lần cuối (hàng ngày)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Sửa đổi lần cuối (hàng tháng)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Ngày chụp"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Ngày chụp (hàng ngày)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Ngày chụp (hàng tháng)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Loại tệp"
+    },
+    {
+      "name": "by_extension",
+      "value": "Phần mở rộng"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Hiển thị số lượng tệp ở tiêu đề phần"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Xin lưu ý rằng Nhóm và Sắp xếp là 2 trường độc lập"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Thư mục hiển thị trên widget:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Hiển thị tên thư mục"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Phát video tự động"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Ghi nhớ vị trí phát video cuối cùng"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Tự động phát video đầu khi hết video cuối"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "GIF động tại hình thu nhỏ"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Độ sáng tối đa khi xem tập tin phương tiện toàn màn hình"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Cắt hình thu nhỏ thành hình vuông"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Hiển thị thời lượng video"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Xoay tập tin toàn màn hình theo"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Thiết lập hệ thống"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Hướng xoay của thiết bị"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Tỷ lệ khung hình"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Nền đen khi xem toàn màn hình"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Cuộn hình thu nhỏ theo chiều ngang"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Tự động ẩn giao diện người dùng hệ thống khi xem toàn màn hình"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Xóa các thư mục trống sau khi xóa nội dung của chúng"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Cho phép kiểm soát độ sáng của ảnh bằng cách vuốt dọc màn hình"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Cho phép kiểm soát âm lượng và độ sáng của video bằng cách vuốt dọc màn hình"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Hiển thị số thư mục trên giao diện chính"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Hiển thị chi tiết mở rộng khi xem toàn màn hình"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Quản lý chi tiết mở rộng"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Cho phép thu phóng một ngón tay khi xem toàn màn hình"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Cho phép chuyển tiếp ngay lập tức bằng cách nhấp vào các cạnh màn hình"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Cho phép phóng to hình ảnh sâu"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Ẩn chi tiết mở rộng khi thanh trạng thái bị ẩn"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Hiển thị một số nút chức năng ở dưới cùng của màn hình"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Hiển thị Thùng rác tại màn hình thư mục"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Hình ảnh có thể phóng to"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Hiển thị hình ảnh với chất lượng cao nhất có thể"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Hiển thị Thùng rác là mục cuối cùng trên màn hình chính"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Cho phép đóng chế độ xem toàn màn hình bằng cách vuốt xuống"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Cho phép phóng to 1:1 với hai lần nháy đúp"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Luôn mở video trên một màn hình riêng biệt bằng cử chỉ ngang mới"
+    },
+    {
+      "name": "show_notch",
+      "value": "Hiển thị màn hình chữ V nếu có"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Cho phép xoay hình ảnh bằng cử chỉ"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Ưu tiên tải tệp"
+    },
+    {
+      "name": "speed",
+      "value": "Tốc độ"
+    },
+    {
+      "name": "compromise",
+      "value": "Thỏa hiệp"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Tránh hiển thị các tệp không hợp lệ"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Hiển thị các loại tệp hình ảnh"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Cho phép phóng to video bằng cách nhấn đúp vào chúng"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Kiểu thu nhỏ thư mục"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Kiểu hình thu nhỏ của tệp"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Đánh dấu các mục yêu thích"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "khoảng cách hình thu nhỏ"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Hiển thị số lượng tệp trên một dòng riêng biệt"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Hiển thị số lượng tệp trong ngoặc"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Không hiển thị số lượng tệp"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Giới hạn tiêu đề thư mục dài trong 1 dòng"
+    },
+    {
+      "name": "square",
+      "value": "Vuông"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Góc tròn"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Xuất yêu thích"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Nhập yêu thích"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Đường dẫn được nhập thành công"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "To make sure that all file operations work reliably, please make this app a Media management app in your device settings."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Mật khẩu bảo vệ khả năng hiển thị thư mục bị loại trừ"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Something went wrong, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_note",
+      "value": "If the redirection does not work, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "If you do not want to do it, you can also go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternatively, you can allow accessing media files only. In that case you will not be able to work with hidden files though."
+    },
+    {
+      "name": "media_only",
+      "value": "Media only"
+    },
+    {
+      "name": "all_files",
+      "value": "All files"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Search all files instead of folders on the main screen"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Show a menu button for toggling Show All Folders Content quickly"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Hình thu nhỏ"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Toàn màn hình"
+    },
+    {
+      "name": "extended_details",
+      "value": "Chi tiết mở rộng"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Hành động dưới cùng"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Quản lý các hành động dưới cùng có thể nhìn thấy"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Chuyển đổi yêu thích"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Ẩn/bỏ ẩn"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Tùy chỉnh"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Cài lại"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Hình vuông"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Biến đổi"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Bộ lọc"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Không"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Điều chỉnh"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Đổ bóng"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Phơi sáng"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Làm nổi bật"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Độ sáng"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Tương phản"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Độ bão hòa"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Sáng sủa"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Đồ thị gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Đen"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Trắng"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Nhiệt độ"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Độ sắc nét"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Đặt lại"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Tiêu điểm"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Không"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Xuyên tâm"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Tuyến tính"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Nhân đôi"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Đường cong gauss"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Add text"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Văn bản"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Tùy chọn văn bản"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Màu văn bản"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Thêm"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Biên tập"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Duỗi thẳng"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Màu sắc"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Màu BG"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Căn chỉnh"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Lên trước"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Xóa"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Văn bản của bạn"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Cọ vẽ"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Màu sắc"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Kích thước"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Độ đậm"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Lên trước"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Xóa bỏ"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Màu cọ"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Trình biên tập"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Đóng trình biên tập\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Do you really want to discard the changes\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Có"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Không"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Hủy bỏ"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Chấp nhận"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Lưu"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Exporting…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Exporting %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Sticker"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Sticker Color"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Sticker Options"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Add"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "To Front"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Straighten"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Replace"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opacity"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Saturation"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Brightness"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Uploads"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Overlay"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Darken"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Screen"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Overlay"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Lighten"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Multiply"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Color Burn"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Soft Light"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Hard Light"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "None"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Golden"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Lightleak 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaic"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Paper"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Rain"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Lật H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Lật V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Hoàn tác"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Lui lại"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Bộ chọn màu"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Trong suốt"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Trắng"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Xám"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Đen"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Màu xanh nhạt"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Màu xanh da trời"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Màu tím"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "màu hoa lan"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Hồng"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Đỏ"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Cam"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Vàng kim"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Màu vàng"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Xanh ô-liu"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Xanh lá"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Xanh ngọc nước biển"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Màu sắc dễ thương"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Trim"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Làm thế nào để đặt Simple Gallery thành thư viện mặc định\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Trước tiên, bạn phải tìm thư viện hiện tại mặc định trong phần Ứng dụng trong Cài đặt thiết bị của bạn, tìm nút có nội dung như \\\"Mở theo mặc định\\\", nhấp vào đó, sau đó chọn \\\"Xóa mặc định\\\".          Lần tới, bạn hãy thử mở một hình ảnh hoặc video, bạn sẽ thấy một bộ chọn ứng dụng, nơi bạn có thể chọn Simple Gallery và biến nó thành ứng dụng mặc định."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Tôi đã khóa ứng dụng bằng mật khẩu, nhưng tôi quên mất. Tôi có thể làm gì\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Bạn có thể giải quyết nó theo 2 cách. Bạn có thể cài đặt lại ứng dụng hoặc tìm ứng dụng trong cài đặt thiết bị của mình và chọn \\\"Xóa dữ liệu\\\". Nó sẽ thiết lập lại tất cả các cài đặt của bạn, nó sẽ không xóa bất kỳ tập tin phương tiện nào."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Làm thế nào tôi có thể làm cho một album luôn xuất hiện ở đầu\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Bạn có thể nhấn và giữ album mong muốn và chọn biểu tượng Ghim ở menu hành động, nó sẽ ghim nó lên trên cùng. Bạn cũng có thể ghim nhiều thư mục, các mục được ghim sẽ được sắp xếp theo phương pháp sắp xếp mặc định."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Làm cách nào tôi có tua video nhanh\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Sự khác biệt giữa ẩn và loại trừ một thư mục là gì\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Loại trừ ngăn chỉ hiển thị thư mục trong Thư viện đơn giản, trong khi Ẩn hoạt động theo hệ thống và nó cũng ẩn thư mục khỏi các phòng trưng bày khác. Nó hoạt động bằng cách tạo một tệp \\\".nomedia\\\" trong thư mục đã cho, sau đó bạn cũng có thể xóa bằng bất kỳ trình quản lý tệp nào. Note that some devices do not allow hiding folders like Camera, Screenshots and Downloads."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Tại sao hiển thị các thư mục với ảnh bìa hoặc nhãn dán\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Nó có thể xảy ra rằng bạn sẽ thấy một số album bất thường xuất hiện. Bạn có thể dễ dàng loại trừ chúng bằng cách nhấn giữ và chọn Loại trừ. Trong hộp thoại tiếp theo bạn có thể chọn thư mục mẹ sau đó, rất có thể nó sẽ ngăn các album liên quan khác xuất hiện."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Một thư mục chứa hình ảnh không hiển thị hoặc không hiển thị tất cả các mục. Tôi có thể làm gì\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Điều đó có thể có nhiều lý do, nhưng giải quyết nó là dễ dàng. Chỉ cần vào Cài đặt -> Quản lý các thư mục được bao gồm, chọn Thêm và điều hướng đến thư mục cần thiết."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Nếu tôi chỉ muốn một vài thư mục cụ thể hiển thị thì sao\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Thêm thư mục tại Thư mục được bao gồm sẽ không tự động loại trừ bất cứ điều gì. Những gì bạn có thể làm là vào Cài đặt -> Quản lý các thư mục bị loại trừ, loại trừ thư mục gốc \\\"/\\\", sau đó thêm các thư mục mong muốn tại Cài đặt -> Quản lý các thư mục được bao gồm.          Điều đó sẽ chỉ hiển thị các thư mục đã chọn, vì cả loại trừ và bao gồm đều được đệ quy và nếu một thư mục được loại trừ và bao gồm, nó sẽ hiển thị."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Tôi có thể cắt hình ảnh với ứng dụng này không\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Có, bạn có thể cắt hình ảnh trong trình chỉnh sửa, bằng cách kéo các góc hình ảnh. Bạn có thể truy cập trình chỉnh sửa bằng cách nhấn và thu nhỏ hình ảnh và chọn Chỉnh sửa hoặc chọn Chỉnh sửa từ chế độ xem toàn màn hình."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Tôi có thể bằng cách nào đó nhóm hình thu nhỏ tập tin phương tiện không\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Được chứ, chỉ cần sử dụng mục menu \\\"Nhóm theo\\\" trong khi ở chế độ xem hình thu nhỏ. Bạn có thể nhóm các tệp theo nhiều tiêu chí, bao gồm cả Ngày chụp. Nếu bạn sử dụng chức năng \\\"Hiển thị tất cả các nội dung thư mục\\\", bạn cũng có thể nhóm chúng theo các thư mục."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Sắp xếp theo ngày chụp dường như không hoạt động đúng, làm thế nào tôi có thể sửa nó\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Rất có thể là do các tệp được sao chép từ đâu đó. Bạn có thể sửa nó bằng cách chọn hình thu nhỏ của tệp và chọn \\\"Sửa giá trị ngày chụp\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Tôi thấy một số dải màu trên hình ảnh. Làm thế nào tôi có thể cải thiện chất lượng\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Giải pháp hiện tại để hiển thị hình ảnh hoạt động tốt trong phần lớn các trường hợp, nhưng nếu bạn muốn chất lượng hình ảnh tốt hơn nữa, bạn có thể bật \\\"Hiển thị hình ảnh ở chất lượng cao nhất có thể\\\" ở cài đặt ứng dụng, trong phần \\\"Hình ảnh có thể phóng to sâu\\\"."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Tôi đã ẩn một tập tin/thư mục. Làm thế nào tôi có thể bỏ ẩn nó\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Bạn có thể nhấn mục menu \\\"Tạm thời hiển thị các mục bị ẩn\\\" ở màn hình chính hoặc chuyển đổi \\\"Hiển thị các mục bị ẩn\\\" trong Cài đặt ứng dụng để xem mục bị ẩn. Nếu bạn muốn bỏ ẩn nó, chỉ cần nhấn và giữ \\\"Bỏ ẩn\\\". Các thư mục được ẩn bằng cách thêm tệp ẩn \\\".nomedia\\\" vào chúng, bạn cũng có thể xóa tệp bằng bất kỳ trình quản lý tệp nào. Note that hiding works recursively though, so if you hide a folder, all subfolders will become hidden too. So for unhiding the subfolders you have to unhide the parent folder."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Tại sao ứng dụng chiếm quá nhiều dung lượng \\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Bộ nhớ cache ứng dụng có thể mất tới 250MB, nó đảm bảo tải hình ảnh nhanh hơn. Nếu ứng dụng chiếm nhiều dung lượng hơn, rất có thể là do bạn có nhiều mục trong Thùng rác. Những tập tin đó được tính vào kích thước ứng dụng. Bạn có thể xóa thùng rác bằng cách mở nó và xóa tất cả các tệp hoặc từ Cài đặt ứng dụng. Mọi tệp trong Thùng rác sẽ tự động bị xóa sau 30 ngày."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "What happened to file and folder hiding and why cannot I see hidden items anymore\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Bắt đầu với Android 11, bạn không thể ẩn hoặc hiện các tệp hoặc thư mục nữa, bạn cũng không thể nhìn thấy những tệp hoặc thư mục bị ẩn trong ứng dụng thư viện. Bạn sẽ phải sử dụng một số trình quản lý tệp cho điều đó."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Or you can also grant this gallery access to All Files through your device settings, that will allow us showing hidden items and make file operations more reliable in general."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Why cannot I include missing folders anymore\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "That stopped working due to the system changes that came with Android 11 too, the app cannot browse real folders anymore, it relies on the so called MediaStore at fetching data."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Why do I see ads during video playback\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Our apps have no ads whatsoever. If you see them during video playback, you must be using some other apps video player. Try finding your default video player in the device settings, then do a \\\"Clear defaults\\\" on it. The next time you invoke some video intent you will see an app picker prompt, where you can select what app you want to use."
+    }
+  ]
+}

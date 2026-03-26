@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "シンプルギャラリー"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "ギャラリー"
+    },
+    {
+      "name": "edit",
+      "value": "編集"
+    },
+    {
+      "name": "open_camera",
+      "value": "カメラを開く"
+    },
+    {
+      "name": "hidden",
+      "value": "(非表示)"
+    },
+    {
+      "name": "excluded",
+      "value": "(除外)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "フォルダをピン留めする"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "フォルダのピン留めを外す"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "上部にピン留めする"
+    },
+    {
+      "name": "show_all",
+      "value": "すべてを表示"
+    },
+    {
+      "name": "all_folders",
+      "value": "すべてのフォルダ"
+    },
+    {
+      "name": "folder_view",
+      "value": "フォルダ表示に切り替え"
+    },
+    {
+      "name": "other_folder",
+      "value": "その他のフォルダ"
+    },
+    {
+      "name": "show_on_map",
+      "value": "地図上で表示"
+    },
+    {
+      "name": "unknown_location",
+      "value": "位置情報がありません"
+    },
+    {
+      "name": "volume",
+      "value": "音量"
+    },
+    {
+      "name": "brightness",
+      "value": "明るさ"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "画面の向きを固定する"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "固定を解除する"
+    },
+    {
+      "name": "change_orientation",
+      "value": "向きを固定する"
+    },
+    {
+      "name": "force_portrait",
+      "value": "縦で固定"
+    },
+    {
+      "name": "force_landscape",
+      "value": "横で固定"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "デフォルト仕様"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "撮影日の値を修正"
+    },
+    {
+      "name": "fixing",
+      "value": "修正中…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "撮影日が正常に修正されました"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "撮影日が見つかりません"
+    },
+    {
+      "name": "share_resized",
+      "value": "リサイズした画像を共有"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "表示されているすべてのフォルダで検索 に切り替え"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "デフォルトのフォルダとして設定"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "デフォルトのフォルダから外す"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "ドラッグによるフォルダの並べ替え"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "ドラッグによるフォルダの並べ替え (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "'%s' に復元中"
+    },
+    {
+      "name": "filter_media",
+      "value": "表示する形式"
+    },
+    {
+      "name": "images",
+      "value": "画像"
+    },
+    {
+      "name": "videos",
+      "value": "動画"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG"
+    },
+    {
+      "name": "portraits",
+      "value": "ポートレイト"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "条件に該当するメディアがありません。"
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "絞り込み条件を変更"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "対象のフォルダに「.nomedia」ファイルを作成し、フォルダを非表示にします。そのフォルダの中にあるすべてのサブフォルダも非表示となります。非表示のフォルダを見るには、「設定」の中にある「非表示のアイテムを表示する」を有効にしてください。このフォルダを非表示にしますか？"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "選択したフォルダとそのサブフォルダを、シンプルギャラリーの一覧から除外します。除外したフォルダは「設定」で確認できます。"
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "親フォルダを選択して除外することもできます。"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "フォルダを除外すると、サブフォルダも含めシンプルギャラリーの一覧から除外します。他のアプリでは引き続き表示されます。\r\n\\n\r\n\\n他のアプリでも非表示にしたい場合は、「非表示」機能を使用してください。"
+    },
+    {
+      "name": "hidden_folders",
+      "value": "非表示フォルダ"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "非表示フォルダの管理"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "「.nomedia」で隠されたフォルダはありません。"
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "非表示項目を表示するには [すべてのファイルへのアクセス] を許可する必要があります。許可をしないと機能しません。"
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "追加フォルダ"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "追加フォルダの管理"
+    },
+    {
+      "name": "add_folder",
+      "value": "フォルダを追加"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "メディア入りのフォルダがアプリで認識されない場合は手動で追加します。"
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "メディアファイルが見つかりません。メディアファイルを手動で追加することにより解決できます。"
+    },
+    {
+      "name": "resize_and_save",
+      "value": "選択領域をリサイズして保存"
+    },
+    {
+      "name": "width",
+      "value": "幅"
+    },
+    {
+      "name": "height",
+      "value": "高さ"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "縦横比を固定"
+    },
+    {
+      "name": "invalid_values",
+      "value": "解像度を正しく入力してください"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Resize multiple images"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Resize factor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resize images to the given percentage, value must be within 10 and 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Enter a number between 10 and 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Images resized successfully"
+    },
+    {
+      "name": "editor",
+      "value": "編集"
+    },
+    {
+      "name": "basic_editor",
+      "value": "基本的な編集"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "高度な編集"
+    },
+    {
+      "name": "rotate",
+      "value": "回転"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "無効な画像パス"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "無効な動画パス"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "画像の編集に失敗しました"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "動画の編集に失敗しました"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "画像の編集がキャンセルされました"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "動画の編集がキャンセルされました"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "ファイルの編集に成功しました"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "画像の編集に成功しました"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "動画の編集に成功しました"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "画像を編集:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "動画を編集:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "画像エディターが見つかりません"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "動画エディターが見つかりません"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "ファイルの場所が不明です"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "元のファイルを上書きできません"
+    },
+    {
+      "name": "rotate_left",
+      "value": "左に回転"
+    },
+    {
+      "name": "rotate_right",
+      "value": "右に回転"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "180度回転"
+    },
+    {
+      "name": "transform",
+      "value": "変形"
+    },
+    {
+      "name": "crop",
+      "value": "切り抜き"
+    },
+    {
+      "name": "draw",
+      "value": "描画"
+    },
+    {
+      "name": "flip",
+      "value": "反転"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "水平方向に反転"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "垂直方向に反転"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "任意"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "その他"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "シンプル壁紙"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "壁紙に設定"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "壁紙の設定に失敗しました"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "壁紙に設定:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "壁紙に設定中…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "壁紙を正常に設定しました"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "縦向きの縦横比"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "横向きの縦横比"
+    },
+    {
+      "name": "home_screen",
+      "value": "ホーム画面"
+    },
+    {
+      "name": "lock_screen",
+      "value": "ロック画面"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "ホーム画面とロック画面"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "縦横比の変更を許可"
+    },
+    {
+      "name": "slideshow",
+      "value": "スライドショー"
+    },
+    {
+      "name": "interval",
+      "value": "間隔"
+    },
+    {
+      "name": "include_photos",
+      "value": "写真を含める"
+    },
+    {
+      "name": "include_videos",
+      "value": "動画を含める"
+    },
+    {
+      "name": "include_gifs",
+      "value": "GIFを含める"
+    },
+    {
+      "name": "random_order",
+      "value": "ランダムな順序"
+    },
+    {
+      "name": "move_backwards",
+      "value": "逆方向に進む"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "スライドショーをリピート再生する"
+    },
+    {
+      "name": "animation",
+      "value": "アニメーション"
+    },
+    {
+      "name": "no_animation",
+      "value": "なし"
+    },
+    {
+      "name": "fade",
+      "value": "フェード"
+    },
+    {
+      "name": "slide",
+      "value": "スライド"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "スライドショーが終了しました"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "スライドショーに表示するメディアがありません"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "サブフォルダでグループ化"
+    },
+    {
+      "name": "group_by",
+      "value": "グループ分け"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "何もしない"
+    },
+    {
+      "name": "by_folder",
+      "value": "フォルダ"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "更新日時"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "更新日時 (毎日)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "更新日時 (毎月)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "撮影日時"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "撮影日時 (毎日)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "撮影日時 (毎月)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "ファイル形式"
+    },
+    {
+      "name": "by_extension",
+      "value": "拡張子"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "セクションの見出しにファイル数を表示"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "注意：グループ分けと並べ替えはそれぞれ独立したフィールドです"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "ウィジェットに表示するフォルダ:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "フォルダ名を表示"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "動画を自動再生"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "動画の最後の再生位置を記憶する"
+    },
+    {
+      "name": "loop_videos",
+      "value": "動画を繰り返し再生"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "アニメーションGIFを動かす"
+    },
+    {
+      "name": "max_brightness",
+      "value": "メディアの表示時に明るさを最大にする"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "サムネイルを正方形に切り取る"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "動画の長さを表示"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "全画面表示時のメディアの回転"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "システム設定に従う"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "端末の向きに従う"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "メディアの縦横比に従う"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "全画面表示の背景色を黒にする"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "サムネイル画面を横方向にスクロール"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "全画面表示時にシステムUIを自動的に隠す"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "ファイルの削除後、空になったフォルダを削除する"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "写真の明るさを縦の動作で制御"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "音量と明るさを縦の動作で変更"
+    },
+    {
+      "name": "show_media_count",
+      "value": "フォルダ内のメディア数を表示する"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "全画面表示に詳細も表示する"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "表示する詳細の選択"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "メディアを指だけでズームする"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "画面端を押してメディアを切り替え"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "深いズームを許可"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "ステータスバーが非表示の時は詳細を隠す"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "画面の下にアクションを表示"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "フォルダ画面にごみ箱を表示"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "画像のズームを深くする"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "可能な限り高品質で画像を表示"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "ごみ箱をメイン画面の最後に表示"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "全画面表示を下にスワイプするジェスチャーで閉じる"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "ダブルタップして 1:1 ズームする"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "左右ジェスチャー機能の切り替え (別の動画を開くor早送り/早戻し)"
+    },
+    {
+      "name": "show_notch",
+      "value": "ノッチ領域にも画像を表示"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "ジェスチャーで画像を回転する"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "ファイルの優先ローディング"
+    },
+    {
+      "name": "speed",
+      "value": "スピード"
+    },
+    {
+      "name": "compromise",
+      "value": "コンプロマイズ"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "無効なファイルを非表示"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "画像ファイルの種類を表示"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "ダブルタップで動画ズームを設定"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "フォルダサムネイルのスタイル"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "サムネイルのスタイル"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "お気に入りマークを表示"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "サムネイルの間隔"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "ファイル数を別の行に表示"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "ファイル数を括弧内に表示"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "ファイル数を非表示"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "長いフォルダ名を1行に制限"
+    },
+    {
+      "name": "square",
+      "value": "四角"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "角丸"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "お気に入りをエクスポート"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "お気に入りをインポート"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "パスのインポートに成功しました"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "すべてのファイル操作を確実に行うためには、端末の設定でこのアプリをメディア管理アプリにする必要があります。"
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "除外されたフォルダの表示をパスワードで保護する"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "問題が発生しました。端末の [設定] > [アプリ] > [特別なアプリアクセス] > [メディア管理アプリ] に移動して、このアプリをメディア管理アプリに設定してください。"
+    },
+    {
+      "name": "media_management_note",
+      "value": "リダイレクトが機能しない場合、端末の [設定] > [アプリ] > [特別なアプリアクセス] > [メディア管理アプリ] に移動して、このアプリをメディア管理アプリに設定してください。"
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "もし、それを許可したくない場合は、端末の [設定] > [アプリ] > [特別なアクセス] > [メディア管理アプリ] に移動して、このアプリをメディア管理アプリに設定してください。"
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "または、メディアファイルのみアクセスを許可することもできます。ただし、この場合、隠しファイル (このアプリでは非表示項目を指します) への操作は行なえません。"
+    },
+    {
+      "name": "media_only",
+      "value": "メディアのみ"
+    },
+    {
+      "name": "all_files",
+      "value": "すべてのファイル"
+    },
+    {
+      "name": "search_all_files",
+      "value": "メイン画面の検索でフォルダの代わりにすべてのファイルを検索する"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "「すべてを表示」を素早く切り替えるためのメニューボタンを表示"
+    },
+    {
+      "name": "thumbnails",
+      "value": "サムネイル設定"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "メディア設定"
+    },
+    {
+      "name": "extended_details",
+      "value": "詳細も表示する"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "画面下部のアクション"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "表示するアクションの選択"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "お気に入り"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "表示/非表示の切替"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "カスタム"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "リセット"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "正方形"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "変形"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "フィルター"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "なし"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "調整"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "シャドウ"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "露出"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "ハイライト"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "明るさ"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "コントラスト"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "彩度"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "明瞭度"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "ガンマ"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "黒レベル"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "白レベル"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "色温度"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "シャープネス"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "リセット"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "ぼかし"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "なし"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "円形"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "直線"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "ミラー"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "ガウス"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "テキストを追加"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "テキスト"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "テキスト オプション"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "文字色"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "フォント"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "追加"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "編集"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "まっすぐにする"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "フォント"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "色"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "背景色"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "配置"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "前面に"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "削除"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "テキストを入力"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "ブラシ"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "色"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "太さ"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "硬さ"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "前面に"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "削除"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "ブラシの色"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "エディター"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "エディターを閉じますか\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "本当に変更を破棄しますか？"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "はい"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "いいえ"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "キャンセル"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "了解"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "保存"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "エクスポート中…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "%s をエクスポート中。"
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "ステッカー"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "ステッカーの色"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "ステッカーオプション"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "追加"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "色"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "削除"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "前面へ"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "まっすぐにする"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "置き換え"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "不透明度"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "コントラスト"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "彩度"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "明るさ"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "アップロード済"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "オーバーレイ"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "通常"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "比較 (暗)"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "スクリーン"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "オーバーレイ"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "比較 (明)"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "乗算"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "焼き込みカラー"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "ソフトライト"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "ハードライト"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "なし"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "ゴールデン"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "光漏れ 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "モザイク"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "ペーパー"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "雨"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "ビンテージ"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "水平方向に反転"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "垂直方向に反転"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "元に戻す"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "やり直し"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "カラーピッカー"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "透明"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "ホワイト"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "グレー"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "ブラック"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "ライトブルー"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "ブルー"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "パープル"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "オーキッド"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "ピンク"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "レッド"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "オレンジ"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "ゴールド"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "イエロー"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "オリーブ"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "グリーン"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "アクアマリン"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "ピペッティング可能な色"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "トリム"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "どうすればシンプルギャラリーをデバイスのデフォルトギャラリーに出来ますか？"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "デバイスの設定内の [アプリ] セクションで現在のデフォルトのギャラリーを探し、「デフォルトで開く」というような表記のボタンを探してタップし、そして「デフォルトの設定のクリア」や「設定を消去」といった表記のものを選択します。 次に画像や動画を開こうとした時に、アプリ選択ダイアログが表示されるので、シンプルギャラリーを通常のアプリとして選択します。"
+    },
+    {
+      "name": "faq_2_title",
+      "value": "アプリをパスワードでロックしましたが、パスワードを忘れてしまいました。どうすればいいですか？"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "解決策は2つあります。アプリを再インストールするか、デバイス設定からアプリを見つけて「データを消去」を選択するかです。そうすると設定がリセットされますが、メディアファイルは削除されません。"
+    },
+    {
+      "name": "faq_3_title",
+      "value": "アルバムが常に上部に表示されるようにするにはどうすればいいですか？"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "アルバムを長押しで選択し、アクションメニューからピンアイコンを選択すれば上部に固定されます。複数のフォルダをピン留めできます。ピン留めされた項目群は、既定の並べ替え方法で並べ替えられます。"
+    },
+    {
+      "name": "faq_4_title",
+      "value": "動画を早送りするにはどうすればよいですか？"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "画面端をダブルタップするか、シークバーの近くにある曲の長さを示すテキストをタップすれば可能です。アプリ設定の左右ジェスチャー機能の切り替えを有効にすると、右ジェスチャーで早送りが可能です（無効にすると左右ジェスチャーで別の動画を開きます）。"
+    },
+    {
+      "name": "faq_5_title",
+      "value": "フォルダの非表示と除外の違いは何ですか？"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "除外はシンプルギャラリーでのみフォルダを非表示にし、非表示は他のギャラリーからもフォルダを非表示にします。指定されたフォルダに「.nomedia」ファイルを作成することにより非表示を実現しています。この「.nomedia」ファイルは任意のファイルマネージャーで削除することも出来ます。一部のデバイスでは、カメラ、スクリーンショット、ダウンロードのようなフォルダを非表示に出来ないことはご留意ください。"
+    },
+    {
+      "name": "faq_6_title",
+      "value": "音楽のカバー画像が表示されるのはなぜですか？"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "埋め込みのカバー画像ではなく外部参照のカバー画像をアルバムが使用している場合、アルバムのカバー画像が表示されることがあります。長押しして除外を選択することで取り除くことができます。表示されるダイアログで親フォルダを選択すると、他のカバー画像も表示されなくなります。"
+    },
+    {
+      "name": "faq_7_title",
+      "value": "画像フォルダが表示されなかったり、全てのアイテムが表示されなかったりします。どうしたらいいですか？"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "理由はいくつかありますが、解決は簡単です。[設定] → [追加フォルダの管理] に移動して、プラスボタン（＋ボタン）を押し、表示したいフォルダを選択して追加します。"
+    },
+    {
+      "name": "faq_8_title",
+      "value": "特定のフォルダのみ表示にしたい場合はどうすればいいですか？"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "追加フォルダにフォルダを追加しても、自動的に除外されるわけではありません。[設定] → [除外フォルダの管理] に移動し、ルートフォルダを除外し、 [設定] → [追加フォルダの管理] で目的のフォルダを追加すれば可能です。除外と包含は両方再帰的なので、フォルダが含まれており除外もされている場合、選択したフォルダのみ表示されるようになります。"
+    },
+    {
+      "name": "faq_10_title",
+      "value": "このアプリで画像のトリミングは出来ますか？"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "はい、「編集」で画像をトリミング出来ます。編集画面で画像の隅をドラッグしてください。「編集」は、画像のサムネイルを長押しして編集を選択するか、全画面表示で編集を選択することにより出来ます。"
+    },
+    {
+      "name": "faq_11_title",
+      "value": "どうすればメディアファイルのサムネイルをグループ化できますか？"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "サムネイル表示中に「グループ分け」メニューを使用してください。撮影日を含めた、複数の条件でグループ化することが出来ます。「すべてを表示」機能を使えば、フォルダごとにグループ化することも出来ます。"
+    },
+    {
+      "name": "faq_12_title",
+      "value": "撮影日による並べ替えがうまく機能しないようです。どうすれば直せますか？"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "おそらく、ファイルがコピーされたものであることが原因でしょう。ファイルサムネイルを選択し、「撮影日の値を修正」を選択することにより直せます。"
+    },
+    {
+      "name": "faq_13_title",
+      "value": "画像にバンディング（濃淡の縞模様）が見られます。どうすれば画質を上げられますか？"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "現在の表示方法では大抵の場合、問題は見られませんが、より高画質で表示したい場合は、アプリ設定の「画像のズームを深くする」セクションで「可能な限り高品質で画像を表示」を有効にすると良いでしょう。"
+    },
+    {
+      "name": "faq_14_title",
+      "value": "非表示にしているファイルやフォルダがあります。もう一度表示するにはどうすればいいですか？"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "メイン画面で「非表示項目を一時的に表示」を押すか、アプリの設定で「非表示のアイテムを表示する」を有効にすると非表示にしている項目を見ることができます。再表示したい場合は長押しして「再表示」を選択してください。フォルダは非表示にするための「.nomedia」ファイルを追加して非表示にしています。この「.nomedia」ファイルはファイルマネージャーで削除することもできます。※非表示は再帰的に機能するため、フォルダを非表示にすると、すべてのサブフォルダも非表示になることに注意してください。したがって、サブフォルダを再表示するには親フォルダを再表示する必要があります。"
+    },
+    {
+      "name": "faq_15_title",
+      "value": "アプリが容量を沢山使用するのはなぜですか？"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "アプリのキャッシュは画像の素早い読み込みのために最大250MB使用します。もしそれ以上にアプリが容量を取るようであれば、ごみ箱内のアイテムが原因となっているはずです。ごみ箱内のファイルもアプリ容量として加算されます。ごみ箱を開いてすべてのファイルを削除するか、アプリの設定から「ごみ箱を空にする」を実行してください。なお、ごみ箱内のアイテムは30日を過ぎると自動的に削除されます。"
+    },
+    {
+      "name": "faq_16_title",
+      "value": "ファイルとフォルダを非表示にする機能はどうなったのでしょうか？非表示の項目が表示されなくなったのはなぜですか？"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Android11以降では、システムの制限により、ファイルやフォルダの非表示と非表示解除ができなくなりました。また、ギャラリーアプリ内で非表示の項目を確認できなくなりましたので、対処可能な別のファイルマネージャーを使用する必要があります。"
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "あるいは、デバイスの設定でこのギャラリーに [すべてのファイル] へのアクセスを許可すると、非表示項目の表示が可能になり、確実性を高めたファイル操作を行うことができるようになります。"
+    },
+    {
+      "name": "faq_17_title",
+      "value": "見つからなくなったフォルダを含めることができなくなったのはなぜですか？"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "これもAndorid11のシステム変更により機能しなくなりました。アプリは実際のフォルダを参照できなくなり、システムのMediaStoreに依存するようになりました。"
+    },
+    {
+      "name": "faq_18_title",
+      "value": "動画の再生中に広告が表示されるのはなぜですか？"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "私たちのアプリには広告は一切表示されません。動画の再生中に広告が表示される場合、他のアプリの動画プレーヤーを使用している可能性があります。端末の設定でデフォルトの動画プレーヤーを見つけて、「デフォルトの設定をクリア」（あるいは「設定を消去」や「デフォルトをクリア」といった表記のもの）を実行してみてください。次回以降、何らかの動画を開こうとすると、使用するアプリを選択するアプリ選択ダイアログが表示されます。"
+    }
+  ]
+}

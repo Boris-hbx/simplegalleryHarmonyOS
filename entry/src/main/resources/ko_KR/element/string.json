@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "심플 갤러리"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "갤러리"
+    },
+    {
+      "name": "edit",
+      "value": "편집"
+    },
+    {
+      "name": "open_camera",
+      "value": "카메라 열기"
+    },
+    {
+      "name": "hidden",
+      "value": "(숨겨짐)"
+    },
+    {
+      "name": "excluded",
+      "value": "(excluded)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "폴더 고정"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "폴더 고정 해제"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "상단에 고정"
+    },
+    {
+      "name": "show_all",
+      "value": "모두 펼쳐보기"
+    },
+    {
+      "name": "all_folders",
+      "value": "모든 폴더"
+    },
+    {
+      "name": "folder_view",
+      "value": "폴더 보기로 변경"
+    },
+    {
+      "name": "other_folder",
+      "value": "다른 폴더"
+    },
+    {
+      "name": "show_on_map",
+      "value": "지도에서 보기"
+    },
+    {
+      "name": "unknown_location",
+      "value": "위치정보 없음"
+    },
+    {
+      "name": "volume",
+      "value": "볼륨"
+    },
+    {
+      "name": "brightness",
+      "value": "밝기"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "화면 회전 잠금"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "화면 회전 해제"
+    },
+    {
+      "name": "change_orientation",
+      "value": "화면 회전 전환"
+    },
+    {
+      "name": "force_portrait",
+      "value": "세로 보기"
+    },
+    {
+      "name": "force_landscape",
+      "value": "가로 보기"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "기본 설정 사용"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "찍은 날짜 값 교정"
+    },
+    {
+      "name": "fixing",
+      "value": "교정 중…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "교정이 완료되었습니다"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "No Date Taken values have been found"
+    },
+    {
+      "name": "share_resized",
+      "value": "크기변경 버전 공유"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Switch to file search across all visible folders"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Set as default folder"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Unset as default folder"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Reorder folders by dragging"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Reorder folders by dragging (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Restoring to '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "필터 설정"
+    },
+    {
+      "name": "images",
+      "value": "사진"
+    },
+    {
+      "name": "videos",
+      "value": "동영상"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG"
+    },
+    {
+      "name": "portraits",
+      "value": "세로 사진"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "설정된 필터와 일치하는 컨텐츠가 존재하지 않습니다."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "필터 변경"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "현재 폴더에 '.nomedia' 파일을 생성하여 현재 및 모든 하위 폴더를 숨김니다. 숨김 처리된 모든 폴더는 설정의 '숨김파일 보기' 메뉴를 이용하여 다시 볼 수 있습니다. 계속 하시겠습니까\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "현재 및 모든 하위 폴더를 심플 갤러리에서 제외시킵니다. 제외된 폴더는 설정에서 관리 할 수 있습니다."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "상위 폴더를 제외 하시겠습니까\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "폴더를 제외하면 심플 갤러리에서만 폴더가 보이지 않게 됩니다.\r\n\\n\r\n\\n다른 앱에서도 보이지 않게 하려면 숨김기능을 사용하십시오."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "숨겨진 폴더"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "숨겨진 폴더 관리"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "\\\".nomedia\\\"파일로 숨겨진 폴더가 존재하지 않습니다."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "You have to grant the app All Files access to see hidden files, else it cannot work."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "포함된 폴더"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "포함된 폴더 관리"
+    },
+    {
+      "name": "add_folder",
+      "value": "폴더 추가"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "앱에서 인식하지 못한 사진이나 동영상이 있는 경우 이곳에서 수동으로 추가 할 수 있습니다.\r\n\\n\r\n\\n이 작업은 다른 폴더에 영향을 미치지 않습니다."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "사진이나 동영상이 발견되지 않았습니다. 이는 파일을 포함하고 있는 폴더를 수동으로 추가하여 해결할 수 있습니다."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "크기 변경 및 저장"
+    },
+    {
+      "name": "width",
+      "value": "가로"
+    },
+    {
+      "name": "height",
+      "value": "세로"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "비율 유지"
+    },
+    {
+      "name": "invalid_values",
+      "value": "잘못된 비율입니다."
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Resize multiple images"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Resize factor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resize images to the given percentage, value must be within 10 and 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Enter a number between 10 and 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Images resized successfully"
+    },
+    {
+      "name": "editor",
+      "value": "편집"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Basic Editor"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Advanced Editor"
+    },
+    {
+      "name": "rotate",
+      "value": "회전"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "유효하지 않은 사진 경로"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Invalid video path"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "사진 편집 실패"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Video editing failed"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Image editing cancelled"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Video editing cancelled"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "File edited successfully"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Image edited successfully"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Video edited successfully"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "사진 편집 프로그램 연결:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Edit video with:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "사진 편집 프로그램 없음"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "No video editor found"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "알 수 없는 파일 위치"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "원본 파일 덮어쓰기 실패"
+    },
+    {
+      "name": "rotate_left",
+      "value": "왼쪽으로 회전"
+    },
+    {
+      "name": "rotate_right",
+      "value": "오른쪽으로 회전"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "180도 회전"
+    },
+    {
+      "name": "transform",
+      "value": "Transform"
+    },
+    {
+      "name": "crop",
+      "value": "Crop"
+    },
+    {
+      "name": "draw",
+      "value": "Draw"
+    },
+    {
+      "name": "flip",
+      "value": "뒤집기"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "가로 뒤집기"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "세로 뒤집기"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "자유"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "기타"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "심플 배경화면"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "배경화면으로 설정"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "배경화면 설정 실패"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "배경화면으로 설정하기:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "배경화면 설정 중…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "배경화면이 성공적으로 설정되었습니다."
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "세로보기 비율"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "가로보기 비율"
+    },
+    {
+      "name": "home_screen",
+      "value": "홈 화면"
+    },
+    {
+      "name": "lock_screen",
+      "value": "잠금화면"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "홈 화면과 잠금화면"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Allow changing the aspect ratio"
+    },
+    {
+      "name": "slideshow",
+      "value": "슬라이드 쇼"
+    },
+    {
+      "name": "interval",
+      "value": "간격"
+    },
+    {
+      "name": "include_photos",
+      "value": "포함된 사진"
+    },
+    {
+      "name": "include_videos",
+      "value": "포함된 동영상"
+    },
+    {
+      "name": "include_gifs",
+      "value": "포함된 GIF"
+    },
+    {
+      "name": "random_order",
+      "value": "순서 랜덤"
+    },
+    {
+      "name": "move_backwards",
+      "value": "뒤로 이동"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "슬라이드 쇼 반복"
+    },
+    {
+      "name": "animation",
+      "value": "전환 효과"
+    },
+    {
+      "name": "no_animation",
+      "value": "없음"
+    },
+    {
+      "name": "fade",
+      "value": "페이드"
+    },
+    {
+      "name": "slide",
+      "value": "슬라이드"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "슬라이드 쇼 종료"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "슬라이드 쇼를 표시할 사진이 없습니다."
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "상위 폴더 표시"
+    },
+    {
+      "name": "group_by",
+      "value": "그룹 방식"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "없음"
+    },
+    {
+      "name": "by_folder",
+      "value": "폴더"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "마지막 변경 날짜"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "마지막 변경 날짜 (일간)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "마지막 변경 날짜 (월간)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "찍은 날짜"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "찍은 날짜 (일간)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "찍은 날짜 (월간)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "파일 종류"
+    },
+    {
+      "name": "by_extension",
+      "value": "파일 확장자"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Show file count at section headers"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "그룹 방식과 정렬 방식은 다른 항목입니다."
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "위젯에 표시된 폴더:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "폴더 이름 보이기"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "동영상 자동재생"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "마지막 재생 위치 기억"
+    },
+    {
+      "name": "loop_videos",
+      "value": "동영상 반복"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "섬네일에서 GIF 애니메이션 활성화"
+    },
+    {
+      "name": "max_brightness",
+      "value": "전체화면 시 최대 밝기로 보기"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "섬네일을 사각형으로 자르기"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "동영상 길이 표시"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "전체화면 회전 기준"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "시스템 설정"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "화면 회전"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "사진 비율"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "전체화면 모드에서 검정 배경 사용"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "섬네일 수평 스크롤"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "전체화면 모드에서 시스템 UI 숨김"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "파일 삭제 후 빈 폴더도 삭제"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "상하 제스처로 사진 밝기 제어"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "수직 제스처로 동영상 음량 및 밝기 제어"
+    },
+    {
+      "name": "show_media_count",
+      "value": "폴더 파일 수 표시"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "전체화면 모드에서 세부정보 표시"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "표시할 세부정보 편집"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "전체화면 모드에서 한 손가락으로 확대 및 축소"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "측면 터치로 사진 이동"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "확대 범위 확장"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "상태 표시줄 숨김 시 세부정보 같이 숨기기"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "화면 하단에 UI 표시"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "첫화면에 휴지통 표시"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "큰 사진"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "가능한 최고 화질로 사진 표시"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "첫화면에서 휴지통을 마지막 항목으로 표시"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "아래로 스와이프하여 전체화면 나가기"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "두번 탭하여 1:1 크기로 보기"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "동영상을 따로 열어 새 수평 제스처 사용"
+    },
+    {
+      "name": "show_notch",
+      "value": "가능한 경우 노치 표시"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "제스처로 사진 회전"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "파일 로딩 우선권"
+    },
+    {
+      "name": "speed",
+      "value": "속도"
+    },
+    {
+      "name": "compromise",
+      "value": "균형"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "잘못된 파일 보이지 않기"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "사진 파일 종류 표시"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Allow zooming videos with double tapping them"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Folder thumbnail style"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "File thumbnail style"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Mark favorite items"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Thumbnail spacing"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Show file count on a separate line"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Show file count in brackets"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Do not show file count"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Limit long folder titles to 1 line"
+    },
+    {
+      "name": "square",
+      "value": "Square"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Rounded corners"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Export favorites"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Import favorites"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Paths imported successfully"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "To make sure that all file operations work reliably, please make this app a Media management app in your device settings."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "제외된 폴더 표시 여부를 암호로 보호합니다"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Something went wrong, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_note",
+      "value": "If the redirection does not work, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "If you do not want to do it, you can also go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternatively, you can allow accessing media files only. In that case you will not be able to work with hidden files though."
+    },
+    {
+      "name": "media_only",
+      "value": "Media only"
+    },
+    {
+      "name": "all_files",
+      "value": "All files"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Search all files instead of folders on the main screen"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Show a menu button for toggling Show All Folders Content quickly"
+    },
+    {
+      "name": "thumbnails",
+      "value": "섬네일"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "전체화면"
+    },
+    {
+      "name": "extended_details",
+      "value": "추가 세부정보"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "하단 UI 설정"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "하단 UI 편집"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "즐겨찾기"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "파일 제외"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Custom"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Reset"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Square"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Transform"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filter"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "None"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Adjust"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Shadows"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Exposure"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Highlights"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Brightness"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Saturation"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Clarity"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Blacks"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Whites"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Temperature"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Sharpness"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Reset"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Focus"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "None"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radial"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Linear"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Mirrored"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussian"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Add text"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Text"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Text Options"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Text Color"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Add"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Edit"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Straighten"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "BG Color"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Alignment"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "To Front"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Your text"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Brush"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Size"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Hardness"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "To Front"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Brush Color"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Editor"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Close Editor\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Do you really want to discard the changes\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Yes"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "No"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Accept"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Save"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Exporting…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Exporting %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Sticker"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Sticker Color"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Sticker Options"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Add"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Color"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "To Front"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Straighten"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Replace"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opacity"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Saturation"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Brightness"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Uploads"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Overlay"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Darken"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Screen"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Overlay"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Lighten"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Multiply"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Color Burn"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Soft Light"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Hard Light"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "None"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Golden"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Lightleak 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaic"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Paper"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Rain"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Flip H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Flip V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Undo"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Redo"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Color Picker"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Transparent"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "White"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Gray"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Black"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Light blue"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Blue"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Purple"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orchid"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Pink"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Red"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Orange"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Gold"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Yellow"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Olive"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Green"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Aquamarin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Pipettable color"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Trim"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "How can I make Simple Gallery the default device gallery\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "First you have to find the currently default gallery in the Apps section of your device settings, look for a button that says something like \\\"Open by default\\\", click on it, then select \\\"Clear defaults\\\". The next time you will try opening an image or video you should see an app picker, where you can select Simple Gallery and make it the default app."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "I locked the app with a password, but I forgot it. What can I do\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "You can solve it in 2 ways. You can either reinstall the app, or find the app in your device settings and select \\\"Clear data\\\". It will reset all your settings, it will not remove any media files."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "How can I make an album always appear at the top\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "You can long press the desired album and select the Pin icon at the actions menu, that will pin it to the top. You can pin multiple folders too, pinned items will be sorted by the default sorting method."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "How can I fast forward videos\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "What is the difference between hiding and excluding a folder\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Exclude prevents displaying the folder only in Simple Gallery, while Hide works system-wise and it hides the folder from other galleries too. It works by creating an empty \\\".nomedia\\\" file in the given folder, which you can then remove with any file manager too. Note that some devices do not allow hiding folders like Camera, Screenshots and Downloads."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Why do folders with music cover art or stickers show up\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "It can happen that you will see some unusual albums show up. You can easily exclude them by long pressing them and selecting Exclude. In the next dialog you can then select the parent folder, chances are it will prevent the other related albums showing up too."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "A folder with images isn't showing up, or it doesn't show all items. What can I do\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "That can have multiple reasons, but solving it is easy. Just go in Settings -> Manage Included Folders, select Plus and navigate to the required folder."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "What if I want just a few particular folders visible\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Adding a folder at the Included Folders doesn't automatically exclude anything. What you can do is go in Settings -> Manage Excluded Folders, exclude the root folder \\\"/\\\", then add the desired folders at Settings -> Manage Included Folders. That will make only the selected folders visible, as both excluding and including are recursive and if a folder is both excluded and included, it will show up."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Can I crop images with this app\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Yes, you can crop images in the editor, by dragging the image corners. You can get to the editor either by long pressing an image thumbnail and selecting Edit, or selecting Edit from the fullscreen view."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Can I somehow group media file thumbnails\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Sure, just use the \\\"Group by\\\" menu item while at the thumbnails view. You can group files by multiple criteria, including Date Taken. If you use the \\\"Show all folders content\\\" function you can group them by folders too."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Sorting by Date Taken doesn't seem to work properly, how can I fix it\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "It is most likely caused by the files being copied from somewhere. You can fix it by selecting the file thumbnails and selecting \\\"Fix Date Taken value\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "I see some color banding on the images. How can I improve the quality\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "The current solution for displaying images works fine in the vast majority of cases, but if you want even better image quality, you can enable the \\\"Show images in the highest possible quality\\\" at the app settings, in the \\\"Deep zoomable images\\\" section."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "I have hidden a file/folder. How can I unhide it\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "You can either press the \\\"Temporarily show hidden items\\\" menu item at the main screen, or toggle \\\"Show hidden items\\\" in the app settings to see the hidden item. If you want to unhide it, just long press it and select \\\"Unhide\\\". Folders are hidden by adding a hidden \\\".nomedia\\\" file into them, you can delete the file with any file manager too. Note that hiding works recursively though, so if you hide a folder, all subfolders will become hidden too. So for unhiding the subfolders you have to unhide the parent folder."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Why does the app take up so much space\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "App cache can take up to 250MB, it ensures quicker image loading. If the app is taking up even more space, it is most likely caused by you having items in the Recycle Bin. Those files count to the app size. You can clear the Recycle bin by opening it and deleting all files, or from the app settings. Every file in the Bin is deleted automatically after 30 days."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "What happened to file and folder hiding and why cannot I see hidden items anymore\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Android 11부터는 파일 또는 폴더를 더 이상 숨기거나 숨김을 취소할 수 없으며 갤러리 앱에서도 숨겨진 파일이나 폴더를 볼 수 없습니다. 이를 위해 파일 관리자를 사용해야 합니다."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Or you can also grant this gallery access to All Files through your device settings, that will allow us showing hidden items and make file operations more reliable in general."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Why cannot I include missing folders anymore\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "That stopped working due to the system changes that came with Android 11 too, the app cannot browse real folders anymore, it relies on the so called MediaStore at fetching data."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Why do I see ads during video playback\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Our apps have no ads whatsoever. If you see them during video playback, you must be using some other apps video player. Try finding your default video player in the device settings, then do a \\\"Clear defaults\\\" on it. The next time you invoke some video intent you will see an app picker prompt, where you can select what app you want to use."
+    }
+  ]
+}

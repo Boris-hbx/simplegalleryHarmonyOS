@@ -1,0 +1,2100 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "简单图库"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "图库"
+    },
+    {
+      "name": "edit",
+      "value": "编辑"
+    },
+    {
+      "name": "open_camera",
+      "value": "打开相机"
+    },
+    {
+      "name": "hidden",
+      "value": "（已隐藏）"
+    },
+    {
+      "name": "excluded",
+      "value": "(已排除)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "固定文件夹"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "取消固定文件夹"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "置顶固定"
+    },
+    {
+      "name": "show_all",
+      "value": "文件视图"
+    },
+    {
+      "name": "all_folders",
+      "value": "所有文件夹"
+    },
+    {
+      "name": "folder_view",
+      "value": "切换至文件夹视图"
+    },
+    {
+      "name": "other_folder",
+      "value": "其他文件夹"
+    },
+    {
+      "name": "show_on_map",
+      "value": "在地图上显示"
+    },
+    {
+      "name": "unknown_location",
+      "value": "未知位置"
+    },
+    {
+      "name": "volume",
+      "value": "音量"
+    },
+    {
+      "name": "brightness",
+      "value": "亮度"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "锁定屏幕方向"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "解锁屏幕方向"
+    },
+    {
+      "name": "change_orientation",
+      "value": "更改屏幕方向"
+    },
+    {
+      "name": "force_portrait",
+      "value": "强制竖屏"
+    },
+    {
+      "name": "force_landscape",
+      "value": "强制横屏"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "使用默认屏幕方向"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "修复拍摄日期"
+    },
+    {
+      "name": "fixing",
+      "value": "正在修复…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "日期修复成功"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "没有找到拍摄日期"
+    },
+    {
+      "name": "share_resized",
+      "value": "调整尺寸并分享"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "切换文件搜索范围为所有可见的文件夹"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "设置为默认文件夹"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "取消设置为默认文件夹"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "通过拖动重新排序文件夹"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "通过拖动重新排序文件夹 (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "还原到 '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "筛选媒体文件"
+    },
+    {
+      "name": "images",
+      "value": "图片"
+    },
+    {
+      "name": "videos",
+      "value": "视频"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW 图片"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG 矢量图"
+    },
+    {
+      "name": "portraits",
+      "value": "人像"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "没有媒体文件匹配选定的筛选条件。"
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "更改筛选条件"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "该功能通过添加“.nomedia”文件到文件夹来隐藏它，这也会隐藏其所有子文件夹。您可以通过启用设置中的“显示隐藏的项目”选项来查看它们，是否继续？"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "该操作仅会在“简单图库”中排除显示选定的文件夹及其子文件夹。您可以在设置中管理排除的文件夹。"
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "是否排除父文件夹？"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "排除此文件夹将使它们与其子文件夹在简单图库中隐身，但它们仍将在其他应用程序中可见。\r\n\\n\r\n\\n如果您想对其他应用程序隐藏它们，请使用隐藏功能。"
+    },
+    {
+      "name": "hidden_folders",
+      "value": "隐藏的文件夹"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "管理隐藏的文件夹"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "看起来您没有任何使用“.nomedia”文件隐藏的目录。"
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "你必须授予访问所有文件的权限，应用才能看到隐藏的文件。"
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "如果某个文件夹或其父级文件夹中的一个在文件夹名称前有一个 . 的话，这样的文件夹会被隐藏且无法像这样取消隐藏。你必须进行重命名操作移除这个 . 符号。"
+    },
+    {
+      "name": "include_folders",
+      "value": "包含的文件夹"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "管理包含的文件夹"
+    },
+    {
+      "name": "add_folder",
+      "value": "添加文件夹"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "如果您有一些包含媒体文件但应用无法识别的文件夹，您可以在此处手动添加它们。\r\n\\n\r\n\\n在此处添加一些项目不会排除任何其他文件夹。"
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "没有找到媒体文件。请手动添加包含媒体文件的文件夹。"
+    },
+    {
+      "name": "resize_and_save",
+      "value": "调整选定项目的尺寸并保存"
+    },
+    {
+      "name": "width",
+      "value": "宽度"
+    },
+    {
+      "name": "height",
+      "value": "高度"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "保持高宽比"
+    },
+    {
+      "name": "invalid_values",
+      "value": "请输入有效的分辨率"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "调整多张图片尺寸"
+    },
+    {
+      "name": "resize_factor",
+      "value": "调整比率"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "将图片尺寸调整到给定比例，值须在 10 到 90 以内。"
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "输入 10 到 90之间的数字"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "成功调整了图片尺寸"
+    },
+    {
+      "name": "editor",
+      "value": "编辑器"
+    },
+    {
+      "name": "basic_editor",
+      "value": "基础编辑器"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "高级编辑器"
+    },
+    {
+      "name": "rotate",
+      "value": "旋转"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "无效的图片路径"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "无效的视频路径"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "图片编辑失败"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "视频编辑失败"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "取消图片编辑"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "取消视频编辑"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "文件编辑成功"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "图片编辑成功"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "视频编辑成功"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "编辑方式："
+    },
+    {
+      "name": "edit_video_with",
+      "value": "编辑方式:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "没有找到任何图片编辑器"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "没有找到任何视频编辑器"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "未知文件位置"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "无法覆盖源文件"
+    },
+    {
+      "name": "rotate_left",
+      "value": "向左旋转"
+    },
+    {
+      "name": "rotate_right",
+      "value": "向右旋转"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "旋转 180º"
+    },
+    {
+      "name": "transform",
+      "value": "改变形态"
+    },
+    {
+      "name": "crop",
+      "value": "裁剪"
+    },
+    {
+      "name": "draw",
+      "value": "绘制"
+    },
+    {
+      "name": "flip",
+      "value": "翻转"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "水平翻转"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "垂直翻转"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "自由"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "其他"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "简单壁纸"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "设置为壁纸"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "设置壁纸失败"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "设置壁纸方式："
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "正在设置壁纸…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "设置壁纸成功"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "纵向高宽比"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "横向高宽比"
+    },
+    {
+      "name": "home_screen",
+      "value": "主屏幕"
+    },
+    {
+      "name": "lock_screen",
+      "value": "锁定屏幕"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "主屏幕和锁定屏幕"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "允许更改长宽比"
+    },
+    {
+      "name": "slideshow",
+      "value": "幻灯片"
+    },
+    {
+      "name": "stop_slideshow",
+      "value": "停止幻灯片"
+    },
+    {
+      "name": "interval",
+      "value": "间隔"
+    },
+    {
+      "name": "include_photos",
+      "value": "包含照片"
+    },
+    {
+      "name": "include_videos",
+      "value": "包含视频"
+    },
+    {
+      "name": "include_gifs",
+      "value": "包含GIF"
+    },
+    {
+      "name": "random_order",
+      "value": "随机顺序"
+    },
+    {
+      "name": "move_backwards",
+      "value": "倒序播放"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "循环播放"
+    },
+    {
+      "name": "animation",
+      "value": "动画"
+    },
+    {
+      "name": "no_animation",
+      "value": "无"
+    },
+    {
+      "name": "fade",
+      "value": "渐隐"
+    },
+    {
+      "name": "slide",
+      "value": "滑动"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "幻灯片结束"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "没有找到可播放幻灯片媒体文件"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "直接分组文件夹"
+    },
+    {
+      "name": "group_by",
+      "value": "分组依据"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "不分组文件"
+    },
+    {
+      "name": "by_folder",
+      "value": "文件夹"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "最后修改时间"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "最后修改时间（按日）"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "最后修改时间（按月）"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "拍摄时间"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "拍摄时间（按日）"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "拍摄时间（按月）"
+    },
+    {
+      "name": "by_file_type",
+      "value": "文件类型"
+    },
+    {
+      "name": "by_extension",
+      "value": "扩展名"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "在节头显示文件数"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "请注意，分组和排序是两种独立的组织方式"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "在小工具上显示的文件夹："
+    },
+    {
+      "name": "show_folder_name",
+      "value": "显示文件夹名称"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "自动播放视频"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "记住上次视频播放位置"
+    },
+    {
+      "name": "loop_videos",
+      "value": "循环播放视频"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "GIF 缩略图"
+    },
+    {
+      "name": "max_brightness",
+      "value": "全屏时最高亮度"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "裁剪缩略图为正方形"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "显示视频时长"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "全屏时媒体文件旋转方向"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "跟随系统设置"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "跟随设备旋转"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "根据高宽比"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "全屏时使用黑色背景"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "水平滚动缩略图"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "全屏时自动隐藏系统界面"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "删除没有内容的空文件夹"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "使用纵向滑动手势控制照片亮度"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "使用纵向滑动手势控制视频音量和亮度"
+    },
+    {
+      "name": "show_media_count",
+      "value": "在主界面显示文件夹媒体计数"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "全屏浏览媒体时显示更多详情"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "管理更多详情项目"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "单指缩放"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "点击屏幕边缘来切换媒体"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "允许深度放大图像"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "状态栏隐藏时，同时隐藏更多详情"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "显示底栏"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "在文件夹界面显示回收站"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "深度放大图像"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "以最高质量显示图像"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "在主屏幕界面的最后一项显示回收站"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "使用下滑手势退出全屏视图"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "双击两次后 1:1 放大图像"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "在单独的页面播放视频（可以左右滑动屏幕来快进/快退）"
+    },
+    {
+      "name": "show_notch",
+      "value": "显示刘海（如果可用）"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "允许使用手势旋转图像"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "文件加载优先级"
+    },
+    {
+      "name": "speed",
+      "value": "快速"
+    },
+    {
+      "name": "compromise",
+      "value": "避免显示空文件"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "避免显示任何无效的文件"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "显示图片文件类型"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "允许双击来放大视频"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "文件夹缩略图样式"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "文件缩略图样式"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "标记收藏项目"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "缩略图间距"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "在单独一行中显示计数"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "在括号中显示计数"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "不显示文件数"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "将较长的文件夹标题字符限制为1行"
+    },
+    {
+      "name": "square",
+      "value": "方形"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "圆角"
+    },
+    {
+      "name": "transfer",
+      "value": "传输"
+    },
+    {
+      "name": "export_settings",
+      "value": "导出设置"
+    },
+    {
+      "name": "import_settings",
+      "value": "导入设置"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "导出收藏"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "导入收藏"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "路径导入成功"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "为了确保所有文件操作可靠地工作，请在你的设备设置中使此应用成为媒体管理应用。"
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "密码保护已排除文件夹的可见性"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "出错了，请转到设备的“设置” - “应用” -“特殊应用权限” - “媒体管理应用” 并允许本应用管理媒体文件。"
+    },
+    {
+      "name": "media_management_note",
+      "value": "如果重定向无法正常工作，请转到设备的“设置” - “应用” - “特殊应用权限” - “媒体管理应用” 并允许此应用管理媒体文件。"
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "如果你不想进行此操作，你也可以转到设备的 “设置” - “应用” - “特殊应用权限” - “媒体管理应用” 并允许此应用管理媒体文件。"
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "你也可以只允许访问媒体文件。但那样的话将无法处理隐藏的文件。"
+    },
+    {
+      "name": "media_only",
+      "value": "仅媒体文件"
+    },
+    {
+      "name": "all_files",
+      "value": "所有文件"
+    },
+    {
+      "name": "search_all_files",
+      "value": "在主屏幕上搜索所有文件而不是文件夹"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "显示可快速切换“显示所有文件夹内容”选项的菜单按钮"
+    },
+    {
+      "name": "thumbnails",
+      "value": "缩略图"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "全屏显示媒体"
+    },
+    {
+      "name": "extended_details",
+      "value": "更多详情"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "底栏选项"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "管理底栏选项"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "切换收藏"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "隐藏文件"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "自定义"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "重置"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "正方形"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "裁剪旋转"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "滤镜"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "无"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "调整"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "阴影"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "曝光"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "高光"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "亮度"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "对比度"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "饱和度"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "清晰度"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "伽马"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "黑色"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "白色"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "色温"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "锐化"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "重置"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "对焦"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "无"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "放射"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "线性"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "镜像"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "高斯"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "添加文字"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "文字"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "文字选项"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "文字颜色"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "字体"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "添加"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "编辑"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "拉伸"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "字体"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "颜色"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "背景颜色"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "对齐"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "移到最上层"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "删除"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "您的文字"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "笔刷"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "颜色"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "尺寸"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "硬度"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "移到最上层"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "删除"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "笔刷颜色"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "编辑器"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "关闭编辑器\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "你确定要放弃更改吗\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "是"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "否"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "接受"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "保存"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "正在导出…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "正在导出 %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "贴纸"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "贴纸颜色"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "贴纸选项"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "添加"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "颜色"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "删除"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "置顶"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "拉伸"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "替换"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "不透明度"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "对比度"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "饱和度"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "亮度"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "上传"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "叠加层"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "正常"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "变暗"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "遮蔽"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "遮罩"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "变亮"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "正片叠底"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "颜色加深"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "柔光"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "强光"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "无"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "变金色"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "漏光 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "马赛克"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "纸张"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "雨"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "复古"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "水平翻转"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "垂直翻转"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "复原"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "取消复原"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "选色器"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "透明"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "白色"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "灰色"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "黑色"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "浅蓝"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "蓝色"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "紫色"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "淡紫"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "粉红"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "红色"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "橘色"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "金色"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "黄色"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "橄榄绿"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "绿色"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "碧绿"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "取色器"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "剪辑"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "如何把简单图库设置为设备的默认图库？"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "首先在系统设置中的“应用”菜单下找到您当前的默认图库，选择并点击“默认打开”按钮，然后点击“清除默认值”。下次再打开图片或视频时，您会看到一个应用程序选择器，在这里选择“简单图库”并将其设为默认应用程序即可。"
+    },
+    {
+      "name": "faq_2_title",
+      "value": "我用密码锁定了本应用，但我忘记密码了。该怎么办？"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "有两种方法。您可以重新安装本应用，也可以在设置中清除此应用的数据，这样会重置您的所有设置，但不会删除任何媒体文件。"
+    },
+    {
+      "name": "faq_3_title",
+      "value": "如何让某个相册始终显示在最上面？"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "您可以长按该相册并在操作栏中点击图钉图标，这样就可以将其固定在顶部了。您也可以固定多个文件夹，已固定的项目会按照默认排序方法进行排序。"
+    },
+    {
+      "name": "faq_4_title",
+      "value": "如何快进/快退视频？"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "您可以双击屏幕边缘或点击搜索栏附近的当前时间或总时长的文本。如果您在应用设置中启用了“在单独的页面播放视频”，就可以使用水平手势来快进/快退视频。"
+    },
+    {
+      "name": "faq_5_title",
+      "value": "隐藏和排除文件夹有什么区别？"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "排除功能只是防止其在简单图库中显示，而隐藏功能则使用的是系统提供的方法，这样的话在其他的图库应用中也会隐藏。它的工作原理是在给定的文件夹中创建一个空的.nomedia文件，您可以使用任何文件管理器来删除它。请注意，某些设备不允许隐藏\\\"Camera\\\"，\\\"Screenshots\\\"和\\\"Downloads\\\"等文件夹。"
+    },
+    {
+      "name": "faq_6_title",
+      "value": "为什么会出现音乐艺术家封面或贴纸文件夹？"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "您可能会看到一些不寻常的相册出现。可以通过长按并选择“排除”来排除它们。在之后的对话框中，您可以选择父文件夹，这样也许就会阻止其他相关的相册出现。"
+    },
+    {
+      "name": "faq_7_title",
+      "value": "有的图片文件夹没有显示，怎么回事？"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "原因可能有很多，但解决方法很简单。只需进入设置 -> 管理包含目录，点击+号并选择该文件夹。"
+    },
+    {
+      "name": "faq_8_title",
+      "value": "如果我只想显示几个特定的文件夹，该如何操作？"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "在包含目录中添加文件夹不会自动排除其他的内容。您可以这样做：进入设置 -> 管理排除目录，排除根目录\\\"/\\\"，然后在设置 -> 管理包含目录中添加所需的文件夹。这样就可以只显示选定的文件夹了，由于排除和包含都是递归的，所以排除并包含的文件夹是会显示的。"
+    },
+    {
+      "name": "faq_10_title",
+      "value": "我可以裁剪图片吗？"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "当然可以，通过长按图片缩略图并选择编辑，或是在全屏视图中选择编辑来打开编辑器。您可以通过拖动图片边角来剪裁图片。"
+    },
+    {
+      "name": "faq_11_title",
+      "value": "我能将媒体文件缩略图分组吗？"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "当然可以，只需在缩略图视图中使用\\\"分组依据\\\"菜单项即可。您可以依据多个条件对文件进行分组，包括拍摄日期。如果您使用了\\\"显示所有文件夹内容\\\"功能，则可以按文件夹对它们进行分组。"
+    },
+    {
+      "name": "faq_12_title",
+      "value": "按拍摄日期排序似乎有异常，我该如何解决？"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "很可能是因为图片是从某处复制过来的。您可以长按文件缩略图并选择\\\"修复拍摄日期\\\"来修复它。"
+    },
+    {
+      "name": "faq_13_title",
+      "value": "我看到图片上有一些色带。如何提高提高质量？"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "目前显示图片的方案在绝大多数情况下都是正常的，如果您想要更好的图像质量，您可以在设置中启用\\\"以最高质量显示图像\\\"。"
+    },
+    {
+      "name": "faq_14_title",
+      "value": "我隐藏了某个文件/文件夹。如何取消隐藏？"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "您可以点击主界面上的\\\"暂时显示隐藏的项目\\\"选项，或在设置中开启\\\"显示隐藏的项目\\\"。 如果您想取消隐藏它，长按它并选择\\\"取消隐藏\\\"即可。 我们是通过向文件夹中添加\\\".nomedia\\\"文件来隐藏文件夹的，使用文件管理器删除该文件也可以取消隐藏。 注意，隐藏是递归的，所以如果你隐藏了一个文件夹，所有的子文件夹也会被隐藏。为了取消隐藏子文件夹你必须取消隐藏父文件夹。"
+    },
+    {
+      "name": "faq_15_title",
+      "value": "为什么应用占用了这么多的空间？"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "应用缓存最多可达250MB，这样可以使图像加载更快。如果应用占用了更多空间，则很可能是因为回收站中有项目。这些文件被计入应用程序大小。您可以打开回收站并删除所有文件，或从应用设置中清除回收站。回收站中的内容会在30天后自动删除。"
+    },
+    {
+      "name": "faq_16_title",
+      "value": "文件和文件夹隐藏发生了什么，为什么我再不能看到隐藏项目了？"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "从 Android 11 开始，你再也不能隐藏或取消隐藏文件或文件夹，由于系统限制，也不能在图库应用中看到隐藏的文件或文件夹了。你必须使用文件管理器来进行此类操作。"
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "或者你也可以通过你的设备设置授予这个图库访问所有文件的权限，这将允许我们显示隐藏的项目，使文件操作总体上更可靠。"
+    },
+    {
+      "name": "faq_17_title",
+      "value": "为什么我再不能包含缺失的文件夹？"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "由于 Android 11 的系统变化，这一功能也停止了工作，本应用不能再浏览真实的文件夹了，它依赖于所谓的 MediaStore 来获取数据。"
+    },
+    {
+      "name": "faq_18_title",
+      "value": "为何我在视频播放期间看到广告？"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "我们的应用没有任何广告。如果您在视频播放期间看到它们，那么您一定是在使用其他视频播放器。尝试在设备设置中找到默认的视频播放器，然后在其上执行“清除默认设置”。下次你调用视频意图，你会看到一个应用选择提示，在那里你可以选择你想使用的播放器。"
+    },
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "描述"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "简单图库"
+    },
+    {
+      "name": "permission_read_media_reason",
+      "value": "简单图库需要访问您的照片和视频以浏览和管理您的媒体库。"
+    },
+    {
+      "name": "permission_write_media_reason",
+      "value": "简单图库需要写入权限以删除、移动和管理您的照片和视频。"
+    },
+    {
+      "name": "widget_name",
+      "value": "图库小组件"
+    },
+    {
+      "name": "widget_description",
+      "value": "显示所选图库文件夹中的缩略图"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "ok",
+      "value": "确定"
+    },
+    {
+      "name": "save",
+      "value": "保存"
+    },
+    {
+      "name": "delete_action",
+      "value": "删除"
+    },
+    {
+      "name": "remove",
+      "value": "移除"
+    },
+    {
+      "name": "add",
+      "value": "添加"
+    },
+    {
+      "name": "apply",
+      "value": "应用"
+    },
+    {
+      "name": "undo_action",
+      "value": "撤销"
+    },
+    {
+      "name": "clear",
+      "value": "清除"
+    },
+    {
+      "name": "rename",
+      "value": "重命名"
+    },
+    {
+      "name": "copy_to",
+      "value": "复制到"
+    },
+    {
+      "name": "move_to",
+      "value": "移动到"
+    },
+    {
+      "name": "exclude",
+      "value": "排除"
+    },
+    {
+      "name": "hide",
+      "value": "隐藏"
+    },
+    {
+      "name": "retry",
+      "value": "重试"
+    },
+    {
+      "name": "grant_access",
+      "value": "授予访问权限"
+    },
+    {
+      "name": "unhide",
+      "value": "取消隐藏"
+    },
+    {
+      "name": "settings",
+      "value": "设置"
+    },
+    {
+      "name": "search",
+      "value": "搜索"
+    },
+    {
+      "name": "set_wallpaper_title",
+      "value": "设置壁纸"
+    },
+    {
+      "name": "configure_widget",
+      "value": "配置小组件"
+    },
+    {
+      "name": "no_media",
+      "value": "未找到媒体文件"
+    },
+    {
+      "name": "no_media_in_folder",
+      "value": "此文件夹中无媒体文件"
+    },
+    {
+      "name": "no_items_found",
+      "value": "未找到项目"
+    },
+    {
+      "name": "no_media_available",
+      "value": "无可用媒体"
+    },
+    {
+      "name": "no_folders_available",
+      "value": "无可用文件夹"
+    },
+    {
+      "name": "no_folders_found",
+      "value": "未找到文件夹"
+    },
+    {
+      "name": "no_photos",
+      "value": "无照片"
+    },
+    {
+      "name": "no_excluded_folders",
+      "value": "无排除的文件夹"
+    },
+    {
+      "name": "no_included_folders",
+      "value": "无包含的文件夹"
+    },
+    {
+      "name": "no_hidden_folders_found",
+      "value": "未找到隐藏的文件夹"
+    },
+    {
+      "name": "tap_plus_to_add",
+      "value": "点击 + 添加文件夹"
+    },
+    {
+      "name": "hidden_folders_hint",
+      "value": "带有 .nomedia 文件或以点号开头的文件夹将显示在此处"
+    },
+    {
+      "name": "scanning_hidden_folders",
+      "value": "正在扫描隐藏的文件夹..."
+    },
+    {
+      "name": "action_cannot_be_undone",
+      "value": "此操作无法撤销。"
+    },
+    {
+      "name": "skip_recycle_bin",
+      "value": "跳过回收站（永久删除）"
+    },
+    {
+      "name": "select_destination",
+      "value": "选择目标位置"
+    },
+    {
+      "name": "enter_new_name",
+      "value": "输入新名称"
+    },
+    {
+      "name": "enter_folder_path",
+      "value": "输入文件夹路径"
+    },
+    {
+      "name": "search_files",
+      "value": "搜索文件..."
+    },
+    {
+      "name": "filter_media_types",
+      "value": "筛选媒体类型"
+    },
+    {
+      "name": "select_at_least_one",
+      "value": "请至少选择一种媒体类型"
+    },
+    {
+      "name": "sort_by",
+      "value": "排序方式"
+    },
+    {
+      "name": "sort_name",
+      "value": "名称"
+    },
+    {
+      "name": "sort_date_modified",
+      "value": "修改日期"
+    },
+    {
+      "name": "sort_date_taken",
+      "value": "拍摄日期"
+    },
+    {
+      "name": "sort_size",
+      "value": "大小"
+    },
+    {
+      "name": "sort_path",
+      "value": "路径"
+    },
+    {
+      "name": "sort_random",
+      "value": "随机"
+    },
+    {
+      "name": "descending",
+      "value": "降序"
+    },
+    {
+      "name": "custom_aspect_ratio",
+      "value": "自定义宽高比"
+    },
+    {
+      "name": "width_label",
+      "value": "宽度："
+    },
+    {
+      "name": "height_label",
+      "value": "高度："
+    },
+    {
+      "name": "flip_h",
+      "value": "水平翻转"
+    },
+    {
+      "name": "flip_v",
+      "value": "垂直翻转"
+    },
+    {
+      "name": "size_label",
+      "value": "大小"
+    },
+    {
+      "name": "both_screens",
+      "value": "两者"
+    },
+    {
+      "name": "failed_to_set_wallpaper",
+      "value": "设置壁纸失败"
+    },
+    {
+      "name": "permission_prompt",
+      "value": "简单图库需要访问您的照片和视频以显示它们。"
+    },
+    {
+      "name": "permission_denied_msg",
+      "value": "权限被拒绝。请授予访问权限以使用图库。"
+    },
+    {
+      "name": "sort",
+      "value": "排序"
+    },
+    {
+      "name": "filter",
+      "value": "过滤"
+    },
+    {
+      "name": "list_view",
+      "value": "列表视图"
+    },
+    {
+      "name": "grid_view",
+      "value": "网格视图"
+    },
+    {
+      "name": "column_plus",
+      "value": "增加列"
+    },
+    {
+      "name": "column_minus",
+      "value": "减少列"
+    },
+    {
+      "name": "hide_hidden_folders",
+      "value": "隐藏已隐藏的文件夹"
+    },
+    {
+      "name": "temporarily_show_hidden",
+      "value": "临时显示隐藏项"
+    },
+    {
+      "name": "hide_excluded_folders",
+      "value": "隐藏已排除的文件夹"
+    },
+    {
+      "name": "temporarily_show_excluded",
+      "value": "临时显示排除项"
+    },
+    {
+      "name": "excluded_folders_menu",
+      "value": "排除的文件夹"
+    },
+    {
+      "name": "options",
+      "value": "选项"
+    },
+    {
+      "name": "group",
+      "value": "分组"
+    },
+    {
+      "name": "items_suffix",
+      "value": " 项"
+    },
+    {
+      "name": "hidden_label",
+      "value": "已隐藏"
+    },
+    {
+      "name": "general",
+      "value": "常规"
+    },
+    {
+      "name": "show_hidden_media",
+      "value": "显示隐藏的媒体"
+    },
+    {
+      "name": "show_all_files",
+      "value": "显示所有文件"
+    },
+    {
+      "name": "search_all_files_by_default",
+      "value": "默认搜索所有文件"
+    },
+    {
+      "name": "show_thumbnail_file_types",
+      "value": "显示缩略图文件类型"
+    },
+    {
+      "name": "display_file_names",
+      "value": "显示文件名"
+    },
+    {
+      "name": "file_rounded_corners",
+      "value": "文件圆角"
+    },
+    {
+      "name": "folder_style",
+      "value": "文件夹样式"
+    },
+    {
+      "name": "folder_media_count",
+      "value": "文件夹媒体计数"
+    },
+    {
+      "name": "display",
+      "value": "显示"
+    },
+    {
+      "name": "black_background",
+      "value": "黑色背景"
+    },
+    {
+      "name": "hide_system_ui",
+      "value": "隐藏系统界面"
+    },
+    {
+      "name": "screen_rotation",
+      "value": "屏幕旋转"
+    },
+    {
+      "name": "allow_zooming_images",
+      "value": "允许缩放图片"
+    },
+    {
+      "name": "allow_rotating_with_gestures",
+      "value": "允许手势旋转"
+    },
+    {
+      "name": "show_bottom_actions",
+      "value": "显示底栏操作"
+    },
+    {
+      "name": "recycle_bin",
+      "value": "回收站"
+    },
+    {
+      "name": "use_recycle_bin",
+      "value": "使用回收站"
+    },
+    {
+      "name": "show_recycle_bin_in_folders",
+      "value": "在文件夹中显示回收站"
+    },
+    {
+      "name": "folder_management",
+      "value": "文件夹管理"
+    },
+    {
+      "name": "manage_excluded_folders",
+      "value": "管理排除的文件夹"
+    },
+    {
+      "name": "included_folders_title",
+      "value": "包含的文件夹"
+    },
+    {
+      "name": "hidden_folders_title",
+      "value": "隐藏的文件夹"
+    },
+    {
+      "name": "excluded_folders_title",
+      "value": "排除的文件夹"
+    },
+    {
+      "name": "none_option",
+      "value": "无"
+    },
+    {
+      "name": "small_option",
+      "value": "小"
+    },
+    {
+      "name": "big_option",
+      "value": "大"
+    },
+    {
+      "name": "square_option",
+      "value": "方形"
+    },
+    {
+      "name": "rounded_option",
+      "value": "圆角"
+    },
+    {
+      "name": "line_option",
+      "value": "单独一行"
+    },
+    {
+      "name": "brackets_option",
+      "value": "括号"
+    },
+    {
+      "name": "system_setting",
+      "value": "跟随系统设置"
+    },
+    {
+      "name": "device_rotation",
+      "value": "跟随设备旋转"
+    },
+    {
+      "name": "aspect_ratio_option",
+      "value": "宽高比"
+    },
+    {
+      "name": "speed_option",
+      "value": "快速"
+    },
+    {
+      "name": "compromise_option",
+      "value": "折中"
+    },
+    {
+      "name": "validity_option",
+      "value": "有效性"
+    },
+    {
+      "name": "exif_name",
+      "value": "名称"
+    },
+    {
+      "name": "exif_path",
+      "value": "路径"
+    },
+    {
+      "name": "exif_size",
+      "value": "大小"
+    },
+    {
+      "name": "exif_resolution",
+      "value": "分辨率"
+    },
+    {
+      "name": "exif_modified",
+      "value": "修改时间"
+    },
+    {
+      "name": "exif_date_taken",
+      "value": "拍摄日期"
+    },
+    {
+      "name": "exif_camera",
+      "value": "相机"
+    },
+    {
+      "name": "exif_gps",
+      "value": "GPS"
+    },
+    {
+      "name": "exif_label",
+      "value": "EXIF"
+    },
+    {
+      "name": "unknown",
+      "value": "未知"
+    },
+    {
+      "name": "today",
+      "value": "今天"
+    },
+    {
+      "name": "yesterday",
+      "value": "昨天"
+    },
+    {
+      "name": "other",
+      "value": "其他"
+    },
+    {
+      "name": "raw_images_label",
+      "value": "RAW 图片"
+    },
+    {
+      "name": "videos_section",
+      "value": "视频"
+    },
+    {
+      "name": "search_folders",
+      "value": "搜索文件夹..."
+    },
+    {
+      "name": "folder_camera",
+      "value": "相机"
+    },
+    {
+      "name": "folder_camera_videos",
+      "value": "相机视频"
+    },
+    {
+      "name": "folder_videos",
+      "value": "视频"
+    },
+    {
+      "name": "folder_screenshots",
+      "value": "截图"
+    },
+    {
+      "name": "folder_screen_recordings",
+      "value": "录屏"
+    },
+    {
+      "name": "folder_downloads",
+      "value": "下载"
+    },
+    {
+      "name": "folder_edited",
+      "value": "已编辑"
+    },
+    {
+      "name": "folder_other",
+      "value": "其他"
+    },
+    {
+      "name": "folder_all_photos",
+      "value": "所有照片"
+    },
+    {
+      "name": "storage_section",
+      "value": "存储"
+    },
+    {
+      "name": "clear_cache",
+      "value": "清除缓存"
+    },
+    {
+      "name": "cache_cleared",
+      "value": "已清除缓存"
+    },
+    {
+      "name": "cache_clear_failed",
+      "value": "清除缓存失败"
+    },
+    {
+      "name": "other_section",
+      "value": "其他"
+    },
+    {
+      "name": "about",
+      "value": "关于"
+    },
+    {
+      "name": "support_section",
+      "value": "支持"
+    },
+    {
+      "name": "help_us_section",
+      "value": "帮助我们"
+    },
+    {
+      "name": "social_networks_section",
+      "value": "社交网络"
+    },
+    {
+      "name": "faq",
+      "value": "常见问题"
+    },
+    {
+      "name": "email",
+      "value": "电子邮件"
+    },
+    {
+      "name": "contributors",
+      "value": "贡献者"
+    },
+    {
+      "name": "donate",
+      "value": "捐赠"
+    },
+    {
+      "name": "developer",
+      "value": "开发者"
+    },
+    {
+      "name": "developer_name",
+      "value": "Simple Mobile Tools"
+    },
+    {
+      "name": "license_label",
+      "value": "许可证"
+    },
+    {
+      "name": "license_value",
+      "value": "GNU GPL v3.0"
+    },
+    {
+      "name": "version_label",
+      "value": "版本"
+    },
+    {
+      "name": "details",
+      "value": "详情"
+    },
+    {
+      "name": "hide_details",
+      "value": "隐藏详情"
+    }
+  ]
+}

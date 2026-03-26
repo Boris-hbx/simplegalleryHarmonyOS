@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "גלריה פשוטה"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "גלריה"
+    },
+    {
+      "name": "edit",
+      "value": "ערוך"
+    },
+    {
+      "name": "open_camera",
+      "value": "פתח מצלמה"
+    },
+    {
+      "name": "hidden",
+      "value": "(מוסתר)"
+    },
+    {
+      "name": "excluded",
+      "value": "(excluded)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "הצמד תקיה"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "בטל הצמדת תקיה"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "הצמד למעלה"
+    },
+    {
+      "name": "show_all",
+      "value": "הצג את כל תוכן התיקיות"
+    },
+    {
+      "name": "all_folders",
+      "value": "כל התקיות"
+    },
+    {
+      "name": "folder_view",
+      "value": "עבור לתצוגת תיקיות"
+    },
+    {
+      "name": "other_folder",
+      "value": "תיקייה אחרת"
+    },
+    {
+      "name": "show_on_map",
+      "value": "הצג על המפה"
+    },
+    {
+      "name": "unknown_location",
+      "value": "מיקום לא ידוע"
+    },
+    {
+      "name": "volume",
+      "value": "ווליום"
+    },
+    {
+      "name": "brightness",
+      "value": "בהירות"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "נעילת כיוון"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "ביטול נעילת כיוון"
+    },
+    {
+      "name": "change_orientation",
+      "value": "שנה כיוון"
+    },
+    {
+      "name": "force_portrait",
+      "value": "כוח דיוקן"
+    },
+    {
+      "name": "force_landscape",
+      "value": "כוח נוף"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "השתמש בכיוון ברירת המחדל"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "ערך תיקון תאריך נלקח"
+    },
+    {
+      "name": "fixing",
+      "value": "מתקן…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "תאריכים תוקנה בהצלחה"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "לא נמצאו ערכי תאריך נטילתם"
+    },
+    {
+      "name": "share_resized",
+      "value": "שתף גרסה ששונתה"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "עבור לחיפוש קבצים בכל התיקיות הגלויות"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "הגדר כתיקיית ברירת מחדל"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "בטל את ההגדרה כתיקיית ברירת המחדל"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "סדר מחדש את התיקיות על ידי גרירה"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "סדר מחדש את התיקיות על ידי גרירה (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "משחזר ל'%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "סינון מדיה"
+    },
+    {
+      "name": "images",
+      "value": "תמונות"
+    },
+    {
+      "name": "videos",
+      "value": "וידיאו"
+    },
+    {
+      "name": "gifs",
+      "value": "גיפ"
+    },
+    {
+      "name": "raw_images",
+      "value": "תמונות RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVGs"
+    },
+    {
+      "name": "portraits",
+      "value": "פורטרטים"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "לא נמצאו קבצי מדיה עם המסננים שנקבעו."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "שנה מסננים"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "פונקציה זו מסתירה את התיקיה על ידי הוספת קובץ '.nomedia' לתוכה, היא תסתיר גם את כל תיקיות המשנה. אתה יכול לראות אותם על ידי החלפת האפשרות 'הצג פריטים מוסתרים' בהגדרות. לְהַמשִׁיך\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "פעולה זו לא תכלול את הבחירה יחד עם תיקיות המשנה שלה מ-Simple Gallery בלבד. אתה יכול לנהל תיקיות שלא נכללות בהגדרות."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "לא לכלול הורה במקום זאת\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "אי הכללת תיקיות תגרום לכך שהן יחד עם תיקיות המשנה שלהן יהיו מוסתרות רק בגלריה הפשוטה, הן עדיין יהיו גלויות ביישומים אחרים.\r\n\\n\r\n\\nאם אתה רוצה להסתיר אותם גם מאפליקציות אחרות, השתמש בפונקציה הסתר."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "תיקיות נסתרות–‐‐"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "נהל תיקיות נסתרות"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "נראה שאין לך תיקיות מוסתרות עם קובץ \\\".nomedia\\\"."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "You have to grant the app All Files access to see hidden files, else it cannot work."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it."
+    },
+    {
+      "name": "include_folders",
+      "value": "תיקיות כלולות"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "נהל תיקיות כלולות"
+    },
+    {
+      "name": "add_folder",
+      "value": "הוסף תיקיה"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "אם יש לך כמה תיקיות המכילות מדיה, אך לא זוהו על ידי האפליקציה, תוכל להוסיף אותן ידנית כאן.\r\n\\n\r\n\\n הוספת כמה פריטים כאן לא תכלול שום תיקייה אחרת."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "לא נמצאו קבצי מדיה. אתה יכול לפתור את זה על ידי הוספת התיקיות המכילות קבצי מדיה באופן ידני."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "שנה את גודל הבחירה ושמור"
+    },
+    {
+      "name": "width",
+      "value": "רוחב"
+    },
+    {
+      "name": "height",
+      "value": "גובה"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "שמור על יחס רוחב-גובה"
+    },
+    {
+      "name": "invalid_values",
+      "value": "נא להזין החלטה חוקית"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Resize multiple images"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Resize factor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Resize images to the given percentage, value must be within 10 and 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Enter a number between 10 and 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Images resized successfully"
+    },
+    {
+      "name": "editor",
+      "value": "עורך"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Basic Editor"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Advanced Editor"
+    },
+    {
+      "name": "rotate",
+      "value": "להחליף"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "נתיב תמונה לא חוקי"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "נתיב וידאו לא חוקי"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "עריכת התמונה נכשלה"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "עריכת הסרטון נכשלה"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "עריכת התמונה בוטלה"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "עריכת הסרטון בוטלה"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "הקובץ נערך בהצלחה"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "התמונה נערך בהצלחה"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "הסרטון נערך בהצלחה"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "ערוך תמונה עם:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "ערוך וידיאו עם:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "לא נמצא עורך תמונות"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "לא נמצא עורך וידאו"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "מיקום קובץ לא ידוע"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "לא ניתן היה להחליף את קובץ המקור"
+    },
+    {
+      "name": "rotate_left",
+      "value": "סובב שמאלה"
+    },
+    {
+      "name": "rotate_right",
+      "value": "לסובב ימינה"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "סובב 180 מעלות"
+    },
+    {
+      "name": "transform",
+      "value": "Transform"
+    },
+    {
+      "name": "crop",
+      "value": "Crop"
+    },
+    {
+      "name": "draw",
+      "value": "Draw"
+    },
+    {
+      "name": "flip",
+      "value": "להשליך"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "הפוך אופקית"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "הפוך אנכית"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "חופשי"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "אחר"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "טפט פשוט"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "קבע כרקע"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "ההגדרה כטפט נכשלה"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "הגדר כטפט עם:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "מגדיר טפט…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "טפט הוגדר בהצלחה"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "יחס גובה-רוחב לאורך"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "יחס רוחב-גובה לתצוגה"
+    },
+    {
+      "name": "home_screen",
+      "value": "מסך הבית"
+    },
+    {
+      "name": "lock_screen",
+      "value": "מסך נעילה"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "בית ומסך נעילה"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Allow changing the aspect ratio"
+    },
+    {
+      "name": "slideshow",
+      "value": "מצגת"
+    },
+    {
+      "name": "interval",
+      "value": "מרווח"
+    },
+    {
+      "name": "include_photos",
+      "value": "כלול תמונות"
+    },
+    {
+      "name": "include_videos",
+      "value": "כלול סרטונים"
+    },
+    {
+      "name": "include_gifs",
+      "value": "‍כלול קובצי GIF"
+    },
+    {
+      "name": "random_order",
+      "value": "סדר אקראי"
+    },
+    {
+      "name": "move_backwards",
+      "value": "זוז אחורה"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "מצגת לולאה"
+    },
+    {
+      "name": "animation",
+      "value": "אנימציה"
+    },
+    {
+      "name": "no_animation",
+      "value": "ללא"
+    },
+    {
+      "name": "fade",
+      "value": "לדעוך"
+    },
+    {
+      "name": "slide",
+      "value": "שקופית"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "הצגת השקופיות הסתיימה"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "לא נמצאה מדיה עבור מצגת השקופיות"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "קבץ תיקיות משנה ישירות"
+    },
+    {
+      "name": "group_by",
+      "value": "קבץ לפי"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "אין לקבץ קבצים"
+    },
+    {
+      "name": "by_folder",
+      "value": "תיקייה"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "שונה לאחרונה"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "שונה לאחרונה (יומי)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "שונה לאחרונה (חודשי)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "תאריך נלקח"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "תאריך צילום (יומי)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "תאריך צילום (חודשי)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "סוג קובץ"
+    },
+    {
+      "name": "by_extension",
+      "value": "סיומת"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "הצג את ספירת הקבצים בכותרות המקטעים"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "שימו לב שקיבוץ ומיון הם 2 שדות נפרדים"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "תיקיה המוצגת בווידג'ט:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "הצג שם תיקיה"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "הפעל סרטונים באופן אוטומטי"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "זכור את עמדת השמעת הווידאו האחרונה"
+    },
+    {
+      "name": "loop_videos",
+      "value": "חזור על וידיאו"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "הנפשת GIF בתמונות ממוזערות"
+    },
+    {
+      "name": "max_brightness",
+      "value": "בהירות מרבית בעת צפייה במדיה במסך מלא"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "חתוך תמונות ממוזערות לריבועים"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "הצג משך סרטון"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "סובב מדיה במסך מלא על ידי"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "הגדרת מערכת"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "סיבוב המכשיר"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "‍יחס גובה-רוחב"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "רקע שחור במדיה במסך מלא"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "גלול תמונות ממוזערות אופקית"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "הסתר אוטומטית את ממשק המשתמש של המערכת במדיה במסך מלא"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "מחק תיקיות ריקות לאחר מחיקת התוכן שלהן"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "אפשר לשלוט בבהירות הצילום באמצעות מחוות אנכיות"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "אפשר לשלוט בעוצמת הקול והבהירות של הווידאו באמצעות מחוות אנכיות"
+    },
+    {
+      "name": "show_media_count",
+      "value": "הצג את ספירת המדיה של התיקייה בתצוגה הראשית"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "הצג פרטים מורחבים על גבי מדיה במסך מלא"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "נהל פרטים מורחבים"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "אפשר זום באצבע אחת במדיה במסך מלא"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "‎אפשר שינוי מיידי של מדיה על ידי לחיצה על צדי המסך"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "אפשר תמונות התקרבות עמוקה"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "הסתר פרטים מורחבים כאשר שורת המצב מוסתרת"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "הצג כמה לחצני פעולה בתחתית המסך"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "הצג את סל המיחזור במסך התיקיות"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "תמונות עמוקות שניתנות להגדלה"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "הצג תמונות באיכות הגבוהה ביותר האפשרית"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "הצג את סל המיחזור כפריט האחרון במסך הראשי"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "אפשר סגירה של תצוגת המסך המלא בתנועת מטה"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "אפשר סגירה של תצוגת המסך המלא בתנועת מטה"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "פתח תמיד סרטונים במסך נפרד עם מחוות אופקיות חדשות"
+    },
+    {
+      "name": "show_notch",
+      "value": "הצג חריץ אם זמין"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "אפשר סיבוב תמונות עם מחוות"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "עדיפות לטעינת קבצים"
+    },
+    {
+      "name": "speed",
+      "value": "מהירות"
+    },
+    {
+      "name": "compromise",
+      "value": "מתפשר"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "הימנע מהצגת קבצים לא חוקיים"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "הצג סוגי קבצי תמונה"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "אפשר הגדלה של סרטונים באמצעות הקשה כפולה עליהם"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "סגנון תמונה ממוזערת של תיקיה"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "סגנון תמונה ממוזערת של קובץ"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "סמן פריטים אהובים"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "מרווח בין תמונות ממוזערות"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "הצג את ספירת הקבצים בשורה נפרדת"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "הצג את ספירת הקבצים בסוגריים"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "אל תציג ספירת קבצים"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "הגבל כותרות תיקיות ארוכות לשורה אחת"
+    },
+    {
+      "name": "square",
+      "value": "כיכר"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "פינות מעוגלות"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "ייצא נתיבי קבצים מועדפים"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Import favorites"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Paths imported successfully"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "כדי לוודא שכל פעולות הקבצים פועלות בצורה מהימנה, אנא הפוך את האפליקציה הזו לאפליקציית ניהול מדיה בהגדרות המכשיר שלך."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "הגנה באמצעות סיסמה על נראות התיקייה שלא נכללה"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Something went wrong, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_note",
+      "value": "If the redirection does not work, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "If you do not want to do it, you can also go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternatively, you can allow accessing media files only. In that case you will not be able to work with hidden files though."
+    },
+    {
+      "name": "media_only",
+      "value": "Media only"
+    },
+    {
+      "name": "all_files",
+      "value": "All files"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Search all files instead of folders on the main screen"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Show a menu button for toggling Show All Folders Content quickly"
+    },
+    {
+      "name": "thumbnails",
+      "value": "תמונות ממוזערות"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "מדיה במסך מלא"
+    },
+    {
+      "name": "extended_details",
+      "value": "פרטים מורחבים"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "כפתור ביצוע"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "נהל פעולות תחתונות גלויות"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "החלף מועדף"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "החלף את נראות הקובץ"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "המותאם אישית"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "אפס"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "כיכר"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "שינוי צורה"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "לסנן"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "אף אחד"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "להתאים"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "צללים"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "חשיפה"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "עיקרי הדברים"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "בהירות"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "בניגוד"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "רווי"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "בהירות"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "גמא"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "שחורים"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "לבנים"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "טמפרטורה"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "חדות"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "אפס"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "מיקוד"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "שום דבר"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "רדיאל"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "ליניארי"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "שיקוף"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussian"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "הוסף טקסט"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "טקסט"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "אפשרויות טקסט"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "צבע טקסט"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "גופן"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "להוסיף"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "ערוך"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "לסדר"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "גופן"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "צבע"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "BG צבע"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "יישור"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "לחזית"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "מחק"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "הטקסט שלך"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "‌מברשת"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "צבע"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "גודל"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "קשיות"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "לחזית"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "מחק"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "צבע מברשת"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "עורך"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "לסגור את העורך\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "האם אתה בטוח שברצונך לבטל את השינויים\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "כן"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "לא"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "בטל"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "מקבל"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "שמור"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "מייצא…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "מייצא את %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "מדבקה"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "צבע מדבקה"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "אפשרויות מדבקות"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "הוסף"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "צבע"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "מחק"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "לחזית"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "לסדר"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "החלף"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "אטימות"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "ניגודיות"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "רוויה"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "בהירות"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "העלאות"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "כיסוי"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "נורמלי"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "כהה"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "מסך"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "כיסוי"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "מוהר"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "להכפיל"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "צריבת צבע"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "אור רך"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "אור קשה"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "ללא"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "זָהוּב"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "דליפת אור 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "פְּסִיפָס"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "נייר"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "גשם"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "בציר"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Flip H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Flip V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Undo"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Redo"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Color Picker"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Transparent"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "White"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Gray"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Black"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Light blue"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Blue"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Purple"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orchid"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Pink"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Red"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Orange"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Gold"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Yellow"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Olive"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Green"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Aquamarin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Pipettable color"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Trim"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "How can I make Simple Gallery the default device gallery\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "First you have to find the currently default gallery in the Apps section of your device settings, look for a button that says something like \\\"Open by default\\\", click on it, then select \\\"Clear defaults\\\". The next time you will try opening an image or video you should see an app picker, where you can select Simple Gallery and make it the default app."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "I locked the app with a password, but I forgot it. What can I do\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "You can solve it in 2 ways. You can either reinstall the app, or find the app in your device settings and select \\\"Clear data\\\". It will reset all your settings, it will not remove any media files."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "How can I make an album always appear at the top\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "You can long press the desired album and select the Pin icon at the actions menu, that will pin it to the top. You can pin multiple folders too, pinned items will be sorted by the default sorting method."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "How can I fast forward videos\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "What is the difference between hiding and excluding a folder\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Exclude prevents displaying the folder only in Simple Gallery, while Hide works system-wise and it hides the folder from other galleries too. It works by creating an empty \\\".nomedia\\\" file in the given folder, which you can then remove with any file manager too. Note that some devices do not allow hiding folders like Camera, Screenshots and Downloads."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Why do folders with music cover art or stickers show up\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "It can happen that you will see some unusual albums show up. You can easily exclude them by long pressing them and selecting Exclude. In the next dialog you can then select the parent folder, chances are it will prevent the other related albums showing up too."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "A folder with images isn't showing up, or it doesn't show all items. What can I do\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "That can have multiple reasons, but solving it is easy. Just go in Settings -> Manage Included Folders, select Plus and navigate to the required folder."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "What if I want just a few particular folders visible\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Adding a folder at the Included Folders doesn't automatically exclude anything. What you can do is go in Settings -> Manage Excluded Folders, exclude the root folder \\\"/\\\", then add the desired folders at Settings -> Manage Included Folders. That will make only the selected folders visible, as both excluding and including are recursive and if a folder is both excluded and included, it will show up."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Can I crop images with this app\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Yes, you can crop images in the editor, by dragging the image corners. You can get to the editor either by long pressing an image thumbnail and selecting Edit, or selecting Edit from the fullscreen view."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Can I somehow group media file thumbnails\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Sure, just use the \\\"Group by\\\" menu item while at the thumbnails view. You can group files by multiple criteria, including Date Taken. If you use the \\\"Show all folders content\\\" function you can group them by folders too."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Sorting by Date Taken doesn't seem to work properly, how can I fix it\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "It is most likely caused by the files being copied from somewhere. You can fix it by selecting the file thumbnails and selecting \\\"Fix Date Taken value\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "I see some color banding on the images. How can I improve the quality\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "The current solution for displaying images works fine in the vast majority of cases, but if you want even better image quality, you can enable the \\\"Show images in the highest possible quality\\\" at the app settings, in the \\\"Deep zoomable images\\\" section."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "I have hidden a file/folder. How can I unhide it\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "You can either press the \\\"Temporarily show hidden items\\\" menu item at the main screen, or toggle \\\"Show hidden items\\\" in the app settings to see the hidden item. If you want to unhide it, just long press it and select \\\"Unhide\\\". Folders are hidden by adding a hidden \\\".nomedia\\\" file into them, you can delete the file with any file manager too. Note that hiding works recursively though, so if you hide a folder, all subfolders will become hidden too. So for unhiding the subfolders you have to unhide the parent folder."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Why does the app take up so much space\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "App cache can take up to 250MB, it ensures quicker image loading. If the app is taking up even more space, it is most likely caused by you having items in the Recycle Bin. Those files count to the app size. You can clear the Recycle bin by opening it and deleting all files, or from the app settings. Every file in the Bin is deleted automatically after 30 days."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "What happened to file and folder hiding and why cannot I see hidden items anymore\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Starting with Android 11 you cannot hide or unhide files or folders anymore, you cannot see the hidden ones in gallery apps due to system restrictions either. You will have to use some file manager for that."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Or you can also grant this gallery access to All Files through your device settings, that will allow us showing hidden items and make file operations more reliable in general."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Why cannot I include missing folders anymore\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "That stopped working due to the system changes that came with Android 11 too, the app cannot browse real folders anymore, it relies on the so called MediaStore at fetching data."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Why do I see ads during video playback\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Our apps have no ads whatsoever. If you see them during video playback, you must be using some other apps video player. Try finding your default video player in the device settings, then do a \\\"Clear defaults\\\" on it. The next time you invoke some video intent you will see an app picker prompt, where you can select what app you want to use."
+    }
+  ]
+}

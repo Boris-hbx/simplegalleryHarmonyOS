@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Обикновена Галерия"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Галерия"
+    },
+    {
+      "name": "edit",
+      "value": "Редакция"
+    },
+    {
+      "name": "open_camera",
+      "value": "Камера"
+    },
+    {
+      "name": "hidden",
+      "value": "(скрито)"
+    },
+    {
+      "name": "excluded",
+      "value": "(изключено)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Закачете папката"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Откачете папката"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Закачете отгоре"
+    },
+    {
+      "name": "show_all",
+      "value": "Покажете съдържанието на всички папки"
+    },
+    {
+      "name": "all_folders",
+      "value": "Всички папки"
+    },
+    {
+      "name": "folder_view",
+      "value": "Папки"
+    },
+    {
+      "name": "other_folder",
+      "value": "Избор на папка"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Показване на картата"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Неизвестно местоположение"
+    },
+    {
+      "name": "volume",
+      "value": "Сила на звука"
+    },
+    {
+      "name": "brightness",
+      "value": "Осветеност"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Блокиране на ориентацията"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Разблокиране на ориентацията"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Промяна на ориентацията"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Портрет"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Албум"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Използване на основната ориентация"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Поправка на датата на заснемане"
+    },
+    {
+      "name": "fixing",
+      "value": "Поправяне…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Датата е успешно поправена"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Не са открити стойности за дата на заснемане"
+    },
+    {
+      "name": "share_resized",
+      "value": "Споделете преоразмерена версия"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Превключване към търсене на файлове във всички видими папки"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Задаване като основна папка"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Отхвърляне като основна папка"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Пренаредете папките с влачене"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Пренаредете папките с влачене (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Възстановяване в '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Филтър на медия"
+    },
+    {
+      "name": "images",
+      "value": "Изображения"
+    },
+    {
+      "name": "videos",
+      "value": "Видеа"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG"
+    },
+    {
+      "name": "portraits",
+      "value": "Портрети"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "С избраните филтри не са открити медийни файлове."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Смени филтрите"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Тази функция скрива папката чрез добавяне на '.nomedia' файл в нея; това също ще скрие и папките в нея. Можете да ги видите чрез превключване на 'Показване на скритите елементи' в настройките. Напред\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Това ще изключи селекцията заедно с вътрешните ѝ папки само от Обикновена Галерия. Можете да управлявате изключените папки в Настройки."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Вместо това, изключване на папката от горното ниво\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Изключването на папките ще ги скрие, заедно с вътрешните им папки, само в Обикновена Галерия; те ще бъдат видими в други приложения.\r\n\\n\r\n\\nАко искате да ги скриете също и от други приложения, използвайте функцията Скриване."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Скрити папки"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Управление на скритите папки"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Изглежда нямате папки скрити чрез '.nomedia' файл."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Трябва да предоставите на приложението достъп до всички файлове, за да видите скритите файлове, в противен случай то не може да работи."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Ако папка или една от нейните родителски папки има точка преди името си, тя е скрита и не може да бъде разкрита по този начин. Трябва да премахнете точката, като я преименувате."
+    },
+    {
+      "name": "include_folders",
+      "value": "Включени папки"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Управление на включените папки"
+    },
+    {
+      "name": "add_folder",
+      "value": "Добавяне на папка"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Ако имате папки с медия, които обаче не са били автоматично разпознати от програмата, може да ги добавите въчно тук.\r\n\\n\r\n\\nДобавянето на елементи тук няма да изключи никакви други папки."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Не са открити медийни файлове. Можете да го поправите чрез ръчно добавяне на папки с медия."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Преоразмеряване на избраното и запазване"
+    },
+    {
+      "name": "width",
+      "value": "Широчина"
+    },
+    {
+      "name": "height",
+      "value": "Височина"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Запазете съотношението на страните"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Моля въведете валидна резолюция"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Преоразмеряване на няколко изображения"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Коефициент на преоразмеряване"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Преоразмерете изображенията до дадения процент, стойността трябва да е в рамките на 10 и 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Въведете число между 10 и 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Изображенията са преоразмерени успешно"
+    },
+    {
+      "name": "editor",
+      "value": "Редактор"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Базов редактор"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Разширен редактор"
+    },
+    {
+      "name": "rotate",
+      "value": "Завъртане"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Неправилен път до изображението"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Неправилен път до видеото"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Неуспешна редакция на изображението"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Неуспешна редакция на видеото"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Прекратена редакция на изображението"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Прекратена редакция на видеото"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Успешна редакция на файла"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Успешна редакция на изображението"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Успешна редакция на видеото"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Редакция на изображението с:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Редакция на видеото с:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Не е открита програма за редактиране на изображения"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Не е открита програма за редактиране на видео"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Неизвестно местоположение на файл"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Неуспешно презаписване на изходния файл"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Завъртане наляво"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Завъртане надясно"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Завъртане на 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Трансформирай"
+    },
+    {
+      "name": "crop",
+      "value": "Изрежи"
+    },
+    {
+      "name": "draw",
+      "value": "Рисувай"
+    },
+    {
+      "name": "flip",
+      "value": "Oбръщане"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Хоризонтално обръщане"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Вертикално обръщане"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Свободно"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Друго"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Обикновен Тапет"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Задаване като тапет"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Неуспешно задаване като тапет"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Задаване като тапет с:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Задаване на тапет…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Успешно задаване на тапет"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Портретен формат"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Албумен формат"
+    },
+    {
+      "name": "home_screen",
+      "value": "Начален екран"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Заключен екран"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Начален и заключен екран"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Разрешаване на промяна на съотношението на страните"
+    },
+    {
+      "name": "slideshow",
+      "value": "Слайдшоу"
+    },
+    {
+      "name": "interval",
+      "value": "Интервал"
+    },
+    {
+      "name": "include_photos",
+      "value": "Добавяне на снимки"
+    },
+    {
+      "name": "include_videos",
+      "value": "Добавяне на видео"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Добавяне на GIF"
+    },
+    {
+      "name": "random_order",
+      "value": "Случаен ред"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Движение назад"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Цикличност на слайдшоу"
+    },
+    {
+      "name": "animation",
+      "value": "Анимация"
+    },
+    {
+      "name": "no_animation",
+      "value": "Няма"
+    },
+    {
+      "name": "fade",
+      "value": "Избледняване"
+    },
+    {
+      "name": "slide",
+      "value": "Плъзгане"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Край на слайдшоу"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Не са открити медийни файлове за слайдшоу"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Групиране на вътрешни папки"
+    },
+    {
+      "name": "group_by",
+      "value": "Групиране чрез"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Без групиране на файлове"
+    },
+    {
+      "name": "by_folder",
+      "value": "Папка"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Последно изменение"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Последно изменение (дневно)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Последно изменение (месечно)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Дата на заснемане"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Дата на заснемане (дневно)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Дата на заснемане (месечно)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Вид на файла"
+    },
+    {
+      "name": "by_extension",
+      "value": "Разширение"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Показване на броя файлове в хедърите на разделите"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Обърнете внимание, че групирането и сортирането са 2 независими полета"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Папка показана на приспособлението:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Покажи името на папката"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Автоматично стартиране на видео"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Запомняне на последната времева позиция на видеото"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Цикличност на видеото"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Анимиране на миниатюрните GIF изображения"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Максимална осветеност при гледане на цял екран"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Отрязване на миниатюрните изображения на квадрати"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Показване на дължината на видеото"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Завъртане на медията на цял екран с"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Системна настройка"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Завъртане на устройството"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "По размера на изображението"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Черен фон при медия на цял екран"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Хоризонтално превъртане на миниатюрните изображения"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Автоматично скриване на системния интерфейс при гледане на цял екран"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Изтриване на празни папки след делене на тяхното съдържание"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Позволете контролиране на осветеността на изображенията с вертикални жестове"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Позволете контролиране на звука и осветеността на видеото с вертикални жестове"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Показване на количеството на файловете в папките"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Показване на сведения за файла при гледане на цял екран"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Управление на сведенията за файла"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Увеличаване на мащаба с един пръст при гледане на цял екран"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Моментална смяна на медията чрез кликване отстрани на екрана"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Пълна промяна на мащаба на изображенията"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Скриване на сведения за файла когато е скрита информацията за състоянието"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Показване на някои бутони за действия в долната част екрана"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Показване на кошче на екрана с папките"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Промяна мащаба на изображения"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Показване на изображения с най-високото възможно качество"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Показване на кошчето като последен елемент на главния екран"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Излизане от режим на цял екран с жест надолу"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Мащабиране 1:1 с две двойни потупвания"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Отваряне на видео на отделен екран с нов хоризонтален жест"
+    },
+    {
+      "name": "show_notch",
+      "value": "Показване на етикет, ако е наличен"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Завъртане на изображения с жестове"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Приоритет на зареждане на файлове"
+    },
+    {
+      "name": "speed",
+      "value": "Скорост"
+    },
+    {
+      "name": "compromise",
+      "value": "Компромис"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Показване само на валидни файлове"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Показване на вида на файла на изображението"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Увеличаване мащаба на видеото с двойно тупване"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Стил на папката на миниатюрните изображения"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Стил на файла на миниатюрното изображение"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Отбелязване на любими елементи"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Празно пространство между миниатюрните изображения"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Показване на брояча на отделна линия"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Показване на броя файлове в скоби"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Без показване на броя файлове"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Ограничаване на заглавията на папките до един ред"
+    },
+    {
+      "name": "square",
+      "value": "Квадрат"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Заоблени ъгли"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Експортиране на любимите"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Импортиране на любими"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Пътищата са импортирани успешно"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "За да работят надеждно всички операции, моля задайте това приложение да управлява медията в настройките на вашето устройство."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Защита на изключена папка с парола"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Нещо се обърка, моля, влезте в Настройки на вашето устройство - Приложения - Достъп до специални приложения - Приложения за управление на медии и разрешете на това приложение да управлява медиите."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Ако пренасочването не работи, моля, влезте в Настройки на вашето устройство - Приложения - Достъп до специални приложения - Приложения за управление на медии и разрешете на това приложение да управлява медиите."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Ако не искате да го направите, можете също да отидете в Настройки на вашето устройство - Приложения - Специален достъп до приложения - Приложения за управление на медии и да разрешите на това приложение да управлява медии."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Като алтернатива можете да разрешите достъп само до медийни файлове. В този случай обаче няма да можете да работите със скрити файлове."
+    },
+    {
+      "name": "media_only",
+      "value": "Само медия"
+    },
+    {
+      "name": "all_files",
+      "value": "Всички файлове"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Търсете всички файлове вместо папки на главния екран"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Показване на бутон на менюто за бързо превключване на Показване на съдържанието на всички папки"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Миниатюри"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Медия на цял екран"
+    },
+    {
+      "name": "extended_details",
+      "value": "Подробности"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Действия от долния край на екрана"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Управление на видимите действия в долния край на екрана"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Превключване на любимите"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Превключване на видимост на файл"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Персонализирани"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Нулиране"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Квадрат"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Трансформация"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Филтър"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Няма"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Настройка"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Сенки"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Експозиция"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Акценти"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Осветеност"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Контраст"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Насищане"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Яснота"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Гама"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Затъмнение"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Осветяване"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Температура"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Рязкост"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Нулиране"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Фокус"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Няма"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Радиус"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Линия"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Отразено"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Гаусово"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Добавяне на текст"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Текст"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Настройки на текста"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Цвят на текста"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Фонт"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Добавяне"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Редактиране"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Изправяне"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Фонт"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Цвят"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Фонов цвят"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Изравняване"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Отпред"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Изтриване"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Вашият текст"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Четка"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Цвят"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Размер"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Твърдост"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Отпред"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Изтриване"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Цвят на четка"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Редактор"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Затваряне на редактора\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Наистина ли искате да се откажете от промените\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Да"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Не"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Отказ"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Приеми"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Запазване"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Експортиране…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Екпортиране на %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Стикер"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Цвят на стикера"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Настройки на стикера"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Добави"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Цвят"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Изтрий"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Отпред"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Изправяне"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Замяна"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Насищане"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Непрозрачност"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Контраст"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Осветеност"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Ъплоудване"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Наслагване"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Нормално"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Затъмняване"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Екран"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Наслагване"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Осветяване"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Умножение"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Цветно прогаряне"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Мека светлина"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Силна светлина"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Няма"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Златно"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Подсветка 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Мозайка"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Хартия"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Дъжд"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Старинно"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Хориз. обръщане"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Вертик. обръщане"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Отмяна"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Повторение"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Избор на цвят"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Прозрачно"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Бяло"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Сиво"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Черно"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Светлосиньо"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Синьо"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Виолетово"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Светлолилаво"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Розово"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Червено"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Оранжево"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Златно"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Жълто"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Маслиненозелено"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Зелено"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Аквамарин"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Цвят от пипетиране"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Изрязване"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Как мога да задам Обикновена Галерия да бъде основната галерия на устройството\\?"
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Заключих програмата с парола, но я забравих. Какво мога да направя\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Можете да разрешите проблема по два начина. Можете или да преинсталирате програмата, или да намерите програмата в настройките на вашето устройство и да изберете \\\"Изчистване на данните\\\". Това ще нулира всички ваши настройки, няма да изтрие никакви медийни файлове."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Как мога да превъртя напред видео\\?"
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Каква е разликата между скриване и изключване на папка\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Първо трябва да намерите галерията по подразбиране в момента в секцията Приложения на настройките на вашето устройство, потърсете бутон, който казва нещо като „Отваряне по подразбиране“, щракнете върху него, след което изберете „Изчистване на настройките по подразбиране“. Следващия път, когато се опитате да отворите изображение или видеоклип, трябва да видите инструмент за избор на приложение, където можете да изберете Обикновена Галерия и да го направите приложение по подразбиране."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Как мога да накарам някой албум да се показва винаги отгоре\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Можете да тупнете отстрани на екрана или да тупнете върху текстовете за текуща или максимална продължителност близо до полето за търсене. Ако включите отварянето на видео на отделен екран в настройките на приложението, можете също да използвате хоризонтални жестове."
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Можете да натиснете дълго избрания албум и да изберете \\\"Закачване\\\" в менюто с действията, това ще го закачи отгоре. Можете да закачите множество папки, като закачените папки ще бъдат сортирани с основния начин за сортиране."
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Изключването предотвратява показването на папката само в Обикновена Галерия, докато Скриването работи системно и скрива папката и от други галерии. Това работи чрез създаване на празен \\\".nomedia\\\" файл в дадената папка, който след това можете да премахнете и с всеки файлов мениджър. Имайте предвид, че някои устройства не позволяват скриване на папки като Камера, Екранни снимки и Изтегляния."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Защо се показват папки с музикални албуми или стикери\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Може да видите да се показват някои необичайни албуми. Можете да ги изключите като ги натиснете продължително и после изберете Изключване. В следващия диалог можете да изберете папката от по-горно ниво, като има вероятност това да скрие и други свързани албуми."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Папка с изображения не се показва, или не показва всички елементи. Какво мога да направя\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Може да има множество причини за това, но решението е лесно. Просто идете в Настройки -> Управление на Включените Папки, изберете Плюс и навигирайте до исканата папка."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Ами ако искам да са видими само няколко специфични папки\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Добавянето на папка към Включените Папки не изключва нищо автоматично. Това което можете да направите е, да идете в Настройки -> Управление на Изключени Папки, да изключите коренната папка \\\"/\\\", а след това да добавите желаните папки чрез Настройки -> Управление на Включените Папки. Това ще направи видими само избраните папки, тъй като и изключването и включването са рекурсивни, а ако има папка което е и изключена и включена, тя ще се покаже."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Мога ли да изрязвам изображения с това приложение\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Да, можете да изрежете изображения в редактора, като плъзкате ъглите на изображението. Можете да стигнете до редактора като натиснете продължително миниатюра на изображение и изберете Редактиране, или изберете Редактиране от изгледа на цял екран."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Мога ли да групирам миниатюри на медийни файлове\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Разбира се, просто използвайте елемента от менюто „Групиране по“, докато сте в изгледа с миниатюри. Можете да групирате файлове по множество критерии, включително Дата на заснемане. Ако използвате функцията „Показване на съдържанието на всички папки“, можете да ги групирате и по папки."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Сортирането по дата на заснемане изглежда не работи правилно, как мога да го поправя\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Най-вероятно е причинено от копирането на файлове от някъде. Можете да го поправите, като изберете миниатюрите на файла и изберете \\\"Поправяне стойност на датата на заснемане\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Виждам някои цветни ленти на изображенията. Как мога да подобря качеството\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Настоящото решение за показване на изображения работи добре в по-голямата част от случаите, но ако искате още по-добро качество на изображението, можете да активирате „Показване на изображения с възможно най-високо качество“ в настройките на приложението, в секцията „Изображения с дълбоко мащабиране“ ."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Скрих файл/папка. Как мога да го/я разкрия\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Можете или да натиснете елемента от менюто „Временно показване на скрити елементи“ на главния екран, или да превключите „Показване на скрити елементи“ в настройките на приложението, за да видите скрития елемент. Ако искате да го покажете, просто го натиснете дълго и изберете „Показване“. Папките се скриват чрез добавяне на скрит \\\".nomedia\\\" файл в тях, можете да изтриете файла и с всеки файлов мениджър. Имайте предвид, че скриването работи рекурсивно, така че ако скриете папка, всички подпапки също ще станат скрити. Така че, за да разкриете подпапките, трябва да разкриете родителската папка."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Защо приложението заема толкова много място\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Кешът на приложението може да отнеме до 250 MB, което гарантира по-бързо зареждане на изображението. Ако приложението заема още повече място, най-вероятно това е причинено от това, че имате елементи в кошчето. Тези файлове се броят към размера на приложението. Можете да изчистите кошчето, като го отворите и изтриете всички файлове или от настройките на приложението. Всеки файл в кошчето се изтрива автоматично след 30 дни."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Какво се случи със скриването на файлове и папки и защо вече не мога да виждам скрити елементи\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Започвайки с Android 11, вече не можете да скривате или показвате файлове или папки, не можете да виждате скритите в приложения за галерия поради системни ограничения. За това ще трябва да използвате някакъв файлов мениджър."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Или можете също да предоставите на тази галерия достъп до всички файлове през настройките на вашето устройство, което ще ни позволи да показваме скрити елементи и ще направи файловите операции по-надеждни като цяло."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Защо вече не мога да добавя липсващи папки\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Това спря да работи поради системните промени, които дойдоха и с Android 11, приложението вече не може да преглежда истински папки, разчита на така наречения MediaStore при извличане на данни."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Защо виждам реклами по време на възпроизвеждане на видео\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Приложенията ни нямат никакви реклами. Ако ги видите по време на възпроизвеждане на видео, явно използвате видеоплейър от други приложения. Опитайте да намерите подразбирания видеоплейър в настройките на устройството, след което направете „Изчистване на настройките по подразбиране“ върху него. Следващия път, когато извикате някакъв видеоплейър, ще видите диалог за избор на приложение, където можете да изберете кое приложение искате да използвате."
+    }
+  ]
+}

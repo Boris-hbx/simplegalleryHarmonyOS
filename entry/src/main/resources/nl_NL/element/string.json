@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Eenvoudige Galerij"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galerij"
+    },
+    {
+      "name": "edit",
+      "value": "Bewerken"
+    },
+    {
+      "name": "open_camera",
+      "value": "Camera"
+    },
+    {
+      "name": "hidden",
+      "value": "(verborgen)"
+    },
+    {
+      "name": "excluded",
+      "value": "(uitgesloten)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Map vastzetten"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Map losmaken"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Bovenaan vastzetten"
+    },
+    {
+      "name": "show_all",
+      "value": "Inhoud van alle mappen tonen"
+    },
+    {
+      "name": "all_folders",
+      "value": "Alle mappen"
+    },
+    {
+      "name": "folder_view",
+      "value": "Mapweergave"
+    },
+    {
+      "name": "other_folder",
+      "value": "Andere map"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Op kaart tonen"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Locatie onbekend"
+    },
+    {
+      "name": "volume",
+      "value": "Volume"
+    },
+    {
+      "name": "brightness",
+      "value": "Helderheid"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Schermoriëntatie vergrendelen"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Schermoriëntatie ontgrendelen"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Schermoriëntatie wijzigen"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Portretmodus forceren"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Landschapsmodus forceren"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Standaardmodus gebruiken"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Opnamedatum corrigeren"
+    },
+    {
+      "name": "fixing",
+      "value": "Corrigeren…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Datums zijn gecorrigeerd"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Geen opnamedatums gevonden"
+    },
+    {
+      "name": "share_resized",
+      "value": "Verkleinde versie delen"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Naar bestanden in alle zichtbare mappen zoeken"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Als standaardmap instellen"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Standaardmap herstellen"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Volgorde mappen bepalen met sleepgebaren"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Volgorde mappen bepalen met sleepgebaren (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Herstellen naar '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Media filteren"
+    },
+    {
+      "name": "images",
+      "value": "Afbeeldingen"
+    },
+    {
+      "name": "videos",
+      "value": "Video's"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF-bestanden"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW-afbeeldingen"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG-vectorafbeeldingen"
+    },
+    {
+      "name": "portraits",
+      "value": "Portretten"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Er zijn geen bestanden gevonden met de huidige filters."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Filters aanpassen"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Deze functie verbergt de map door het bestand ’.nomedia’ toe te voegen. Alle onderliggende mappen zullen ook worden verborgen. Kies ’Verborgen mappen tonen’ in de instellingen om toch verborgen mappen te kunnen inzien. Doorgaan\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Hiermee wordt de selectie (en onderliggende mappen) uitgesloten van deze galerij. Uitgesloten mappen kunnen worden beheerd in de instellingen."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "In plaats hiervan de bovenliggende map uitsluiten\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Uitsluiten zal mappen plus onderliggende mappen verbergen in Eenvoudige Galerij, maar niet voor andere apps.\r\n\\n\r\n\\nGebruik de functie Verbergen om ze ook in andere apps te verbergen."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Verborgen mappen"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Verborgen mappen beheren"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Er zijn geen mappen gevonden die zijn verborgen door bestand \\\".nomedia\\\"."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Geef de app het recht om alle bestanden te beheren om ook verborgen items te kunnen zien."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Mappen waarvan de naam begint met een punt worden altijd verborgen. Verwijder de punt uit de naam om de map te weergeven."
+    },
+    {
+      "name": "include_folders",
+      "value": "Toegevoegde mappen"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Toegevoegde mappen beheren"
+    },
+    {
+      "name": "add_folder",
+      "value": "Map toevoegen"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Als er mappen zijn die wel media bevatten, maar niet zijn herkend door Eenvoudige Galerij, voeg ze dan hier handmatig toe.\r\n\\n\r\n\\nHet hier toevoegen van mappen zal andere mappen niet uitsluiten."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Er zijn geen mediabestanden gevonden. Dit is op te lossen door de mappen met mediabestanden handmatig toe te voegen."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Grootte aanpassen en opslaan"
+    },
+    {
+      "name": "width",
+      "value": "Breedte"
+    },
+    {
+      "name": "height",
+      "value": "Hoogte"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Beeldverhouding vergrendelen"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Voer geldige afmetingen in"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Afbeeldingsgrootte aanpassen"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Factor vergroten/verkleinen"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Pas de grootte van afbeeldingen aan (voer een percentage tussen 10 en 90 in)."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Voer een getal tussen 10 en 90 in"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Afbeeldingen zijn aangepast"
+    },
+    {
+      "name": "editor",
+      "value": "Bewerken"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Eenvoudige bewerking"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Uitgebreide bewerking"
+    },
+    {
+      "name": "rotate",
+      "value": "Draaien"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Ongeldig pad naar afbeelding"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Ongeldig pad naar video"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Beeldbewerking mislukt"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Videobewerking mislukt"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Afbeelding bewerken is geannuleerd"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Videobewerking is geannuleerd"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Wijzigingen zijn opgeslagen"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Bewerkte afbeelding is opgeslagen"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Bewerkte video is opgeslagen"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Afbeelding bewerken met:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Video bewerken met:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Geen app voor fotobewerking gevonden"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Geen app voor videobewerking gevonden"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Onbekende bestandslocatie"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Bronbestand kan niet worden overschreven"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Linksom draaien"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Rechtsom draaien"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "180º draaien"
+    },
+    {
+      "name": "transform",
+      "value": "Vervormen"
+    },
+    {
+      "name": "crop",
+      "value": "Bijsnijden"
+    },
+    {
+      "name": "draw",
+      "value": "Tekenen"
+    },
+    {
+      "name": "flip",
+      "value": "Omdraaien"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Horizontaal spiegelen"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Verticaal spiegelen"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Vrij"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Anders"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Achtergrond"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Als achtergrond instellen"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Achtergrond instellen mislukt"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Achtergrond instellen met:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Achtergrond instellen…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Achtergrond is ingesteld"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Beeldverhouding staand"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Beeldverhouding liggend"
+    },
+    {
+      "name": "home_screen",
+      "value": "Startscherm"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Vergrendelscherm"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Start- en vergrendelscherm"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Beeldverhouding mag worden gewijzigd"
+    },
+    {
+      "name": "slideshow",
+      "value": "Diavoorstelling"
+    },
+    {
+      "name": "interval",
+      "value": "Interval"
+    },
+    {
+      "name": "include_photos",
+      "value": "Afbeeldingen tonen"
+    },
+    {
+      "name": "include_videos",
+      "value": "Video's tonen"
+    },
+    {
+      "name": "include_gifs",
+      "value": "GIF-bestanden tonen"
+    },
+    {
+      "name": "random_order",
+      "value": "Willekeurige volgorde"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Omgekeerde volgorde"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Voorstelling herhalen"
+    },
+    {
+      "name": "animation",
+      "value": "Overgangseffect"
+    },
+    {
+      "name": "no_animation",
+      "value": "Geen"
+    },
+    {
+      "name": "fade",
+      "value": "Overvloeien"
+    },
+    {
+      "name": "slide",
+      "value": "Verschuiven"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "De diavoorstelling is beëindigd"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Geen media gevonden voor diavoorstelling"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Direct onderliggende mappen groeperen"
+    },
+    {
+      "name": "group_by",
+      "value": "Groeperen op"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Bestanden niet groeperen"
+    },
+    {
+      "name": "by_folder",
+      "value": "Map"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Laatst gewijzigd"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Laatst gewijzigd (per dag)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Laatst gewijzigd (per maand)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Opnamedatum"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Opnamedatum (per dag)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Opnamedatum (per maand)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Bestandstype"
+    },
+    {
+      "name": "by_extension",
+      "value": "Extensie"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Bij de sectiekoppen het aantal bestanden tonen"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Groeperen en sorteren zijn twee aparte opties"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Map tonen in de widget:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Mapnaam tonen"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Video's automatisch afspelen"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Laatste positie in video’s onthouden"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Video's herhalen"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "GIF-miniaturen afspelen"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Maximale helderheid bij weergave in volledig scherm"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Miniaturen bijsnijden tot vierkanten"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Lengte van video’s tonen"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Media in volledig scherm roteren volgens"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Systeeminstelling"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Oriëntatie van apparaat"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Beeldverhouding"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Zwarte achtergrond en statusbalk bij volledig scherm"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Miniaturen horizontaal scrollen"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Statusbalk automatisch verbergen in volledig scherm"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Lege mappen verwijderen na leegmaken"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Helderheid van afbeeldingen regelen met verticale veeggebaren"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Volume en helderheid van video’s regelen met verticale veeggebaren"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Aantallen in mappen tonen"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Uitgebreide informatie tonen in volledig scherm"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Uitgebreide informatie"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Met één vinger zoomen in volledig scherm"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Direct naar vorige/volgende door op de zijkanten van het scherm te tikken"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Verder inzoomen mogelijk maken"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Uitgebreide informatie niet tonen als de statusbalk is verborgen"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Enkele actieknoppen onder in het scherm tonen"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Prullenbak weergeven in de mapweergave"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Afbeeldingen ver inzoomen"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Afbeeldingen in de hoogst mogelijke kwaliteit weergeven"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Prullenbak als laatste item tonen"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Naar beneden vegen om volledig scherm af te sluiten"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "1:1 zoomen na 2x dubbelklikken"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Video's altijd in apart scherm met horizontale veeggebaren openen"
+    },
+    {
+      "name": "show_notch",
+      "value": "Inkeping scherm tonen indien aanwezig"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Afbeeldingen met veeggebaren draaien"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Prioriteit bij inladen bestanden"
+    },
+    {
+      "name": "speed",
+      "value": "Snelheid"
+    },
+    {
+      "name": "compromise",
+      "value": "Compromis"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Ongeldige bestanden verbergen"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Bestandstypen tonen"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Bij video's inzoomen met dubbelklikken"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Stijl voor miniaturen van mappen"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Stijl voor miniaturen van bestanden"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Favoriete items markeren"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Afstand tussen miniaturen"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Aantal bestanden op aparte regel tonen"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Aantal bestanden tussen rechte haken tonen"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Aantal bestanden niet tonen"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Lange mapnamen tot 1 regel beperken"
+    },
+    {
+      "name": "square",
+      "value": "Vierkant"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Afgeronde hoeken"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Favorieten exporteren"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Favorieten importeren"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Locaties zijn geïmporteerd"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "Maak van deze app in de systeeminstellingen een mediabeheer-app om er zeker van te zijn dat alle bestandsoperaties betrouwbaar werken."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Zichtbaarheid van uitgesloten mappen met wachtwoord beveiligen"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Er is een fout opgetreden. Ga naar de systeeminstellingen - Apps - Geavanceerd - Speciale app-toegang - Mediabeheer en geef deze app toegang tot mediabestanden."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Ga als de doorverwijzing niet werkt naar de systeeminstellingen - Apps - Geavanceerd - Speciale app-toegang - Mediabeheer en geef deze app toegang tot mediabestanden."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Ga anders naar de systeeminstellingen - Apps - Geavanceerd - Speciale app-toegang - Mediabeheer en geef deze app toegang tot mediabestanden."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "De app kan ook toegang tot alleen mediabestanden worden gegeven, maar er kan dan niet worden gewerkt met verborgen bestanden."
+    },
+    {
+      "name": "media_only",
+      "value": "Mediabestanden"
+    },
+    {
+      "name": "all_files",
+      "value": "Alle bestanden"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Op het beginscherm niet naar mappen, maar bestanden in de zichtbare mappen zoeken"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Menuknop ’Inhoud van alle mappen tonen’ tonen"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Miniaturen"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Volledig scherm"
+    },
+    {
+      "name": "extended_details",
+      "value": "Uitgebreide informatie"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Acties onderin het scherm"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Actieknoppen onderaan beheren"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Favoriet in-/uitschakelen"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Bestand tonen/verbergen"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Aangepast"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Beginwaarden"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Vierkant"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Vervormen"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filter"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "Geen"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Aanpassen"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Schaduwen"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Belichting"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Accenten"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Helderheid"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Verzadiging"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Lokaal contrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Zwarte tinten"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Witte tinten"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Temperatuur"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Scherpte"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Beginwaarden"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Focus"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Geen"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radiaal"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Lineair"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Gespiegeld"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussiaans"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Tekst toevoegen"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Tekst"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Tekstopties"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Tekstkleur"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Lettertype"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Toevoegen"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Bewerken"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Rechttrekken"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Lettertype"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Kleur"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "Achtergrondkleur"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Uitlijning"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Naar voren"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Verwijderen"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Vul hier tekst in"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Penseel"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Kleur"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Grootte"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Hardheid"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Naar voren"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Verwijderen"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Penseelkleur"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Bewerken"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Bewerken sluiten\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Veranderingen niet opslaan\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Ja"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Nee"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Annuleren"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Accepteren"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Opslaan"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Exporteren…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "%s exporteren."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Sticker"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Stickerkleur"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Stickeropties"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Toevoegen"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Kleur"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Verwijderen"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Naar voorgrond"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Rechttrekken"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Vervangen"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Dekking"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Contrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Verzadiging"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Helderheid"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Uploads"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Overlay"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normaal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Donkerder"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Raster"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Bedekken"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Lichter"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Vermenigvuldigen"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Kleur doordrukken"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Zwak licht"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Fel licht"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Geen"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Goud"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Licht lekken 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mozaïek"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Papier"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Regen"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Vintage"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Spiegelen H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Spiegelen V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Ongedaan maken"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Opnieuw"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Kleur kiezen"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Transparant"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Wit"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Grijs"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Zwart"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Lichtblauw"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Blauw"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Paars"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orchidee"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Roze"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Rood"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Oranje"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Goud"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Geel"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Olijf"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Groen"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Aquamarijn"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Met pipet kiezen"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Titel afkappen"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Hoe kan ik Eenvoudige Galerij instellen als standaard-app voor foto’s en video’s\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Zoek eerst de huidige standaard-app voor foto’s en video’s in de Android-instellingen (via \\\"Apps\\\" of Apps en meldingen\\\"). Klik bij de App-info op \\\"Standaardwaarden wissen\\\" (soms onder \\\"Standaard openen\\\"). Bij het openen van een foto of video zal de volgende keer een keuzescherm verschijnen, waarin Eenvoudige Galerij als standaard-app kan worden ingesteld."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Ik heb de app beveiligd met een wachtwoord, maar ben het wachtwoord nu vergeten. Wat kan ik doen\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Deïnstalleer en herinstalleer de app, of ga naar de app in de Android-instellingen via \\\"Apps (en meldingen)\\\" -> \\\"App-info\\\" en kies via \\\"Opslagruimte\\\" voor \\\"Gegevens wissen\\\". Hiermee worden alleen de instellingen van deze app gewist."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Hoe kan ik een map bovenaan vastzetten\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Druk lang op het map en kies vervolgens de punaise in het actiemenu. Als er meerdere mappen zijn vastgezet, zullen deze worden weergeven op basis van de standaardsortering."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Hoe kan ik terug- of vooruitspoelen in video’s\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Dubbelklik op de zijkant van het scherm, of tik op de cijfers die de voortgang of de lengte van de video weergeven om resp. terug of vooruit te springen. Als de instelling om video's in een apart scherm te openen is ingeschakeld, dan kunnen ook horizontale veeggebaren worden gebruikt."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Wat is het verschil tussen het verbergen en het uitsluiten van mappen\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Met \\\"Uitsluiten\\\" wordt het tonen van de map alleen binnen Eenvoudige Galerij voorkomen, terwijl \\\"Verbergen\\\" de map ook zal verbergen voor andere galerij-apps. Met \\\"Verbergen\\\" wordt een bestand genaamd \\\".nomedia\\\" in de te verbergen map aangemaakt (het verwijderen van dit bestand uit de map maakt het verbergen ongedaan). Op sommige apparaten is het echter niet mogelijk om specifieke mappen, zoals Camera, Screenshots en Downloads, te verbergen."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Waarom zie ik mappen met stickers of covers van muziekalbums\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Soms worden er wat ongebruikelijke afbeeldingen van andere apps getoond. Deze zijn gemakkelijk uit het overzicht te halen door lang te drukken op de map en vervolgens te kiezen voor \\\"Uitsluiten\\\". In het daaropvolgende venster is ook de bovenliggende map te kiezen; dit zou het tonen van soortgelijke ongewenste items kunnen voorkomen."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "Een bepaalde map met afbeeldingen wordt niet getoond. Wat kan ik doen\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Dit kan verschillende redenen hebben, maar is eenvoudig op te lossen. Ga naar \\\"Instellingen\\\" -> \\\"Toegevoegde mappen beheren\\\", klik vervolgens op het plus-symbool en navigeer naar de gewenste map."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Wat als ik slechts een beperkt aantal mappen wil laten zien\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Het toevoegen van mappen aan de lijst bij \\\"Toegevoegde mappen beheren\\\" sluit niet automatisch alle andere mappen uit. Sluit daarom de hoofdmap \\\"/\\\" uit via \\\"Instellingen\\\" -> \\\"Uitgesloten mappen beheren\\\" en voeg vervolgens de te tonen mappen toe bij \\\"Instellingen\\\" -> \\\"Toegevoegde mappen beheren\\\". Dit zal ervoor zorgen dat alleen de toegevoegde mappen worden getoond (mappen toevoegen of uitsluiten gebeurt recursief, maar een toegevoegde map zal altijd worden getoond)."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Kan ik afbeeldingen bijsnijden met deze app\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Ja, dat kan bij \\\"Bewerken\\\" door de hoeken te verslepen. Druk lang op een afbeelding in het overzicht of ga naar het volledig scherm en klik vervolgens op \\\"Bewerken\\\"."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Hoe kan ik mediabestanden groeperen\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Kies het menu-item \\\"Groeperen op\\\" om op basis van verschillende criteria te groeperen. Dit kan ook ongeacht de mappenstructuur als voor de functie \\\"Alles weergeven\\\" is gekozen."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Sorteren op opnamedatum lijkt niet te werken. Hoe kan ik dit oplossen\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Waarschijnlijk zijn de bestanden gekopieerd vanaf een andere locatie. Selecteer de bestanden en kies \\\"Opnamedatum corrigeren\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Ik zie \\\"color banding\\\" op de afbeeldingen. Hoe kan ik de kwaliteit verbeteren\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "In de meeste gevallen werkt de huidige methode voor het weergeven van afbeeldingen prima, maar met de instelling \\\"Afbeeldingen in de hoogst mogelijke kwaliteit weergeven\\\" onder \\\"Afbeeldingen ver inzoomen\\\" kan een nog betere kwaliteit worden bewerkstelligd."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Ik heb een bestand of map verborgen. Hoe kan ik dit ongedaan maken\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Kies het menu-item \\\"Verborgen items tijdelijk tonen\\\", of schakel de instelling \\\"Verborgen items tonen\\\" in om het verborgen item te kunnen zien. Druk vervolgens lang op het item en kies \\\"Tonen\\\" om het verbergen ongedaan te maken. Mappen worden verborgen door het bestand \\\".nomedia\\\" in de map te plaatsen; dit bestand kan ook handmatig in een andere app worden verwijderd. Het verbergen van mappen werkt recursief: alle onderliggende mappen binnen een verborgen map zullen óók verborgen worden. Om zo'n onderliggende map wél te kunnen zien, mag de map die deze onderliggende map bevat dus ook niet verborgen zijn."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Waarom neemt de app zoveel ruimte in beslag\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "De cache voor de app kan oplopen tot 250MB; dit garandeert snellere laadtijden van afbeeldingen. Indien de app nog meer ruimte inneemt, komt dat hoogstwaarschijnlijk door de items in de prullenbak. Ook deze bestanden worden meegerekend met de ingenomen ruimte. Verwijder deze items zelf vanuit de prullenbak of vanuit de instellingen van de app. Ieder item in de prullenbak zal na 30 dagen automatisch verwijderd worden."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Wat is er gebeurd met de functie om bestanden en mappen te verbergen\\? Waarom kan ik geen verborgen items meer bekijken\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Vanaf Android 11 kunnen bestanden en mappen niet meer verborgen (of weer getoond) worden via deze app. Wegens nieuwe restricties van Android kunnen verborgen items ook niet meer in galerij-apps worden weergegeven. Alleen bestandsbeheer-apps kunnen deze functionaliteit nog bieden."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Verleen de app via de systeeminstellingen toegang tot Alle bestanden om ook verborgen items te kunnen zien in de galerij. Ook bestandsbewerkingen vanuit deze app zullen dan betrouwbaarder zijn."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Waarom kan ik ontbrekende mappen niet meer handmatig toevoegen\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Dit werkt ook niet meer sinds de aanpassingen in Android 11: deze app mag niet meer door de mappen op het apparaat navigeren, maar is voortaan afhankelijk van de MediaStore van Android bij het ophalen van bestandsgegevens."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Waarom zie ik advertenties bij het afspelen van video's\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Onze apps bevatten geen advertenties. Indien er wél advertenties verschijnen bij video's, dan kan dat alleen vanuit een andere app zijn. Probeer uit te vinden welke app als standaard-videospeler is ingesteld, zoek de app in de systeeminstellingen op en klik op \\\"Standaardwaarden wissen\\\". Kies de volgende keer bij het afspelen van een video welke app er gebruikt moet worden."
+    }
+  ]
+}

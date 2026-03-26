@@ -1,0 +1,1428 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Simple Gallery"
+    },
+    {
+      "name": "app_launcher_name",
+      "value": "Galleri"
+    },
+    {
+      "name": "edit",
+      "value": "Redigera"
+    },
+    {
+      "name": "open_camera",
+      "value": "Öppna kameran"
+    },
+    {
+      "name": "hidden",
+      "value": "(dold)"
+    },
+    {
+      "name": "excluded",
+      "value": "(exkluderad)"
+    },
+    {
+      "name": "pin_folder",
+      "value": "Fäst mapp"
+    },
+    {
+      "name": "unpin_folder",
+      "value": "Lossa mapp"
+    },
+    {
+      "name": "pin_to_the_top",
+      "value": "Fäst högst upp"
+    },
+    {
+      "name": "show_all",
+      "value": "Visa alla mappars innehåll"
+    },
+    {
+      "name": "all_folders",
+      "value": "Alla mappar"
+    },
+    {
+      "name": "folder_view",
+      "value": "Byt till mappvy"
+    },
+    {
+      "name": "other_folder",
+      "value": "Annan mapp"
+    },
+    {
+      "name": "show_on_map",
+      "value": "Visa på karta"
+    },
+    {
+      "name": "unknown_location",
+      "value": "Okänd plats"
+    },
+    {
+      "name": "volume",
+      "value": "Volym"
+    },
+    {
+      "name": "brightness",
+      "value": "Ljusstyrka"
+    },
+    {
+      "name": "lock_orientation",
+      "value": "Aktivera rotationslås"
+    },
+    {
+      "name": "unlock_orientation",
+      "value": "Inaktivera rotationslås"
+    },
+    {
+      "name": "change_orientation",
+      "value": "Ändra orientering"
+    },
+    {
+      "name": "force_portrait",
+      "value": "Lås skärmen i stående läge"
+    },
+    {
+      "name": "force_landscape",
+      "value": "Lås skärmen i liggande läge"
+    },
+    {
+      "name": "use_default_orientation",
+      "value": "Använd standardorientering"
+    },
+    {
+      "name": "fix_date_taken",
+      "value": "Korrigera fotodatum"
+    },
+    {
+      "name": "fixing",
+      "value": "Korrigerar…"
+    },
+    {
+      "name": "dates_fixed_successfully",
+      "value": "Datumen har korrigerats"
+    },
+    {
+      "name": "no_date_takens_found",
+      "value": "Inga Datum Tagna värden hittades"
+    },
+    {
+      "name": "share_resized",
+      "value": "Dela en storleksändrad version"
+    },
+    {
+      "name": "switch_to_file_search",
+      "value": "Växla till filsökning i alla synliga mappar"
+    },
+    {
+      "name": "set_as_default_folder",
+      "value": "Använd som standardmapp"
+    },
+    {
+      "name": "unset_as_default_folder",
+      "value": "Ta bort som standardmapp"
+    },
+    {
+      "name": "reorder_by_dragging",
+      "value": "Ändra mappordning genom att dra"
+    },
+    {
+      "name": "reorder_by_dragging_pro",
+      "value": "Ändra mappordning genom att dra (Pro)"
+    },
+    {
+      "name": "restore_to_path",
+      "value": "Återställ till '%s'"
+    },
+    {
+      "name": "filter_media",
+      "value": "Filtrera media"
+    },
+    {
+      "name": "images",
+      "value": "Bilder"
+    },
+    {
+      "name": "videos",
+      "value": "Videor"
+    },
+    {
+      "name": "gifs",
+      "value": "GIF-bilder"
+    },
+    {
+      "name": "raw_images",
+      "value": "RAW-bilder"
+    },
+    {
+      "name": "svgs",
+      "value": "SVG-bilder"
+    },
+    {
+      "name": "portraits",
+      "value": "Porträtt"
+    },
+    {
+      "name": "no_media_with_filters",
+      "value": "Inga mediafiler hittades med de valda filtren."
+    },
+    {
+      "name": "change_filters_underlined",
+      "value": "Ändra filter"
+    },
+    {
+      "name": "hide_folder_description",
+      "value": "Denna funktion döljer mappen och alla dess undermappar genom att lägga till en '.nomedia'-fil i den. Du kan se dem genom att växla 'Visa dolda objekt'-alternativet i Inställningar. Vill du fortsätta\\?"
+    },
+    {
+      "name": "exclude_folder_description",
+      "value": "Detta utesluter bara den markerade mappen och dess undermappar från Simple Gallery. Du kan hantera uteslutna mappar i Inställningar."
+    },
+    {
+      "name": "exclude_folder_parent",
+      "value": "Vill du utesluta en överordnad mapp istället\\?"
+    },
+    {
+      "name": "excluded_activity_placeholder",
+      "value": "Uteslutning av mappar döljer bara dem och deras undermappar i Simple Gallery, de visas fortfarande i andra appar.\r\n\\n\r\n\\nAnvänd Dölj-funktionen om du även vill dölja dem från andra appar."
+    },
+    {
+      "name": "hidden_folders",
+      "value": "Dolda mappar"
+    },
+    {
+      "name": "manage_hidden_folders",
+      "value": "Hantera dolda mappar"
+    },
+    {
+      "name": "hidden_folders_placeholder",
+      "value": "Det verkar som att inga mappar har dolts med \\\".nomedia\\\"-filer."
+    },
+    {
+      "name": "hidden_all_files",
+      "value": "Du måste ge appen behörighet till alla filer för att se dolda filer, annars fungerar det inte."
+    },
+    {
+      "name": "cant_unhide_folder",
+      "value": "Om en mapp eller en av dess överordnade mappar har en punkt före sitt namn, är den dold och kan inte döljas så här. Du måste ta bort punkten genom att byta namn på den."
+    },
+    {
+      "name": "include_folders",
+      "value": "Inkluderade mappar"
+    },
+    {
+      "name": "manage_included_folders",
+      "value": "Hantera inkluderade mappar"
+    },
+    {
+      "name": "add_folder",
+      "value": "Lägg till mapp"
+    },
+    {
+      "name": "included_activity_placeholder",
+      "value": "Om du har mappar som innehåller media, som inte känns igen av appen, kan du lägga till dem manuellt här.\r\n\\n\r\n\\nAtt lägga till några föremål här kommer inte att utseluta någon annan mapp."
+    },
+    {
+      "name": "no_media_add_included",
+      "value": "Inga mediefiler hittades. Du kan lägga till de mappar som innehåller mediefiler manuellt."
+    },
+    {
+      "name": "resize_and_save",
+      "value": "Ändra storlek och spara"
+    },
+    {
+      "name": "width",
+      "value": "Bredd"
+    },
+    {
+      "name": "height",
+      "value": "Höjd"
+    },
+    {
+      "name": "keep_aspect_ratio",
+      "value": "Behåll bildförhållande"
+    },
+    {
+      "name": "invalid_values",
+      "value": "Ange en giltig bildupplösning"
+    },
+    {
+      "name": "resize_multiple_images",
+      "value": "Ändra storlek på flera bilder"
+    },
+    {
+      "name": "resize_factor",
+      "value": "Ändra storleksfaktor"
+    },
+    {
+      "name": "resize_factor_info",
+      "value": "Ändra storlek på bilder till angiven procentandel, värdet måste vara inom 10 och 90."
+    },
+    {
+      "name": "resize_factor_error",
+      "value": "Ange ett nummer mellan 10 och 90"
+    },
+    {
+      "name": "images_resized_successfully",
+      "value": "Bilder har ändrat storlek"
+    },
+    {
+      "name": "editor",
+      "value": "Redigerare"
+    },
+    {
+      "name": "basic_editor",
+      "value": "Enkel redigerare"
+    },
+    {
+      "name": "advanced_editor",
+      "value": "Avancerad redigerare"
+    },
+    {
+      "name": "rotate",
+      "value": "Rotera"
+    },
+    {
+      "name": "invalid_image_path",
+      "value": "Ogiltig bildsökväg"
+    },
+    {
+      "name": "invalid_video_path",
+      "value": "Ogiltig videosökväg"
+    },
+    {
+      "name": "image_editing_failed",
+      "value": "Bilden kunde inte redigeras"
+    },
+    {
+      "name": "video_editing_failed",
+      "value": "Videoredigering misslyckades"
+    },
+    {
+      "name": "image_editing_cancelled",
+      "value": "Bildredigering avbruten"
+    },
+    {
+      "name": "video_editing_cancelled",
+      "value": "Videoredigering avbruten"
+    },
+    {
+      "name": "file_edited_successfully",
+      "value": "Filredigering utförd"
+    },
+    {
+      "name": "image_edited_successfully",
+      "value": "Bildredigering utförd"
+    },
+    {
+      "name": "video_edited_successfully",
+      "value": "Videoredigering utförd"
+    },
+    {
+      "name": "edit_image_with",
+      "value": "Redigera bilden med:"
+    },
+    {
+      "name": "edit_video_with",
+      "value": "Redigera video med:"
+    },
+    {
+      "name": "no_image_editor_found",
+      "value": "Ingen bildredigerare hittades"
+    },
+    {
+      "name": "no_video_editor_found",
+      "value": "Ingen videoredigerare funnen"
+    },
+    {
+      "name": "unknown_file_location",
+      "value": "Okänd filplats"
+    },
+    {
+      "name": "error_saving_file",
+      "value": "Det gick inte att skriva över källfilen"
+    },
+    {
+      "name": "rotate_left",
+      "value": "Rotera åt vänster"
+    },
+    {
+      "name": "rotate_right",
+      "value": "Rotera åt höger"
+    },
+    {
+      "name": "rotate_one_eighty",
+      "value": "Rotera 180º"
+    },
+    {
+      "name": "transform",
+      "value": "Transformera"
+    },
+    {
+      "name": "crop",
+      "value": "Beskär"
+    },
+    {
+      "name": "draw",
+      "value": "Rita"
+    },
+    {
+      "name": "flip",
+      "value": "Vänd"
+    },
+    {
+      "name": "flip_horizontally",
+      "value": "Vänd horisontellt"
+    },
+    {
+      "name": "flip_vertically",
+      "value": "Vänd vertikalt"
+    },
+    {
+      "name": "free_aspect_ratio",
+      "value": "Fritt"
+    },
+    {
+      "name": "other_aspect_ratio",
+      "value": "Annat"
+    },
+    {
+      "name": "simple_wallpaper",
+      "value": "Bakgrund"
+    },
+    {
+      "name": "set_as_wallpaper",
+      "value": "Använd som bakgrund"
+    },
+    {
+      "name": "set_as_wallpaper_failed",
+      "value": "Det gick inte att ställa in bakgrunden"
+    },
+    {
+      "name": "set_as_wallpaper_with",
+      "value": "Ställ in som bakgrund med:"
+    },
+    {
+      "name": "setting_wallpaper",
+      "value": "Ställer in bakgrunden…"
+    },
+    {
+      "name": "wallpaper_set_successfully",
+      "value": "Bakgrunden har ställts in"
+    },
+    {
+      "name": "portrait_aspect_ratio",
+      "value": "Stående bildförhållande"
+    },
+    {
+      "name": "landscape_aspect_ratio",
+      "value": "Liggande bildförhållande"
+    },
+    {
+      "name": "home_screen",
+      "value": "Startskärm"
+    },
+    {
+      "name": "lock_screen",
+      "value": "Låsskärm"
+    },
+    {
+      "name": "home_and_lock_screen",
+      "value": "Startskärm och låsskärm"
+    },
+    {
+      "name": "allow_changing_aspect_ratio",
+      "value": "Tillåt ändring av bildförhållande"
+    },
+    {
+      "name": "slideshow",
+      "value": "Bildspel"
+    },
+    {
+      "name": "interval",
+      "value": "Intervall"
+    },
+    {
+      "name": "include_photos",
+      "value": "Inkludera foton"
+    },
+    {
+      "name": "include_videos",
+      "value": "Inkludera videor"
+    },
+    {
+      "name": "include_gifs",
+      "value": "Inkludera GIF-bilder"
+    },
+    {
+      "name": "random_order",
+      "value": "Spela upp i slumpmässig ordning"
+    },
+    {
+      "name": "move_backwards",
+      "value": "Spela upp i omvänd ordning"
+    },
+    {
+      "name": "loop_slideshow",
+      "value": "Spela upp i en slinga"
+    },
+    {
+      "name": "animation",
+      "value": "Animering"
+    },
+    {
+      "name": "no_animation",
+      "value": "Ingen"
+    },
+    {
+      "name": "fade",
+      "value": "Tona"
+    },
+    {
+      "name": "slide",
+      "value": "Glid"
+    },
+    {
+      "name": "slideshow_ended",
+      "value": "Bildspelet har avslutats"
+    },
+    {
+      "name": "no_media_for_slideshow",
+      "value": "Ingen media hittades för bildspelet"
+    },
+    {
+      "name": "group_direct_subfolders",
+      "value": "Gruppera direkta undermappar"
+    },
+    {
+      "name": "group_by",
+      "value": "Gruppera efter"
+    },
+    {
+      "name": "do_not_group_files",
+      "value": "Gruppera inte filer"
+    },
+    {
+      "name": "by_folder",
+      "value": "Mapp"
+    },
+    {
+      "name": "by_last_modified",
+      "value": "Senast ändrad"
+    },
+    {
+      "name": "by_last_modified_daily",
+      "value": "Senast ändrad (dag)"
+    },
+    {
+      "name": "by_last_modified_monthly",
+      "value": "Senast ändrad (månad)"
+    },
+    {
+      "name": "by_date_taken",
+      "value": "Fotodatum"
+    },
+    {
+      "name": "by_date_taken_daily",
+      "value": "Fotodatum (dag)"
+    },
+    {
+      "name": "by_date_taken_monthly",
+      "value": "Fotodatum (månad)"
+    },
+    {
+      "name": "by_file_type",
+      "value": "Filtyp"
+    },
+    {
+      "name": "by_extension",
+      "value": "Filnamnstillägg"
+    },
+    {
+      "name": "show_file_count_section_header",
+      "value": "Visa filantal vid avsnittsrubriker"
+    },
+    {
+      "name": "grouping_and_sorting",
+      "value": "Observera att gruppering och sortering är två oberoende funktioner"
+    },
+    {
+      "name": "folder_on_widget",
+      "value": "Mapp som visas i widgeten:"
+    },
+    {
+      "name": "show_folder_name",
+      "value": "Visa mappnamnet"
+    },
+    {
+      "name": "autoplay_videos",
+      "value": "Spela upp videor automatiskt"
+    },
+    {
+      "name": "remember_last_video_position",
+      "value": "Kom ihåg senaste videouppspelningsposition"
+    },
+    {
+      "name": "loop_videos",
+      "value": "Spela upp videor om och om igen"
+    },
+    {
+      "name": "animate_gifs",
+      "value": "Animera GIF-bilders miniatyrer"
+    },
+    {
+      "name": "max_brightness",
+      "value": "Maximal ljusstyrka när media visas i helskärmsläge"
+    },
+    {
+      "name": "crop_thumbnails",
+      "value": "Beskär miniatyrer till kvadrater"
+    },
+    {
+      "name": "show_thumbnail_video_duration",
+      "value": "Visa videolängder"
+    },
+    {
+      "name": "screen_rotation_by",
+      "value": "Rotera media i helskärmsläge"
+    },
+    {
+      "name": "screen_rotation_system_setting",
+      "value": "Systeminställning"
+    },
+    {
+      "name": "screen_rotation_device_rotation",
+      "value": "Enhetens rotation"
+    },
+    {
+      "name": "screen_rotation_aspect_ratio",
+      "value": "Bildförhållande"
+    },
+    {
+      "name": "black_background_at_fullscreen",
+      "value": "Svart bakgrund när media visas i helskärmsläge"
+    },
+    {
+      "name": "scroll_thumbnails_horizontally",
+      "value": "Rulla horisontellt genom miniatyrer"
+    },
+    {
+      "name": "hide_system_ui_at_fullscreen",
+      "value": "Dölj systemanvändargränssnittet automatiskt när media visas i helskärmsläge"
+    },
+    {
+      "name": "delete_empty_folders",
+      "value": "Ta bort tomma mappar när deras innehåll tas bort"
+    },
+    {
+      "name": "allow_photo_gestures",
+      "value": "Tillåt styrning av fotoljusstyrka med vertikala gester"
+    },
+    {
+      "name": "allow_video_gestures",
+      "value": "Tillåt styrning av videovolym och videoljusstyrka med vertikala gester"
+    },
+    {
+      "name": "show_media_count",
+      "value": "Visa antalet mediefiler i varje mapp i huvudvyn"
+    },
+    {
+      "name": "show_extended_details",
+      "value": "Visa utökad information över media i helskärmsläge"
+    },
+    {
+      "name": "manage_extended_details",
+      "value": "Hantera utökad information"
+    },
+    {
+      "name": "one_finger_zoom",
+      "value": "Tillåt zoomning med ett finger när media visas i helskärmsläge"
+    },
+    {
+      "name": "allow_instant_change",
+      "value": "Tillåt snabbyte av media genom tryckning på skärmens kanter"
+    },
+    {
+      "name": "allow_deep_zooming_images",
+      "value": "Tillåt djupzoomning av bilder"
+    },
+    {
+      "name": "hide_extended_details",
+      "value": "Dölj utökad information när statusfältet är dolt"
+    },
+    {
+      "name": "show_at_bottom",
+      "value": "Visa några åtgärdsknappar längst ned på skärmen"
+    },
+    {
+      "name": "show_recycle_bin",
+      "value": "Visa Papperskorgen i mappvyn"
+    },
+    {
+      "name": "deep_zoomable_images",
+      "value": "Djupt zoombara bilder"
+    },
+    {
+      "name": "show_highest_quality",
+      "value": "Visa bilder i högsta möjliga kvalitet"
+    },
+    {
+      "name": "show_recycle_bin_last",
+      "value": "Visa Papperskorgen som det sista objektet i huvudvyn"
+    },
+    {
+      "name": "allow_down_gesture",
+      "value": "Tillåt avslutning av helskärmsläget med en nedåtgest"
+    },
+    {
+      "name": "allow_one_to_one_zoom",
+      "value": "Tillåt 1:1-zoomning med två dubbeltryck"
+    },
+    {
+      "name": "open_videos_on_separate_screen",
+      "value": "Öppna alltid videor i en separat vy med nya horisontella gester"
+    },
+    {
+      "name": "show_notch",
+      "value": "Visa notch om tillgängligt"
+    },
+    {
+      "name": "allow_rotating_gestures",
+      "value": "Tillåt bildrotation med gester"
+    },
+    {
+      "name": "file_loading_priority",
+      "value": "Filladdningsprioritet"
+    },
+    {
+      "name": "speed",
+      "value": "Hastighet"
+    },
+    {
+      "name": "compromise",
+      "value": "Kompromiss"
+    },
+    {
+      "name": "avoid_showing_invalid_files",
+      "value": "Undvik att visa ogiltiga filer"
+    },
+    {
+      "name": "show_image_file_types",
+      "value": "Visa bildfiltyper"
+    },
+    {
+      "name": "allow_zooming_videos",
+      "value": "Tillåt förstoring av videor genom att dubbelklicka"
+    },
+    {
+      "name": "folder_thumbnail_style",
+      "value": "Miniatyrbildstil för mapp"
+    },
+    {
+      "name": "file_thumbnail_style",
+      "value": "Miniatyrbildstil för fil"
+    },
+    {
+      "name": "mark_favorite_items",
+      "value": "Markera favoriter"
+    },
+    {
+      "name": "thumbnail_spacing",
+      "value": "Avstånd för miniatyrbild"
+    },
+    {
+      "name": "show_file_count_line",
+      "value": "Visa filantal på en separat rad"
+    },
+    {
+      "name": "show_file_count_brackets",
+      "value": "Visa filantal i klammrar"
+    },
+    {
+      "name": "show_file_count_none",
+      "value": "Visa inte filantal"
+    },
+    {
+      "name": "limit_folder_title",
+      "value": "Begränsa långa mappnamn till en rad"
+    },
+    {
+      "name": "square",
+      "value": "Fyrkant"
+    },
+    {
+      "name": "rounded_corners",
+      "value": "Rundade hörn"
+    },
+    {
+      "name": "export_favorite_paths",
+      "value": "Exportera favoriter"
+    },
+    {
+      "name": "import_favorite_paths",
+      "value": "Importera favoriter"
+    },
+    {
+      "name": "paths_imported_successfully",
+      "value": "Sökvägar importerade"
+    },
+    {
+      "name": "media_management_prompt",
+      "value": "För att vara försäkrad om att filhanteringen fungerar som den ska, ställ in appen som filhanterare i din apparats inställningar."
+    },
+    {
+      "name": "password_protect_excluded",
+      "value": "Lösenord skyddar exkluderad mapp synlighet"
+    },
+    {
+      "name": "media_management_manual",
+      "value": "Något gick fel, vänligen gå till dina Inställningar - Appar - Säskild åtkomst - Hantera media och tillåt den här appen att hantera media."
+    },
+    {
+      "name": "media_management_note",
+      "value": "Om omdirigeringen inte fungerar, vänligen gå till dina Inställningar - Appar - Säskild åtkomst - Hantera media och tillåt den här appen att hantera media."
+    },
+    {
+      "name": "media_management_alternative",
+      "value": "Om du inte vill göra det, kan du också gå till dina Inställningar - Appar - Säskild åtkomst - Hantera media och tillåt den här appen att hantera media."
+    },
+    {
+      "name": "alternative_media_access",
+      "value": "Alternativt kan du endast tillåta åtkomst till mediafiler. I så fall kommer du dock inte att kunna arbeta med dolda filer."
+    },
+    {
+      "name": "media_only",
+      "value": "Endast media"
+    },
+    {
+      "name": "all_files",
+      "value": "Alla filer"
+    },
+    {
+      "name": "search_all_files",
+      "value": "Sök alla filer istället för mappar på huvudskärmen"
+    },
+    {
+      "name": "show_all_folders",
+      "value": "Visa en menyknapp för att växla Visa Alla Mappars Innehåll snabbt"
+    },
+    {
+      "name": "thumbnails",
+      "value": "Miniatyrer"
+    },
+    {
+      "name": "fullscreen_media",
+      "value": "Visning av media i helskärmsläge"
+    },
+    {
+      "name": "extended_details",
+      "value": "Utökad information"
+    },
+    {
+      "name": "bottom_actions",
+      "value": "Åtgärder längst ned på skärmen"
+    },
+    {
+      "name": "manage_bottom_actions",
+      "value": "Hantera synliga åtgärder längst ned på skärmen"
+    },
+    {
+      "name": "toggle_favorite",
+      "value": "Växla favorit"
+    },
+    {
+      "name": "toggle_file_visibility",
+      "value": "Visa/dölj fil"
+    },
+    {
+      "name": "pesdk_transform_button_freeCrop",
+      "value": "Anpassad"
+    },
+    {
+      "name": "pesdk_transform_button_resetCrop",
+      "value": "Reset"
+    },
+    {
+      "name": "pesdk_transform_button_squareCrop",
+      "value": "Fyrkant"
+    },
+    {
+      "name": "pesdk_transform_title_name",
+      "value": "Transformera"
+    },
+    {
+      "name": "pesdk_filter_title_name",
+      "value": "Filter"
+    },
+    {
+      "name": "pesdk_filter_asset_none",
+      "value": "None"
+    },
+    {
+      "name": "pesdk_adjustments_title_name",
+      "value": "Justera"
+    },
+    {
+      "name": "pesdk_adjustments_button_shadowTool",
+      "value": "Skuggor"
+    },
+    {
+      "name": "pesdk_adjustments_button_exposureTool",
+      "value": "Exponering"
+    },
+    {
+      "name": "pesdk_adjustments_button_highlightTool",
+      "value": "Högdager"
+    },
+    {
+      "name": "pesdk_adjustments_button_brightnessTool",
+      "value": "Ljusstyrka"
+    },
+    {
+      "name": "pesdk_adjustments_button_contrastTool",
+      "value": "Kontrast"
+    },
+    {
+      "name": "pesdk_adjustments_button_saturationTool",
+      "value": "Mättnad"
+    },
+    {
+      "name": "pesdk_adjustments_button_clarityTool",
+      "value": "Klarhet"
+    },
+    {
+      "name": "pesdk_adjustments_button_gammaTool",
+      "value": "Gamma"
+    },
+    {
+      "name": "pesdk_adjustments_button_blacksTool",
+      "value": "Svarta"
+    },
+    {
+      "name": "pesdk_adjustments_button_whitesTool",
+      "value": "Vita"
+    },
+    {
+      "name": "pesdk_adjustments_button_temperatureTool",
+      "value": "Temperatur"
+    },
+    {
+      "name": "pesdk_adjustments_button_sharpnessTool",
+      "value": "Skärpa"
+    },
+    {
+      "name": "pesdk_adjustments_button_reset",
+      "value": "Återställ"
+    },
+    {
+      "name": "pesdk_focus_title_name",
+      "value": "Fokus"
+    },
+    {
+      "name": "pesdk_focus_title_disabled",
+      "value": "Inget"
+    },
+    {
+      "name": "pesdk_focus_button_radial",
+      "value": "Radiell"
+    },
+    {
+      "name": "pesdk_focus_button_linear",
+      "value": "Linjär"
+    },
+    {
+      "name": "pesdk_focus_button_mirrored",
+      "value": "Speglad"
+    },
+    {
+      "name": "pesdk_focus_button_gaussian",
+      "value": "Gaussisk"
+    },
+    {
+      "name": "pesdk_text_title_input",
+      "value": "Lägg till text"
+    },
+    {
+      "name": "pesdk_text_title_name",
+      "value": "Text"
+    },
+    {
+      "name": "pesdk_text_title_options",
+      "value": "Text Val"
+    },
+    {
+      "name": "pesdk_text_title_textColor",
+      "value": "Text Färg"
+    },
+    {
+      "name": "pesdk_text_title_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_add",
+      "value": "Lägg till"
+    },
+    {
+      "name": "pesdk_text_button_edit",
+      "value": "Redigera"
+    },
+    {
+      "name": "pesdk_text_button_straighten",
+      "value": "Räta ut"
+    },
+    {
+      "name": "pesdk_text_button_font",
+      "value": "Font"
+    },
+    {
+      "name": "pesdk_text_button_color",
+      "value": "Färg"
+    },
+    {
+      "name": "pesdk_text_button_backgroundColor",
+      "value": "BG Färg"
+    },
+    {
+      "name": "pesdk_text_button_alignment",
+      "value": "Inriktning"
+    },
+    {
+      "name": "pesdk_text_button_bringToFront",
+      "value": "Framtill"
+    },
+    {
+      "name": "pesdk_text_button_delete",
+      "value": "Radera"
+    },
+    {
+      "name": "pesdk_text_text_editTextPlaceholder",
+      "value": "Din text"
+    },
+    {
+      "name": "pesdk_brush_title_name",
+      "value": "Pensel"
+    },
+    {
+      "name": "pesdk_brush_button_color",
+      "value": "Färg"
+    },
+    {
+      "name": "pesdk_brush_button_size",
+      "value": "Storlek"
+    },
+    {
+      "name": "pesdk_brush_button_hardness",
+      "value": "Styrka"
+    },
+    {
+      "name": "pesdk_brush_button_bringToFront",
+      "value": "Framtill"
+    },
+    {
+      "name": "pesdk_brush_button_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "pesdk_brush_title_brushColor",
+      "value": "Pensel Färg"
+    },
+    {
+      "name": "pesdk_editor_title_name",
+      "value": "Redigerare"
+    },
+    {
+      "name": "pesdk_editor_title_closeEditorAlert",
+      "value": "Stäng Redigerare\\?"
+    },
+    {
+      "name": "pesdk_editor_text_closeEditorAlert",
+      "value": "Vill du verkligen ignorera ändringarna\\?"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertConfirmation",
+      "value": "Ja"
+    },
+    {
+      "name": "pesdk_editor_button_closeEditorAlertCancelation",
+      "value": "Nej"
+    },
+    {
+      "name": "pesdk_editor_cancel",
+      "value": "Avbryt"
+    },
+    {
+      "name": "pesdk_editor_accept",
+      "value": "Godkänn"
+    },
+    {
+      "name": "pesdk_editor_save",
+      "value": "Spara"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgressUnknown",
+      "value": "Exporterar…"
+    },
+    {
+      "name": "pesdk_editor_text_exportProgress",
+      "value": "Exporterar %s."
+    },
+    {
+      "name": "pesdk_sticker_title_name",
+      "value": "Klistermärke"
+    },
+    {
+      "name": "pesdk_sticker_title_color",
+      "value": "Klistermärke Färg"
+    },
+    {
+      "name": "pesdk_sticker_title_options",
+      "value": "Klistermärke Val"
+    },
+    {
+      "name": "pesdk_sticker_button_add",
+      "value": "Lägg till"
+    },
+    {
+      "name": "pesdk_sticker_button_color",
+      "value": "Färg"
+    },
+    {
+      "name": "pesdk_sticker_button_delete",
+      "value": "Radera"
+    },
+    {
+      "name": "pesdk_sticker_button_bringToFront",
+      "value": "Framtill"
+    },
+    {
+      "name": "pesdk_sticker_button_straighten",
+      "value": "Räta ut"
+    },
+    {
+      "name": "pesdk_sticker_button_replace",
+      "value": "Ersätt"
+    },
+    {
+      "name": "pesdk_sticker_button_opacity",
+      "value": "Opacitet"
+    },
+    {
+      "name": "pesdk_sticker_button_contrast",
+      "value": "Kontrast"
+    },
+    {
+      "name": "pesdk_sticker_button_saturation",
+      "value": "Mättnad"
+    },
+    {
+      "name": "pesdk_sticker_button_brightness",
+      "value": "Ljusstyrka"
+    },
+    {
+      "name": "pesdk_sticker_category_name_custom",
+      "value": "Uppladdningar"
+    },
+    {
+      "name": "pesdk_overlay_title_name",
+      "value": "Täck över"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeNormal",
+      "value": "Normal"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeDarken",
+      "value": "Mörklägg"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeScreen",
+      "value": "Skärma"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeOverlay",
+      "value": "Överlägg"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeLighten",
+      "value": "Belys"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeMultiply",
+      "value": "Multiplicera"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeColorBurn",
+      "value": "Färg Bränn"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeSoftLight",
+      "value": "Mjukt Ljus"
+    },
+    {
+      "name": "pesdk_overlay_button_blendModeHardLight",
+      "value": "Hårt Ljus"
+    },
+    {
+      "name": "pesdk_overlay_asset_none",
+      "value": "Inget"
+    },
+    {
+      "name": "pesdk_overlay_asset_golden",
+      "value": "Gyllene"
+    },
+    {
+      "name": "pesdk_overlay_asset_lightleak1",
+      "value": "Ljusläcka 1"
+    },
+    {
+      "name": "pesdk_overlay_asset_mosaic",
+      "value": "Mosaik"
+    },
+    {
+      "name": "pesdk_overlay_asset_paper",
+      "value": "Papper"
+    },
+    {
+      "name": "pesdk_overlay_asset_rain",
+      "value": "Regn"
+    },
+    {
+      "name": "pesdk_overlay_asset_vintage",
+      "value": "Klassisk"
+    },
+    {
+      "name": "pesdk_common_button_flipH",
+      "value": "Vänd H"
+    },
+    {
+      "name": "pesdk_common_button_flipV",
+      "value": "Vänd V"
+    },
+    {
+      "name": "pesdk_common_button_undo",
+      "value": "Ångra"
+    },
+    {
+      "name": "pesdk_common_button_redo",
+      "value": "Gör om"
+    },
+    {
+      "name": "pesdk_common_title_colorPicker",
+      "value": "Välj Färg"
+    },
+    {
+      "name": "pesdk_common_title_transparentColor",
+      "value": "Transparens"
+    },
+    {
+      "name": "pesdk_common_title_whiteColor",
+      "value": "Vit"
+    },
+    {
+      "name": "pesdk_common_title_grayColor",
+      "value": "Grå"
+    },
+    {
+      "name": "pesdk_common_title_blackColor",
+      "value": "Svart"
+    },
+    {
+      "name": "pesdk_common_title_lightBlueColor",
+      "value": "Ljusblå"
+    },
+    {
+      "name": "pesdk_common_title_blueColor",
+      "value": "Blå"
+    },
+    {
+      "name": "pesdk_common_title_purpleColor",
+      "value": "Lila"
+    },
+    {
+      "name": "pesdk_common_title_orchidColor",
+      "value": "Orkide"
+    },
+    {
+      "name": "pesdk_common_title_pinkColor",
+      "value": "Rosa"
+    },
+    {
+      "name": "pesdk_common_title_redColor",
+      "value": "Röd"
+    },
+    {
+      "name": "pesdk_common_title_orangeColor",
+      "value": "Orange"
+    },
+    {
+      "name": "pesdk_common_title_goldColor",
+      "value": "Guld"
+    },
+    {
+      "name": "pesdk_common_title_yellowColor",
+      "value": "Gul"
+    },
+    {
+      "name": "pesdk_common_title_oliveColor",
+      "value": "Oliv"
+    },
+    {
+      "name": "pesdk_common_title_greenColor",
+      "value": "Grön"
+    },
+    {
+      "name": "pesdk_common_title_aquamarinColor",
+      "value": "Akvamarin"
+    },
+    {
+      "name": "pesdk_common_title_pipettableColor",
+      "value": "Pipetterbar färg"
+    },
+    {
+      "name": "vesdk_video_trim_title_name",
+      "value": "Trimma"
+    },
+    {
+      "name": "faq_1_title",
+      "value": "Hur kan jag göra Simple Gallery till standardenhetsgalleri\\?"
+    },
+    {
+      "name": "faq_1_text",
+      "value": "Först måste du hitta det nuvarande standardgalleriet i avsnittet Appar i dina enhetsinställningar, leta efter en knapp som säger något i stil med \\\"Öppna som standard\\\", klicka på det och välj sedan \\\"Rensa standardinställningar\\\". Nästa gång du försöker öppna en bild eller video bör du se en appväljare, där du kan välja Simple Gallery och göra det till standardapp."
+    },
+    {
+      "name": "faq_2_title",
+      "value": "Jag låste appen med ett lösenord, men jag glömde det. Vad kan jag göra\\?"
+    },
+    {
+      "name": "faq_2_text",
+      "value": "Du kan lösa det på 2 sätt. Du kan antingen installera om appen eller hitta appen i dina enhetsinställningar och välja \\\"Rensa data\\\". Det kommer att återställa alla dina inställningar, det tar inte bort några mediefiler."
+    },
+    {
+      "name": "faq_3_title",
+      "value": "Hur kan jag få ett album att alltid visas högst upp\\?"
+    },
+    {
+      "name": "faq_3_text",
+      "value": "Du kan trycka länge på önskat album och välja Fäst-ikonen i åtgärdsmenyn, som kommer att fästa det högst upp. Du kan fästa flera mappar också, fästa objekt kommer att sorteras enligt standardsorteringsmetoden."
+    },
+    {
+      "name": "faq_4_title",
+      "value": "Hur kan jag snabbspola videor framåt\\?"
+    },
+    {
+      "name": "faq_4_text",
+      "value": "Du kan göra det genom att dubbelklicka på sidan av skärmen eller trycka på texterna för nuvarande eller maxlängd nära sökfältet. Om du aktiverar öppning av videor på en separat skärm i appinställningarna kan du också använda horisontella gester."
+    },
+    {
+      "name": "faq_5_title",
+      "value": "Vad är skillnaden mellan att dölja och utesluta en mapp\\?"
+    },
+    {
+      "name": "faq_5_text",
+      "value": "Uteslut förhindrar att mappen endast visas i Simple Gallery, medan Dölj fungerar systemmässigt och den döljer mappen från andra gallerier också. Det fungerar genom att skapa en tom \\\".nomedia\\\"-fil i den givna mappen, som du sedan kan ta bort med vilken filhanterare som helst. Observera att vissa enheter inte tillåter att dölja mappar som Kamera, Skärmdumpar och Nedladdningar."
+    },
+    {
+      "name": "faq_6_title",
+      "value": "Varför dyker mappar med omslagsbilder eller klistermärken upp\\?"
+    },
+    {
+      "name": "faq_6_text",
+      "value": "Det kan hända att du kommer att se några ovanliga album dyka upp. Du kan enkelt utesluta dem genom att trycka länge på dem och välja Uteslut. I nästa dialogruta kan du sedan välja den överordnade mappen, chansen är stor att den förhindrar att de andra relaterade albumen också dyker upp."
+    },
+    {
+      "name": "faq_7_title",
+      "value": "En mapp med bilder visas inte, eller så visas inte alla objekt. Vad kan jag göra\\?"
+    },
+    {
+      "name": "faq_7_text",
+      "value": "Det kan ha flera anledningar, men det är enkelt att lösa det. Gå bara till Inställningar -> Hantera inkluderade mappar, välj Plus och navigera till önskad mapp."
+    },
+    {
+      "name": "faq_8_title",
+      "value": "Om jag bara vill ha några få särskilda mappar synliga\\?"
+    },
+    {
+      "name": "faq_8_text",
+      "value": "Att lägga till en mapp i de inkluderade mapparna utesluter inte automatiskt någonting. Det du kan göra är att gå in i Inställningar -> Hantera uteslutna mappar, uteslut rotmappen \\\"/\\\", lägg sedan till önskade mappar i Inställningar -> Hantera inkluderade mappar. Det kommer att göra endast de valda mapparna synliga, eftersom både uteslutning och inkludering är rekursiva och om en mapp både utesluts och inkluderas kommer den att dyka upp."
+    },
+    {
+      "name": "faq_10_title",
+      "value": "Kan jag beskära bilder med den här appen\\?"
+    },
+    {
+      "name": "faq_10_text",
+      "value": "Ja, du kan beskära bilder i editorn genom att dra i bildhörnen. Du kan komma till redigeraren antingen genom att trycka länge på en bildminiatyr och välja Redigera, eller välja Redigera från helskärmsvyn."
+    },
+    {
+      "name": "faq_11_title",
+      "value": "Kan jag på något sätt gruppera mediefilminiatyrer\\?"
+    },
+    {
+      "name": "faq_11_text",
+      "value": "Javisst, använd bara menyalternativet \\\"Gruppera efter\\\" när du är i miniatyrvyn. Du kan gruppera filer efter flera kriterier, inklusive datum tagen. Om du använder funktionen \\\"Visa innehåll i alla mappar\\\" kan du också gruppera dem efter mappar."
+    },
+    {
+      "name": "faq_12_title",
+      "value": "Sortering efter tagningsdatum verkar inte fungera korrekt, hur kan jag fixa det\\?"
+    },
+    {
+      "name": "faq_12_text",
+      "value": "Det beror troligen på att filerna har kopierats någonstans ifrån. Du kan fixa det genom att välja filens miniatyrbilder och välja \\\"Reparera Datum Taget värdet\\\"."
+    },
+    {
+      "name": "faq_13_title",
+      "value": "Jag ser lite färg banding på bilderna. Hur kan jag förbättra kvaliteten\\?"
+    },
+    {
+      "name": "faq_13_text",
+      "value": "Den nuvarande lösningen för att visa bilder fungerar bra i de allra flesta fall, men om du vill ha ännu bättre bildkvalitet kan du aktivera \\\"Visa bilder i högsta möjliga kvalitet\\\" i appinställningarna, i avsnittet \\\"Djupt zoombara bilder\\\" ."
+    },
+    {
+      "name": "faq_14_title",
+      "value": "Jag har gömt en fil/mapp. Hur kan jag visa den\\?"
+    },
+    {
+      "name": "faq_14_text",
+      "value": "Du kan antingen trycka på menyalternativet \\\"Visa dolda objekt tillfälligt\\\" på huvudskärmen eller växla mellan \\\"Visa dolda objekt\\\" i appinställningarna för att se det dolda objektet. Om du vill visa den, tryck bara länge på den och välj \\\"Visa\\\". Mappar döljs genom att lägga till en dold \\\".nomedia\\\"-fil i dem, du kan också radera filen med vilken filhanterare som helst. Observera att döljning fungerar rekursivt, så om du gömmer en mapp kommer alla undermappar att bli dolda också. Så för att visa undermapparna måste du visa den överordnade mappen."
+    },
+    {
+      "name": "faq_15_title",
+      "value": "Varför upptar appen så mycket utrymme\\?"
+    },
+    {
+      "name": "faq_15_text",
+      "value": "Appens cache kan ta upp till 250 MB, det säkerställer snabbare bildladdning. Om appen tar upp ännu mer plats beror det troligen på att du har föremål i papperskorgen. Dessa filer räknas till appstorleken. Du kan rensa papperskorgen genom att öppna den och ta bort alla filer, eller från appinställningarna. Varje fil i papperskorgen raderas automatiskt efter 30 dagar."
+    },
+    {
+      "name": "faq_16_title",
+      "value": "Vad hände med att dölja filer och mappar och varför kan jag inte se dolda objekt längre\\?"
+    },
+    {
+      "name": "faq_16_text",
+      "value": "Från och med Android 11 kan du inte dölja eller visa filer eller mappar längre, du kan inte se de dolda i galleri apps heller. Du måste använda någon filhanterare för det."
+    },
+    {
+      "name": "faq_16_text_extra",
+      "value": "Eller så kan du också ge det här galleriet åtkomst till Alla filer via dina enhetsinställningar, vilket gör att vi kan visa dolda objekt och göra filoperationer mer tillförlitliga i allmänhet."
+    },
+    {
+      "name": "faq_17_title",
+      "value": "Varför kan jag inte längre inkludera saknade mappar\\?"
+    },
+    {
+      "name": "faq_17_text",
+      "value": "Det slutade fungera på grund av systemändringarna som kom med Android 11, appen kan inte bläddra i riktiga mappar längre, den förlitar sig på MediaStore för att hämta data."
+    },
+    {
+      "name": "faq_18_title",
+      "value": "Varför ser jag annonser under videouppspelning\\?"
+    },
+    {
+      "name": "faq_18_text",
+      "value": "Våra appar har inga som helst annonser. Om du ser dem under videouppspelning använder du någon annan videospelare. Försök att hitta din standardvideospelare i enhetsinställningarna och gör sedan en \\\"Rensa standardinställningar\\\" på den. Nästa gång du vill öppna en video kommer du att se ett appväljarfönster, där du kan välja vilken app du vill använda."
+    }
+  ]
+}
