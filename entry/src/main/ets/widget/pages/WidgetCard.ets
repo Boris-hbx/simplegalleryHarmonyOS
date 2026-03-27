@@ -3,6 +3,8 @@
 // Shows latest photo thumbnail; tapping opens the gallery app.
 // PIT-045: @Entry must receive a LocalStorage instance for prop injection to work.
 // PIT-022: postCardAction is required for widget interaction handling.
+// PIT-072: thumbnailUri is now the key name (without memory:// prefix);
+//          Image component prepends 'memory://' to resolve from formImages.
 // =============================================================================
 
 const widgetStorage: LocalStorage = new LocalStorage()
@@ -17,7 +19,9 @@ struct WidgetCard {
   build() {
     Stack({ alignContent: Alignment.Bottom }) {
       if (this.thumbnailUri.length > 0) {
-        Image(this.thumbnailUri)
+        // PIT-072: thumbnailUri = dynamic key (e.g. 'widgetThumb_1711500000000')
+        // Image resolves 'memory://' + key from formImages map
+        Image('memory://' + this.thumbnailUri)
           .width('100%')
           .height('100%')
           .objectFit(ImageFit.Cover)

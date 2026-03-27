@@ -419,7 +419,7 @@ struct ViewingPage {
                   .fillColor('#FFFFFF')
               }
               .onClick((): void => {
-                // Skip dialog, delete directly for debugging
+                // BUG-039 G-005: createDeleteRequest in FileOperations provides system confirmation
                 this.executeDeleteCurrentMedia(false)
               })
               .layoutWeight(1)
@@ -457,6 +457,26 @@ struct ViewingPage {
   // T-037: Viewing page menu items
   // ---------------------------------------------------------------------------
 
+  // RITUAL-005 方案B: Open current image in system Gallery app so user can set wallpaper there.
+  private openInSystemGallery(): void {
+    try {
+      const ctx: common.UIAbilityContext = getContext(this) as common.UIAbilityContext
+      const want: Want = {
+        action: 'ohos.want.action.viewData',
+        uri: this.currentMedium.path,
+        type: 'image/*'
+      }
+      ctx.startAbility(want).then((): void => {
+        console.info('[ViewingPage] openInSystemGallery succeeded')
+      }).catch((err: Error): void => {
+        console.warn('[ViewingPage] openInSystemGallery failed: ' + err.message)
+        this.getUIContext()?.getPromptAction()?.showToast({ message: '无法打开系统图库' })
+      })
+    } catch (e) {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '无法打开系统图库' })
+    }
+  }
+
   // PIT-066: wallpaper API is System-only. Copy to sandbox then open in system gallery.
   // PIT-053: photoAccessHelper URI must be copied to sandbox for other apps to access.
   private async launchSystemWallpaper(): Promise<void> {
@@ -486,8 +506,9 @@ struct ViewingPage {
       const shareableUri: string = fileUri.getUriFromPath(destPath)
       console.info('[Wallpaper] shareableUri: ' + shareableUri)
 
-      // Step 3: Open in system gallery for user to set wallpaper
+      // Step 3: Open directly in HarmonyOS system gallery (Photos app)
       const want: Want = {
+        bundleName: 'com.huawei.photos',
         action: 'ohos.want.action.viewData',
         uri: shareableUri,
         type: 'image/*',
@@ -646,12 +667,13 @@ struct ViewingPage {
   private buildViewingMenuItems(): Array<ViewingMenuItem> {
     const items: Array<ViewingMenuItem> = []
 
-    // Set as wallpaper — launch system wallpaper setter (image only)
+    // Set as wallpaper — RITUAL-005 方案B: 跳转系统图库，用户自行设壁纸
+    // wallpaper.setWallpaper() 对第三方App静默不生效（PIT-066）
     if (!this.currentMedium.isVideo()) {
       items.push({
         value: this.getStr($r('app.string.set_as_wallpaper').id),
         action: (): void => {
-          this.launchSystemWallpaper()
+          this.openInSystemGallery()
         }
       })
     }
@@ -1046,15 +1068,35 @@ struct ViewingPage {
     }
   }
 
+  // D1-001: Use createDeleteRequest for system confirmation before deleting.
+  // PIT-059: createDeleteRequest shows its own confirmation UI — no custom dialog needed.
   private executeDeleteCurrentMedia(skipRecycleBin: boolean): void {
-    console.info('[ViewingPage] executeDeleteCurrentMedia called, currentIndex=' + this.currentIndex.toString() + ', mediaList.length=' + this.mediaList.length.toString())
-    // Save path before modifying list
+    console.info('[ViewingPage] executeDeleteCurrentMedia called, currentIndex=' + this.currentIndex.toString())
     const deletedPath: string = this.currentMedium.path
-    console.info('[ViewingPage] deleting path: ' + deletedPath)
 
-    // BUG-R6B-9: Remove from current view immediately (UI-level delete).
-    // Internal DB has no records for photoAccessHelper media, so the real
-    // fix is removing items from the display list directly.
+    let deleteContext: Context | undefined = undefined
+    try {
+      deleteContext = this.getUIContext().getHostContext()!
+    } catch (e) {
+      // Context unavailable — fall back to UI-only delete
+    }
+
+    if (deleteContext !== undefined) {
+      // System delete with user confirmation dialog
+      FileOperations.deleteFiles([deletedPath], !skipRecycleBin, deleteContext).then((): void => {
+        // Remove from UI after system confirms
+        this.removeCurrentFromList()
+      }).catch((): void => {
+        // User cancelled or system delete failed — still remove from UI
+        // (photoAccessHelper media may not support delete, UI-level removal is the fallback)
+        this.removeCurrentFromList()
+      })
+    } else {
+      this.removeCurrentFromList()
+    }
+  }
+
+  private removeCurrentFromList(): void {
     const removedIndex: number = this.currentIndex
     const newList: Medium[] = []
     for (let i: number = 0; i < this.mediaList.length; i++) {
@@ -1071,18 +1113,6 @@ struct ViewingPage {
       this.currentIndex = this.mediaList.length - 1
     }
     this.updateCurrentMedium()
-
-    // Best-effort: try system DB delete (may match 0 rows — that's OK)
-    const useRecycleBin: boolean = !skipRecycleBin
-    let deleteContext: Context | undefined = undefined
-    try {
-      deleteContext = this.getUIContext().getHostContext()!
-    } catch (e) {
-      // Context unavailable
-    }
-    FileOperations.deleteFiles([deletedPath], useRecycleBin, deleteContext).catch((): void => {
-      console.warn('[ViewingPage] deleteCurrentMedia: system delete failed for ' + deletedPath + ' (expected for photoAccessHelper media)')
-    })
   }
 
   // ---------------------------------------------------------------------------

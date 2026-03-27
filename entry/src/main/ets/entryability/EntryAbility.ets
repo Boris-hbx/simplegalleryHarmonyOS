@@ -4,6 +4,7 @@ import { window } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
 import { GalleryDatabaseHelper } from '../datastore/GalleryDatabaseHelper';
 import { ConfigManager } from '../datastore/ConfigManager';
+import { WidgetCacheManager } from '../widget/WidgetCacheManager';
 
 const DOMAIN: number = 0x0000;
 
@@ -40,6 +41,15 @@ export default class EntryAbility extends UIAbility {
         atManager.checkAccessTokenSync(tokenId, 'ohos.permission.READ_IMAGEVIDEO');
       if (grantStatus === abilityAccessCtrl.GrantStatus.PERMISSION_GRANTED) {
         startPage = 'pages/MainPage';
+        // PAT-026: Generate widget thumbnail cache while we have permission
+        // Fire-and-forget — don't block app startup for widget cache
+        WidgetCacheManager.generateDefaultCache(this.context).then((generated: boolean): void => {
+          if (generated) {
+            WidgetCacheManager.refreshAllWidgets(this.context)
+          }
+        }).catch((): void => {
+          // Widget cache generation is best-effort — don't fail app startup
+        })
       }
     } catch (err) {
       const error: BusinessError = err as BusinessError;
@@ -66,6 +76,9 @@ export default class EntryAbility extends UIAbility {
 
   onForeground(): void {
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onForeground');
+    // D1-002: Signal pages to refresh data when returning from background
+    // (external apps may have added/deleted media while we were in background)
+    AppStorage.setOrCreate('needsRefresh', Date.now())
   }
 
   onBackground(): void {

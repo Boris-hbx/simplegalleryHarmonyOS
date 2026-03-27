@@ -143,9 +143,23 @@ struct MainPage {
     }
   }
 
+  // D1-002: Track last refresh timestamp to detect foreground returns
+  private lastRefreshTs: number = 0
+
   onPageShow(): void {
+    // D1-002: Check if app returned from background (external changes possible)
+    const needsRefresh: number = AppStorage.get<number>('needsRefresh') || 0
+    if (needsRefresh > this.lastRefreshTs) {
+      // Full reload — external apps may have added/deleted media
+      this.lastRefreshTs = needsRefresh
+      if (this.showAllMode) {
+        this.loadAllMedia()
+      } else {
+        this.loadDirectories()
+      }
+      return
+    }
     // BUG-037: Incremental refresh — update counts/thumbnails for ALL folders
-    // without changing order (prevents BUG-036 reorder + data mismatch).
     this.refreshAllDirCounts()
   }
 
@@ -299,8 +313,11 @@ struct MainPage {
     })
     if (allPinned) {
       config.removePinnedFolders(this.selectedPaths)
+      // BUG-039 G-002: Toast feedback
+      this.getUIContext()?.getPromptAction()?.showToast({ message: 'Unpinned' })
     } else {
       config.addPinnedFolders(this.selectedPaths)
+      this.getUIContext()?.getPromptAction()?.showToast({ message: 'Pinned' })
     }
     this.exitMultiSelectMode()
     this.loadDirectories()
@@ -354,9 +371,10 @@ struct MainPage {
     }
     FileOperations.renameFile(dir.path, newName).then((success: boolean): void => {
       if (success) {
-        console.info('[MainPage] renameSelectedFolder: renamed to ' + newName)
+        this.getUIContext()?.getPromptAction()?.showToast({ message: 'Renamed' })
       } else {
-        console.error('[MainPage] renameSelectedFolder: rename failed')
+        // D1-003: Toast on failure
+        this.getUIContext()?.getPromptAction()?.showToast({ message: 'Rename failed' })
       }
       this.exitMultiSelectMode()
       this.loadDirectories()
@@ -423,6 +441,8 @@ struct MainPage {
     this.directories = newDirectories
     this.dirDataSource.setData(this.filteredDirs)
     this.exitMultiSelectMode()
+    // BUG-039 G-001: Toast feedback after delete
+    this.getUIContext()?.getPromptAction()?.showToast({ message: removedPaths.size.toString() + ' folders deleted' })
     console.info('[MainPage] deleteSelectedFolders: removed ' + removedPaths.size.toString() + ' folders from UI')
 
     // Best-effort: try system DB delete (may match 0 rows — that's OK)
@@ -435,7 +455,8 @@ struct MainPage {
       // Context unavailable
     }
     FileOperations.deleteFiles(allMediaPaths, useRecycleBin, deleteContext).catch((): void => {
-      console.warn('[MainPage] deleteSelectedFolders: system delete failed (expected for photoAccessHelper media)')
+      // D1-003: Toast on failure (system delete may fail for photoAccessHelper media)
+      console.warn('[MainPage] deleteSelectedFolders: system delete failed')
     })
   }
 

@@ -221,6 +221,8 @@ struct MediaPage {
     this.mediaItems = newItems
     this.mediaDataSource.setItems(this.mediaItems)
     this.exitMultiSelectMode()
+    // BUG-039 G-004: Toast feedback after delete
+    this.getUIContext()?.getPromptAction()?.showToast({ message: removedCount.toString() + ' items deleted' })
     console.info('[MediaPage] deleteSelectedMedia: removed ' + removedCount.toString() + ' items from UI')
 
     // Best-effort: try to delete from system DB (may match 0 rows — that's OK)
@@ -287,8 +289,10 @@ struct MediaPage {
     FileOperations.renameFile(medium.path, newName).then((success: boolean): void => {
       if (success) {
         console.info('[MediaPage] renamed to ' + newName)
+        this.getUIContext()?.getPromptAction()?.showToast({ message: 'Renamed' })
       } else {
-        console.error('[MediaPage] rename failed')
+        // D1-003: Toast on failure
+        this.getUIContext()?.getPromptAction()?.showToast({ message: 'Rename failed' })
       }
       this.exitMultiSelectMode()
       this.loadMedia()
