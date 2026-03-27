@@ -29,6 +29,10 @@
       "value": "Displays a thumbnail from a selected gallery folder"
     },
     {
+      "name": "widget_placeholder_label",
+      "value": "Gallery"
+    },
+    {
       "name": "app_name",
       "value": "Simple Gallery"
     },

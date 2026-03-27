@@ -8,6 +8,7 @@ import { ThumbnailItem, ThumbnailSection } from '../common/models/ThumbnailItem'
 import { MediaScanner } from '../media/MediaScanner'
 import { MediaGrouper } from '../media/MediaGrouper'
 import { ConfigManager } from '../datastore/ConfigManager'
+import { FavoritesDao } from '../datastore/dao/FavoritesDao'
 import { MediaItem } from '../components/MediaItem'
 import { MediaDataSource } from '../viewmodel/MediaDataSource'
 import {
@@ -133,6 +134,10 @@ struct MediaPage {
       this.displayFileNames = newDisplayFileNames
       this.currentGrouping = newGrouping
       this.loadMedia()
+    } else {
+      // BUG-034: Refresh favorite states without full reload
+      // When returning from ViewingPage, isFavorite may have changed
+      this.refreshFavoriteStates()
     }
   }
 
@@ -310,12 +315,14 @@ struct MediaPage {
     if (this.copyMoveIsCopy) {
       FileOperations.copyFiles(paths, destFolder).then((count: number): void => {
         console.info('[MediaPage] copied ' + count.toString() + ' items')
+        this.getUIContext()?.getPromptAction()?.showToast({ message: count.toString() + ' items copied' })
         this.exitMultiSelectMode()
         this.loadMedia()
       })
     } else {
       FileOperations.moveFiles(paths, destFolder).then((count: number): void => {
         console.info('[MediaPage] moved ' + count.toString() + ' items')
+        this.getUIContext()?.getPromptAction()?.showToast({ message: count.toString() + ' items moved' })
         this.exitMultiSelectMode()
         this.loadMedia()
       })
@@ -349,6 +356,49 @@ struct MediaPage {
       }
     } as MediaMenuItem)
     return items
+  }
+
+  // BUG-034: Refresh only isFavorite states without full data reload.
+  // Called on onPageShow to sync favorite changes made in ViewingPage.
+  private refreshFavoriteStates(): void {
+    try {
+      const favDao: FavoritesDao = new FavoritesDao()
+      let favContext: Context | undefined = undefined
+      try { favContext = this.getUIContext().getHostContext()! } catch (e) { /* */ }
+      if (favContext === undefined) { return }
+      favDao.getValidatedPaths(favContext).then((favPaths: Array<string>): void => {
+        const favSet: Set<string> = new Set<string>(favPaths)
+        let changed: boolean = false
+        // PAT-011b: Must replace items (not mutate) so @Prop detects change
+        const newItems: ThumbnailItem[] = []
+        for (let i: number = 0; i < this.mediaItems.length; i++) {
+          if (this.mediaItems[i] instanceof Medium) {
+            const old: Medium = this.mediaItems[i] as Medium
+            const shouldBeFav: boolean = favSet.has(old.path)
+            if (old.isFavorite !== shouldBeFav) {
+              // Create new Medium with updated isFavorite
+              const updated: Medium = new Medium(
+                old.id, old.name, old.path, old.parentPath,
+                old.modified, old.taken, old.size, old.type,
+                old.videoDuration, shouldBeFav, old.deletedTS, old.mediaStoreId
+              )
+              newItems.push(updated)
+              changed = true
+            } else {
+              newItems.push(old)
+            }
+          } else {
+            newItems.push(this.mediaItems[i])
+          }
+        }
+        if (changed) {
+          this.mediaItems = newItems
+          this.mediaDataSource.setItems(this.mediaItems)
+        }
+      })
+    } catch (e) {
+      // DB not ready — skip
+    }
   }
 
   async loadMedia(): Promise<void> {
@@ -736,7 +786,7 @@ struct MediaPage {
         }
       }, (item: Object, index: number): string => {
         if (item instanceof Medium) {
-          return (item as Medium).path
+          return (item as Medium).path + '_fav' + (item as Medium).isFavorite.toString()
         } else if (item instanceof ThumbnailSection) {
           return 'section_' + index.toString()
         }
@@ -748,6 +798,7 @@ struct MediaPage {
     .rowsGap(2)
     .width('100%')
     .layoutWeight(1)
+    .cachedCount(3)
   }
 
   @Builder
@@ -808,13 +859,14 @@ struct MediaPage {
         }
       }, (item: Object, index: number): string => {
         if (item instanceof Medium) {
-          return (item as Medium).path
+          return (item as Medium).path + '_fav' + (item as Medium).isFavorite.toString()
         }
         return 'section_' + index.toString()
       })
     }
     .width('100%')
     .layoutWeight(1)
+    .cachedCount(3)
   }
 
   buildColumnsTemplate(): string {

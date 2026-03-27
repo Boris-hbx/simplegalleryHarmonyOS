@@ -5,6 +5,7 @@ import { dataSharePredicates } from '@kit.ArkData'
 import { image } from '@kit.ImageKit'
 
 @Component
+@Reusable
 export struct MediaItem {
   @Prop medium: Medium
   @Prop showFileName: boolean = false
@@ -102,11 +103,21 @@ export struct MediaItem {
           .width('100%')
           .aspectRatio(1)
         } else {
-          Image(this.medium.path)
-            .width('100%')
-            .aspectRatio(1)
-            .objectFit(ImageFit.Cover)
-            .borderRadius(2)
+          // T-070 (API-010): Background color as loading placeholder
+          Stack() {
+            Column()
+              .width('100%')
+              .aspectRatio(1)
+              .borderRadius(2)
+              .backgroundColor('#F0F0F0')
+            Image(this.medium.path)
+              .width('100%')
+              .aspectRatio(1)
+              .objectFit(ImageFit.Cover)
+              .borderRadius(2)
+          }
+          .width('100%')
+          .aspectRatio(1)
         }
 
         // Overlay row for type label and duration

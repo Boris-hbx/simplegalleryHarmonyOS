@@ -14,7 +14,7 @@ import { Medium } from '../common/models/Medium'
 import { PhotoViewer } from '../components/PhotoViewer'
 import { VideoViewer } from '../components/VideoViewer'
 
-import { fileIo } from '@kit.CoreFileKit'
+import { fileIo, fileUri } from '@kit.CoreFileKit'
 import { image } from '@kit.ImageKit'
 import { ConfigManager } from '../datastore/ConfigManager'
 import {
@@ -31,11 +31,7 @@ import {
 import { FileOperations } from '../utils/FileOperations'
 import { ShareUtils } from '../utils/ShareUtils'
 import { DeleteConfirmDialog } from '../components/FileOpDialogs'
-import { common, Want } from '@kit.AbilityKit'
-
-interface WallpaperNavParams {
-  imagePath: string
-}
+import { common, Want, wantConstant } from '@kit.AbilityKit'
 
 interface EditNavParams {
   path: string
@@ -461,12 +457,47 @@ struct ViewingPage {
   // T-037: Viewing page menu items
   // ---------------------------------------------------------------------------
 
-  private launchSystemWallpaper(): void {
-    const wpParams: WallpaperNavParams = { imagePath: this.currentMedium.path }
-    router.pushUrl({
-      url: 'pages/SetWallpaperPage',
-      params: wpParams
-    })
+  // PIT-066: wallpaper API is System-only. Copy to sandbox then open in system gallery.
+  // PIT-053: photoAccessHelper URI must be copied to sandbox for other apps to access.
+  private async launchSystemWallpaper(): Promise<void> {
+    try {
+      const ctx: common.UIAbilityContext = getContext(this) as common.UIAbilityContext
+      const mediaUri: string = this.currentMedium.path
+
+      // Step 1: Copy image from photoAccessHelper URI to sandbox
+      const srcFile: fileIo.File = fileIo.openSync(mediaUri, fileIo.OpenMode.READ_ONLY)
+      const tempDir: string = ctx.cacheDir + '/wallpaper_temp'
+      try {
+        fileIo.mkdirSync(tempDir, true)
+      } catch (_e) {
+        // Directory may already exist
+      }
+      const fileName: string = this.currentMedium.name || ('wallpaper_' + Date.now().toString() + '.jpg')
+      const destPath: string = tempDir + '/' + fileName
+      const destFile: fileIo.File = fileIo.openSync(
+        destPath,
+        fileIo.OpenMode.READ_WRITE | fileIo.OpenMode.CREATE | fileIo.OpenMode.TRUNC
+      )
+      fileIo.copyFileSync(srcFile.fd, destFile.fd)
+      fileIo.closeSync(srcFile)
+      fileIo.closeSync(destFile)
+
+      // Step 2: Convert sandbox path to file:// URI
+      const shareableUri: string = fileUri.getUriFromPath(destPath)
+      console.info('[Wallpaper] shareableUri: ' + shareableUri)
+
+      // Step 3: Open in system gallery for user to set wallpaper
+      const want: Want = {
+        action: 'ohos.want.action.viewData',
+        uri: shareableUri,
+        type: 'image/*',
+        flags: wantConstant.Flags.FLAG_AUTH_READ_URI_PERMISSION
+      }
+      await ctx.startAbility(want)
+    } catch (e) {
+      console.error('[Wallpaper] Failed to open in system gallery: ' + (e as Error).message)
+      this.getUIContext()?.getPromptAction()?.showToast({ message: $r('app.string.failed_to_set_wallpaper') })
+    }
   }
 
   private async launchSystemEditor(): Promise<void> {
@@ -953,21 +984,33 @@ struct ViewingPage {
   // T-054: Bottom action handlers
   // ---------------------------------------------------------------------------
 
+  // BUG-034d: Debounce lock to prevent rapid clicks causing race conditions
+  private favToggleBusy: boolean = false
+
   private toggleFavorite(): void {
+    // BUG-034d: Ignore clicks while previous toggle is in flight
+    if (this.favToggleBusy) {
+      return
+    }
+    this.favToggleBusy = true
+
     const path: string = this.currentMedium.path
     const currentState: boolean = this.isFavorite
+    // Optimistic UI update
     this.isFavorite = !currentState
-    // Update in-memory model
     this.currentMedium.isFavorite = !currentState
     if (this.currentIndex >= 0 && this.currentIndex < this.mediaList.length) {
       this.mediaList[this.currentIndex].isFavorite = !currentState
     }
+    // BUG-034d: Serial queue ensures DB operations don't interleave
     FileOperations.toggleFavorite(path, currentState).then((newState: boolean): void => {
+      // Sync with actual DB result (DB-state-first)
       this.isFavorite = newState
       this.currentMedium.isFavorite = newState
       if (this.currentIndex >= 0 && this.currentIndex < this.mediaList.length) {
         this.mediaList[this.currentIndex].isFavorite = newState
       }
+      this.favToggleBusy = false
     }).catch((): void => {
       // Revert on failure
       this.isFavorite = currentState
@@ -975,6 +1018,7 @@ struct ViewingPage {
       if (this.currentIndex >= 0 && this.currentIndex < this.mediaList.length) {
         this.mediaList[this.currentIndex].isFavorite = currentState
       }
+      this.favToggleBusy = false
     })
   }
 

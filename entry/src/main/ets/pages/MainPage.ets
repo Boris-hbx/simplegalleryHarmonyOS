@@ -144,12 +144,82 @@ struct MainPage {
   }
 
   onPageShow(): void {
-    // PIT-013: Refresh directory list when returning from MediaPage
-    if (this.showAllMode) {
-      this.loadAllMedia()
-    } else {
-      this.loadDirectories()
-    }
+    // BUG-037: Incremental refresh — update counts/thumbnails for ALL folders
+    // without changing order (prevents BUG-036 reorder + data mismatch).
+    this.refreshAllDirCounts()
+  }
+
+  // BUG-037: Incremental refresh for ALL folders — update mediaCnt + tmb
+  // without reordering. Scans fresh directories, matches by path, replaces changed ones.
+  private refreshAllDirCounts(): void {
+    let ctx: Context | undefined = undefined
+    try { ctx = this.getUIContext().getHostContext()! } catch (e) { /* */ }
+    if (ctx === undefined) { return }
+
+    const config: ConfigManager = ConfigManager.getInstance()
+    const scanner: MediaScanner = new MediaScanner(ctx)
+
+    // Get fresh directory data (for counts/thumbnails) + favorites folder
+    scanner.getDirectories(config.filterMedia, config.directorySorting).then(async (freshDirs: Directory[]): Promise<void> => {
+      // Also get favorites folder
+      const favDir: Directory | null = await scanner.getFavoritesFolder()
+
+      // Build a lookup map: path → fresh Directory
+      const freshMap: Map<string, Directory> = new Map<string, Directory>()
+      for (let i: number = 0; i < freshDirs.length; i++) {
+        freshMap.set(freshDirs[i].path, freshDirs[i])
+      }
+      if (favDir !== null) {
+        favDir.name = '收藏'
+        freshMap.set(favDir.path, favDir)
+      }
+
+      // Walk existing list, replace items whose count/tmb changed (PIT-033: new objects)
+      let changed: boolean = false
+      const newDirs: Directory[] = []
+      for (let i: number = 0; i < this.filteredDirs.length; i++) {
+        const old: Directory = this.filteredDirs[i]
+        const fresh: Directory | undefined = freshMap.get(old.path)
+        if (fresh !== undefined && (old.mediaCnt !== fresh.mediaCnt || old.tmb !== fresh.tmb)) {
+          // Create replacement with fresh count/tmb but keep display name
+          const updated: Directory = new Directory(
+            old.id, old.path, fresh.tmb, old.name,
+            fresh.mediaCnt, fresh.modified, fresh.taken, fresh.size,
+            old.location, fresh.types, old.sortValue
+          )
+          newDirs.push(updated)
+          changed = true
+        } else if (fresh === undefined && old.areFavorites()) {
+          // Favorites folder no longer has content — remove it
+          changed = true
+          // skip (don't push)
+        } else {
+          newDirs.push(old)
+        }
+      }
+
+      // Check if favorites folder should be added (wasn't in list before)
+      if (favDir !== null && favDir.mediaCnt > 0) {
+        let hasFav: boolean = false
+        for (let i: number = 0; i < newDirs.length; i++) {
+          if (newDirs[i].areFavorites()) {
+            hasFav = true
+            break
+          }
+        }
+        if (!hasFav) {
+          newDirs.push(favDir)
+          changed = true
+        }
+      }
+
+      if (changed) {
+        this.filteredDirs = newDirs
+        this.dirDataSource.setData(newDirs)
+      }
+    }).catch((): void => {
+      // Scan failed — keep current data
+    })
   }
 
   onPageHide(): void {
@@ -313,12 +383,16 @@ struct MainPage {
     if (this.copyMoveIsCopy) {
       FileOperations.copyFiles(paths, destFolder).then((count: number): void => {
         console.info('[MainPage] copied ' + count.toString() + ' items')
+        // OPT-004: Toast feedback
+        this.getUIContext()?.getPromptAction()?.showToast({ message: count.toString() + ' items copied' })
         this.exitMultiSelectMode()
         this.loadDirectories()
       })
     } else {
       FileOperations.moveFiles(paths, destFolder).then((count: number): void => {
         console.info('[MainPage] moved ' + count.toString() + ' items')
+        // OPT-004: Toast feedback
+        this.getUIContext()?.getPromptAction()?.showToast({ message: count.toString() + ' items moved' })
         this.exitMultiSelectMode()
         this.loadDirectories()
       })
@@ -382,9 +456,10 @@ struct MainPage {
         config.filterMedia, config.directorySorting
       )
 
-      // FR-024: Inject Favorites virtual folder
+      // FR-024: Inject Favorites virtual folder with localized name
       const favDir: Directory | null = await this.scanner.getFavoritesFolder()
       if (favDir !== null) {
+        favDir.name = '收藏'
         dirs.push(favDir)
       }
 
@@ -720,7 +795,7 @@ struct MainPage {
             .fontColor($r('sys.color.ohos_id_color_text_primary'))
             .layoutWeight(1)
 
-          // Search button
+          // Search button — BUG-035: Navigate to SearchPage for media file search
           Button() {
             SymbolGlyph($r('sys.symbol.magnifyingglass'))
               .fontSize(20)
@@ -730,7 +805,7 @@ struct MainPage {
           .width(40)
           .height(40)
           .onClick(() => {
-            this.isSearching = true
+            router.pushUrl({ url: 'pages/SearchPage' })
           })
 
           // Menu button
@@ -892,13 +967,14 @@ struct MainPage {
                     })
                 )
               )
-            }, (item: Object) => (item as Directory).path)
+            }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString())
           }
           .columnsTemplate(this.buildColumnsTemplate())
           .columnsGap(2)
           .rowsGap(2)
           .width('100%')
           .layoutWeight(1)
+          .cachedCount(3)
         } else {
           List() {
             LazyForEach(this.dirDataSource, (item: Object) => {
@@ -928,10 +1004,11 @@ struct MainPage {
                     })
                 )
               )
-            }, (item: Object) => (item as Directory).path)
+            }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString())
           }
           .width('100%')
           .layoutWeight(1)
+          .cachedCount(3)
         }
       } else {
         Refresh({ refreshing: $$this.isLoading }) {
@@ -964,13 +1041,14 @@ struct MainPage {
                       })
                   )
                 )
-              }, (item: Object) => (item as Directory).path)
+              }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString())
             }
             .columnsTemplate(this.buildColumnsTemplate())
             .columnsGap(2)
             .rowsGap(2)
             .width('100%')
             .layoutWeight(1)
+            .cachedCount(3)
           } else {
             List() {
               LazyForEach(this.dirDataSource, (item: Object) => {
@@ -1001,10 +1079,11 @@ struct MainPage {
                       })
                   )
                 )
-              }, (item: Object) => (item as Directory).path)
+              }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString())
             }
             .width('100%')
             .layoutWeight(1)
+            .cachedCount(3)
           }
         }
         .onRefreshing(() => {

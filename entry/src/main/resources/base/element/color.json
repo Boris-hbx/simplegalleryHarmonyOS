@@ -3,6 +3,22 @@
     {
       "name": "start_window_background",
       "value": "#333333"
+    },
+    {
+      "name": "widget_placeholder_bg",
+      "value": "#F0F0F0"
+    },
+    {
+      "name": "widget_placeholder_text",
+      "value": "#999999"
+    },
+    {
+      "name": "widget_label_text",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "widget_label_bg",
+      "value": "#80000000"
     }
   ]
 }

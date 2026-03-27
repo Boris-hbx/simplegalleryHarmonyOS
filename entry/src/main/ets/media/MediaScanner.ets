@@ -25,7 +25,8 @@ const FETCH_COLUMNS: Array<string> = [
   photoAccessHelper.PhotoKeys.DATE_TAKEN,
   photoAccessHelper.PhotoKeys.SIZE,
   photoAccessHelper.PhotoKeys.DURATION,
-  photoAccessHelper.PhotoKeys.TITLE
+  photoAccessHelper.PhotoKeys.TITLE,
+  photoAccessHelper.PhotoKeys.FAVORITE  // BUG-034: Read favorite state from system
 ]
 
 // BUG-031: photoAccessHelper DATE_MODIFIED/DATE_TAKEN return seconds since epoch,
@@ -43,10 +44,29 @@ export class MediaScanner {
   private shouldStop: boolean = false
   private scanMutex: boolean = false
   private photoHelper: photoAccessHelper.PhotoAccessHelper
+  // BUG-034: Cache of favorite paths from internal DB for fast lookup in assetToMedium
+  private favoritePaths: Set<string> = new Set<string>()
 
   constructor(context: Context) {
     this.context = context
     this.photoHelper = photoAccessHelper.getPhotoAccessHelper(context)
+    this.loadFavoritePaths()
+  }
+
+  // BUG-034: Load favorite paths from internal FavoritesDao for isFavorite check
+  // BUG-034e-fix: Use fast getAllPaths() (not getValidatedPaths) to avoid race condition.
+  // Validation/cleanup happens elsewhere (getFavoritesFolder, refreshFavoritesCount).
+  private loadFavoritePaths(): void {
+    try {
+      const favDao: FavoritesDao = new FavoritesDao()
+      favDao.getAllPaths().then((paths: Array<string>): void => {
+        this.favoritePaths = new Set<string>(paths)
+      }).catch((): void => {
+        // DB not ready or empty — that's OK
+      })
+    } catch (e) {
+      // DB not initialized yet — will use system FAVORITE flag only
+    }
   }
 
   // FR-001: Get all directories containing media using Albums API
@@ -857,9 +877,50 @@ export class MediaScanner {
   }
 
   // Fetch media marked as favorite
+  // BUG-034: Get favorite media from internal FavoritesDao + photoAccessHelper
+  // System FAVORITE flag may not be set (setFavorite API unavailable for third-party apps),
+  // so we query our internal favorites table for URIs, then also query system favorites.
   private async getFavoriteMedia(filterMedia: number): Promise<Array<Medium>> {
     const media: Array<Medium> = []
+    const addedPaths: Set<string> = new Set<string>()
 
+    // Source 1: Internal FavoritesDao — our own favorite list
+    try {
+      const favDao: FavoritesDao = new FavoritesDao()
+      const favPaths: Array<string> = await favDao.getValidatedPaths(this.context)
+      for (let i: number = 0; i < favPaths.length; i++) {
+        const uri: string = favPaths[i]
+        if (addedPaths.has(uri)) {
+          continue
+        }
+        try {
+          const predicates: dataSharePredicates.DataSharePredicates = new dataSharePredicates.DataSharePredicates()
+          predicates.equalTo(photoAccessHelper.PhotoKeys.URI, uri)
+          const fetchOpt: photoAccessHelper.FetchOptions = {
+            fetchColumns: FETCH_COLUMNS,
+            predicates: predicates
+          }
+          const result: photoAccessHelper.FetchResult<photoAccessHelper.PhotoAsset> = await this.photoHelper.getAssets(fetchOpt)
+          if (result.getCount() > 0) {
+            const asset: photoAccessHelper.PhotoAsset = await result.getFirstObject()
+            const displayName: string = asset.displayName
+            if (this.matchesFilter(asset.photoType, displayName, filterMedia)) {
+              const medium: Medium = this.assetToMedium(asset)
+              medium.isFavorite = true
+              media.push(medium)
+              addedPaths.add(uri)
+            }
+          }
+          result.close()
+        } catch (assetErr) {
+          // Asset may have been deleted — skip
+        }
+      }
+    } catch (dbErr) {
+      console.error('MediaScanner: getFavoriteMedia DB query failed: ' + (dbErr as Error).message)
+    }
+
+    // Source 2: System favorites (PhotoKeys.FAVORITE == true) — in case user favorited via system gallery
     let fetchResult: photoAccessHelper.FetchResult<photoAccessHelper.PhotoAsset> | null = null
     try {
       const predicates: dataSharePredicates.DataSharePredicates = new dataSharePredicates.DataSharePredicates()
@@ -872,30 +933,29 @@ export class MediaScanner {
       fetchResult = await this.photoHelper.getAssets(fetchOptions)
       const count: number = fetchResult.getCount()
 
-      if (count <= 0) {
-        return media
-      }
-
-      let asset: photoAccessHelper.PhotoAsset = await fetchResult.getFirstObject()
-      for (let i: number = 0; i < count; i++) {
-        if (this.shouldStop) {
-          break
-        }
-
-        const displayName: string = asset.displayName
-        if (this.matchesFilter(asset.photoType, displayName, filterMedia)) {
-          const medium: Medium = this.assetToMedium(asset)
-          medium.isFavorite = true
-          media.push(medium)
-        }
-
-        if (i < count - 1) {
-          asset = await fetchResult.getNextObject()
+      if (count > 0) {
+        let asset: photoAccessHelper.PhotoAsset = await fetchResult.getFirstObject()
+        for (let i: number = 0; i < count; i++) {
+          if (this.shouldStop) {
+            break
+          }
+          if (!addedPaths.has(asset.uri)) {
+            const displayName: string = asset.displayName
+            if (this.matchesFilter(asset.photoType, displayName, filterMedia)) {
+              const medium: Medium = this.assetToMedium(asset)
+              medium.isFavorite = true
+              media.push(medium)
+              addedPaths.add(asset.uri)
+            }
+          }
+          if (i < count - 1) {
+            asset = await fetchResult.getNextObject()
+          }
         }
       }
     } catch (err) {
       const error: Error = err as Error
-      console.error(`MediaScanner: getFavoriteMedia failed: ${error.message}`)
+      console.error(`MediaScanner: getFavoriteMedia system query failed: ${error.message}`)
     } finally {
       if (fetchResult !== null) {
         try {
@@ -1086,6 +1146,18 @@ export class MediaScanner {
       }
     }
 
+    // BUG-034: Read favorite from both system (photoAccessHelper) and internal DB (FavoritesDao)
+    let isFav: boolean = false
+    try {
+      isFav = (asset.get(photoAccessHelper.PhotoKeys.FAVORITE) as boolean) || false
+    } catch (e) {
+      // Favorite property not available — check internal DB below
+    }
+    // Also check internal favorites table (our toggleFavorite writes here)
+    if (!isFav && this.favoritePaths.has(uri)) {
+      isFav = true
+    }
+
     const medium: Medium = new Medium(
       0,             // id: HarmonyOS uses URI, not numeric ID
       displayName,   // name
@@ -1096,7 +1168,7 @@ export class MediaScanner {
       size,          // size
       mediaType,     // type
       videoDuration, // videoDuration
-      false,         // isFavorite
+      isFav,         // isFavorite — from system
       0,             // deletedTS
       0              // mediaStoreId
     )
@@ -1188,39 +1260,19 @@ export class MediaScanner {
     return result
   }
 
-  // FR-008: Build Favorites virtual folder from FavoritesDao
+  // BUG-034e: Single data source — count comes from getFavoriteMedia(), not separate path query.
+  // This ensures folder count always matches the actual displayable content.
   async getFavoritesFolder(): Promise<Directory | null> {
-    const favoritesDao: FavoritesDao = new FavoritesDao()
-    const favPaths: Array<string> = await favoritesDao.getValidFavoritePaths()
-    if (favPaths.length === 0) {
-      return null
-    }
-
-    const mediumDao: MediumDao = MediumDao.getInstance()
-    const favMedia: Array<Medium> = await mediumDao.getFavorites()
+    const defaultFilter: number = TYPE_IMAGES | TYPE_VIDEOS | TYPE_GIFS | TYPE_RAWS | TYPE_SVGS
+    const favMedia: Array<Medium> = await this.getFavoriteMedia(defaultFilter)
     if (favMedia.length === 0) {
       return null
     }
 
-    let totalSize: number = 0
-    let latestModified: number = 0
-    let latestTaken: number = 0
+    const thumbnail: string = favMedia[0].path
     let combinedTypes: number = 0
-    let thumbnail: string = ''
-
     for (let i: number = 0; i < favMedia.length; i++) {
-      const m: Medium = favMedia[i]
-      totalSize = totalSize + m.size
-      if (m.modified > latestModified) {
-        latestModified = m.modified
-      }
-      if (m.taken > latestTaken) {
-        latestTaken = m.taken
-      }
-      combinedTypes = combinedTypes | m.type
-      if (i === 0) {
-        thumbnail = m.path
-      }
+      combinedTypes = combinedTypes | favMedia[i].type
     }
 
     const dir: Directory = new Directory(
@@ -1229,9 +1281,9 @@ export class MediaScanner {
       thumbnail,
       FAVORITES,
       favMedia.length,
-      latestModified,
-      latestTaken,
-      totalSize,
+      0,
+      0,
+      0,
       LOCATION_INTERNAL,
       combinedTypes,
       ''

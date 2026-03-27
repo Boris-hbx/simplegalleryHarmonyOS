@@ -7,6 +7,8 @@ import { photoAccessHelper } from '@kit.MediaLibraryKit'
 import { dataSharePredicates } from '@kit.ArkData'
 import { MediumDao } from '../datastore/dao/MediumDao'
 import { DirectoryDao } from '../datastore/dao/DirectoryDao'
+import { FavoritesDao } from '../datastore/dao/FavoritesDao'
+import { Favorite } from '../common/models/Favorite'
 import { ConfigManager } from '../datastore/ConfigManager'
 
 export class FileOperations {
@@ -58,9 +60,10 @@ export class FileOperations {
     console.error('FileOperations: all delete strategies failed for ' + uris.length.toString() + ' URIs')
   }
 
-  // Copy file(s) to destination folder
+  // Copy file(s) to destination folder (OPT-005: per-file try-catch + summary log)
   static async copyFiles(sourcePaths: Array<string>, destFolder: string): Promise<number> {
     let copied: number = 0
+    let failed: number = 0
     for (let i: number = 0; i < sourcePaths.length; i++) {
       const sourcePath: string = sourcePaths[i]
       try {
@@ -69,15 +72,20 @@ export class FileOperations {
         fs.copyFileSync(sourcePath, destPath)
         copied++
       } catch (e) {
-        console.error('FileOperations.copyFiles: failed for ' + sourcePath)
+        failed++
+        console.error('FileOperations.copyFiles: failed for ' + sourcePath + ': ' + (e as Error).message)
       }
+    }
+    if (failed > 0) {
+      console.warn('[FileOps] copyFiles: ' + copied.toString() + ' succeeded, ' + failed.toString() + ' failed')
     }
     return copied
   }
 
-  // Move file(s) to destination folder and update DB
+  // Move file(s) to destination folder and update DB (OPT-005: per-file try-catch + summary log)
   static async moveFiles(sourcePaths: Array<string>, destFolder: string): Promise<number> {
     let moved: number = 0
+    let failed: number = 0
     const mediumDao: MediumDao = MediumDao.getInstance()
 
     for (let i: number = 0; i < sourcePaths.length; i++) {
@@ -87,12 +95,15 @@ export class FileOperations {
         const destPath: string = FileOperations.resolveConflict(destFolder + '/' + fileName)
         const resolvedName: string = FileOperations.getFileName(destPath)
         fs.moveFileSync(sourcePath, destPath)
-        // Update DB record with new path
         await mediumDao.updateMedium(sourcePath, destFolder, resolvedName, destPath)
         moved++
       } catch (e) {
-        console.error('FileOperations.moveFiles: failed for ' + sourcePath)
+        failed++
+        console.error('FileOperations.moveFiles: failed for ' + sourcePath + ': ' + (e as Error).message)
       }
+    }
+    if (failed > 0) {
+      console.warn('[FileOps] moveFiles: ' + moved.toString() + ' succeeded, ' + failed.toString() + ' failed')
     }
     return moved
   }
@@ -113,12 +124,38 @@ export class FileOperations {
     }
   }
 
-  // Toggle favorite status for a media item
-  static async toggleFavorite(path: string, currentState: boolean): Promise<boolean> {
-    const mediumDao: MediumDao = MediumDao.getInstance()
-    const newState: boolean = !currentState
-    await mediumDao.updateFavorite(path, newState)
-    return newState
+  // BUG-034d: Serial queue to prevent concurrent INSERT/DELETE on same path
+  private static favQueue: Promise<void> = Promise.resolve()
+
+  // Toggle favorite status via internal favorites table (BUG-034)
+  // BUG-034d: Uses serial queue + DB-state-first to handle rapid clicks correctly.
+  static async toggleFavorite(path: string, currentState: boolean, context?: Context): Promise<boolean> {
+    // Chain onto serial queue — ensures previous toggle completes before this one starts
+    let resultState: boolean = !currentState
+    const operation: Promise<void> = FileOperations.favQueue.then(async (): Promise<void> => {
+      try {
+        const favDao: FavoritesDao = new FavoritesDao()
+        // DB-state-first: check actual DB state instead of trusting caller's currentState
+        const isCurrentlyFav: boolean = await favDao.isFavorite(path)
+        const newState: boolean = !isCurrentlyFav
+
+        if (newState) {
+          const fileName: string = FileOperations.getFileName(path)
+          const parentPath: string = FileOperations.getParentPath(path)
+          const fav: Favorite = new Favorite(0, path, fileName, parentPath)
+          await favDao.insert(fav)
+        } else {
+          await favDao.deleteFavoritePath(path)
+        }
+        resultState = newState
+        console.info('[FileOps] toggleFavorite: ' + (newState ? 'added' : 'removed') + ' ' + path)
+      } catch (e) {
+        console.error('[FileOps] toggleFavorite failed: ' + (e as Error).message)
+      }
+    })
+    FileOperations.favQueue = operation
+    await operation
+    return resultState
   }
 
   // Restore items from recycle bin by clearing deletedTS

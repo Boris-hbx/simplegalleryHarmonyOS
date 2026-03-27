@@ -7,6 +7,8 @@ import { image } from '@kit.ImageKit'
 const VIDEO_EXTENSIONS: Array<string> = ['.mp4', '.mkv', '.avi', '.3gp', '.mov', '.webm', '.ts', '.flv', '.wmv', '.m4v']
 
 @Component
+// @Reusable removed: plain property 'directory' isn't updated on reuse (no aboutToReuse),
+// causing stale thumbnails/counts and wrong navigation after dirDataSource.setData().
 export struct DirectoryItem {
   directory: Directory = new Directory()
   isListMode: boolean = false

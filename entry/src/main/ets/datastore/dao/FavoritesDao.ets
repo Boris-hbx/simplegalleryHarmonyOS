@@ -1,5 +1,7 @@
 import { relationalStore } from '@kit.ArkData';
 import { hilog } from '@kit.PerformanceAnalysisKit';
+import { photoAccessHelper } from '@kit.MediaLibraryKit';
+import { dataSharePredicates } from '@kit.ArkData';
 import { Favorite } from '../../common/models/Favorite';
 import { GalleryDatabaseHelper } from '../GalleryDatabaseHelper';
 
@@ -122,6 +124,75 @@ export class FavoritesDao {
     } catch (e) {
       throw new Error('Failed to delete favorite path: ' + (e as Error).message);
     }
+  }
+
+  // BUG-034: Get all favorite paths (no JOIN — works even without media table rows)
+  async getAllPaths(): Promise<Array<string>> {
+    try {
+      const store: relationalStore.RdbStore = this.getRdbStore();
+      const sql: string = 'SELECT full_path FROM favorites';
+      const resultSet: relationalStore.ResultSet = await store.querySql(sql);
+      const paths: Array<string> = [];
+      try {
+        while (resultSet.goToNextRow()) {
+          const fullPath: string = resultSet.getString(resultSet.getColumnIndex('full_path'));
+          paths.push(fullPath);
+        }
+      } finally {
+        resultSet.close();
+      }
+      return paths;
+    } catch (e) {
+      return [];
+    }
+  }
+
+  // BUG-034c: Get favorite paths validated against photoAccessHelper.
+  // Removes stale entries (deleted media) from favorites table and returns only valid URIs.
+  async getValidatedPaths(context: Context): Promise<Array<string>> {
+    const allPaths: Array<string> = await this.getAllPaths();
+    if (allPaths.length === 0) {
+      return [];
+    }
+
+    const helper: photoAccessHelper.PhotoAccessHelper = photoAccessHelper.getPhotoAccessHelper(context);
+    const validPaths: Array<string> = [];
+    const stalePaths: Array<string> = [];
+
+    for (let i: number = 0; i < allPaths.length; i++) {
+      const uri: string = allPaths[i];
+      try {
+        const predicates: dataSharePredicates.DataSharePredicates = new dataSharePredicates.DataSharePredicates();
+        predicates.equalTo(photoAccessHelper.PhotoKeys.URI, uri);
+        const fetchOpt: photoAccessHelper.FetchOptions = {
+          fetchColumns: [photoAccessHelper.PhotoKeys.URI],
+          predicates: predicates
+        };
+        const result: photoAccessHelper.FetchResult<photoAccessHelper.PhotoAsset> = await helper.getAssets(fetchOpt);
+        if (result.getCount() > 0) {
+          validPaths.push(uri);
+        } else {
+          stalePaths.push(uri);
+        }
+        result.close();
+      } catch (e) {
+        stalePaths.push(uri);
+      }
+    }
+
+    // Clean up stale entries
+    for (let i: number = 0; i < stalePaths.length; i++) {
+      try {
+        await this.deleteFavoritePath(stalePaths[i]);
+      } catch (e) {
+        // Ignore cleanup errors
+      }
+    }
+    if (stalePaths.length > 0) {
+      hilog.info(DOMAIN, TAG, 'Cleaned %{public}d stale favorites, %{public}d valid remain', stalePaths.length, validPaths.length);
+    }
+
+    return validPaths;
   }
 
   async clearFavorites(): Promise<void> {
