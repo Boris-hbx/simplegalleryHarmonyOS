@@ -1,4 +1,5 @@
 import { router } from '@kit.ArkUI'
+import { common, Want } from '@kit.AbilityKit'
 import { Directory } from '../common/models/Directory'
 import { Medium } from '../common/models/Medium'
 import { VIEW_TYPE_GRID, VIEW_TYPE_LIST, MAX_COLUMN_COUNT, RECYCLE_BIN, FAVORITES } from '../common/constants/Constants'
@@ -247,6 +248,23 @@ struct MainPage {
     }
   }
 
+  // T-072 ②: Launch system camera
+  private launchCamera(): void {
+    try {
+      const ctx: Context = this.getUIContext().getHostContext()!
+      const want: Want = {
+        action: 'ohos.want.action.imageCapture'
+      }
+      ;(ctx as common.UIAbilityContext).startAbility(want).then((): void => {
+        console.info('[MainPage] launchCamera succeeded')
+      }).catch((err: Error): void => {
+        this.getUIContext()?.getPromptAction()?.showToast({ message: '无法打开相机' })
+      })
+    } catch (e) {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '无法打开相机' })
+    }
+  }
+
   navigateToFolder(dirPath: string, dirName: string): void {
     try {
       const navParams: MediaPageParams = { directoryPath: dirPath, directoryName: dirName }
@@ -314,10 +332,10 @@ struct MainPage {
     if (allPinned) {
       config.removePinnedFolders(this.selectedPaths)
       // BUG-039 G-002: Toast feedback
-      this.getUIContext()?.getPromptAction()?.showToast({ message: 'Unpinned' })
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '已取消置顶' })
     } else {
       config.addPinnedFolders(this.selectedPaths)
-      this.getUIContext()?.getPromptAction()?.showToast({ message: 'Pinned' })
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '已置顶 📌' })
     }
     this.exitMultiSelectMode()
     this.loadDirectories()
@@ -891,6 +909,12 @@ struct MainPage {
               value: this.getStr($r('app.string.excluded_folders_menu').id),
               action: () => {
                 router.pushUrl({ url: 'pages/ExcludedFoldersPage' })
+              }
+            },
+            {
+              value: '打开相机',
+              action: () => {
+                this.launchCamera()
               }
             },
             {

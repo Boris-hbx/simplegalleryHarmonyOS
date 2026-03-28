@@ -1497,6 +1497,14 @@
       "value": "Save"
     },
     {
+      "name": "file_saved",
+      "value": "Saved successfully"
+    },
+    {
+      "name": "saving_failed",
+      "value": "Save failed"
+    },
+    {
       "name": "delete_action",
       "value": "Delete"
     },

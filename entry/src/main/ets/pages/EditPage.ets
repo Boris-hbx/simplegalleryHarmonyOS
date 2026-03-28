@@ -8,6 +8,7 @@
 import { router } from '@kit.ArkUI'
 import { image } from '@kit.ImageKit'
 import { fileIo as fs } from '@kit.CoreFileKit'
+import { common } from '@kit.AbilityKit'
 import { CropOverlay, CropRect } from '../components/CropOverlay'
 import { DrawCanvas } from '../components/DrawCanvas'
 import { PaintOptions } from '../common/models/PaintOptions'
@@ -535,7 +536,7 @@ struct EditPage {
         drawPixelMap.release()
       }
 
-      // 6. Pack and save
+      // 6. Pack and save to sandbox (PIT-056: cannot write back to media URI directly)
       const packer: image.ImagePacker = image.createImagePacker()
       const packOpts: image.PackingOption = {
         format: 'image/jpeg',
@@ -543,7 +544,10 @@ struct EditPage {
       }
       const data: ArrayBuffer = await packer.packToData(pixelMap, packOpts)
 
-      const file: fs.File = fs.openSync(this.imagePath,
+      const ctx: common.UIAbilityContext = getContext(this) as common.UIAbilityContext
+      const fileName: string = 'edited_' + Date.now().toString() + '.jpg'
+      const savePath: string = ctx.filesDir + '/' + fileName
+      const file: fs.File = fs.openSync(savePath,
         fs.OpenMode.WRITE_ONLY | fs.OpenMode.CREATE | fs.OpenMode.TRUNC)
       fs.writeSync(file.fd, data)
       fs.closeSync(file.fd)
@@ -552,9 +556,15 @@ struct EditPage {
       source.release()
       packer.release()
 
+      this.getUIContext()?.getPromptAction()?.showToast({
+        message: $r('app.string.file_saved')
+      })
       router.back()
     } catch (e) {
-      console.error('EditPage: save failed')
+      console.error('EditPage: save failed: ' + (e as Error).message)
+      this.getUIContext()?.getPromptAction()?.showToast({
+        message: $r('app.string.saving_failed')
+      })
     }
 
     this.isSaving = false

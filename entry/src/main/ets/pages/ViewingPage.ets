@@ -477,6 +477,110 @@ struct ViewingPage {
     }
   }
 
+  // T-071 ⑥ + BUG-040 TC-22: Rotate image and save to sandbox, then refresh display
+  private async rotateCurrentImage(degrees: number): Promise<void> {
+    try {
+      const mediaUri: string = this.currentMedium.path
+      const ctx: common.UIAbilityContext = getContext(this) as common.UIAbilityContext
+      const srcFile: fileIo.File = fileIo.openSync(mediaUri, fileIo.OpenMode.READ_ONLY)
+      const imgSource: image.ImageSource = image.createImageSource(srcFile.fd)
+      const pixelMap: image.PixelMap = await imgSource.createPixelMap()
+      await pixelMap.rotate(degrees)
+
+      // Pack rotated image to sandbox
+      const packer: image.ImagePacker = image.createImagePacker()
+      const packOpt: image.PackingOption = { format: 'image/jpeg', quality: 95 }
+      const buf: ArrayBuffer = await packer.packToData(pixelMap, packOpt)
+
+      const rotateDir: string = ctx.cacheDir + '/rotate_temp'
+      try { fileIo.mkdirSync(rotateDir, true) } catch (mkErr) { /* exists */ }
+      const rotatePath: string = rotateDir + '/rotated_' + Date.now().toString() + '.jpg'
+      const destFile: fileIo.File = fileIo.openSync(rotatePath,
+        fileIo.OpenMode.READ_WRITE | fileIo.OpenMode.CREATE | fileIo.OpenMode.TRUNC)
+      fileIo.writeSync(destFile.fd, buf)
+      fileIo.closeSync(destFile)
+
+      packer.release()
+      pixelMap.release()
+      imgSource.release()
+      fileIo.closeSync(srcFile)
+
+      // Update current medium's path to the rotated sandbox file → triggers PhotoViewer refresh
+      const rotatedUri: string = fileUri.getUriFromPath(rotatePath)
+      const oldMedium: Medium = this.currentMedium
+      const rotatedMedium: Medium = new Medium(
+        oldMedium.id, oldMedium.name, rotatedUri, oldMedium.parentPath,
+        oldMedium.modified, oldMedium.taken, oldMedium.size, oldMedium.type,
+        oldMedium.videoDuration, oldMedium.isFavorite, oldMedium.deletedTS, oldMedium.mediaStoreId
+      )
+      // Replace in mediaList and trigger re-render
+      const newList: Medium[] = []
+      for (let i: number = 0; i < this.mediaList.length; i++) {
+        if (i === this.currentIndex) {
+          newList.push(rotatedMedium)
+        } else {
+          newList.push(this.mediaList[i])
+        }
+      }
+      this.mediaList = newList
+      this.currentMedium = rotatedMedium
+
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '已旋转 ' + degrees.toString() + '°' })
+    } catch (e) {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '旋转失败' })
+    }
+  }
+
+  // T-071 ④: Hide current file's folder by creating .nomedia
+  private hideCurrentFile(): void {
+    try {
+      const parentPath: string = this.currentMedium.parentPath
+      if (parentPath.length > 0 && !parentPath.startsWith('file://media')) {
+        const nomediaPath: string = parentPath + '/.nomedia'
+        const file: fileIo.File = fileIo.openSync(nomediaPath, fileIo.OpenMode.CREATE | fileIo.OpenMode.WRITE_ONLY)
+        fileIo.closeSync(file)
+        this.getUIContext()?.getPromptAction()?.showToast({ message: '文件夹已隐藏' })
+      } else {
+        this.getUIContext()?.getPromptAction()?.showToast({ message: '系统媒体库文件不支持隐藏' })
+      }
+    } catch (e) {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '隐藏失败' })
+    }
+  }
+
+  // T-071 ⑤: Save current image to a user-chosen location
+  private async saveCurrentImageAs(): Promise<void> {
+    try {
+      const ctx: common.UIAbilityContext = getContext(this) as common.UIAbilityContext
+      const mediaUri: string = this.currentMedium.path
+      const fileName: string = this.currentMedium.name
+
+      // Copy from photoAccessHelper URI to sandbox first
+      const srcFile: fileIo.File = fileIo.openSync(mediaUri, fileIo.OpenMode.READ_ONLY)
+      const saveDir: string = ctx.cacheDir + '/save_temp'
+      try { fileIo.mkdirSync(saveDir, true) } catch (e) { /* exists */ }
+      const savePath: string = saveDir + '/' + fileName
+      const destFile: fileIo.File = fileIo.openSync(savePath,
+        fileIo.OpenMode.READ_WRITE | fileIo.OpenMode.CREATE | fileIo.OpenMode.TRUNC)
+      fileIo.copyFileSync(srcFile.fd, destFile.fd)
+      fileIo.closeSync(srcFile)
+      fileIo.closeSync(destFile)
+
+      // Use DocumentViewPicker to let user choose save location
+      const saveUri: string = fileUri.getUriFromPath(savePath)
+      const want: Want = {
+        action: 'ohos.want.action.sendData',
+        uri: saveUri,
+        type: this.currentMedium.isVideo() ? 'video/*' : 'image/*',
+        flags: 0x00000001
+      }
+      await ctx.startAbility(want)
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '已打开保存选择器' })
+    } catch (e) {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '另存为失败' })
+    }
+  }
+
   // PIT-066: wallpaper API is System-only. Copy to sandbox then open in system gallery.
   // PIT-053: photoAccessHelper URI must be copied to sandbox for other apps to access.
   private async launchSystemWallpaper(): Promise<void> {
@@ -699,6 +803,42 @@ struct ViewingPage {
         }
       }
     })
+
+    // T-071 ②: Open with — open in another app via viewData action
+    items.push({
+      value: '打开方式',
+      action: (): void => {
+        this.openInSystemGallery()
+      }
+    })
+
+    // T-071 ⑥: Rotate — image only
+    if (!this.currentMedium.isVideo()) {
+      items.push({
+        value: '旋转 90°',
+        action: (): void => {
+          this.rotateCurrentImage(90)
+        }
+      })
+    }
+
+    // T-071 ④: Hide/unhide — toggle .nomedia in parent folder
+    items.push({
+      value: '隐藏',
+      action: (): void => {
+        this.hideCurrentFile()
+      }
+    })
+
+    // T-071 ⑤: Save as — image only, copy to user-chosen location
+    if (!this.currentMedium.isVideo()) {
+      items.push({
+        value: '另存为',
+        action: (): void => {
+          this.saveCurrentImageAs()
+        }
+      })
+    }
 
     // Details — show as dialog (like Android PropertiesDialog)
     items.push({

@@ -1481,6 +1481,14 @@
       "value": "保存"
     },
     {
+      "name": "file_saved",
+      "value": "已保存"
+    },
+    {
+      "name": "saving_failed",
+      "value": "保存失败"
+    },
+    {
       "name": "delete_action",
       "value": "删除"
     },

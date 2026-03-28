@@ -52,7 +52,7 @@ const DRAG_LEFT: number = 9
 @Component
 export struct CropOverlay {
   @Link cropRect: CropRect
-  @Prop cropRatio: number = ASPECT_RATIO_FREE
+  @Prop @Watch('onRatioChanged') cropRatio: number = ASPECT_RATIO_FREE
   @Prop customRatioX: number = 2
   @Prop customRatioY: number = 1
 
@@ -347,6 +347,43 @@ export struct CropOverlay {
     this.cropRect.y = newY
     this.cropRect.w = newW
     this.cropRect.h = newH
+  }
+
+  // BUG-040 TC-11: When ratio changes, always compute from FULL image (1x1), not current crop
+  private onRatioChanged(): void {
+    const ratio: number = this.getEffectiveRatio()
+    if (ratio <= 0) {
+      // Free ratio — reset to full image
+      this.cropRect.x = 0
+      this.cropRect.y = 0
+      this.cropRect.w = 1
+      this.cropRect.h = 1
+      this.cropRect.isActive = false
+      return
+    }
+    // Calculate the largest rect with given ratio that fits within 1x1 normalized space
+    // ratio = pixelW / pixelH = (w * areaWidth) / (h * areaHeight)
+    // So in normalized coords: w / h = ratio * areaHeight / areaWidth
+    const normalizedRatio: number = this.areaWidth > 0 && this.areaHeight > 0
+      ? (ratio * this.areaHeight / this.areaWidth) : ratio
+    let newW: number = 1
+    let newH: number = 1
+    // Start from full width, compute height
+    newH = newW / normalizedRatio
+    if (newH > 1) {
+      // Height overflows — start from full height instead
+      newH = 1
+      newW = newH * normalizedRatio
+    }
+    // Center in the 1x1 space
+    const newX: number = (1 - newW) / 2
+    const newY: number = (1 - newH) / 2
+
+    this.cropRect.x = newX
+    this.cropRect.y = newY
+    this.cropRect.w = newW
+    this.cropRect.h = newH
+    this.cropRect.isActive = true
   }
 
   private getEffectiveRatio(): number {

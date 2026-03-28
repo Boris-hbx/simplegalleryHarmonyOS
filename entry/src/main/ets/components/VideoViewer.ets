@@ -20,6 +20,8 @@ export struct VideoViewer {
   @State showControls: boolean = true
   @State isPrepared: boolean = false
   @State surfaceId: string = ''
+  // T-073 ①: Video double-tap zoom
+  @State videoScale: number = 1.0
 
   private avPlayer: media.AVPlayer | null = null
   private xComponentController: XComponentController = new XComponentController()
@@ -166,6 +168,18 @@ export struct VideoViewer {
     }
     .width('100%')
     .height('100%')
+    // T-073 ①: Double-tap zoom (1x ↔ 2x)
+    .scale({ x: this.videoScale, y: this.videoScale })
+    .gesture(
+      TapGesture({ count: 2 })
+        .onAction((): void => {
+          if (this.videoScale > 1.5) {
+            this.videoScale = 1.0
+          } else {
+            this.videoScale = 2.0
+          }
+        })
+    )
   }
 
   private async togglePlayback(): Promise<void> {
