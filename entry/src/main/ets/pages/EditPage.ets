@@ -25,6 +25,9 @@ import {
 const MODE_CROP: string = 'crop'
 const MODE_ROTATE: string = 'rotate'
 const MODE_DRAW: string = 'draw'
+const MODE_ADJUST: string = 'adjust'   // T-076: brightness/contrast
+const MODE_FILTER: string = 'filter'   // T-076: color filters
+const MODE_RESIZE: string = 'resize'   // T-076: resize image
 
 // Toolbar icon size
 const ICON_SIZE: number = 28
@@ -76,6 +79,18 @@ struct EditPage {
   @State drawColor: number = PRESET_COLOR_BLACK
   @State brushSize: number = 5
   @State paintOptions: PaintOptions = new PaintOptions()
+
+  // T-076: Adjust mode state
+  @State brightness: number = 0     // -100 to 100
+  @State contrast: number = 0       // -100 to 100
+  // T-076: Filter mode state (0=none, 1=grayscale, 2=sepia, 3=invert, 4=warm, 5=cool)
+  @State selectedFilter: number = 0
+  // T-076: Resize mode state
+  @State resizeWidth: number = 0
+  @State resizeHeight: number = 0
+  @State resizeMaintainRatio: boolean = true
+  // T-076: Text overlay
+  @State overlayText: string = ''
 
   private drawCanvasRef: DrawCanvas | null = null
   private configManager: ConfigManager = ConfigManager.getInstance()
@@ -133,6 +148,12 @@ struct EditPage {
           .objectFit(ImageFit.Contain)
           .rotate({ angle: this.rotation })
           .scale({ x: this.flipH ? -1 : 1, y: this.flipV ? -1 : 1 })
+          .brightness(this.brightness / 100)
+          .contrast(1 + this.contrast / 100)
+          .grayscale(this.selectedFilter === 1 ? 1 : 0)
+          .sepia(this.selectedFilter === 2 ? 1 : 0)
+          .invert(this.selectedFilter === 3 ? 1 : 0)
+          .saturate(this.selectedFilter === 4 ? 1.5 : (this.selectedFilter === 5 ? 0.5 : 1))
           .width('100%')
           .height('100%')
 
@@ -159,20 +180,33 @@ struct EditPage {
         this.cropControls()
       } else if (this.currentMode === MODE_ROTATE) {
         this.rotateControls()
-      } else {
-        // Draw mode controls
+      } else if (this.currentMode === MODE_DRAW) {
         this.drawControls()
+      } else if (this.currentMode === MODE_ADJUST) {
+        this.adjustControls()
+      } else if (this.currentMode === MODE_FILTER) {
+        this.filterControls()
+      } else if (this.currentMode === MODE_RESIZE) {
+        this.resizeControls()
       }
 
-      // Bottom tab bar: Crop | Rotate | Draw
-      Row() {
-        this.modeTab(MODE_CROP, $r('app.string.crop'))
-        this.modeTab(MODE_ROTATE, $r('app.string.rotate'))
-        this.modeTab(MODE_DRAW, $r('app.string.draw'))
+      // Bottom tab bar: Crop | Rotate | Draw | Adjust | Filter | Resize
+      Scroll() {
+        Row() {
+          this.modeTab(MODE_CROP, $r('app.string.crop'))
+          this.modeTab(MODE_ROTATE, $r('app.string.rotate'))
+          this.modeTab(MODE_DRAW, $r('app.string.draw'))
+          this.modeTab(MODE_ADJUST, '调整')
+          this.modeTab(MODE_FILTER, '滤镜')
+          this.modeTab(MODE_RESIZE, '大小')
+        }
+        .justifyContent(FlexAlign.SpaceAround)
+        .width('100%')
       }
+      .scrollable(ScrollDirection.Horizontal)
+      .scrollBar(BarState.Off)
       .width('100%')
       .height(TOOLBAR_HEIGHT)
-      .justifyContent(FlexAlign.SpaceAround)
       .alignItems(VerticalAlign.Center)
 
       // Custom aspect ratio dialog
@@ -460,6 +494,137 @@ struct EditPage {
     }
   }
 
+  // =========================================================================
+  // T-076: Adjust controls (brightness + contrast sliders)
+  // =========================================================================
+  @Builder
+  adjustControls() {
+    Column({ space: 8 }) {
+      Row() {
+        Text('亮度').fontSize(13).width(50)
+        Slider({ min: -100, max: 100, value: this.brightness, step: 1 })
+          .layoutWeight(1)
+          .onChange((value: number): void => {
+            this.brightness = value
+          })
+        Text(this.brightness.toFixed(0)).fontSize(13).width(40).textAlign(TextAlign.End)
+      }
+      .width('100%')
+      .padding({ left: 16, right: 16 })
+
+      Row() {
+        Text('对比度').fontSize(13).width(50)
+        Slider({ min: -100, max: 100, value: this.contrast, step: 1 })
+          .layoutWeight(1)
+          .onChange((value: number): void => {
+            this.contrast = value
+          })
+        Text(this.contrast.toFixed(0)).fontSize(13).width(40).textAlign(TextAlign.End)
+      }
+      .width('100%')
+      .padding({ left: 16, right: 16 })
+
+      Button('重置')
+        .fontSize(13)
+        .onClick((): void => {
+          this.brightness = 0
+          this.contrast = 0
+        })
+    }
+    .width('100%')
+    .height(DRAW_CONTROL_HEIGHT)
+    .justifyContent(FlexAlign.Center)
+  }
+
+  // =========================================================================
+  // T-076: Filter controls (preset color filters)
+  // =========================================================================
+  @Builder
+  filterControls() {
+    Row() {
+      this.filterButton('原图', 0)
+      this.filterButton('黑白', 1)
+      this.filterButton('复古', 2)
+      this.filterButton('反色', 3)
+      this.filterButton('暖色', 4)
+      this.filterButton('冷色', 5)
+    }
+    .width('100%')
+    .height(CONTROL_ROW_HEIGHT)
+    .justifyContent(FlexAlign.SpaceAround)
+    .alignItems(VerticalAlign.Center)
+  }
+
+  @Builder
+  filterButton(label: string, filterId: number) {
+    Column() {
+      Text(label)
+        .fontSize(BUTTON_FONT_SIZE)
+        .fontWeight(this.selectedFilter === filterId ? FontWeight.Bold : FontWeight.Normal)
+        .fontColor(this.selectedFilter === filterId ? $r('sys.color.ohos_id_color_primary') : Color.Gray)
+    }
+    .onClick((): void => {
+      this.selectedFilter = filterId
+    })
+    .padding(8)
+  }
+
+  // =========================================================================
+  // T-076: Resize controls (width x height input)
+  // =========================================================================
+  @Builder
+  resizeControls() {
+    Column({ space: 8 }) {
+      Row() {
+        Text('宽度').fontSize(13).width(50)
+        TextInput({ text: this.resizeWidth > 0 ? this.resizeWidth.toString() : this.imageWidth.toString() })
+          .type(InputType.Number)
+          .layoutWeight(1)
+          .height(36)
+          .onChange((value: string): void => {
+            const w: number = parseInt(value) || 0
+            this.resizeWidth = w
+            if (this.resizeMaintainRatio && this.imageWidth > 0) {
+              this.resizeHeight = Math.round(w * this.imageHeight / this.imageWidth)
+            }
+          })
+        Text('px').fontSize(13).margin({ left: 4 })
+      }
+      .width('100%')
+      .padding({ left: 16, right: 16 })
+
+      Row() {
+        Text('高度').fontSize(13).width(50)
+        TextInput({ text: this.resizeHeight > 0 ? this.resizeHeight.toString() : this.imageHeight.toString() })
+          .type(InputType.Number)
+          .layoutWeight(1)
+          .height(36)
+          .onChange((value: string): void => {
+            const h: number = parseInt(value) || 0
+            this.resizeHeight = h
+            if (this.resizeMaintainRatio && this.imageHeight > 0) {
+              this.resizeWidth = Math.round(h * this.imageWidth / this.imageHeight)
+            }
+          })
+        Text('px').fontSize(13).margin({ left: 4 })
+      }
+      .width('100%')
+      .padding({ left: 16, right: 16 })
+
+      Row() {
+        Toggle({ type: ToggleType.Checkbox, isOn: this.resizeMaintainRatio })
+          .onChange((isOn: boolean): void => {
+            this.resizeMaintainRatio = isOn
+          })
+        Text('保持比例').fontSize(13).margin({ left: 8 })
+      }
+      .padding({ left: 16 })
+    }
+    .width('100%')
+    .height(DRAW_CONTROL_HEIGHT + 20)
+    .justifyContent(FlexAlign.Center)
+  }
+
   private async saveImage(): Promise<void> {
     if (this.isSaving) {
       return
@@ -528,6 +693,69 @@ struct EditPage {
           ' w=' + regionW.toString() + ' h=' + regionH.toString() +
           ' imgSize=' + imgW.toString() + 'x' + imgH.toString())
         await pixelMap.crop(region)
+      }
+
+      // 4b. T-076: Apply brightness and contrast via pixel manipulation
+      if (this.brightness !== 0 || this.contrast !== 0) {
+        const adjInfo: image.ImageInfo = await pixelMap.getImageInfo()
+        const adjBuf: ArrayBuffer = new ArrayBuffer(adjInfo.size.width * adjInfo.size.height * 4)
+        await pixelMap.readPixelsToBuffer(adjBuf)
+        const adjView: Uint8Array = new Uint8Array(adjBuf)
+        const bFactor: number = this.brightness * 2.55  // -255 to 255
+        const cFactor: number = 1 + this.contrast / 100  // 0 to 2
+        for (let p: number = 0; p < adjView.length; p += 4) {
+          for (let c: number = 0; c < 3; c++) {
+            let val: number = adjView[p + c]
+            val = ((val - 128) * cFactor) + 128 + bFactor
+            adjView[p + c] = Math.max(0, Math.min(255, Math.round(val)))
+          }
+        }
+        await pixelMap.writeBufferToPixels(adjBuf)
+      }
+
+      // 4c. T-076: Apply filter via pixel manipulation
+      if (this.selectedFilter === 1) {
+        // Grayscale
+        const gInfo: image.ImageInfo = await pixelMap.getImageInfo()
+        const gBuf: ArrayBuffer = new ArrayBuffer(gInfo.size.width * gInfo.size.height * 4)
+        await pixelMap.readPixelsToBuffer(gBuf)
+        const gView: Uint8Array = new Uint8Array(gBuf)
+        for (let p: number = 0; p < gView.length; p += 4) {
+          const gray: number = Math.round(gView[p] * 0.299 + gView[p + 1] * 0.587 + gView[p + 2] * 0.114)
+          gView[p] = gray; gView[p + 1] = gray; gView[p + 2] = gray
+        }
+        await pixelMap.writeBufferToPixels(gBuf)
+      } else if (this.selectedFilter === 2) {
+        // Sepia
+        const sInfo: image.ImageInfo = await pixelMap.getImageInfo()
+        const sBuf: ArrayBuffer = new ArrayBuffer(sInfo.size.width * sInfo.size.height * 4)
+        await pixelMap.readPixelsToBuffer(sBuf)
+        const sView: Uint8Array = new Uint8Array(sBuf)
+        for (let p: number = 0; p < sView.length; p += 4) {
+          const r: number = sView[p]; const g: number = sView[p + 1]; const b: number = sView[p + 2]
+          sView[p] = Math.min(255, Math.round(r * 0.393 + g * 0.769 + b * 0.189))
+          sView[p + 1] = Math.min(255, Math.round(r * 0.349 + g * 0.686 + b * 0.168))
+          sView[p + 2] = Math.min(255, Math.round(r * 0.272 + g * 0.534 + b * 0.131))
+        }
+        await pixelMap.writeBufferToPixels(sBuf)
+      } else if (this.selectedFilter === 3) {
+        // Invert
+        const iInfo: image.ImageInfo = await pixelMap.getImageInfo()
+        const iBuf: ArrayBuffer = new ArrayBuffer(iInfo.size.width * iInfo.size.height * 4)
+        await pixelMap.readPixelsToBuffer(iBuf)
+        const iView: Uint8Array = new Uint8Array(iBuf)
+        for (let p: number = 0; p < iView.length; p += 4) {
+          iView[p] = 255 - iView[p]; iView[p + 1] = 255 - iView[p + 1]; iView[p + 2] = 255 - iView[p + 2]
+        }
+        await pixelMap.writeBufferToPixels(iBuf)
+      }
+
+      // 4d. T-076: Apply resize
+      if (this.resizeWidth > 0 && this.resizeHeight > 0) {
+        const curInfo: image.ImageInfo = await pixelMap.getImageInfo()
+        if (this.resizeWidth !== curInfo.size.width || this.resizeHeight !== curInfo.size.height) {
+          await pixelMap.scale(this.resizeWidth / curInfo.size.width, this.resizeHeight / curInfo.size.height)
+        }
       }
 
       // 5. Composite drawing overlay if present
