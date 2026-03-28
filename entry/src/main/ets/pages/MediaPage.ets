@@ -56,6 +56,11 @@ struct MediaPage {
   @State currentGrouping: number = GROUP_BY_NONE
   @State isMultiSelectMode: boolean = false
   @State selectedPaths: Set<string> = new Set<string>()
+  // T-081: Pagination state
+  private allMediaCache: Medium[] = []  // full sorted list from scanner
+  private pageSize: number = 100
+  private loadedCount: number = 0
+  private isLoadingMore: boolean = false
   // Track deleted URIs so they stay hidden after rescan (no WRITE_IMAGEVIDEO permission)
   private deletedUris: Set<string> = new Set<string>()
 
@@ -500,24 +505,65 @@ struct MediaPage {
     }
   }
 
+  // T-081: Two-phase loading — fast first page, then background full load
   async loadMedia(): Promise<void> {
     this.isLoading = true
+    this.loadedCount = 0
+    this.allMediaCache = []
     try {
       const scanner: MediaScanner = new MediaScanner(this.getUIContext().getHostContext()!)
       const config: ConfigManager = ConfigManager.getInstance()
-      const media: Medium[] = await scanner.getFilesFrom(
+
+      // Phase 1: Fast first page (limit=100)
+      const firstPage: Medium[] = await scanner.getFilesFrom(
+        this.directoryPath, config.filterMedia,
+        this.currentSorting, this.pageSize
+      )
+      this.allMediaCache = firstPage
+      this.loadPage(true)
+      this.isLoading = false
+
+      // Phase 2: Background full load (no limit)
+      const allMedia: Medium[] = await scanner.getFilesFrom(
         this.directoryPath, config.filterMedia,
         this.currentSorting
       )
-      const groupBy: number = this.currentGrouping
-      const showCount: boolean = (groupBy & GROUP_SHOW_FILE_COUNT) !== 0
-      this.mediaItems = MediaGrouper.insertGroupHeaders(media, groupBy, showCount)
-      this.mediaDataSource.setItems(this.mediaItems)
+      this.allMediaCache = allMedia
+      console.info('[MediaPage] loadMedia: total=' + allMedia.length.toString())
     } catch (e) {
       console.error('Failed to load media')
+      this.isLoading = false
     }
-    this.isLoading = false
     this.isRefreshing = false
+  }
+
+  // T-081: Load a page of items from allMediaCache into mediaItems
+  private loadPage(isFirst: boolean): void {
+    const end: number = Math.min(this.loadedCount + this.pageSize, this.allMediaCache.length)
+    if (isFirst) {
+      const firstPage: Medium[] = this.allMediaCache.slice(0, end)
+      const groupBy: number = this.currentGrouping
+      const showCount: boolean = (groupBy & GROUP_SHOW_FILE_COUNT) !== 0
+      this.mediaItems = MediaGrouper.insertGroupHeaders(firstPage, groupBy, showCount)
+      this.mediaDataSource.setItems(this.mediaItems)
+    } else {
+      // Append next page — add raw items without re-grouping for speed
+      for (let i: number = this.loadedCount; i < end; i++) {
+        this.mediaItems.push(this.allMediaCache[i])
+      }
+      this.mediaDataSource.setItems(this.mediaItems)
+    }
+    this.loadedCount = end
+  }
+
+  // T-081: Load more when scrolled to bottom
+  private loadMore(): void {
+    if (this.isLoadingMore || this.loadedCount >= this.allMediaCache.length) {
+      return
+    }
+    this.isLoadingMore = true
+    this.loadPage(false)
+    this.isLoadingMore = false
   }
 
   showSortPicker(): void {
@@ -898,6 +944,10 @@ struct MediaPage {
     .width('100%')
     .layoutWeight(1)
     .cachedCount(3)
+    // T-081: Load more on scroll to bottom
+    .onReachEnd((): void => {
+      this.loadMore()
+    })
   }
 
   @Builder
@@ -966,6 +1016,9 @@ struct MediaPage {
     .width('100%')
     .layoutWeight(1)
     .cachedCount(3)
+    .onReachEnd((): void => {
+      this.loadMore()
+    })
   }
 
   buildColumnsTemplate(): string {

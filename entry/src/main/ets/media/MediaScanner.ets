@@ -590,8 +590,9 @@ export class MediaScanner {
   }
 
   // FR-002: Get media files from a specific folder path
+  // T-081: Optional limit parameter for paged loading (0 = all)
   async getFilesFrom(
-    path: string, filterMedia: number, sorting: number
+    path: string, filterMedia: number, sorting: number, limit: number = 0
   ): Promise<Array<Medium>> {
     this.resetStop()
 
@@ -606,7 +607,7 @@ export class MediaScanner {
     } else if (path === RECYCLE_BIN) {
       media = await this.getRecycleBinMedia(filterMedia)
     } else {
-      media = await this.fetchMediaForPath(path, filterMedia)
+      media = await this.fetchMediaForPath(path, filterMedia, limit)
     }
 
     return this.sortMedia(media, sorting)
@@ -671,8 +672,9 @@ export class MediaScanner {
   // Fetch media assets for a specific album URI or virtual group path
   // BUG-002 fix: path is now an album URI (from Albums API), not a filesystem path.
   // BUG-012 fix: Also handles __group__: virtual paths from displayName prefix fallback.
+  // T-081: limit parameter (0 = all)
   private async fetchMediaForPath(
-    path: string, filterMedia: number
+    path: string, filterMedia: number, limit: number = 0
   ): Promise<Array<Medium>> {
     // Handle "All Photos" virtual directory — return all assets
     if (path === '__all_photos__') {
@@ -708,6 +710,10 @@ export class MediaScanner {
       let asset: photoAccessHelper.PhotoAsset = await assetResult.getFirstObject()
       for (let i: number = 0; i < count; i++) {
         if (this.shouldStop) {
+          break
+        }
+        // T-081: Stop early if limit reached
+        if (limit > 0 && media.length >= limit) {
           break
         }
 

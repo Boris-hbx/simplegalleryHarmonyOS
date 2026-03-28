@@ -136,7 +136,18 @@ export struct DirectoryItem {
       // FR-C02: No play icon overlay on folder view thumbnails
       // BUG-R6B-3: Removed .alt('') — it may cause app icon overlay on video thumbnails.
       // Added dark background so partial failures show dark, not app icon.
-      if (this.videoThumbnail !== undefined) {
+      if (this.isLocked) {
+        // Lock overlay for list mode (matches Android dir_lock behavior)
+        Column() {
+          Text('🔒')
+            .fontSize(28)
+        }
+        .width(56)
+        .height(56)
+        .borderRadius(4)
+        .justifyContent(FlexAlign.Center)
+        .backgroundColor($r('sys.color.ohos_id_color_background'))
+      } else if (this.videoThumbnail !== undefined) {
         // T-067: Video cover rendered from getThumbnail() PixelMap
         Image(this.videoThumbnail)
           .width(56)
@@ -295,11 +306,16 @@ export struct DirectoryItem {
         .position({ right: 6, top: 6 })
       }
 
-      // BUG-041c: Lock icon for locked folders
+      // BUG-041c: Lock overlay for locked folders (matches Android dir_lock: full overlay hides thumbnail)
       if (this.isLocked) {
-        Text('🔒')
-          .fontSize(16)
-          .position({ left: 6, top: 6 })
+        Column() {
+          Text('🔒')
+            .fontSize(40)
+        }
+        .width('100%')
+        .height('100%')
+        .justifyContent(FlexAlign.Center)
+        .backgroundColor($r('sys.color.ohos_id_color_background'))
       }
     }
     .width('100%')
