@@ -525,7 +525,7 @@ struct ViewingPage {
       this.mediaList = newList
       this.currentMedium = rotatedMedium
 
-      this.getUIContext()?.getPromptAction()?.showToast({ message: '已旋转 ' + degrees.toString() + '°' })
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '已旋转 ' + degrees.toString() + '°（仅当前预览，系统媒体库为只读）' })
     } catch (e) {
       this.getUIContext()?.getPromptAction()?.showToast({ message: '旋转失败' })
     }

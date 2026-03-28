@@ -466,6 +466,86 @@ export class ConfigManager {
     this.prefs!.flush();
   }
 
+  // T-079: Folder lock (password protection)
+  get lockedFolders(): Set<string> {
+    const json: string = this.prefs!.getSync('locked_folders', '[]') as string;
+    const arr: Array<string> = JSON.parse(json) as Array<string>;
+    return new Set<string>(arr);
+  }
+
+  set lockedFolders(value: Set<string>) {
+    const arr: Array<string> = Array.from(value);
+    this.prefs!.putSync('locked_folders', JSON.stringify(arr));
+    this.prefs!.flush();
+  }
+
+  isFolderLocked(path: string): boolean {
+    return this.lockedFolders.has(path);
+  }
+
+  toggleFolderLock(path: string): void {
+    const current: Set<string> = this.lockedFolders;
+    if (current.has(path)) {
+      current.delete(path);
+    } else {
+      current.add(path);
+    }
+    this.lockedFolders = current;
+  }
+
+  get folderLockPin(): string {
+    return this.prefs!.getSync('folder_lock_pin', '') as string;
+  }
+
+  set folderLockPin(value: string) {
+    this.prefs!.putSync('folder_lock_pin', value);
+    this.prefs!.flush();
+  }
+
+  // T-079: Custom folder cover image
+  getCustomCover(folderPath: string): string {
+    const json: string = this.prefs!.getSync('custom_covers', '{}') as string;
+    try {
+      const map: Record<string, string> = JSON.parse(json) as Record<string, string>;
+      return map[folderPath] || '';
+    } catch (e) {
+      return '';
+    }
+  }
+
+  setCustomCover(folderPath: string, coverUri: string): void {
+    const json: string = this.prefs!.getSync('custom_covers', '{}') as string;
+    let map: Record<string, string> = {} as Record<string, string>;
+    try {
+      map = JSON.parse(json) as Record<string, string>;
+    } catch (e) {
+      // Parse error — start fresh
+    }
+    map[folderPath] = coverUri;
+    this.prefs!.putSync('custom_covers', JSON.stringify(map));
+    this.prefs!.flush();
+  }
+
+  // T-079: Slideshow transition animation (0=none, 1=fade, 2=slide)
+  get slideshowAnimation(): number {
+    return this.prefs!.getSync('slideshow_animation', 1) as number;
+  }
+
+  set slideshowAnimation(value: number) {
+    this.prefs!.putSync('slideshow_animation', value);
+    this.prefs!.flush();
+  }
+
+  // T-079: Recycle bin retention days (0 = keep forever)
+  get daysInRecycleBin(): number {
+    return this.prefs!.getSync('days_in_recycle_bin', 30) as number;
+  }
+
+  set daysInRecycleBin(value: number) {
+    this.prefs!.putSync('days_in_recycle_bin', value);
+    this.prefs!.flush();
+  }
+
   get slideshowIncludeVideos(): boolean {
     return this.prefs!.getSync(SLIDESHOW_INCLUDE_VIDEOS, false) as boolean;
   }

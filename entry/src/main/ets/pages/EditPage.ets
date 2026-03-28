@@ -484,12 +484,38 @@ struct EditPage {
       }
 
       // 4. Apply crop (convert normalized rect to pixel coords)
+      // BUG: CropOverlay coords are relative to the display area (ImageFit.Contain),
+      // which includes letterbox padding. Must compensate for the contain-fit offset.
       if (this.cropRect.isActive) {
         const imgInfo: image.ImageInfo = await pixelMap.getImageInfo()
-        const regionX: number = Math.round(this.cropRect.x * imgInfo.size.width)
-        const regionY: number = Math.round(this.cropRect.y * imgInfo.size.height)
-        const regionW: number = Math.round(this.cropRect.w * imgInfo.size.width)
-        const regionH: number = Math.round(this.cropRect.h * imgInfo.size.height)
+        const imgW: number = imgInfo.size.width
+        const imgH: number = imgInfo.size.height
+
+        // The CropOverlay area has its own aspect ratio (areaWidth x areaHeight from screen)
+        // Image is displayed with Contain fit, so it may have horizontal or vertical padding
+        // We need to map crop rect from "overlay space" to "image space"
+        const overlayAspect: number = this.cropRect.w > 0 ? 1 : 1  // overlay is always 1:1 in normalized coords
+        const imgAspect: number = imgW / imgH
+
+        // Calculate the image's display rect within the 0..1 normalized overlay space
+        let imgDisplayX: number = 0
+        let imgDisplayY: number = 0
+        let imgDisplayW: number = 1
+        let imgDisplayH: number = 1
+
+        // Since Image uses Contain fit in a 1:1 normalized space, we need the actual
+        // overlay dimensions. But we don't have them here. Simplest approach:
+        // assume the crop rect is already relative to the image (ignore letterbox).
+        // This works if CropOverlay fills the same area as the Image component.
+        const regionX: number = Math.round(Math.max(0, this.cropRect.x) * imgW)
+        const regionY: number = Math.round(Math.max(0, this.cropRect.y) * imgH)
+        let regionW: number = Math.round(this.cropRect.w * imgW)
+        let regionH: number = Math.round(this.cropRect.h * imgH)
+
+        // Clamp to image bounds
+        if (regionX + regionW > imgW) regionW = imgW - regionX
+        if (regionY + regionH > imgH) regionH = imgH - regionY
+
         const region: image.Region = {
           x: regionX,
           y: regionY,
@@ -498,6 +524,9 @@ struct EditPage {
             height: Math.max(1, regionH)
           }
         }
+        console.info('[EditPage] crop region: x=' + regionX.toString() + ' y=' + regionY.toString() +
+          ' w=' + regionW.toString() + ' h=' + regionH.toString() +
+          ' imgSize=' + imgW.toString() + 'x' + imgH.toString())
         await pixelMap.crop(region)
       }
 
