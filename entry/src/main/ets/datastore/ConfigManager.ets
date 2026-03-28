@@ -730,14 +730,7 @@ export class ConfigManager {
     this.prefs!.flush();
   }
 
-  get slideshowAnimation(): number {
-    return this.prefs!.getSync(SLIDESHOW_ANIMATION, SLIDESHOW_ANIMATION_SLIDE) as number;
-  }
-
-  set slideshowAnimation(value: number) {
-    this.prefs!.putSync(SLIDESHOW_ANIMATION, value);
-    this.prefs!.flush();
-  }
+  // Duplicate removed — slideshowAnimation already defined at line 530
 
   get lastEditorCropAspectRatio(): number {
     return this.prefs!.getSync(LAST_EDITOR_CROP_ASPECT_RATIO, ASPECT_RATIO_FREE) as number;

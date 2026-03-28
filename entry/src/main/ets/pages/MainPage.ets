@@ -331,9 +331,10 @@ struct MainPage {
           title: '文件夹已锁定',
           message: '请输入 PIN 码以访问 "' + dirName + '"',
           buttons: [{ text: '取消', color: '#999999' }, { text: '解锁', color: '#007DFF' }]
-        }).then((result: Record<string, number>): void => {
+        }).then((result: Object): void => {
           // Note: showDialog doesn't support TextInput. For now, just allow access on confirm.
-          if (result.index === 1) {
+          const idx: number = (result as Record<string, number>)['index'] || 0
+          if (idx === 1) {
             this.doNavigateToFolder(dirPath, dirName)
           }
         })
