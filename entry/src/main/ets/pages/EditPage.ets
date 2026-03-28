@@ -467,9 +467,11 @@ struct EditPage {
     this.isSaving = true
 
     try {
-      // 1. Open source image and create pixel map
-      const source: image.ImageSource = image.createImageSource(this.imagePath)
+      // 1. Open source image via fd (PIT-053: media URI needs fileIo.openSync for reliable access)
+      const srcFile: fs.File = fs.openSync(this.imagePath, fs.OpenMode.READ_ONLY)
+      const source: image.ImageSource = image.createImageSource(srcFile.fd)
       const pixelMap: image.PixelMap = await source.createPixelMap()
+      fs.closeSync(srcFile)
 
       // 2. Apply rotation
       if (this.rotation !== 0) {
@@ -536,7 +538,7 @@ struct EditPage {
         drawPixelMap.release()
       }
 
-      // 6. Pack and save to sandbox (PIT-056: cannot write back to media URI directly)
+      // 6. Pack and write back to original file via fd (READ_IMAGEVIDEO grants rw via fileIo)
       const packer: image.ImagePacker = image.createImagePacker()
       const packOpts: image.PackingOption = {
         format: 'image/jpeg',
@@ -544,13 +546,10 @@ struct EditPage {
       }
       const data: ArrayBuffer = await packer.packToData(pixelMap, packOpts)
 
-      const ctx: common.UIAbilityContext = getContext(this) as common.UIAbilityContext
-      const fileName: string = 'edited_' + Date.now().toString() + '.jpg'
-      const savePath: string = ctx.filesDir + '/' + fileName
-      const file: fs.File = fs.openSync(savePath,
-        fs.OpenMode.WRITE_ONLY | fs.OpenMode.CREATE | fs.OpenMode.TRUNC)
-      fs.writeSync(file.fd, data)
-      fs.closeSync(file.fd)
+      const outFile: fs.File = fs.openSync(this.imagePath, fs.OpenMode.READ_WRITE)
+      fs.truncateSync(outFile.fd)
+      fs.writeSync(outFile.fd, data)
+      fs.closeSync(outFile)
 
       pixelMap.release()
       source.release()

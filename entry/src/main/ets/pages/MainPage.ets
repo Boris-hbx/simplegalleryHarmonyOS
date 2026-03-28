@@ -249,6 +249,38 @@ struct MainPage {
   }
 
   // T-072 ②: Launch system camera
+  // Wave F T-071: Show selected folder properties
+  private showSelectedFolderProperties(): void {
+    const dir: Directory | null = this.getSelectedDirForRename()
+    if (dir === null) {
+      return
+    }
+    const lines: string[] = []
+    lines.push('名称：' + dir.name)
+    lines.push('路径：' + dir.path)
+    lines.push('媒体数量：' + dir.mediaCnt.toString())
+    if (dir.size > 0) {
+      lines.push('大小：' + this.formatDirSize(dir.size))
+    }
+    if (dir.modified > 0) {
+      const d: Date = new Date(dir.modified)
+      lines.push('修改时间：' + d.getFullYear().toString() + '/' +
+        (d.getMonth() + 1).toString().padStart(2, '0') + '/' +
+        d.getDate().toString().padStart(2, '0'))
+    }
+    this.getUIContext()?.getPromptAction()?.showDialog({
+      title: '文件夹属性',
+      message: lines.join('\n')
+    })
+  }
+
+  private formatDirSize(bytes: number): string {
+    if (bytes < 1024) return bytes.toString() + ' B'
+    if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB'
+    if (bytes < 1073741824) return (bytes / 1048576).toFixed(1) + ' MB'
+    return (bytes / 1073741824).toFixed(1) + ' GB'
+  }
+
   private launchCamera(): void {
     try {
       const ctx: Context = this.getUIContext().getHostContext()!
@@ -717,6 +749,15 @@ struct MainPage {
         this.showMoveDialog()
       }
     } as DirMenuItem)
+    // Properties — show folder details (Wave F T-071)
+    if (this.selectedPaths.size === 1) {
+      items.push({
+        value: this.getStr($r('app.string.details').id),
+        action: (): void => {
+          this.showSelectedFolderProperties()
+        }
+      } as DirMenuItem)
+    }
     return items
   }
 

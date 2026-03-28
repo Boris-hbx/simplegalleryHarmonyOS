@@ -1,5 +1,6 @@
 import { router } from '@kit.ArkUI'
 import { common, Want } from '@kit.AbilityKit'
+import { fileIo } from '@kit.CoreFileKit'
 import { ShareUtils } from '../utils/ShareUtils'
 import { FileOperations } from '../utils/FileOperations'
 import { DeleteConfirmDialog, RenameDialog, CopyMoveDialog } from '../components/FileOpDialogs'
@@ -311,6 +312,77 @@ struct MediaPage {
     this.copyMoveDialogController.open()
   }
 
+  // Wave F T-072: Hide selected media's parent folder
+  private hideSelectedMedia(): void {
+    if (this.directoryPath.length > 0 && !this.directoryPath.startsWith('file://media')) {
+      try {
+        const nomediaPath: string = this.directoryPath + '/.nomedia'
+        const file: fileIo.File = fileIo.openSync(nomediaPath, fileIo.OpenMode.CREATE | fileIo.OpenMode.WRITE_ONLY)
+        fileIo.closeSync(file)
+        this.getUIContext()?.getPromptAction()?.showToast({ message: '文件夹已隐藏' })
+      } catch (e) {
+        this.getUIContext()?.getPromptAction()?.showToast({ message: '隐藏失败' })
+      }
+    } else {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '系统媒体库文件不支持隐藏' })
+    }
+    this.exitMultiSelectMode()
+  }
+
+  // Wave F T-072: Show properties of single selected media
+  private showSelectedMediaProperties(): void {
+    const medium: Medium | null = this.getSelectedMediumForRename()
+    if (medium === null) { return }
+    const lines: string[] = []
+    lines.push('文件名：' + medium.name)
+    lines.push('路径：' + medium.path)
+    lines.push('类型：' + (medium.isVideo() ? '视频' : '图片'))
+    if (medium.size > 0) {
+      lines.push('大小：' + this.formatMediaSize(medium.size))
+    }
+    if (medium.modified > 0) {
+      const d: Date = new Date(medium.modified)
+      lines.push('修改时间：' + d.getFullYear().toString() + '/' +
+        (d.getMonth() + 1).toString().padStart(2, '0') + '/' +
+        d.getDate().toString().padStart(2, '0'))
+    }
+    if (medium.isVideo() && medium.videoDuration > 0) {
+      const sec: number = Math.floor(medium.videoDuration / 1000)
+      lines.push('时长：' + Math.floor(sec / 60).toString() + ':' + (sec % 60).toString().padStart(2, '0'))
+    }
+    this.getUIContext()?.getPromptAction()?.showDialog({
+      title: '文件属性',
+      message: lines.join('\n')
+    })
+  }
+
+  private formatMediaSize(bytes: number): string {
+    if (bytes < 1024) return bytes.toString() + ' B'
+    if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB'
+    if (bytes < 1073741824) return (bytes / 1048576).toFixed(1) + ' MB'
+    return (bytes / 1073741824).toFixed(1) + ' GB'
+  }
+
+  // Wave F T-072: Open selected media with system app
+  private openSelectedMediaWith(): void {
+    const medium: Medium | null = this.getSelectedMediumForRename()
+    if (medium === null) { return }
+    try {
+      const ctx: common.UIAbilityContext = this.getUIContext().getHostContext()! as common.UIAbilityContext
+      const want: Want = {
+        action: 'ohos.want.action.viewData',
+        uri: medium.path,
+        type: medium.isVideo() ? 'video/*' : 'image/*'
+      }
+      ctx.startAbility(want).catch((): void => {
+        this.getUIContext()?.getPromptAction()?.showToast({ message: '无法打开' })
+      })
+    } catch (e) {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '无法打开' })
+    }
+    this.exitMultiSelectMode()
+  }
+
   private executeCopyMove(destFolder: string): void {
     if (this.selectedPaths.size === 0) {
       return
@@ -359,6 +431,29 @@ struct MediaPage {
         this.showMoveDialog()
       }
     } as MediaMenuItem)
+    // Wave F T-072: Hide selected files' parent folder
+    items.push({
+      value: this.getStr($r('app.string.hide').id),
+      action: (): void => {
+        this.hideSelectedMedia()
+      }
+    } as MediaMenuItem)
+    // Properties — single select only
+    if (this.selectedPaths.size === 1) {
+      items.push({
+        value: this.getStr($r('app.string.details').id),
+        action: (): void => {
+          this.showSelectedMediaProperties()
+        }
+      } as MediaMenuItem)
+      // Open with
+      items.push({
+        value: '打开方式',
+        action: (): void => {
+          this.openSelectedMediaWith()
+        }
+      } as MediaMenuItem)
+    }
     return items
   }
 
