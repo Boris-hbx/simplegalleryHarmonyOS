@@ -457,14 +457,31 @@ struct ViewingPage {
   // T-037: Viewing page menu items
   // ---------------------------------------------------------------------------
 
-  // RITUAL-005 方案B: Open current image in system Gallery app so user can set wallpaper there.
+  // RITUAL-005 方案B + BUG-041f: Copy to sandbox then open with viewData
+  // (photoAccessHelper URI not readable by other apps — PIT-053)
   private openInSystemGallery(): void {
     try {
       const ctx: common.UIAbilityContext = getContext(this) as common.UIAbilityContext
+      const mediaUri: string = this.currentMedium.path
+      const fileName: string = this.currentMedium.name || 'image.jpg'
+
+      // Copy to sandbox (PIT-053)
+      const srcFile: fileIo.File = fileIo.openSync(mediaUri, fileIo.OpenMode.READ_ONLY)
+      const openDir: string = ctx.cacheDir + '/open_temp'
+      try { fileIo.mkdirSync(openDir, true) } catch (e) { /* exists */ }
+      const destPath: string = openDir + '/' + fileName
+      const destFile: fileIo.File = fileIo.openSync(destPath,
+        fileIo.OpenMode.READ_WRITE | fileIo.OpenMode.CREATE | fileIo.OpenMode.TRUNC)
+      fileIo.copyFileSync(srcFile.fd, destFile.fd)
+      fileIo.closeSync(srcFile)
+      fileIo.closeSync(destFile)
+
+      const sandboxUri: string = fileUri.getUriFromPath(destPath)
       const want: Want = {
         action: 'ohos.want.action.viewData',
-        uri: this.currentMedium.path,
-        type: 'image/*'
+        uri: sandboxUri,
+        type: 'image/*',
+        flags: 0x00000001  // FLAG_AUTH_READ_URI_PERMISSION
       }
       ctx.startAbility(want).then((): void => {
         console.info('[ViewingPage] openInSystemGallery succeeded')
@@ -555,9 +572,9 @@ struct ViewingPage {
       const mediaUri: string = this.currentMedium.path
       const fileName: string = this.currentMedium.name
 
-      // Copy from photoAccessHelper URI to sandbox first
+      // BUG-041d: Save directly to app's filesDir (Download not accessible without permission)
       const srcFile: fileIo.File = fileIo.openSync(mediaUri, fileIo.OpenMode.READ_ONLY)
-      const saveDir: string = ctx.cacheDir + '/save_temp'
+      const saveDir: string = ctx.filesDir + '/saved'
       try { fileIo.mkdirSync(saveDir, true) } catch (e) { /* exists */ }
       const savePath: string = saveDir + '/' + fileName
       const destFile: fileIo.File = fileIo.openSync(savePath,
@@ -565,17 +582,7 @@ struct ViewingPage {
       fileIo.copyFileSync(srcFile.fd, destFile.fd)
       fileIo.closeSync(srcFile)
       fileIo.closeSync(destFile)
-
-      // Use DocumentViewPicker to let user choose save location
-      const saveUri: string = fileUri.getUriFromPath(savePath)
-      const want: Want = {
-        action: 'ohos.want.action.sendData',
-        uri: saveUri,
-        type: this.currentMedium.isVideo() ? 'video/*' : 'image/*',
-        flags: 0x00000001
-      }
-      await ctx.startAbility(want)
-      this.getUIContext()?.getPromptAction()?.showToast({ message: '已打开保存选择器' })
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '已保存到：' + savePath })
     } catch (e) {
       this.getUIContext()?.getPromptAction()?.showToast({ message: '另存为失败' })
     }

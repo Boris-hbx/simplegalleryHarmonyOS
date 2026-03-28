@@ -1,4 +1,5 @@
 import { Directory } from '../common/models/Directory'
+import { ConfigManager } from '../datastore/ConfigManager'
 import { photoAccessHelper } from '@kit.MediaLibraryKit'
 import { dataSharePredicates } from '@kit.ArkData'
 import { image } from '@kit.ImageKit'
@@ -291,6 +292,13 @@ export struct DirectoryItem {
             .fillColor(Color.White)
         }
         .position({ right: 6, top: 6 })
+      }
+
+      // BUG-041c: Lock icon for locked folders
+      if (ConfigManager.getInstance().isFolderLocked(this.directory.path)) {
+        Text('🔒')
+          .fontSize(16)
+          .position({ left: 6, top: 6 })
       }
     }
     .width('100%')

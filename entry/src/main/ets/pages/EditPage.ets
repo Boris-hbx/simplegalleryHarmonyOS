@@ -81,8 +81,8 @@ struct EditPage {
   @State paintOptions: PaintOptions = new PaintOptions()
 
   // T-076: Adjust mode state
-  @State brightness: number = 0     // -100 to 100
-  @State contrast: number = 0       // -100 to 100
+  @State brightnessVal: number = 0     // -100 to 100
+  @State contrastVal: number = 0       // -100 to 100
   // T-076: Filter mode state (0=none, 1=grayscale, 2=sepia, 3=invert, 4=warm, 5=cool)
   @State selectedFilter: number = 0
   // T-076: Resize mode state
@@ -91,6 +91,9 @@ struct EditPage {
   @State resizeMaintainRatio: boolean = true
   // T-076: Text overlay
   @State overlayText: string = ''
+
+  // BUG-041a: PixelMap preview for reliable display (Image(URI) may black-screen)
+  @State previewPixelMap: image.PixelMap | undefined = undefined
 
   private drawCanvasRef: DrawCanvas | null = null
   private configManager: ConfigManager = ConfigManager.getInstance()
@@ -144,12 +147,13 @@ struct EditPage {
 
       // Image area with overlays
       Stack() {
-        Image(this.imagePath)
+        // BUG-041a: Use PixelMap for reliable display (photoAccessHelper URI may black-screen)
+        Image(this.previewPixelMap !== undefined ? this.previewPixelMap : this.imagePath)
           .objectFit(ImageFit.Contain)
           .rotate({ angle: this.rotation })
           .scale({ x: this.flipH ? -1 : 1, y: this.flipV ? -1 : 1 })
-          .brightness(this.brightness / 100)
-          .contrast(1 + this.contrast / 100)
+          .brightness(this.brightnessVal / 100)
+          .contrast(1 + this.contrastVal / 100)
           .grayscale(this.selectedFilter === 1 ? 1 : 0)
           .sepia(this.selectedFilter === 2 ? 1 : 0)
           .invert(this.selectedFilter === 3 ? 1 : 0)
@@ -207,7 +211,6 @@ struct EditPage {
       .scrollBar(BarState.Off)
       .width('100%')
       .height(TOOLBAR_HEIGHT)
-      .alignItems(VerticalAlign.Center)
 
       // Custom aspect ratio dialog
       if (this.showCustomDialog) {
@@ -482,15 +485,21 @@ struct EditPage {
     return '#' + rStr + gStr + bStr
   }
 
+  // BUG-041a: Load image via fd for reliable access + create preview PixelMap
   private async loadImageDimensions(): Promise<void> {
     try {
-      const source: image.ImageSource = image.createImageSource(this.imagePath)
+      const file: fs.File = fs.openSync(this.imagePath, fs.OpenMode.READ_ONLY)
+      const source: image.ImageSource = image.createImageSource(file.fd)
       const info: image.ImageInfo = await source.getImageInfo()
       this.imageWidth = info.size.width
       this.imageHeight = info.size.height
+      // Create preview PixelMap for display (Image(URI) may black-screen for photoAccessHelper URIs)
+      const pixelMap: image.PixelMap = await source.createPixelMap()
+      this.previewPixelMap = pixelMap
       source.release()
+      fs.closeSync(file)
     } catch (e) {
-      console.error('EditPage: failed to load image dimensions')
+      console.error('[EditPage] loadImageDimensions failed: ' + (e as Error).message)
     }
   }
 
@@ -502,24 +511,24 @@ struct EditPage {
     Column({ space: 8 }) {
       Row() {
         Text('亮度').fontSize(13).width(50)
-        Slider({ min: -100, max: 100, value: this.brightness, step: 1 })
+        Slider({ min: -100, max: 100, value: this.brightnessVal, step: 1 })
           .layoutWeight(1)
           .onChange((value: number): void => {
-            this.brightness = value
+            this.brightnessVal = value
           })
-        Text(this.brightness.toFixed(0)).fontSize(13).width(40).textAlign(TextAlign.End)
+        Text(this.brightnessVal.toFixed(0)).fontSize(13).width(40).textAlign(TextAlign.End)
       }
       .width('100%')
       .padding({ left: 16, right: 16 })
 
       Row() {
         Text('对比度').fontSize(13).width(50)
-        Slider({ min: -100, max: 100, value: this.contrast, step: 1 })
+        Slider({ min: -100, max: 100, value: this.contrastVal, step: 1 })
           .layoutWeight(1)
           .onChange((value: number): void => {
-            this.contrast = value
+            this.contrastVal = value
           })
-        Text(this.contrast.toFixed(0)).fontSize(13).width(40).textAlign(TextAlign.End)
+        Text(this.contrastVal.toFixed(0)).fontSize(13).width(40).textAlign(TextAlign.End)
       }
       .width('100%')
       .padding({ left: 16, right: 16 })
@@ -527,8 +536,8 @@ struct EditPage {
       Button('重置')
         .fontSize(13)
         .onClick((): void => {
-          this.brightness = 0
-          this.contrast = 0
+          this.brightnessVal = 0
+          this.contrastVal = 0
         })
     }
     .width('100%')
@@ -696,13 +705,13 @@ struct EditPage {
       }
 
       // 4b. T-076: Apply brightness and contrast via pixel manipulation
-      if (this.brightness !== 0 || this.contrast !== 0) {
+      if (this.brightnessVal !== 0 || this.contrastVal !== 0) {
         const adjInfo: image.ImageInfo = await pixelMap.getImageInfo()
         const adjBuf: ArrayBuffer = new ArrayBuffer(adjInfo.size.width * adjInfo.size.height * 4)
         await pixelMap.readPixelsToBuffer(adjBuf)
         const adjView: Uint8Array = new Uint8Array(adjBuf)
-        const bFactor: number = this.brightness * 2.55  // -255 to 255
-        const cFactor: number = 1 + this.contrast / 100  // 0 to 2
+        const bFactor: number = this.brightnessVal * 2.55  // -255 to 255
+        const cFactor: number = 1 + this.contrastVal / 100  // 0 to 2
         for (let p: number = 0; p < adjView.length; p += 4) {
           for (let c: number = 0; c < 3; c++) {
             let val: number = adjView[p + c]

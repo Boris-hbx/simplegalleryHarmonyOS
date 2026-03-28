@@ -5,6 +5,7 @@
 import { DirectoryDao } from '../datastore/dao/DirectoryDao'
 import { Directory } from '../common/models/Directory'
 import { ConfigManager } from '../datastore/ConfigManager'
+import { MediaScanner } from '../media/MediaScanner'
 
 // =============================================================================
 // RenameDialog — Text input for new file name, OK / Cancel
@@ -172,11 +173,13 @@ export struct CopyMoveDialog {
     this.loadDirectories()
   }
 
+  // BUG-041b: Use MediaScanner (photoAccessHelper) instead of empty internal DirectoryDao
   private async loadDirectories(): Promise<void> {
     try {
-      const dao: DirectoryDao = new DirectoryDao()
-      const allDirs: Array<Directory> = await dao.getAll()
-      // Filter out special virtual directories (Favorites, Recycle Bin)
+      const context: Context = getContext(this)
+      const scanner: MediaScanner = new MediaScanner(context)
+      const config: ConfigManager = ConfigManager.getInstance()
+      const allDirs: Array<Directory> = await scanner.getDirectories(config.filterMedia, config.directorySorting)
       const filtered: Array<Directory> = []
       for (let i: number = 0; i < allDirs.length; i++) {
         const dir: Directory = allDirs[i]
@@ -186,7 +189,7 @@ export struct CopyMoveDialog {
       }
       this.directories = filtered
     } catch (e) {
-      console.error('CopyMoveDialog: failed to load directories')
+      console.error('CopyMoveDialog: failed to load directories: ' + (e as Error).message)
     }
   }
 

@@ -1292,11 +1292,14 @@ export class MediaScanner {
   }
 
   // FR-009: Build Recycle Bin virtual folder from MediumDao (deletedTS > 0)
+  // BUG-041e: Always return recycle bin folder when enabled (even if empty)
+  // Internal MediumDao has no records for photoAccessHelper media, so we create a placeholder.
   async getRecycleBinFolder(): Promise<Directory | null> {
     const mediumDao: MediumDao = MediumDao.getInstance()
     const deletedMedia: Array<Medium> = await mediumDao.getDeletedMedia()
     if (deletedMedia.length === 0) {
-      return null
+      // Return empty recycle bin placeholder (so user can see the entry)
+      return new Directory(0, RECYCLE_BIN, '', '回收站', 0, 0, 0, 0, LOCATION_INTERNAL, 0, '')
     }
 
     let totalSize: number = 0
