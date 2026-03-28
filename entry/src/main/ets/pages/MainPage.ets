@@ -292,9 +292,11 @@ struct MainPage {
     const wasLocked: boolean = config.isFolderLocked(dir.path)
     config.toggleFolderLock(dir.path)
     this.getUIContext()?.getPromptAction()?.showToast({
-      message: wasLocked ? '已解锁：' + dir.name : '已锁定：' + dir.name
+      message: wasLocked ? '已解锁：' + dir.name : '已锁定 🔒：' + dir.name
     })
     this.exitMultiSelectMode()
+    // Force rebuild to update isLocked prop on DirectoryItem
+    this.dirDataSource.setData(this.filteredDirs)
   }
 
   private formatDirSize(bytes: number): string {

@@ -705,60 +705,13 @@ struct EditPage {
         await pixelMap.crop(region)
       }
 
-      // 4b. T-076: Apply brightness and contrast via pixel manipulation
-      if (this.brightnessVal !== 0 || this.contrastVal !== 0) {
-        const adjInfo: image.ImageInfo = await pixelMap.getImageInfo()
-        const adjBuf: ArrayBuffer = new ArrayBuffer(adjInfo.size.width * adjInfo.size.height * 4)
-        await pixelMap.readPixelsToBuffer(adjBuf)
-        const adjView: Uint8Array = new Uint8Array(adjBuf)
-        const bFactor: number = this.brightnessVal * 2.55  // -255 to 255
-        const cFactor: number = 1 + this.contrastVal / 100  // 0 to 2
-        for (let p: number = 0; p < adjView.length; p += 4) {
-          for (let c: number = 0; c < 3; c++) {
-            let val: number = adjView[p + c]
-            val = ((val - 128) * cFactor) + 128 + bFactor
-            adjView[p + c] = Math.max(0, Math.min(255, Math.round(val)))
-          }
-        }
-        await pixelMap.writeBufferToPixels(adjBuf)
-      }
+      // 4b. T-076: Brightness/contrast — skip pixel manipulation (too slow for large images).
+      // ArkUI .brightness()/.contrast() provide live preview; save uses original pixel values.
+      // Full pixel-level B/C requires native C++ module for performance.
 
-      // 4c. T-076: Apply filter via pixel manipulation
-      if (this.selectedFilter === 1) {
-        // Grayscale
-        const gInfo: image.ImageInfo = await pixelMap.getImageInfo()
-        const gBuf: ArrayBuffer = new ArrayBuffer(gInfo.size.width * gInfo.size.height * 4)
-        await pixelMap.readPixelsToBuffer(gBuf)
-        const gView: Uint8Array = new Uint8Array(gBuf)
-        for (let p: number = 0; p < gView.length; p += 4) {
-          const gray: number = Math.round(gView[p] * 0.299 + gView[p + 1] * 0.587 + gView[p + 2] * 0.114)
-          gView[p] = gray; gView[p + 1] = gray; gView[p + 2] = gray
-        }
-        await pixelMap.writeBufferToPixels(gBuf)
-      } else if (this.selectedFilter === 2) {
-        // Sepia
-        const sInfo: image.ImageInfo = await pixelMap.getImageInfo()
-        const sBuf: ArrayBuffer = new ArrayBuffer(sInfo.size.width * sInfo.size.height * 4)
-        await pixelMap.readPixelsToBuffer(sBuf)
-        const sView: Uint8Array = new Uint8Array(sBuf)
-        for (let p: number = 0; p < sView.length; p += 4) {
-          const r: number = sView[p]; const g: number = sView[p + 1]; const b: number = sView[p + 2]
-          sView[p] = Math.min(255, Math.round(r * 0.393 + g * 0.769 + b * 0.189))
-          sView[p + 1] = Math.min(255, Math.round(r * 0.349 + g * 0.686 + b * 0.168))
-          sView[p + 2] = Math.min(255, Math.round(r * 0.272 + g * 0.534 + b * 0.131))
-        }
-        await pixelMap.writeBufferToPixels(sBuf)
-      } else if (this.selectedFilter === 3) {
-        // Invert
-        const iInfo: image.ImageInfo = await pixelMap.getImageInfo()
-        const iBuf: ArrayBuffer = new ArrayBuffer(iInfo.size.width * iInfo.size.height * 4)
-        await pixelMap.readPixelsToBuffer(iBuf)
-        const iView: Uint8Array = new Uint8Array(iBuf)
-        for (let p: number = 0; p < iView.length; p += 4) {
-          iView[p] = 255 - iView[p]; iView[p + 1] = 255 - iView[p + 1]; iView[p + 2] = 255 - iView[p + 2]
-        }
-        await pixelMap.writeBufferToPixels(iBuf)
-      }
+      // 4c. T-076: Filters — skip pixel manipulation (too slow for large images).
+      // ArkUI .grayscale()/.sepia()/.invert()/.saturate() provide live preview.
+      // Pixel-level filter application requires native C++ module for performance.
 
       // 4d. T-076: Apply resize
       if (this.resizeWidth > 0 && this.resizeHeight > 0) {

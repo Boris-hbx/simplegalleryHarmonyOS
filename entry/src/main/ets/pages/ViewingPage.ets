@@ -789,16 +789,7 @@ struct ViewingPage {
   private buildViewingMenuItems(): Array<ViewingMenuItem> {
     const items: Array<ViewingMenuItem> = []
 
-    // Set as wallpaper — RITUAL-005 方案B: 跳转系统图库，用户自行设壁纸
-    // wallpaper.setWallpaper() 对第三方App静默不生效（PIT-066）
-    if (!this.currentMedium.isVideo()) {
-      items.push({
-        value: this.getStr($r('app.string.set_as_wallpaper').id),
-        action: (): void => {
-          this.openInSystemGallery()
-        }
-      })
-    }
+    // Wallpaper feature removed — Boris裁决：第三方App无法设壁纸，去掉此入口
 
     // Edit — launch system editor (supports both image and video)
     items.push({
