@@ -274,6 +274,16 @@ struct MainPage {
     })
   }
 
+  // Wave F T-073: Set selected folder as default (auto-open on app start)
+  private setSelectedAsDefaultFolder(): void {
+    const dir: Directory | null = this.getSelectedDirForRename()
+    if (dir === null) { return }
+    const config: ConfigManager = ConfigManager.getInstance()
+    config.defaultFolder = dir.path
+    this.getUIContext()?.getPromptAction()?.showToast({ message: '已设为默认文件夹：' + dir.name })
+    this.exitMultiSelectMode()
+  }
+
   private formatDirSize(bytes: number): string {
     if (bytes < 1024) return bytes.toString() + ' B'
     if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB'
@@ -755,6 +765,13 @@ struct MainPage {
         value: this.getStr($r('app.string.details').id),
         action: (): void => {
           this.showSelectedFolderProperties()
+        }
+      } as DirMenuItem)
+      // Wave F T-073: Set as default folder
+      items.push({
+        value: '设为默认文件夹',
+        action: (): void => {
+          this.setSelectedAsDefaultFolder()
         }
       } as DirMenuItem)
     }
