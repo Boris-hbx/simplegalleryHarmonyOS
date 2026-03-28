@@ -15,6 +15,8 @@ interface DrawPath {
 @Component
 export struct DrawCanvas {
   @Prop paintOptions: PaintOptions = new PaintOptions()
+  // Callback to expose this component's instance to parent (for save)
+  onRef: (ref: DrawCanvas) => void = (_ref: DrawCanvas) => {}
   @State paths: DrawPath[] = []
   @State currentPath: number[][] = []
 
@@ -22,6 +24,10 @@ export struct DrawCanvas {
   private canvasContext: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.canvasSettings)
   private canvasWidth: number = 0
   private canvasHeight: number = 0
+
+  aboutToAppear(): void {
+    this.onRef(this)
+  }
 
   build() {
     Canvas(this.canvasContext)

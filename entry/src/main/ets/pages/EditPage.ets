@@ -171,11 +171,15 @@ struct EditPage {
           })
         }
 
-        if (this.currentMode === MODE_DRAW) {
-          DrawCanvas({
-            paintOptions: this.paintOptions
-          })
-        }
+        // Always render DrawCanvas (preserve drawing when switching modes)
+        DrawCanvas({
+          paintOptions: this.paintOptions,
+          onRef: (ref: DrawCanvas): void => {
+            this.drawCanvasRef = ref
+          }
+        })
+          .visibility(this.currentMode === MODE_DRAW ? Visibility.Visible : Visibility.Hidden)
+          .hitTestBehavior(this.currentMode === MODE_DRAW ? HitTestMode.Default : HitTestMode.None)
       }
       .layoutWeight(1)
       .width('100%')
@@ -705,13 +709,56 @@ struct EditPage {
         await pixelMap.crop(region)
       }
 
-      // 4b. T-076: Brightness/contrast — skip pixel manipulation (too slow for large images).
-      // ArkUI .brightness()/.contrast() provide live preview; save uses original pixel values.
-      // Full pixel-level B/C requires native C++ module for performance.
+      // 4b. T-076: Apply brightness/contrast + filter via pixel manipulation
+      // Guard: skip if image > 8M pixels (would be too slow in JS)
+      const bcInfo: image.ImageInfo = await pixelMap.getImageInfo()
+      const totalPixels: number = bcInfo.size.width * bcInfo.size.height
+      const needsBCFilter: boolean = (this.brightnessVal !== 0 || this.contrastVal !== 0 || this.selectedFilter > 0)
 
-      // 4c. T-076: Filters — skip pixel manipulation (too slow for large images).
-      // ArkUI .grayscale()/.sepia()/.invert()/.saturate() provide live preview.
-      // Pixel-level filter application requires native C++ module for performance.
+      if (needsBCFilter && totalPixels <= 8000000) {
+        const buf: ArrayBuffer = new ArrayBuffer(totalPixels * 4)
+        await pixelMap.readPixelsToBuffer(buf)
+        const view: Uint8Array = new Uint8Array(buf)
+
+        const bFactor: number = this.brightnessVal * 2.55
+        const cFactor: number = 1 + this.contrastVal / 100
+
+        for (let p: number = 0; p < view.length; p += 4) {
+          let r: number = view[p]
+          let g: number = view[p + 1]
+          let b: number = view[p + 2]
+
+          // Brightness + contrast
+          if (this.brightnessVal !== 0 || this.contrastVal !== 0) {
+            r = ((r - 128) * cFactor) + 128 + bFactor
+            g = ((g - 128) * cFactor) + 128 + bFactor
+            b = ((b - 128) * cFactor) + 128 + bFactor
+          }
+
+          // Filter
+          if (this.selectedFilter === 1) {
+            // Grayscale
+            const gray: number = r * 0.299 + g * 0.587 + b * 0.114
+            r = gray; g = gray; b = gray
+          } else if (this.selectedFilter === 2) {
+            // Sepia
+            const sr: number = r; const sg: number = g; const sb: number = b
+            r = sr * 0.393 + sg * 0.769 + sb * 0.189
+            g = sr * 0.349 + sg * 0.686 + sb * 0.168
+            b = sr * 0.272 + sg * 0.534 + sb * 0.131
+          } else if (this.selectedFilter === 3) {
+            // Invert
+            r = 255 - r; g = 255 - g; b = 255 - b
+          }
+
+          view[p] = Math.max(0, Math.min(255, Math.round(r)))
+          view[p + 1] = Math.max(0, Math.min(255, Math.round(g)))
+          view[p + 2] = Math.max(0, Math.min(255, Math.round(b)))
+        }
+        await pixelMap.writeBufferToPixels(buf)
+      } else if (needsBCFilter) {
+        console.warn('[EditPage] Image too large (' + totalPixels.toString() + ' px) for JS pixel processing, B/C/filter not saved')
+      }
 
       // 4d. T-076: Apply resize
       if (this.resizeWidth > 0 && this.resizeHeight > 0) {

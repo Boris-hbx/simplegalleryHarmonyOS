@@ -1122,7 +1122,7 @@ struct MainPage {
                     })
                 )
               )
-            }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString())
+            }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : ''))
           }
           .columnsTemplate(this.buildColumnsTemplate())
           .columnsGap(2)
@@ -1160,7 +1160,7 @@ struct MainPage {
                     })
                 )
               )
-            }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString())
+            }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : ''))
           }
           .width('100%')
           .layoutWeight(1)
@@ -1175,7 +1175,8 @@ struct MainPage {
                   DirectoryItem({
                     directory: item as Directory,
                     isMultiSelectMode: this.isMultiSelectMode,
-                    isSelected: this.selectedPaths.has((item as Directory).path)
+                    isSelected: this.selectedPaths.has((item as Directory).path),
+                    isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path)
                   })
                 }
                 // PIT-039c: Use GestureGroup(Exclusive) to prevent child onClick from intercepting long press
@@ -1197,7 +1198,7 @@ struct MainPage {
                       })
                   )
                 )
-              }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString())
+              }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : ''))
             }
             .columnsTemplate(this.buildColumnsTemplate())
             .columnsGap(2)
@@ -1213,7 +1214,8 @@ struct MainPage {
                     directory: item as Directory,
                     isListMode: true,
                     isMultiSelectMode: this.isMultiSelectMode,
-                    isSelected: this.selectedPaths.has((item as Directory).path)
+                    isSelected: this.selectedPaths.has((item as Directory).path),
+                    isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path)
                   })
                 }
                 // PIT-039c: Use GestureGroup(Exclusive) to prevent child onClick from intercepting long press
@@ -1235,7 +1237,7 @@ struct MainPage {
                       })
                   )
                 )
-              }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString())
+              }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : ''))
             }
             .width('100%')
             .layoutWeight(1)
