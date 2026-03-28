@@ -17,6 +17,7 @@ export struct DirectoryItem {
   // Plain properties don't trigger re-render — blue checkmarks were invisible.
   @Prop isSelected: boolean = false
   @Prop isMultiSelectMode: boolean = false
+  @Prop isLocked: boolean = false
   @State thumbnailFailed: boolean = false
   // T-067: Video thumbnail PixelMap for folder covers that are video URIs
   @State private videoThumbnail: image.PixelMap | undefined = undefined
@@ -295,7 +296,7 @@ export struct DirectoryItem {
       }
 
       // BUG-041c: Lock icon for locked folders
-      if (ConfigManager.getInstance().isFolderLocked(this.directory.path)) {
+      if (this.isLocked) {
         Text('🔒')
           .fontSize(16)
           .position({ left: 6, top: 6 })

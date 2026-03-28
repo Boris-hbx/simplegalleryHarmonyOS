@@ -477,16 +477,27 @@ struct ViewingPage {
       fileIo.closeSync(destFile)
 
       const sandboxUri: string = fileUri.getUriFromPath(destPath)
+      // Try system Photos app first, then fallback to implicit intent
       const want: Want = {
+        bundleName: 'com.huawei.hmos.photos',
         action: 'ohos.want.action.viewData',
         uri: sandboxUri,
         type: 'image/*',
-        flags: 0x00000001  // FLAG_AUTH_READ_URI_PERMISSION
+        flags: 0x00000001
       }
       ctx.startAbility(want).then((): void => {
-        console.info('[ViewingPage] openInSystemGallery succeeded')
+        console.info('[ViewingPage] openInSystemGallery succeeded (Photos app)')
       }).catch((err: Error): void => {
-        console.warn('[ViewingPage] openInSystemGallery failed: ' + err.message)
+        // Fallback: implicit intent without bundleName
+        const fallbackWant: Want = {
+          action: 'ohos.want.action.viewData',
+          uri: sandboxUri,
+          type: 'image/*',
+          flags: 0x00000001
+        }
+        ctx.startAbility(fallbackWant).catch((): void => {
+          this.getUIContext()?.getPromptAction()?.showToast({ message: '无法打开系统图库' })
+        })
         this.getUIContext()?.getPromptAction()?.showToast({ message: '无法打开系统图库' })
       })
     } catch (e) {

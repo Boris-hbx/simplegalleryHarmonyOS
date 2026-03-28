@@ -152,7 +152,8 @@ struct EditPage {
           .objectFit(ImageFit.Contain)
           .rotate({ angle: this.rotation })
           .scale({ x: this.flipH ? -1 : 1, y: this.flipV ? -1 : 1 })
-          .brightness(this.brightnessVal / 100)
+          // ArkUI .brightness(): 0=black, 1=normal, 2=bright. Map -100~100 to 0~2
+          .brightness(1 + this.brightnessVal / 100)
           .contrast(1 + this.contrastVal / 100)
           .grayscale(this.selectedFilter === 1 ? 1 : 0)
           .sepia(this.selectedFilter === 2 ? 1 : 0)

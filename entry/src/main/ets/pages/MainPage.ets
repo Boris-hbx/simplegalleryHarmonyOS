@@ -1098,7 +1098,8 @@ struct MainPage {
                 DirectoryItem({
                   directory: item as Directory,
                   isMultiSelectMode: this.isMultiSelectMode,
-                  isSelected: this.selectedPaths.has((item as Directory).path)
+                  isSelected: this.selectedPaths.has((item as Directory).path),
+                  isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path)
                 })
               }
               .gesture(
@@ -1135,7 +1136,8 @@ struct MainPage {
                   directory: item as Directory,
                   isListMode: true,
                   isMultiSelectMode: this.isMultiSelectMode,
-                  isSelected: this.selectedPaths.has((item as Directory).path)
+                  isSelected: this.selectedPaths.has((item as Directory).path),
+                  isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path)
                 })
               }
               .gesture(
