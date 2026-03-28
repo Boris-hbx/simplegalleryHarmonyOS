@@ -758,7 +758,8 @@ struct EditPage {
         drawPixelMap.release()
       }
 
-      // 6. Pack and write back to original file via fd (READ_IMAGEVIDEO grants rw via fileIo)
+      // 6. Pack and save — try original URI first, fallback to sandbox copy
+      // photoAccessHelper URIs are read-only for third-party apps
       const packer: image.ImagePacker = image.createImagePacker()
       const packOpts: image.PackingOption = {
         format: 'image/jpeg',
@@ -766,18 +767,46 @@ struct EditPage {
       }
       const data: ArrayBuffer = await packer.packToData(pixelMap, packOpts)
 
-      const outFile: fs.File = fs.openSync(this.imagePath, fs.OpenMode.READ_WRITE)
-      fs.truncateSync(outFile.fd)
-      fs.writeSync(outFile.fd, data)
-      fs.closeSync(outFile)
+      let saved: boolean = false
+      // Try writing back to original (works if app has WRITE_IMAGEVIDEO ACL)
+      try {
+        const outFile: fs.File = fs.openSync(this.imagePath, fs.OpenMode.READ_WRITE)
+        fs.truncateSync(outFile.fd)
+        fs.writeSync(outFile.fd, data)
+        fs.closeSync(outFile)
+        saved = true
+      } catch (writeErr) {
+        console.warn('[EditPage] write-back failed (read-only URI): ' + (writeErr as Error).message)
+      }
+
+      // Fallback: save to app sandbox
+      if (!saved) {
+        try {
+          const ctx: common.UIAbilityContext = this.getUIContext().getHostContext()! as common.UIAbilityContext
+          const editDir: string = ctx.filesDir + '/edited'
+          try { fs.mkdirSync(editDir, true) } catch (mkErr) { /* exists */ }
+          const fileName: string = 'edited_' + Date.now().toString() + '.jpg'
+          const savePath: string = editDir + '/' + fileName
+          const saveFile: fs.File = fs.openSync(savePath,
+            fs.OpenMode.READ_WRITE | fs.OpenMode.CREATE | fs.OpenMode.TRUNC)
+          fs.writeSync(saveFile.fd, data)
+          fs.closeSync(saveFile)
+          saved = true
+          this.getUIContext()?.getPromptAction()?.showToast({
+            message: '已保存到：' + savePath
+          })
+        } catch (saveErr) {
+          console.error('[EditPage] sandbox save also failed: ' + (saveErr as Error).message)
+        }
+      }
 
       pixelMap.release()
       source.release()
       packer.release()
 
-      this.getUIContext()?.getPromptAction()?.showToast({
-        message: $r('app.string.file_saved')
-      })
+      if (!saved) {
+        this.getUIContext()?.getPromptAction()?.showToast({ message: '保存失败' })
+      }
       router.back()
     } catch (e) {
       console.error('EditPage: save failed: ' + (e as Error).message)

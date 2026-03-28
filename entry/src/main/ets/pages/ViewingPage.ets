@@ -643,28 +643,13 @@ struct ViewingPage {
     }
   }
 
+  // Navigate directly to built-in EditPage (no system editor — avoids "choose open method" popup)
   private async launchSystemEditor(): Promise<void> {
-    try {
-      const ctx: common.UIAbilityContext = getContext(this) as common.UIAbilityContext
-      const isVideo: boolean = this.currentMedium.isVideo()
-      const mediaType: string = isVideo ? 'video/*' : 'image/*'
-
-      const want: Want = {
-        action: 'ohos.want.action.editData',
-        uri: this.currentMedium.path,
-        type: mediaType
-      }
-      console.info('[Editor] Launching system editor for: ' + this.currentMedium.path + ' type=' + mediaType)
-      await ctx.startAbility(want)
-    } catch (e) {
-      console.error('[Editor] Failed to launch system editor: ' + (e as Error).message)
-      // Fallback: navigate to built-in editor for images only
-      if (!this.currentMedium.isVideo()) {
-        const editParams: EditNavParams = { path: this.currentMedium.path }
-        router.pushUrl({ url: 'pages/EditPage', params: editParams })
-      } else {
-        this.getUIContext()?.getPromptAction()?.showToast({ message: '无法打开系统编辑器' })
-      }
+    if (!this.currentMedium.isVideo()) {
+      const editParams: EditNavParams = { path: this.currentMedium.path }
+      router.pushUrl({ url: 'pages/EditPage', params: editParams })
+    } else {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '视频编辑暂不支持' })
     }
   }
 
