@@ -448,6 +448,19 @@ struct MainPage {
     this.dirDataSource.notifyAllChanged()
   }
 
+  // Check if ALL selected folders are already pinned (for button label)
+  private areAllSelectedPinned(): boolean {
+    const config: ConfigManager = ConfigManager.getInstance()
+    const pinned: Set<string> = config.pinnedFolders
+    let allPinned: boolean = true
+    this.selectedPaths.forEach((path: string) => {
+      if (!pinned.has(path)) {
+        allPinned = false
+      }
+    })
+    return allPinned
+  }
+
   private togglePinSelectedFolders(): void {
     if (this.selectedPaths.size === 0) {
       return
@@ -695,20 +708,31 @@ struct MainPage {
     this.isLoading = false
   }
 
+  // Android-aligned sorting priority: Pinned > Normal > Recycle Bin (optional last)
+  // Favorites treated as normal folder (not auto-pinned)
   applyPinning(dirs: Directory[]): Directory[] {
     const config: ConfigManager = ConfigManager.getInstance()
     const pinned: Set<string> = config.pinnedFolders
     const pinnedDirs: Directory[] = []
     const normalDirs: Directory[] = []
+    let recycleBinDir: Directory | null = null
+
     for (let i: number = 0; i < dirs.length; i++) {
       const dir: Directory = dirs[i]
-      if (pinned.has(dir.path) || dir.areFavorites() || dir.isRecycleBin()) {
+      if (dir.isRecycleBin() && config.showRecycleBinLast) {
+        recycleBinDir = dir  // Separate out recycle bin
+      } else if (pinned.has(dir.path)) {
         pinnedDirs.push(dir)
       } else {
         normalDirs.push(dir)
       }
     }
+
+    // Priority: Pinned → Normal → Recycle Bin (last)
     const result: Directory[] = pinnedDirs.concat(normalDirs)
+    if (recycleBinDir !== null) {
+      result.push(recycleBinDir)
+    }
     return result
   }
 
@@ -974,14 +998,13 @@ struct MainPage {
             .margin({ left: 16 })
             .layoutWeight(1)
 
-          // Pin/unpin button
+          // Pin/unpin button — show 📌 for pin or ✕📌 for unpin based on selection state
           Button() {
-            SymbolGlyph($r('sys.symbol.pin'))
-              .fontSize(20)
-              .fontColor([$r('sys.color.ohos_id_color_text_primary')])
+            Text(this.areAllSelectedPinned() ? '取消📌' : '📌置顶')
+              .fontSize(13)
+              .fontColor($r('sys.color.ohos_id_color_text_primary'))
           }
           .backgroundColor($r('sys.color.ohos_id_color_background_transparent'))
-          .width(40)
           .height(40)
           .onClick(() => {
             this.togglePinSelectedFolders()
