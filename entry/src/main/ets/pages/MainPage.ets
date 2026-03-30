@@ -1307,7 +1307,8 @@ struct MainPage {
                     directory: item as Directory,
                     isMultiSelectMode: this.isMultiSelectMode,
                     isSelected: this.selectedPaths.has((item as Directory).path),
-                    isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path)
+                    isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path),
+                    isPinned: ConfigManager.getInstance().isPinned((item as Directory).path)
                   })
                 }
                 // PIT-039c: Use GestureGroup(Exclusive) to prevent child onClick from intercepting long press
@@ -1346,7 +1347,8 @@ struct MainPage {
                     isListMode: true,
                     isMultiSelectMode: this.isMultiSelectMode,
                     isSelected: this.selectedPaths.has((item as Directory).path),
-                    isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path)
+                    isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path),
+                    isPinned: ConfigManager.getInstance().isPinned((item as Directory).path)
                   })
                 }
                 // PIT-039c: Use GestureGroup(Exclusive) to prevent child onClick from intercepting long press
