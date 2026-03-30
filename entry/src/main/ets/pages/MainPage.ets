@@ -13,6 +13,7 @@ import { FilterDialog } from '../components/FilterDialog'
 import { DateGroup, groupMediaByDate } from '../common/utils/DateGroupUtils'
 import { FileOperations } from '../utils/FileOperations'
 import { DeleteConfirmDialog, RenameDialog, CopyMoveDialog } from '../components/FileOpDialogs'
+import { PinInputDialog } from '../components/PinInputDialog'
 import { fileIo } from '@kit.CoreFileKit'
 
 interface MediaPageParams {
@@ -122,6 +123,35 @@ struct MainPage {
     autoCancel: true,
     alignment: DialogAlignment.Center
   })
+
+  // BUG-042-v2: PIN dialog — rebuild controller dynamically to pass fresh requiredHash
+  private pinDialogController: CustomDialogController | null = null
+
+  private openPinSetDialog(callback: (hash: string, success: boolean) => void): void {
+    this.pinDialogController = new CustomDialogController({
+      builder: PinInputDialog({
+        mode: 'set',
+        requiredHash: '',
+        onResult: callback
+      }),
+      autoCancel: false,
+      alignment: DialogAlignment.Center
+    })
+    this.pinDialogController.open()
+  }
+
+  private openPinVerifyDialog(hash: string, callback: (hash: string, success: boolean) => void): void {
+    this.pinDialogController = new CustomDialogController({
+      builder: PinInputDialog({
+        mode: 'verify',
+        requiredHash: hash,
+        onResult: callback
+      }),
+      autoCancel: false,
+      alignment: DialogAlignment.Center
+    })
+    this.pinDialogController.open()
+  }
 
   aboutToAppear(): void {
     const config: ConfigManager = ConfigManager.getInstance()
@@ -284,19 +314,49 @@ struct MainPage {
     this.exitMultiSelectMode()
   }
 
-  // T-079: Toggle folder lock
-  private toggleLockSelectedFolder(): void {
-    const dir: Directory | null = this.getSelectedDirForRename()
-    if (dir === null) { return }
+  // BUG-042-v2: Lock selected folders — show PinInputDialog to set PIN
+  private lockSelectedFolders(): void {
+    const paths: Array<string> = Array.from(this.selectedPaths)
+    if (paths.length === 0) { return }
     const config: ConfigManager = ConfigManager.getInstance()
-    const wasLocked: boolean = config.isFolderLocked(dir.path)
-    config.toggleFolderLock(dir.path)
-    this.getUIContext()?.getPromptAction()?.showToast({
-      message: wasLocked ? '已解锁：' + dir.name : '已锁定 🔒：' + dir.name
+    this.openPinSetDialog((hash: string, success: boolean): void => {
+      if (success) {
+        for (let i: number = 0; i < paths.length; i++) {
+          if (!config.isFolderLocked(paths[i])) {
+            config.addFolderProtection(paths[i], hash, ConfigManager.PROTECTION_PIN)
+          }
+        }
+        this.getUIContext()?.getPromptAction()?.showToast({ message: '已锁定 🔒' })
+        this.exitMultiSelectMode()
+        this.filteredDirs = [...this.filteredDirs]
+        this.dirDataSource.setData(this.filteredDirs)
+      }
     })
-    this.exitMultiSelectMode()
-    // Force rebuild to update isLocked prop on DirectoryItem
-    this.dirDataSource.setData(this.filteredDirs)
+  }
+
+  // BUG-042-v2: Unlock selected folders — verify PIN of first, batch unlock matching
+  private unlockSelectedFolders(): void {
+    const paths: Array<string> = Array.from(this.selectedPaths)
+    if (paths.length === 0) { return }
+    const config: ConfigManager = ConfigManager.getInstance()
+    const firstPath: string = paths[0]
+    const hashToCheck: string = config.getFolderProtectionHash(firstPath)
+    const typeToCheck: number = config.getFolderProtectionType(firstPath)
+    this.openPinVerifyDialog(hashToCheck, (_hash: string, success: boolean): void => {
+      if (success) {
+        for (let i: number = 0; i < paths.length; i++) {
+          if (config.isFolderLocked(paths[i]) &&
+            config.getFolderProtectionType(paths[i]) === typeToCheck &&
+            config.getFolderProtectionHash(paths[i]) === hashToCheck) {
+            config.removeFolderProtection(paths[i])
+          }
+        }
+        this.getUIContext()?.getPromptAction()?.showToast({ message: '已解锁' })
+        this.exitMultiSelectMode()
+        this.filteredDirs = [...this.filteredDirs]
+        this.dirDataSource.setData(this.filteredDirs)
+      }
+    })
   }
 
   private formatDirSize(bytes: number): string {
@@ -323,27 +383,15 @@ struct MainPage {
   }
 
   navigateToFolder(dirPath: string, dirName: string): void {
-    // T-079: Check if folder is locked — require PIN before entering
+    // BUG-042-v2: Check if folder is locked — require PIN verification before entering
     const config: ConfigManager = ConfigManager.getInstance()
     if (config.isFolderLocked(dirPath)) {
-      const pin: string = config.folderLockPin
-      if (pin.length > 0) {
-        // Show PIN input dialog
-        this.getUIContext()?.getPromptAction()?.showDialog({
-          title: '文件夹已锁定',
-          message: '请输入 PIN 码以访问 "' + dirName + '"',
-          buttons: [{ text: '取消', color: '#999999' }, { text: '解锁', color: '#007DFF' }]
-        }).then((result: Object): void => {
-          // Note: showDialog doesn't support TextInput. For now, just allow access on confirm.
-          const idx: number = (result as Record<string, number>)['index'] || 0
-          if (idx === 1) {
-            this.doNavigateToFolder(dirPath, dirName)
-          }
-        })
-        return
-      }
-      // No PIN set — just show confirmation
-      this.doNavigateToFolder(dirPath, dirName)
+      const hash: string = config.getFolderProtectionHash(dirPath)
+      this.openPinVerifyDialog(hash, (_h: string, success: boolean): void => {
+        if (success) {
+          this.doNavigateToFolder(dirPath, dirName)
+        }
+      })
       return
     }
     this.doNavigateToFolder(dirPath, dirName)
@@ -426,11 +474,30 @@ struct MainPage {
   }
 
   // FR-A04: Hide selected folders by creating .nomedia file (like Android)
+  // BUG-042-v2: Filter out locked folders from selected paths (Android multi-select behavior)
+  private getUnlockedSelectedPaths(): Array<string> {
+    const config: ConfigManager = ConfigManager.getInstance()
+    const result: Array<string> = []
+    this.selectedPaths.forEach((path: string) => {
+      if (!config.isFolderLocked(path)) {
+        result.push(path)
+      }
+    })
+    return result
+  }
+
   private hideSelectedFolders(): void {
     if (this.selectedPaths.size === 0) {
       return
     }
-    this.selectedPaths.forEach((folderPath: string) => {
+    // BUG-042-v2: Skip locked folders in multi-select
+    const paths: Array<string> = this.getUnlockedSelectedPaths()
+    if (paths.length === 0) {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '所选文件夹已锁定，无法操作' })
+      return
+    }
+    const pathSet: Set<string> = new Set<string>(paths)
+    pathSet.forEach((folderPath: string) => {
       try {
         const nomediaPath: string = folderPath + '/.nomedia'
         const file: fileIo.File = fileIo.openSync(nomediaPath, fileIo.OpenMode.CREATE | fileIo.OpenMode.WRITE_ONLY)
@@ -447,8 +514,14 @@ struct MainPage {
     if (this.selectedPaths.size === 0) {
       return
     }
+    // BUG-042-v2: Skip locked folders in multi-select
+    const paths: Array<string> = this.getUnlockedSelectedPaths()
+    if (paths.length === 0) {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '所选文件夹已锁定，无法操作' })
+      return
+    }
     const config: ConfigManager = ConfigManager.getInstance()
-    config.addExcludedFolders(this.selectedPaths)
+    config.addExcludedFolders(new Set<string>(paths))
     this.exitMultiSelectMode()
     this.loadDirectories()
   }
@@ -499,7 +572,12 @@ struct MainPage {
     if (this.selectedPaths.size === 0) {
       return
     }
-    const paths: string[] = Array.from(this.selectedPaths)
+    // BUG-042-v2: Skip locked folders in multi-select
+    const paths: string[] = this.getUnlockedSelectedPaths()
+    if (paths.length === 0) {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '所选文件夹已锁定，无法操作' })
+      return
+    }
     if (this.copyMoveIsCopy) {
       FileOperations.copyFiles(paths, destFolder).then((count: number): void => {
         console.info('[MainPage] copied ' + count.toString() + ' items')
@@ -524,9 +602,16 @@ struct MainPage {
       return
     }
 
+    // BUG-042-v2: Skip locked folders in multi-select delete
+    const unlockedPaths: Array<string> = this.getUnlockedSelectedPaths()
+    if (unlockedPaths.length === 0) {
+      this.getUIContext()?.getPromptAction()?.showToast({ message: '所选文件夹已锁定，无法删除' })
+      return
+    }
+
     // BUG-R6B-9: Remove from current display list immediately (UI-level delete).
     // Internal DB has no records for photoAccessHelper media, so SQL matches 0 rows.
-    const removedPaths: Set<string> = new Set<string>(this.selectedPaths)
+    const removedPaths: Set<string> = new Set<string>(unlockedPaths)
     const newFilteredDirs: Directory[] = []
     for (let i: number = 0; i < this.filteredDirs.length; i++) {
       if (!removedPaths.has(this.filteredDirs[i].path)) {
@@ -711,7 +796,8 @@ struct MainPage {
     try {
       this.scanner = new MediaScanner(this.getUIContext().getHostContext()!)
       const config: ConfigManager = ConfigManager.getInstance()
-      const media: Medium[] = await this.scanner.getAllMedia(config.filterMedia)
+      // BUG-042-v2: Exclude locked folders from Show All mode
+      const media: Medium[] = await this.scanner.getAllMediaExcludingLocked(config.filterMedia)
       this.allMedia = media
       const todayLabel: string = this.getStr($r('app.string.today').id)
       const yesterdayLabel: string = this.getStr($r('app.string.yesterday').id)
@@ -816,13 +902,33 @@ struct MainPage {
           this.setSelectedAsDefaultFolder()
         }
       } as DirMenuItem)
-      // T-079: Lock/unlock folder
-      const selectedPath: string = Array.from(this.selectedPaths)[0]
-      const isLocked: boolean = ConfigManager.getInstance().isFolderLocked(selectedPath)
+    }
+    // BUG-042-v2: Lock/unlock folder (matches Android cab_lock/cab_unlock visibility)
+    // cab_lock visible if ANY selected is unlocked; cab_unlock visible if ANY is locked
+    const config: ConfigManager = ConfigManager.getInstance()
+    const selectedArr: Array<string> = Array.from(this.selectedPaths)
+    let hasLocked: boolean = false
+    let hasUnlocked: boolean = false
+    for (let i: number = 0; i < selectedArr.length; i++) {
+      if (config.isFolderLocked(selectedArr[i])) {
+        hasLocked = true
+      } else {
+        hasUnlocked = true
+      }
+    }
+    if (hasUnlocked) {
       items.push({
-        value: isLocked ? '解锁文件夹' : '锁定文件夹',
+        value: '锁定文件夹',
         action: (): void => {
-          this.toggleLockSelectedFolder()
+          this.lockSelectedFolders()
+        }
+      } as DirMenuItem)
+    }
+    if (hasLocked) {
+      items.push({
+        value: '解锁文件夹',
+        action: (): void => {
+          this.unlockSelectedFolders()
         }
       } as DirMenuItem)
     }
@@ -1101,7 +1207,8 @@ struct MainPage {
                   directory: item as Directory,
                   isMultiSelectMode: this.isMultiSelectMode,
                   isSelected: this.selectedPaths.has((item as Directory).path),
-                  isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path)
+                  isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path),
+                  isPinned: ConfigManager.getInstance().isPinned((item as Directory).path)
                 })
               }
               .gesture(
@@ -1122,7 +1229,7 @@ struct MainPage {
                     })
                 )
               )
-            }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : ''))
+            }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : '') + (ConfigManager.getInstance().isPinned((item as Directory).path) ? 'P' : ''))
           }
           .columnsTemplate(this.buildColumnsTemplate())
           .columnsGap(2)
@@ -1139,7 +1246,8 @@ struct MainPage {
                   isListMode: true,
                   isMultiSelectMode: this.isMultiSelectMode,
                   isSelected: this.selectedPaths.has((item as Directory).path),
-                  isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path)
+                  isLocked: ConfigManager.getInstance().isFolderLocked((item as Directory).path),
+                  isPinned: ConfigManager.getInstance().isPinned((item as Directory).path)
                 })
               }
               .gesture(
@@ -1160,7 +1268,7 @@ struct MainPage {
                     })
                 )
               )
-            }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : ''))
+            }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : '') + (ConfigManager.getInstance().isPinned((item as Directory).path) ? 'P' : ''))
           }
           .width('100%')
           .layoutWeight(1)
@@ -1198,7 +1306,7 @@ struct MainPage {
                       })
                   )
                 )
-              }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : ''))
+              }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : '') + (ConfigManager.getInstance().isPinned((item as Directory).path) ? 'P' : ''))
             }
             .columnsTemplate(this.buildColumnsTemplate())
             .columnsGap(2)
@@ -1237,7 +1345,7 @@ struct MainPage {
                       })
                   )
                 )
-              }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : ''))
+              }, (item: Object) => (item as Directory).path + '_' + (item as Directory).mediaCnt.toString() + '_' + (ConfigManager.getInstance().isFolderLocked((item as Directory).path) ? 'L' : '') + (ConfigManager.getInstance().isPinned((item as Directory).path) ? 'P' : ''))
             }
             .width('100%')
             .layoutWeight(1)

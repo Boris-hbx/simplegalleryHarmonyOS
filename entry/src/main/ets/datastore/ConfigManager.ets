@@ -466,40 +466,38 @@ export class ConfigManager {
     this.prefs!.flush();
   }
 
-  // T-079: Folder lock (password protection)
-  get lockedFolders(): Set<string> {
-    const json: string = this.prefs!.getSync('locked_folders', '[]') as string;
-    const arr: Array<string> = JSON.parse(json) as Array<string>;
-    return new Set<string>(arr);
+  // BUG-042-v2: Per-path folder protection (matches Android BaseConfig per-path storage)
+  // Constants matching Android PROTECTION_* values
+  static readonly PROTECTION_NONE: number = -1
+  static readonly PROTECTION_PIN: number = 1
+
+  addFolderProtection(path: string, hash: string, type: number): void {
+    this.prefs!.putSync('protected_folder_hash_' + path, hash);
+    this.prefs!.putSync('protected_folder_type_' + path, type);
+    this.prefs!.flush();
   }
 
-  set lockedFolders(value: Set<string>) {
-    const arr: Array<string> = Array.from(value);
-    this.prefs!.putSync('locked_folders', JSON.stringify(arr));
+  removeFolderProtection(path: string): void {
+    this.prefs!.deleteSync('protected_folder_hash_' + path);
+    this.prefs!.deleteSync('protected_folder_type_' + path);
     this.prefs!.flush();
   }
 
   isFolderLocked(path: string): boolean {
-    return this.lockedFolders.has(path);
+    return this.getFolderProtectionType(path) !== ConfigManager.PROTECTION_NONE;
   }
 
-  toggleFolderLock(path: string): void {
-    const current: Set<string> = this.lockedFolders;
-    if (current.has(path)) {
-      current.delete(path);
-    } else {
-      current.add(path);
-    }
-    this.lockedFolders = current;
+  getFolderProtectionHash(path: string): string {
+    return this.prefs!.getSync('protected_folder_hash_' + path, '') as string;
   }
 
-  get folderLockPin(): string {
-    return this.prefs!.getSync('folder_lock_pin', '') as string;
+  getFolderProtectionType(path: string): number {
+    return this.prefs!.getSync('protected_folder_type_' + path, ConfigManager.PROTECTION_NONE) as number;
   }
 
-  set folderLockPin(value: string) {
-    this.prefs!.putSync('folder_lock_pin', value);
-    this.prefs!.flush();
+  // BUG-042-v2: Convenience method for pin check
+  isPinned(path: string): boolean {
+    return this.pinnedFolders.has(path);
   }
 
   // T-079: Custom folder cover image

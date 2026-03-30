@@ -18,6 +18,7 @@ export struct DirectoryItem {
   @Prop isSelected: boolean = false
   @Prop isMultiSelectMode: boolean = false
   @Prop isLocked: boolean = false
+  @Prop isPinned: boolean = false
   @State thumbnailFailed: boolean = false
   // T-067: Video thumbnail PixelMap for folder covers that are video URIs
   @State private videoThumbnail: image.PixelMap | undefined = undefined
@@ -193,11 +194,27 @@ export struct DirectoryItem {
       }
 
       Column() {
-        Text(this.directory.name)
-          .fontSize(16)
-          .fontColor($r('sys.color.ohos_id_color_text_primary'))
-          .maxLines(1)
-          .textOverflow({ overflow: TextOverflow.Ellipsis })
+        Row() {
+          Text(this.directory.name)
+            .fontSize(16)
+            .fontColor($r('sys.color.ohos_id_color_text_primary'))
+            .maxLines(1)
+            .textOverflow({ overflow: TextOverflow.Ellipsis })
+            .layoutWeight(1)
+          // BUG-042-v2: Pin indicator in list mode
+          if (this.isPinned) {
+            Text('📌')
+              .fontSize(14)
+              .margin({ left: 4 })
+          }
+          // Lock indicator in list mode
+          if (this.isLocked) {
+            Text('🔒')
+              .fontSize(14)
+              .margin({ left: 4 })
+          }
+        }
+        .width('100%')
         Text(this.directory.mediaCnt.toString() + ' items')
           .fontSize(12)
           .fontColor($r('sys.color.ohos_id_color_text_secondary'))
@@ -282,6 +299,19 @@ export struct DirectoryItem {
         direction: GradientDirection.Bottom,
         colors: [['#00000000', 0.0], ['#80000000', 1.0]]
       })
+
+      // BUG-042-v2: Pin indicator at top-left (matches Android dir_pin)
+      // Placed before lock overlay so it gets hidden when folder is locked
+      if (this.isPinned) {
+        Stack({ alignContent: Alignment.Center }) {
+          Circle()
+            .width(22).height(22)
+            .fill('#80000000')
+          Text('📌')
+            .fontSize(12)
+        }
+        .position({ left: 6, top: 6 })
+      }
 
       // Highlight overlay when selected — semi-transparent blue tint
       if (this.isSelected) {

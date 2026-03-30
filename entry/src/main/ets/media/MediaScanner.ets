@@ -11,6 +11,7 @@ import {
 } from '../common/constants/Constants'
 import { MediumDao } from '../datastore/dao/MediumDao'
 import { FavoritesDao } from '../datastore/dao/FavoritesDao'
+import { ConfigManager } from '../datastore/ConfigManager'
 import { shouldFolderBeVisible } from '../utils/PathUtils'
 
 // RAW image file extensions recognized by the scanner
@@ -617,6 +618,28 @@ export class MediaScanner {
   async getAllMedia(filterMedia: number): Promise<Array<Medium>> {
     this.resetStop()
     return await this.fetchAllMedia(filterMedia)
+  }
+
+  // BUG-042-v2: Get all media excluding locked folders.
+  // Since fetchAllMedia doesn't carry albumUri per asset, we iterate all directories
+  // and fetch media per-directory, skipping locked ones.
+  async getAllMediaExcludingLocked(filterMedia: number): Promise<Array<Medium>> {
+    this.resetStop()
+    const config: ConfigManager = ConfigManager.getInstance()
+    const dirs: Array<Directory> = await this.getDirectories(filterMedia, 0)
+    const allMedia: Array<Medium> = []
+    for (let i: number = 0; i < dirs.length; i++) {
+      if (this.shouldStop) { break }
+      const dir: Directory = dirs[i]
+      // Skip locked folders, recycle bin, and favorites (favorites are virtual)
+      if (dir.path === RECYCLE_BIN || dir.path === FAVORITES) { continue }
+      if (config.isFolderLocked(dir.path)) { continue }
+      const media: Array<Medium> = await this.fetchMediaForPath(dir.path, filterMedia, 0)
+      for (let j: number = 0; j < media.length; j++) {
+        allMedia.push(media[j])
+      }
+    }
+    return allMedia
   }
 
   // Fetch all media assets from the system using photoAccessHelper

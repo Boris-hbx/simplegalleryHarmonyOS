@@ -9,6 +9,7 @@ import { photoAccessHelper } from '@kit.MediaLibraryKit'
 import { dataSharePredicates } from '@kit.ArkData'
 import { Medium } from '../common/models/Medium'
 import { ConfigManager } from '../datastore/ConfigManager'
+import { MediaScanner } from '../media/MediaScanner'
 import { MediaItem } from '../components/MediaItem'
 import { TYPE_IMAGES, TYPE_VIDEOS, TYPE_GIFS, TYPE_RAWS, TYPE_SVGS } from '../common/constants/Constants'
 
@@ -63,31 +64,16 @@ struct SearchPage {
   private allMediaLoaded: boolean = false
 
   private async ensureAllMediaLoaded(): Promise<void> {
-    if (this.allMediaLoaded || this.helper === null) {
+    if (this.allMediaLoaded) {
       return
     }
     this.isLoading = true
     try {
-      const predicates: dataSharePredicates.DataSharePredicates = new dataSharePredicates.DataSharePredicates()
-      const fetchOpt: photoAccessHelper.FetchOptions = {
-        fetchColumns: SEARCH_COLUMNS,
-        predicates: predicates
-      }
-      const fetchResult: photoAccessHelper.FetchResult<photoAccessHelper.PhotoAsset> =
-        await this.helper.getAssets(fetchOpt)
-      const count: number = fetchResult.getCount()
-      console.info('[SearchPage] loaded all media: ' + count.toString())
-
-      if (count > 0) {
-        let asset: photoAccessHelper.PhotoAsset = await fetchResult.getFirstObject()
-        for (let i: number = 0; i < count; i++) {
-          this.allMedia.push(this.assetToMedium(asset))
-          if (i < count - 1) {
-            asset = await fetchResult.getNextObject()
-          }
-        }
-      }
-      fetchResult.close()
+      // BUG-042-v2: Use MediaScanner.getAllMediaExcludingLocked to exclude locked folder content from search
+      const scanner: MediaScanner = new MediaScanner(getContext(this))
+      const config: ConfigManager = ConfigManager.getInstance()
+      this.allMedia = await scanner.getAllMediaExcludingLocked(config.filterMedia)
+      console.info('[SearchPage] loaded all media (excluding locked): ' + this.allMedia.length.toString())
       this.allMediaLoaded = true
     } catch (e) {
       console.error('[SearchPage] ensureAllMediaLoaded failed: ' + (e as Error).message)
